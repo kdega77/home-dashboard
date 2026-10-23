@@ -46,7 +46,7 @@ body.night main{opacity:.55}
 #advice{margin-top:1vh;padding:8px 16px;font-size:18px;font-weight:600;text-align:center}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#cfddf2;font-weight:600;margin-right:10px}
-.forecast{display:flex;gap:10px;margin-top:1vh;flex:1;min-height:0}
+.forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:88px;min-height:0}
 .day{flex:1;padding:5px 5px;text-align:center;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
 .day-name{font-size:11px;color:rgba(207,221,242,.85);text-transform:uppercase;letter-spacing:.1em;font-weight:600}
 .day-icon{font-size:18px;margin:2px 0}
@@ -54,8 +54,8 @@ body.night main{opacity:.55}
 .day-rain{font-size:11px;color:#ffffff;margin-top:2px}
 #calEvent{display:none;margin-top:1vh;padding:7px 16px;font-size:16px;font-weight:600;text-align:center}
 #calEvent .when{color:#a9e8c6}
-#news{margin-top:1vh;padding:6px 12px;font-size:14px;display:flex;align-items:center;gap:10px}
-#newsTag{font-size:11px;letter-spacing:.14em;font-weight:600;color:#ff9d8a;border:1px solid rgba(255,157,138,.5);border-radius:7px;padding:2px 7px;white-space:nowrap}
+#news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
+#newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#ff9d8a;border:1px solid rgba(255,157,138,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .counts{display:flex;gap:10px;margin-top:1vh}
 .count{flex:1;padding:6px 12px;display:flex;align-items:baseline;justify-content:center;gap:10px}
@@ -449,7 +449,7 @@ setTimeout(function(){
   var cal=getCalUrl();
   var base=location.href.split('?')[0];
   location.replace(base+'?v='+new Date().getTime()+(cal?('&cal='+encodeURIComponent(cal)):''));
-},6*60*60*1000);
+},30*60*1000);
 </script>
 </body>
 </html>

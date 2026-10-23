@@ -15,45 +15,45 @@ body{overflow:hidden;background:#0b1526}
 #bgB{opacity:0}
 #scrim{position:fixed;left:0;top:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(4,8,16,.52),rgba(4,8,16,.66));z-index:1;transition:background 2s}
 body.night #scrim{background:linear-gradient(180deg,rgba(3,5,10,.78),rgba(3,5,10,.85))}
-main{position:relative;z-index:2;height:100vh;padding:1.5vh 3vw;display:flex;flex-direction:column;text-shadow:0 2px 10px rgba(0,0,0,.7)}
+main{position:relative;z-index:2;height:100vh;padding:1.2vh 3vw;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7)}
 .top{display:flex;justify-content:space-between;align-items:flex-start}
-.eyebrow{font-size:14px;letter-spacing:.18em;text-transform:uppercase;color:#d7e3f5;font-weight:600}
-#clock{font-size:90px;line-height:1;font-weight:700;letter-spacing:-2px;margin-top:2px}
-#date{font-size:24px;color:#eef3fb;margin-top:4px;font-weight:600}
-.india{margin-top:8px;background:rgba(5,10,20,.5);border:1px solid rgba(180,205,240,.35);border-radius:14px;padding:7px 12px;display:inline-block}
-.india-label{font-size:12px;letter-spacing:.16em;text-transform:uppercase;color:#ffd9a0;font-weight:700}
-#indiaTime{font-size:33px;font-weight:700;line-height:1.1}
-#indiaDay{font-size:15px;color:#e8eef8}
-.now{text-align:right;background:rgba(5,10,20,.5);border:1px solid rgba(180,205,240,.3);border-radius:18px;padding:10px 16px}
-#nowIcon{font-size:46px;line-height:1}
-#nowTemp{font-size:54px;font-weight:700;line-height:1.05}
-#nowCond{font-size:20px;color:#eef3fb;font-weight:600}
-#nowFeels{font-size:17px;color:#d7e3f5;margin-top:2px}
-#todayRange{font-size:17px;color:#ffffff;margin-top:2px;font-weight:600}
-.rule{height:1px;background:linear-gradient(90deg,transparent,rgba(190,210,240,.5),transparent);margin:1.2vh 0}
-.chips{display:flex;gap:12px}
-.chip{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(180,205,240,.3);border-radius:16px;padding:8px 12px;text-align:center}
-.chip-label{font-size:12px;letter-spacing:.12em;text-transform:uppercase;color:#cfddf2;font-weight:700}
-.chip-value{font-size:26px;font-weight:700;margin-top:2px}
-.chip-sub{font-size:14px;color:#e8eef8;margin-top:1px}
-#advice{margin-top:1.2vh;background:rgba(5,10,20,.6);border:1px solid rgba(180,205,240,.35);border-radius:18px;padding:10px 18px;font-size:24px;font-weight:700;text-align:center}
-.counts{display:flex;gap:12px;margin-top:1.2vh}
-.count{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(255,217,160,.4);border-radius:16px;padding:8px 12px;text-align:center}
-.count-label{font-size:13px;letter-spacing:.12em;text-transform:uppercase;color:#ffd9a0;font-weight:700}
-.count-value{font-size:30px;font-weight:700;margin-top:2px}
-.count-sub{font-size:14px;color:#e8eef8;margin-top:1px}
-#calEvent{display:none;margin-top:1.2vh;background:rgba(5,10,20,.6);border:1px solid rgba(117,215,164,.45);border-radius:16px;padding:9px 18px;font-size:21px;font-weight:700;text-align:center}
+.eyebrow{font-size:13px;letter-spacing:.18em;text-transform:uppercase;color:#d7e3f5;font-weight:600}
+#clock{font-size:64px;line-height:1;font-weight:700;letter-spacing:-1px;margin-top:2px}
+#date{font-size:21px;color:#eef3fb;margin-top:3px;font-weight:600}
+.india{margin-top:7px;background:rgba(5,10,20,.5);border:1px solid rgba(180,205,240,.35);border-radius:12px;padding:5px 11px;display:inline-block}
+.india-label{font-size:11px;letter-spacing:.16em;text-transform:uppercase;color:#ffd9a0;font-weight:700}
+#indiaTime{font-size:26px;font-weight:700;line-height:1.1}
+#indiaDay{font-size:13px;color:#e8eef8}
+.now{text-align:right;background:rgba(5,10,20,.5);border:1px solid rgba(180,205,240,.3);border-radius:16px;padding:8px 14px}
+#nowIcon{font-size:34px;line-height:1}
+#nowTemp{font-size:42px;font-weight:700;line-height:1.05}
+#nowCond{font-size:17px;color:#eef3fb;font-weight:600}
+#nowFeels{font-size:15px;color:#d7e3f5;margin-top:2px}
+#todayRange{font-size:15px;color:#ffffff;margin-top:2px;font-weight:600}
+.rule{height:1px;background:linear-gradient(90deg,transparent,rgba(190,210,240,.5),transparent);margin:1vh 0}
+.chips{display:flex;gap:10px}
+.chip{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(180,205,240,.3);border-radius:14px;padding:6px 10px;text-align:center}
+.chip-label{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#cfddf2;font-weight:700}
+.chip-value{font-size:22px;font-weight:700;margin-top:1px}
+.chip-sub{font-size:12px;color:#e8eef8;margin-top:1px}
+#advice{margin-top:1vh;background:rgba(5,10,20,.6);border:1px solid rgba(180,205,240,.35);border-radius:16px;padding:8px 16px;font-size:20px;font-weight:700;text-align:center}
+.counts{display:flex;gap:10px;margin-top:1vh}
+.count{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(255,217,160,.4);border-radius:14px;padding:6px 12px;display:flex;align-items:baseline;justify-content:center;gap:10px}
+.count-label{font-size:13px;letter-spacing:.1em;text-transform:uppercase;color:#ffd9a0;font-weight:700;white-space:nowrap}
+.count-value{font-size:21px;font-weight:700;white-space:nowrap}
+.count-sub{display:none}
+#calEvent{display:none;margin-top:1vh;background:rgba(5,10,20,.6);border:1px solid rgba(117,215,164,.45);border-radius:14px;padding:7px 16px;font-size:18px;font-weight:700;text-align:center}
 #calEvent .when{color:#a9e8c6}
-.forecast{display:flex;gap:12px;margin-top:1.2vh;flex:1;min-height:0}
-.day{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(180,205,240,.25);border-radius:16px;padding:8px 6px;text-align:center;display:flex;flex-direction:column;justify-content:center}
-.day-name{font-size:15px;color:#d7e3f5;text-transform:uppercase;letter-spacing:.1em;font-weight:700}
-.day-icon{font-size:32px;margin:3px 0}
-.day-temp{font-size:22px;font-weight:700}
-.day-rain{font-size:15px;color:#a9d3ff;margin-top:3px;font-weight:600}
-#news{margin-top:1.2vh;background:rgba(5,10,20,.6);border-radius:14px;padding:8px 14px;font-size:18px;display:flex;align-items:center;gap:12px}
-#newsTag{font-size:12px;letter-spacing:.14em;font-weight:700;color:#ff9d8a;border:1px solid rgba(255,157,138,.5);border-radius:8px;padding:2px 8px;white-space:nowrap}
+.forecast{display:flex;gap:10px;margin-top:1vh;flex:1;min-height:0}
+.day{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(180,205,240,.25);border-radius:14px;padding:6px 5px;text-align:center;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.day-name{font-size:13px;color:#d7e3f5;text-transform:uppercase;letter-spacing:.1em;font-weight:700}
+.day-icon{font-size:24px;margin:2px 0}
+.day-temp{font-size:18px;font-weight:700}
+.day-rain{font-size:13px;color:#a9d3ff;margin-top:2px;font-weight:600}
+#news{margin-top:1vh;background:rgba(5,10,20,.6);border-radius:12px;padding:6px 12px;font-size:15px;display:flex;align-items:center;gap:10px}
+#newsTag{font-size:11px;letter-spacing:.14em;font-weight:700;color:#ff9d8a;border:1px solid rgba(255,157,138,.5);border-radius:7px;padding:2px 7px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.foot{display:flex;justify-content:space-between;color:#cfddf2;font-size:12px;margin-top:1vh}
+.foot{display:flex;justify-content:space-between;color:#cfddf2;font-size:11px;margin-top:.8vh}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#75d7a4;margin-right:7px;vertical-align:middle}
 </style>
 </head>
@@ -168,10 +168,10 @@ function fmt12big(d,small){
 }
 function tick(){
   var now=new Date();
-  $('clock').innerHTML=fmt12big(now,44);
+  $('clock').innerHTML=fmt12big(now,24);
   $('date').textContent=DAYS[now.getDay()]+', '+MONTHS[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
   var ind=indiaNow();
-  $('indiaTime').innerHTML=fmt12big(ind,20);
+  $('indiaTime').innerHTML=fmt12big(ind,14);
   $('indiaDay').textContent=DAYS[ind.getDay()]+', '+MONTHS[ind.getMonth()]+' '+ind.getDate();
   var h=now.getHours(),cls;
   if(h>=5&&h<8)cls='dawn';else if(h>=8&&h<17)cls='day';else if(h>=17&&h<21)cls='dusk';else cls='night';

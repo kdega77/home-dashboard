@@ -281,6 +281,18 @@ function feedTitles(xmlText,out){
   return out;
 }
 function loadNews(){
+  fetchText('headlines.json?t='+new Date().getTime(),function(t){
+    var ok=false;
+    if(t){
+      try{
+        var j=JSON.parse(t);
+        if(j.headlines&&j.headlines.length){HEADLINES=j.headlines;newsIdx=0;$('newsText').textContent=HEADLINES[0];ok=true;}
+      }catch(e){}
+    }
+    if(!ok)loadNewsViaProxies();
+  });
+}
+function loadNewsViaProxies(){
   var all=[],done=0;
   function finish(){
     done++;
@@ -297,7 +309,7 @@ function loadNews(){
     finish();
   });
 }
-loadNews(); setInterval(loadNews,30*60*1000);
+loadNews(); setInterval(loadNews,15*60*1000);
 setInterval(function(){
   if(HEADLINES.length<2)return;
   var el=$('newsText');

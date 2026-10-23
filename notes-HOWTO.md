@@ -8,7 +8,8 @@ away if you reload the dashboard in Fully Kiosk).
 
 1. Open the **GitHub app** and go to the repo **kdega77/home-dashboard**
    (Home tab → your repositories, or search for it).
-2. In the repo's file list, tap **notes.txt**.
+2. Tap **Code** (below the branch name), then in the file list tap
+   **notes.txt**.
 3. Tap the **pencil icon** (top right) to edit. If you don't see it, tap
    the **⋯** menu and choose **Edit file**.
 4. Type your notes — **one note per line**, for example:

@@ -47,8 +47,12 @@ setup needs. (Ignore its in-app prompts for the paid PLUS licence; the
 only PLUS extra of note is camera motion-wake, which we are not using —
 the screen simply stays on while plugged in.)
 
-1. Open **Silk Browser** and go to **fully-kiosk.com** → Download the
-   **Fully Kiosk Browser** APK (the Fire OS / Android version).
+1. Open **Silk Browser** and download **this exact APK** (not the site's
+   main download — the current version needs Android 6+ and gives a
+   "problem parsing the package" error on this tablet's Fire OS 5 /
+   Android 5.1; v1.59.2 is Fully Kiosk's last Android 5 release):
+   https://www.fully-kiosk.com/files/2025/10/Fully-Kiosk-Browser-v1.59.2.apk
+   Delete any earlier failed download first so the files don't get mixed up.
 2. When asked, allow installs: Settings → Security & Privacy →
    **Apps from Unknown Sources** → allow Silk.
 3. Open the downloaded APK and install Fully Kiosk Browser.

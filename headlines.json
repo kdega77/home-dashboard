@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-23T19:52:52+00:00",
+ "updated": "2026-10-23T20:27:15+00:00",
  "headlines": [
   "Trump to exempt some Canadian products from tariffs amid midterm pressure",
   "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
   "Loblaw CEO apologizes to 2 million shoppers for personal data hack, offers free credit monitoring",
   "Seven shot dead by gunmen at church funeral in Jordan, officials say",
   "Ukraine's restricted access to Musk's Starshield is costing lives, Carney says",
-  "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
+  "Freed US citizen was tortured in Russian jail, former Ukrainian prisoners say",
   "As Connor Hellebuyck heads to New Jersey, Winnipeg Jets GM will hold on to the 'good memories'",
-  "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
+  "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
   "Crime Stoppers had 'potentially one of the most harmful data breaches' Canada has seen. What's next?",
-  "Ukraine says Starlink still restricted after Trump says limits lifted",
+  "White House says Melania Trump brokered truce for Ukraine city 'on brink of disaster'",
   "Canadian woman dies in U.S. after fears of detainment prevented her from seeking medical care",
-  "Oil spill washes up on UAE beaches after tanker strike",
+  "Ukraine says Starlink still restricted after Trump says limits lifted",
   "Stop-motion movie Wildwood is a staggering masterpiece. It's a miracle it exists at all",
-  "Denmark to ban mink farming in government U-turn",
-  "MapQuest now showing surveillance camera locations across Canada, U.S.",
-  "PSG v Lyon moved as Paris prepares for more protests"
+  "Oil spill washes up on UAE beaches after tanker strike",
+  "Vivek Ramaswamy defends campaign ad featuring estranged mother of Amy Acton",
+  "Denmark to ban mink farming in government U-turn"
  ],
  "stocks": [
   {
    "sym": "XEQT",
    "ccy": "CAD",
-   "price": 44.815,
-   "chg": -0.52
+   "price": 44.84,
+   "chg": -0.47
   },
   {
    "sym": "VFV",
    "ccy": "CAD",
-   "price": 189.31,
-   "chg": -0.58
+   "price": 189.37,
+   "chg": -0.55
   },
   {
    "sym": "INFY",

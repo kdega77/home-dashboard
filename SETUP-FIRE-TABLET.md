@@ -4,10 +4,13 @@ Goal: the Fire tablet lives at the entrance, plugged in, always showing the
 entrance dashboard: **https://kdega77.github.io/home-dashboard/entrance.html**
 
 The entrance page is a lite build made for this 2017 tablet (old browser):
-big clock, current weather, rain chance, a "what to wear / umbrella" line,
-sunrise–sunset, and a 4-day forecast. No TradingView (too heavy for this
-tablet — that stays on the TV). It auto-dims between 11 PM and 6 AM and
-reloads itself every 6 hours so it never gets stuck.
+big Canada (Toronto) clock plus an India (IST) clock, current weather and
+today's high/low for Thornhill, rain chance, a "what to wear / umbrella"
+line, sunset time, a 4-day forecast, and one rotating quote per day.
+Background shifts with the time of day (dawn / day / dusk / night) and
+dims overnight. No TradingView (too heavy for this tablet — that stays on
+the TV). It reloads itself every 6 hours so it never gets stuck.
+Everything in this setup is FREE — no paid apps (decided Oct 23, 2026).
 
 ## Step 1 — Prep the tablet (5 min)
 
@@ -39,7 +42,10 @@ reloads itself every 6 hours so it never gets stuck.
 ## Step 4 — Install Fully Kiosk Browser (the key app)
 
 Fully Kiosk is the standard app for turning a Fire tablet into a
-permanent dashboard. Free version is fine to start.
+permanent dashboard. **Use the free version** — it does everything this
+setup needs. (Ignore its in-app prompts for the paid PLUS licence; the
+only PLUS extra of note is camera motion-wake, which we are not using —
+the screen simply stays on while plugged in.)
 
 1. Open **Silk Browser** and go to **fully-kiosk.com** → Download the
    **Fully Kiosk Browser** APK (the Fire OS / Android version).
@@ -57,17 +63,7 @@ permanent dashboard. Free version is fine to start.
      remember (stops kids/guests from exiting the dashboard; exiting
      needs PIN + the Fully gesture).
 
-## Step 5 — Optional but recommended: Fully Kiosk PLUS (~€8 one-time)
-
-The PLUS licence unlocks the entrance-perfect feature:
-**Motion Detection** — the front camera watches for movement, screen
-turns ON when someone walks up to the door, OFF after ~1 minute idle.
-Saves the screen and the battery vs. true 24/7-on.
-Settings → Motion Detection → Enable Visual Motion Detection,
-Screen On on Motion, Screen Off Timer ~60–120 s.
-Buy the licence inside the app (per-device, one-time).
-
-## Step 6 — Mount and power
+## Step 5 — Mount and power
 
 - Stand it on an entrance console or use a tablet wall mount.
 - Use the standard (slow) charger it came with, not a fast charger —

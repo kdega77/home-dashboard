@@ -13,16 +13,19 @@ body{overflow:hidden;background:#0b1526}
 #bgA,#bgB{position:fixed;left:0;top:0;right:0;bottom:0;background-size:cover;background-position:center;transition:opacity 2.5s;z-index:0}
 #bgA{opacity:1}
 #bgB{opacity:0}
-#scrim{position:fixed;left:0;top:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(4,8,16,.40),rgba(4,8,16,.54));z-index:1;transition:background 2s}
-body.night #scrim{background:linear-gradient(180deg,rgba(3,5,10,.72),rgba(3,5,10,.82))}
-main{position:relative;z-index:2;height:100vh;padding:1.2vh 3vw;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7)}
-.card{background:rgba(10,17,30,.44);border:1px solid rgba(255,255,255,.15);border-radius:14px;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+#scrim{position:fixed;left:0;top:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(4,8,16,.55),rgba(4,8,16,.63));z-index:1;transition:background 4s}
+body.dawn #scrim{background:linear-gradient(180deg,rgba(60,30,14,.52),rgba(10,10,24,.64))}
+body.dusk #scrim{background:linear-gradient(180deg,rgba(74,34,10,.55),rgba(24,14,26,.67))}
+body.night #scrim{background:linear-gradient(180deg,rgba(2,4,8,.82),rgba(2,4,8,.88))}
+main{position:relative;z-index:2;height:100vh;padding:18px 30px;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7);transition:opacity 4s}
+body.night main{opacity:.55}
+.card{background:rgba(10,17,30,.58);border:1px solid rgba(255,255,255,.15);border-radius:14px;-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
 .top{display:flex;justify-content:space-between;align-items:flex-start}
-.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:rgba(230,240,252,.8);font-weight:600}
-#clock{font-size:72px;line-height:1;font-weight:700;letter-spacing:-1px;margin-top:2px}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#f2b45c;font-weight:600}
+#clock{font-size:96px;line-height:1;font-weight:700;letter-spacing:-1px;margin-top:2px}
 #date{font-size:20px;color:#f2f6fc;margin-top:3px;font-weight:600}
 .india{margin-top:7px;padding:6px 12px;display:inline-block}
-.india-label{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#ffd9a0;font-weight:600}
+.india-label{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#f2b45c;font-weight:600}
 #indiaTime{font-size:24px;font-weight:600;line-height:1.1}
 #indiaDay{font-size:12px;color:rgba(235,242,252,.85)}
 .now{text-align:right;padding:8px 14px}
@@ -34,28 +37,28 @@ main{position:relative;z-index:2;height:100vh;padding:1.2vh 3vw;display:flex;fle
 .strip{display:flex;padding:7px 4px}
 .seg{flex:1;text-align:center;padding:0 4px}
 .seg+.seg{border-left:1px solid rgba(255,255,255,.12)}
-.seg-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:rgba(230,240,252,.72);font-weight:600}
-.seg-value{font-size:19px;font-weight:600;margin-top:1px}
+.seg-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#f2b45c;font-weight:600}
+.seg-value{font-size:18px;font-weight:600;margin-top:1px}
 .seg-sub{font-size:11px;color:rgba(235,242,252,.85)}
 #advice{margin-top:1vh;padding:8px 16px;font-size:18px;font-weight:600;text-align:center}
 .counts{display:flex;gap:10px;margin-top:1vh}
 .count{flex:1;padding:6px 12px;display:flex;align-items:baseline;justify-content:center;gap:10px}
-.count-label{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#ffd9a0;font-weight:600;white-space:nowrap}
+.count-label{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#f2b45c;font-weight:600;white-space:nowrap}
 .count-value{font-size:19px;font-weight:600;white-space:nowrap}
 .count-sub{display:none}
 #calEvent{display:none;margin-top:1vh;padding:7px 16px;font-size:16px;font-weight:600;text-align:center}
-#calEvent .when{color:#a9e8c6}
+#calEvent .when{color:#f2b45c}
 .forecast{display:flex;gap:10px;margin-top:1vh;flex:1;min-height:0}
-.day{flex:1;padding:6px 5px;text-align:center;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
-.day-name{font-size:12px;color:rgba(230,240,252,.8);text-transform:uppercase;letter-spacing:.1em;font-weight:600}
-.day-icon{font-size:22px;margin:2px 0}
-.day-temp{font-size:16px;font-weight:600}
-.day-rain{font-size:12px;color:#a9d3ff;margin-top:2px}
+.day{flex:1;padding:5px 5px;text-align:center;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
+.day-name{font-size:11px;color:#f2b45c;text-transform:uppercase;letter-spacing:.1em;font-weight:600}
+.day-icon{font-size:18px;margin:2px 0}
+.day-temp{font-size:14px;font-weight:600}
+.day-rain{font-size:11px;color:#ffffff;margin-top:2px}
 #news{margin-top:1vh;padding:6px 12px;font-size:14px;display:flex;align-items:center;gap:10px}
-#newsTag{font-size:11px;letter-spacing:.14em;font-weight:600;color:#ff9d8a;border:1px solid rgba(255,157,138,.5);border-radius:7px;padding:2px 7px;white-space:nowrap}
+#newsTag{font-size:11px;letter-spacing:.14em;font-weight:600;color:#f2b45c;border:1px solid rgba(242,180,92,.55);border-radius:7px;padding:2px 7px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
-.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#75d7a4;margin-right:7px;vertical-align:middle}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#f2b45c;margin-right:7px;vertical-align:middle}
 </style>
 </head>
 <body class="day">
@@ -75,7 +78,7 @@ main{position:relative;z-index:2;height:100vh;padding:1.2vh 3vw;display:flex;fle
       </div>
     </div>
     <div class="now card">
-      <div id="nowIcon">&#9729;&#65038;</div>
+      <div id="nowIcon">&#9729;</div>
       <div id="nowTemp">--&deg;</div>
       <div id="nowCond">Loading weather&hellip;</div>
       <div id="nowFeels"></div>
@@ -83,18 +86,19 @@ main{position:relative;z-index:2;height:100vh;padding:1.2vh 3vw;display:flex;fle
   </div>
   <div class="rule"></div>
   <div class="strip card">
+    <div class="seg"><div class="seg-label">Steps today</div><div class="seg-value" id="stepsToday">—</div><div class="seg-sub" id="stepsSub">today</div></div>
     <div class="seg"><div class="seg-label">Rain chance</div><div class="seg-value" id="rainChance">—</div><div class="seg-sub" id="rainSub">—</div></div>
     <div class="seg"><div class="seg-label">Wind</div><div class="seg-value" id="wind">—</div><div class="seg-sub">km/h</div></div>
     <div class="seg"><div class="seg-label">Humidity</div><div class="seg-value" id="humidity">—</div><div class="seg-sub">relative</div></div>
     <div class="seg"><div class="seg-label">Sunset</div><div class="seg-value" id="sun">—</div><div class="seg-sub" id="sunSub">sunrise</div></div>
   </div>
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
+  <div class="forecast" id="forecast"></div>
   <div class="counts">
     <div class="count card"><div class="count-label">Dhruv turns 6</div><div class="count-value" id="cdDhruv">—</div><div class="count-sub" id="cdDhruvSub"></div></div>
     <div class="count card"><div class="count-label">Japan trip</div><div class="count-value" id="cdJapan">—</div><div class="count-sub" id="cdJapanSub"></div></div>
   </div>
   <div id="calEvent" class="card"></div>
-  <div class="forecast" id="forecast"></div>
   <div id="news" class="card"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
   <div class="foot">
     <div><span class="dot"></span><span id="status">Weather loading</span></div>
@@ -168,26 +172,26 @@ function fmt12big(d,small){
 }
 function tick(){
   var now=new Date();
-  $('clock').innerHTML=fmt12big(now,24);
+  $('clock').innerHTML=fmt12big(now,30);
   $('date').textContent=DAYS[now.getDay()]+', '+MONTHS[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
   var ind=indiaNow();
   $('indiaTime').innerHTML=fmt12big(ind,14);
   $('indiaDay').textContent=DAYS[ind.getDay()]+', '+MONTHS[ind.getMonth()]+' '+ind.getDate();
   var h=now.getHours(),cls;
-  if(h>=5&&h<8)cls='dawn';else if(h>=8&&h<17)cls='day';else if(h>=17&&h<21)cls='dusk';else cls='night';
+  if(h>=5&&h<8)cls='dawn';else if(h>=8&&h<17)cls='day';else if(h>=17&&h<22)cls='dusk';else cls='night';
   if(document.body.className!==cls)document.body.className=cls;
   showCountdowns();
 }
 tick(); setInterval(tick,1000);
 
 /* ---------- Weather (Open-Meteo) ---------- */
-var CODES={0:['Clear sky','\u2600\uFE0F'],1:['Mainly clear','\uD83C\uDF24\uFE0F'],2:['Partly cloudy','\u26C5'],3:['Overcast','\u2601\uFE0F'],
-45:['Fog','\uD83C\uDF2B\uFE0F'],48:['Rime fog','\uD83C\uDF2B\uFE0F'],51:['Light drizzle','\uD83C\uDF26\uFE0F'],53:['Drizzle','\uD83C\uDF26\uFE0F'],55:['Heavy drizzle','\uD83C\uDF27\uFE0F'],
-56:['Freezing drizzle','\uD83C\uDF27\uFE0F'],57:['Freezing drizzle','\uD83C\uDF27\uFE0F'],61:['Light rain','\uD83C\uDF26\uFE0F'],63:['Rain','\uD83C\uDF27\uFE0F'],65:['Heavy rain','\uD83C\uDF27\uFE0F'],
-66:['Freezing rain','\uD83C\uDF27\uFE0F'],67:['Freezing rain','\uD83C\uDF27\uFE0F'],71:['Light snow','\uD83C\uDF28\uFE0F'],73:['Snow','\u2744\uFE0F'],75:['Heavy snow','\u2744\uFE0F'],
-77:['Snow grains','\u2744\uFE0F'],80:['Rain showers','\uD83C\uDF26\uFE0F'],81:['Rain showers','\uD83C\uDF27\uFE0F'],82:['Heavy showers','\uD83C\uDF27\uFE0F'],
-85:['Snow showers','\uD83C\uDF28\uFE0F'],86:['Snow showers','\u2744\uFE0F'],95:['Thunderstorm','\u26C8\uFE0F'],96:['Thunderstorm','\u26C8\uFE0F'],99:['Thunderstorm','\u26C8\uFE0F']};
-function codeInfo(c){return CODES[c]||['Conditions unavailable','\uD83C\uDF21\uFE0F'];}
+var CODES={0:['Clear sky','\u2600'],1:['Mainly clear','\u2600'],2:['Partly cloudy','\u2601'],3:['Overcast','\u2601'],
+45:['Fog','\u2601'],48:['Rime fog','\u2601'],51:['Light drizzle','\u2602'],53:['Drizzle','\u2602'],55:['Heavy drizzle','\u2602'],
+56:['Freezing drizzle','\u2602'],57:['Freezing drizzle','\u2602'],61:['Light rain','\u2602'],63:['Rain','\u2602'],65:['Heavy rain','\u2602'],
+66:['Freezing rain','\u2602'],67:['Freezing rain','\u2602'],71:['Light snow','\u2744'],73:['Snow','\u2744'],75:['Heavy snow','\u2744'],
+77:['Snow grains','\u2744'],80:['Rain showers','\u2602'],81:['Rain showers','\u2602'],82:['Heavy showers','\u2602'],
+85:['Snow showers','\u2744'],86:['Snow showers','\u2744'],95:['Thunderstorm','\u26A1'],96:['Thunderstorm','\u26A1'],99:['Thunderstorm','\u26A1']};
+function codeInfo(c){return CODES[c]||['Conditions unavailable','\u2601'];}
 function parseLocal(s){var p=s.split('T');var d=p[0].split('-');var t=(p[1]||'00:00').split(':');return new Date(+d[0],+d[1]-1,+d[2],+t[0],+t[1]);}
 function jacketAdvice(feels,rainPct,code){
   var parts=[];
@@ -399,6 +403,24 @@ function loadCalendar(){
   });
 }
 loadCalendar(); setInterval(loadCalendar,30*60*1000);
+
+/* ---------- Steps (published from Apple Health) ---------- */
+function commaNum(n){var s=''+n,r='';while(s.length>3){r=','+s.substr(s.length-3)+r;s=s.substr(0,s.length-3);}return s+r;}
+function loadSteps(){
+  fetchText('steps.json?t='+new Date().getTime(),function(t){
+    if(!t)return;
+    try{
+      var j=JSON.parse(t);
+      if(j.steps==null)return;
+      $('stepsToday').textContent=commaNum(j.steps);
+      if(j.updated){
+        var u=new Date(j.updated);
+        if(!isNaN(u.getTime()))$('stepsSub').textContent='as of '+fmt12(u);
+      }
+    }catch(e){}
+  });
+}
+loadSteps(); setInterval(loadSteps,15*60*1000);
 
 setTimeout(function(){
   var cal=getCalUrl();

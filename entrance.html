@@ -32,10 +32,6 @@ body.night main{opacity:.55}
 #nowTemp{font-size:40px;font-weight:600;line-height:1.05}
 #nowCond{font-size:15px;color:#f2f6fc;font-weight:600}
 #nowFeels{font-size:13px;color:rgba(235,242,252,.85);margin-top:2px}
-#stepsLine{margin-top:7px;padding-top:7px;border-top:1px solid rgba(255,255,255,.12)}
-#stepsLine .steps-label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#cfddf2;font-weight:600}
-#stepsToday{font-size:18px;font-weight:600}
-#stepsSub{font-size:11px;color:rgba(235,242,252,.85)}
 .rule{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);margin:1vh 0}
 .strip{display:flex;padding:7px 4px}
 .seg{flex:1;text-align:center;padding:0 4px}
@@ -87,7 +83,6 @@ body.night main{opacity:.55}
       <div id="nowTemp">--&deg;</div>
       <div id="nowCond">Loading weather&hellip;</div>
       <div id="nowFeels"></div>
-      <div id="stepsLine"><span class="steps-label">Steps today</span><br><span id="stepsToday">—</span><div id="stepsSub">from Apple Health</div></div>
     </div>
   </div>
   <div class="rule"></div>
@@ -409,24 +404,6 @@ function loadCalendar(){
   });
 }
 loadCalendar(); setInterval(loadCalendar,30*60*1000);
-
-/* ---------- Steps (published from Apple Health) ---------- */
-function commaNum(n){var s=''+n,r='';while(s.length>3){r=','+s.substr(s.length-3)+r;s=s.substr(0,s.length-3);}return s+r;}
-function loadSteps(){
-  fetchText('steps.json?t='+new Date().getTime(),function(t){
-    if(!t)return;
-    try{
-      var j=JSON.parse(t);
-      if(j.steps==null)return;
-      $('stepsToday').textContent=commaNum(j.steps);
-      if(j.updated){
-        var u=new Date(j.updated);
-        if(!isNaN(u.getTime()))$('stepsSub').textContent='as of '+fmt12(u);
-      }
-    }catch(e){}
-  });
-}
-loadSteps(); setInterval(loadSteps,15*60*1000);
 
 /* ---------- Groceries / notes (dictated via Muse) ---------- */
 function loadNotes(){

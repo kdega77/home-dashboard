@@ -9,47 +9,58 @@
 :root{color-scheme:dark}
 *{box-sizing:border-box}
 html,body{margin:0;width:100%;height:100%;color:#ffffff;font-family:"Segoe UI",Arial,sans-serif}
-body{overflow:hidden;background:#0b1526;transition:background 2s}
-body.dawn{background:radial-gradient(ellipse at 50% 115%,#b3622d 0%,#4a3560 42%,#131c33 78%)}
-body.day{background:radial-gradient(ellipse at 50% -20%,#2e6da8 0%,#16294a 55%,#0b1526 100%)}
-body.dusk{background:radial-gradient(ellipse at 50% 115%,#a34a2e 0%,#3d2c50 45%,#10182c 80%)}
-body.night{background:radial-gradient(ellipse at 80% -10%,#1c2b4a 0%,#05080f 60%)}
-body.night main{opacity:.6}
-main{height:100vh;padding:2.6vh 3.5vw;display:flex;flex-direction:column;text-shadow:0 2px 10px rgba(0,0,0,.65)}
+body{overflow:hidden;background:#0b1526}
+#bgA,#bgB{position:fixed;left:0;top:0;right:0;bottom:0;background-size:cover;background-position:center;transition:opacity 2.5s;z-index:0}
+#bgA{opacity:1}
+#bgB{opacity:0}
+#scrim{position:fixed;left:0;top:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(4,8,16,.52),rgba(4,8,16,.66));z-index:1;transition:background 2s}
+body.night #scrim{background:linear-gradient(180deg,rgba(3,5,10,.78),rgba(3,5,10,.85))}
+main{position:relative;z-index:2;height:100vh;padding:2.4vh 3.5vw;display:flex;flex-direction:column;text-shadow:0 2px 10px rgba(0,0,0,.7)}
 .top{display:flex;justify-content:space-between;align-items:flex-start}
 .eyebrow{font-size:16px;letter-spacing:.18em;text-transform:uppercase;color:#d7e3f5;font-weight:600}
-#clock{font-size:122px;line-height:1;font-weight:700;letter-spacing:-2px;margin-top:2px}
-#date{font-size:29px;color:#eef3fb;margin-top:6px;font-weight:600}
-.india{margin-top:14px;background:rgba(5,10,20,.45);border:1px solid rgba(180,205,240,.35);border-radius:14px;padding:10px 16px;display:inline-block}
+#clock{font-size:118px;line-height:1;font-weight:700;letter-spacing:-2px;margin-top:2px}
+#date{font-size:28px;color:#eef3fb;margin-top:6px;font-weight:600}
+.india{margin-top:12px;background:rgba(5,10,20,.5);border:1px solid rgba(180,205,240,.35);border-radius:14px;padding:9px 16px;display:inline-block}
 .india-label{font-size:14px;letter-spacing:.16em;text-transform:uppercase;color:#ffd9a0;font-weight:700}
-#indiaTime{font-size:46px;font-weight:700;line-height:1.1}
+#indiaTime{font-size:44px;font-weight:700;line-height:1.1}
 #indiaDay{font-size:17px;color:#e8eef8}
-.now{text-align:right;background:rgba(5,10,20,.45);border:1px solid rgba(180,205,240,.3);border-radius:18px;padding:14px 20px}
-#nowIcon{font-size:70px;line-height:1}
-#nowTemp{font-size:76px;font-weight:700;line-height:1.05}
+.now{text-align:right;background:rgba(5,10,20,.5);border:1px solid rgba(180,205,240,.3);border-radius:18px;padding:13px 20px}
+#nowIcon{font-size:66px;line-height:1}
+#nowTemp{font-size:74px;font-weight:700;line-height:1.05}
 #nowCond{font-size:24px;color:#eef3fb;font-weight:600}
 #nowFeels{font-size:21px;color:#d7e3f5;margin-top:3px}
 #todayRange{font-size:21px;color:#ffffff;margin-top:3px;font-weight:600}
-.rule{height:1px;background:linear-gradient(90deg,transparent,rgba(190,210,240,.5),transparent);margin:2.2vh 0}
+.rule{height:1px;background:linear-gradient(90deg,transparent,rgba(190,210,240,.5),transparent);margin:2vh 0}
 .chips{display:flex;gap:14px}
-.chip{flex:1;background:rgba(5,10,20,.5);border:1px solid rgba(180,205,240,.3);border-radius:16px;padding:14px 16px;text-align:center}
-.chip-label{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:#cfddF2;color:#cfddf2;font-weight:700}
-.chip-value{font-size:33px;font-weight:700;margin-top:5px}
+.chip{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(180,205,240,.3);border-radius:16px;padding:12px 16px;text-align:center}
+.chip-label{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:#cfddf2;font-weight:700}
+.chip-value{font-size:32px;font-weight:700;margin-top:4px}
 .chip-sub{font-size:16px;color:#e8eef8;margin-top:2px}
-#advice{margin-top:2.2vh;background:rgba(5,10,20,.55);border:1px solid rgba(180,205,240,.35);border-radius:18px;padding:18px 24px;font-size:32px;font-weight:700;text-align:center}
-#quote{margin-top:2.2vh;text-align:center;font-size:27px;font-style:italic;color:#f5ead2;padding:0 4vw;line-height:1.35}
-#quoteAuthor{font-size:19px;font-style:normal;color:#d7e3f5;margin-top:5px}
-.forecast{display:flex;gap:14px;margin-top:2.2vh;flex:1}
-.day{flex:1;background:rgba(5,10,20,.5);border:1px solid rgba(180,205,240,.25);border-radius:16px;padding:14px 8px;text-align:center;display:flex;flex-direction:column;justify-content:center}
+#advice{margin-top:2vh;background:rgba(5,10,20,.6);border:1px solid rgba(180,205,240,.35);border-radius:18px;padding:15px 24px;font-size:31px;font-weight:700;text-align:center}
+.counts{display:flex;gap:14px;margin-top:2vh}
+.count{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(255,217,160,.4);border-radius:16px;padding:12px 16px;text-align:center}
+.count-label{font-size:15px;letter-spacing:.12em;text-transform:uppercase;color:#ffd9a0;font-weight:700}
+.count-value{font-size:40px;font-weight:700;margin-top:3px}
+.count-sub{font-size:17px;color:#e8eef8;margin-top:1px}
+#calEvent{display:none;margin-top:2vh;background:rgba(5,10,20,.6);border:1px solid rgba(117,215,164,.45);border-radius:16px;padding:13px 24px;font-size:27px;font-weight:700;text-align:center}
+#calEvent .when{color:#a9e8c6}
+.forecast{display:flex;gap:14px;margin-top:2vh;flex:1}
+.day{flex:1;background:rgba(5,10,20,.55);border:1px solid rgba(180,205,240,.25);border-radius:16px;padding:12px 8px;text-align:center;display:flex;flex-direction:column;justify-content:center}
 .day-name{font-size:19px;color:#d7e3f5;text-transform:uppercase;letter-spacing:.1em;font-weight:700}
-.day-icon{font-size:50px;margin:8px 0}
-.day-temp{font-size:30px;font-weight:700}
+.day-icon{font-size:44px;margin:6px 0}
+.day-temp{font-size:29px;font-weight:700}
 .day-rain{font-size:19px;color:#a9d3ff;margin-top:4px;font-weight:600}
-.foot{display:flex;justify-content:space-between;color:#cfddf2;font-size:14px;margin-top:2vh}
+#news{margin-top:2vh;background:rgba(5,10,20,.6);border-radius:14px;padding:11px 20px;font-size:22px;display:flex;align-items:center;gap:14px}
+#newsTag{font-size:14px;letter-spacing:.14em;font-weight:700;color:#ff9d8a;border:1px solid rgba(255,157,138,.5);border-radius:8px;padding:3px 9px;white-space:nowrap}
+#newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.foot{display:flex;justify-content:space-between;color:#cfddf2;font-size:14px;margin-top:1.6vh}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#75d7a4;margin-right:7px;vertical-align:middle}
 </style>
 </head>
 <body class="day">
+<div id="bgA"></div>
+<div id="bgB"></div>
+<div id="scrim"></div>
 <main>
   <div class="top">
     <div>
@@ -78,11 +89,16 @@ main{height:100vh;padding:2.6vh 3.5vw;display:flex;flex-direction:column;text-sh
     <div class="chip"><div class="chip-label">Sunset</div><div class="chip-value" id="sun">—</div><div class="chip-sub" id="sunSub">sunrise</div></div>
   </div>
   <div id="advice">Checking what you need before you head out&hellip;</div>
-  <div id="quote"></div>
+  <div class="counts">
+    <div class="count"><div class="count-label">Dhruv turns 6</div><div class="count-value" id="cdDhruv">—</div><div class="count-sub" id="cdDhruvSub"></div></div>
+    <div class="count"><div class="count-label">Japan trip</div><div class="count-value" id="cdJapan">—</div><div class="count-sub" id="cdJapanSub"></div></div>
+  </div>
+  <div id="calEvent"></div>
   <div class="forecast" id="forecast"></div>
+  <div id="news"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
   <div class="foot">
     <div><span class="dot"></span><span id="status">Weather loading</span></div>
-    <div>Entrance dashboard &middot; weather refreshes every 15 min</div>
+    <div>Entrance dashboard &middot; photos &amp; headlines refresh on their own</div>
   </div>
 </main>
 <script>
@@ -93,48 +109,58 @@ function fmt12(d){var h=d.getHours(),ap=h>=12?'PM':'AM';h=h%12;if(h===0)h=12;ret
 var DAYS=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
 var DAYS_S=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
 var MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
-var QUOTES=[
-['The best way to predict the future is to create it.','Peter Drucker'],
-['Small deeds done are better than great deeds planned.','Peter Marshall'],
-['What we achieve inwardly will change outer reality.','Plutarch'],
-['The journey of a thousand miles begins with a single step.','Lao Tzu'],
-['That which does not kill us makes us stronger.','Friedrich Nietzsche'],
-['Life is what happens when you are busy making other plans.','John Lennon'],
-['Strive not to be a success, but rather to be of value.','Albert Einstein'],
-['The only way to do great work is to love what you do.','Steve Jobs'],
-['Whether you think you can or you think you can\u2019t, you\u2019re right.','Henry Ford'],
-['The best time to plant a tree was twenty years ago. The second best time is now.','Chinese proverb'],
-['It always seems impossible until it\u2019s done.','Nelson Mandela'],
-['Do not wait to strike till the iron is hot; but make it hot by striking.','William Butler Yeats'],
-['Everything you\u2019ve ever wanted is on the other side of fear.','George Addair'],
-['Hardships often prepare ordinary people for an extraordinary destiny.','C.S. Lewis'],
-['Believe you can and you\u2019re halfway there.','Theodore Roosevelt'],
-['What lies in our power to do, lies in our power not to do.','Aristotle'],
-['The future belongs to those who believe in the beauty of their dreams.','Eleanor Roosevelt'],
-['Do one thing every day that scares you.','Eleanor Roosevelt'],
-['Success usually comes to those who are too busy to be looking for it.','Henry David Thoreau'],
-['Don\u2019t be afraid to give up the good to go for the great.','John D. Rockefeller'],
-['I find that the harder I work, the more luck I seem to have.','Thomas Jefferson'],
-['The way to get started is to quit talking and begin doing.','Walt Disney'],
-['If you can dream it, you can do it.','Walt Disney'],
-['Happiness is not something ready made. It comes from your own actions.','Dalai Lama'],
-['In the middle of difficulty lies opportunity.','Albert Einstein'],
-['Simplicity is the ultimate sophistication.','Leonardo da Vinci'],
-['A year from now you may wish you had started today.','Karen Lamb'],
-['Act as if what you do makes a difference. It does.','William James'],
-['Well done is better than well said.','Benjamin Franklin'],
-['Energy and persistence conquer all things.','Benjamin Franklin'],
-['The secret of getting ahead is getting started.','Mark Twain']
+var MONTHS_S=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+/* ---------- Photo backgrounds (Wikimedia Commons, verified) ---------- */
+var PHOTOS=[
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/%2CMoraine_Lake_%26_Mount_Fay_seen_from_Mount_Temple_Summit.jpg/1280px-%2CMoraine_Lake_%26_Mount_Fay_seen_from_Mount_Temple_Summit.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/20181110_Fushimi_Inari_Torii_12.jpg/1280px-20181110_Fushimi_Inari_Torii_12.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg/1280px-Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Aerial_image_of_Matterhorn_%28view_from_the_north%29.jpg/1280px-Aerial_image_of_Matterhorn_%28view_from_the_north%29.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Oia%2C_Santorini_HDR_sunset.jpg/1280px-Oia%2C_Santorini_HDR_sunset.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Sk%C3%B3gafoss_July_2014.JPG/1280px-Sk%C3%B3gafoss_July_2014.JPG',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Anantara_Kihavah_-_Aerial_Hero_Shot_2024.jpg/1280px-Anantara_Kihavah_-_Aerial_Hero_Shot_2024.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2019-11-27_16_05_44_Silver_Maple_leaves_in_late_autumn_along_a_walking_path_in_the_Armfield_Farm_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg/1280px-2019-11-27_16_05_44_Silver_Maple_leaves_in_late_autumn_along_a_walking_path_in_the_Armfield_Farm_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg'
 ];
+var bgIdx=0,bgFront='bgA';
+(function(){
+  for(var i=0;i<PHOTOS.length;i++){var im=new Image();im.src=PHOTOS[i];}
+  $('bgA').style.backgroundImage='url("'+PHOTOS[0]+'")';
+  setInterval(function(){
+    bgIdx=(bgIdx+1)%PHOTOS.length;
+    var back=(bgFront==='bgA')?'bgB':'bgA';
+    var img=new Image();
+    img.onload=function(){
+      var b=$(back);
+      b.style.backgroundImage='url("'+PHOTOS[bgIdx]+'")';
+      b.style.opacity='1';
+      $(bgFront).style.opacity='0';
+      bgFront=back;
+    };
+    img.src=PHOTOS[bgIdx];
+  },60000);
+})();
+
+/* ---------- Clocks & countdowns ---------- */
 function indiaNow(){
   var now=new Date();
   var utc=now.getTime()+(now.getTimezoneOffset()*60000);
   return new Date(utc+(330*60000));
 }
-function dayOfYear(d){var s=new Date(d.getFullYear(),0,0);return Math.floor((d-s)/86400000);}
-function showQuote(){
-  var q=QUOTES[dayOfYear(new Date())%QUOTES.length];
-  $('quote').innerHTML='\u201C'+q[0]+'\u201D<div id="quoteAuthor">\u2014 '+q[1]+'</div>';
+function daysUntil(t){
+  var n=new Date();
+  var t0=new Date(n.getFullYear(),n.getMonth(),n.getDate());
+  return Math.round((t-t0)/86400000);
+}
+function cdText(d){if(d<0)return 'Enjoy!';if(d===0)return 'Today!';if(d===1)return '1 day';return d+' days';}
+function dateSub(t){return DAYS[t.getDay()]+', '+MONTHS[t.getMonth()]+' '+t.getDate()+', '+t.getFullYear();}
+var CD_DHRUV=new Date(2027,0,23,0,0,0);
+var CD_JAPAN=new Date(2027,3,8,0,0,0);
+$('cdDhruvSub').textContent=dateSub(CD_DHRUV);
+$('cdJapanSub').textContent=dateSub(CD_JAPAN)+' \u00B7 Toronto \u2192 Tokyo';
+function showCountdowns(){
+  $('cdDhruv').textContent=cdText(daysUntil(CD_DHRUV));
+  $('cdJapan').textContent=cdText(daysUntil(CD_JAPAN));
 }
 function tick(){
   var now=new Date();
@@ -145,10 +171,12 @@ function tick(){
   $('indiaDay').textContent=DAYS[ind.getDay()]+', '+MONTHS[ind.getMonth()]+' '+ind.getDate();
   var h=now.getHours(),cls;
   if(h>=5&&h<8)cls='dawn';else if(h>=8&&h<17)cls='day';else if(h>=17&&h<21)cls='dusk';else cls='night';
-  if(document.body.className!==cls){document.body.className=cls;showQuote();}
+  if(document.body.className!==cls)document.body.className=cls;
+  showCountdowns();
 }
-showQuote(); tick(); setInterval(tick,1000);
+tick(); setInterval(tick,1000);
 
+/* ---------- Weather (Open-Meteo) ---------- */
 var CODES={0:['Clear sky','\u2600\uFE0F'],1:['Mainly clear','\uD83C\uDF24\uFE0F'],2:['Partly cloudy','\u26C5'],3:['Overcast','\u2601\uFE0F'],
 45:['Fog','\uD83C\uDF2B\uFE0F'],48:['Rime fog','\uD83C\uDF2B\uFE0F'],51:['Light drizzle','\uD83C\uDF26\uFE0F'],53:['Drizzle','\uD83C\uDF26\uFE0F'],55:['Heavy drizzle','\uD83C\uDF27\uFE0F'],
 56:['Freezing drizzle','\uD83C\uDF27\uFE0F'],57:['Freezing drizzle','\uD83C\uDF27\uFE0F'],61:['Light rain','\uD83C\uDF26\uFE0F'],63:['Rain','\uD83C\uDF27\uFE0F'],65:['Heavy rain','\uD83C\uDF27\uFE0F'],
@@ -211,6 +239,134 @@ function loadWeather(){
   xhr.send();
 }
 loadWeather(); setInterval(loadWeather,15*60*1000);
+
+/* ---------- News headlines (CBC + BBC via CORS proxy) ---------- */
+var HEADLINES=[],newsIdx=0;
+function viaProxy(u){return 'https://api.allorigins.win/raw?url='+encodeURIComponent(u);}
+function fetchText(url,cb){
+  var xhr=new XMLHttpRequest();
+  xhr.open('GET',url,true);
+  xhr.onreadystatechange=function(){
+    if(xhr.readyState!==4)return;
+    if(xhr.status===200)cb(xhr.responseText);
+    else cb(null);
+  };
+  xhr.send();
+}
+function feedTitles(xmlText,out){
+  try{
+    var doc=new DOMParser().parseFromString(xmlText,'text/xml');
+    var items=doc.getElementsByTagName('item');
+    for(var i=0;i<items.length&&out.length<9;i++){
+      var t=items[i].getElementsByTagName('title')[0];
+      if(t&&t.textContent)out.push(t.textContent.replace(/\s+/g,' ').replace(/^\s+|\s+$/g,''));
+    }
+  }catch(e){}
+  return out;
+}
+function loadNews(){
+  var all=[];
+  fetchText(viaProxy('https://www.cbc.ca/webfeed/rss/rss-topstories'),function(t1){
+    if(t1)all=feedTitles(t1,all);
+    fetchText(viaProxy('https://feeds.bbci.co.uk/news/world/rss.xml'),function(t2){
+      if(t2)all=feedTitles(t2,all);
+      if(all.length){HEADLINES=all;newsIdx=0;$('newsText').textContent=HEADLINES[0];}
+      else if(!HEADLINES.length)$('newsText').textContent='Headlines unavailable right now';
+    });
+  });
+}
+loadNews(); setInterval(loadNews,30*60*1000);
+setInterval(function(){
+  if(HEADLINES.length<2)return;
+  var el=$('newsText');
+  el.style.opacity='0';
+  setTimeout(function(){
+    newsIdx=(newsIdx+1)%HEADLINES.length;
+    el.textContent=HEADLINES[newsIdx];
+    el.style.opacity='1';
+  },650);
+},12000);
+
+/* ---------- Family calendar (optional iCal link) ---------- */
+function getCalUrl(){
+  var m=/[?&]cal=([^&]+)/.exec(location.search);
+  if(m){var u=decodeURIComponent(m[1]);try{localStorage.setItem('calUrl',u);}catch(e){}return u;}
+  try{return localStorage.getItem('calUrl');}catch(e){return null;}
+}
+function icsDate(v){
+  if(/^\d{8}$/.test(v))return {d:new Date(+v.substr(0,4),+v.substr(4,2)-1,+v.substr(6,2)),allDay:true};
+  var m=/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})(Z?)$/.exec(v);
+  if(!m)return null;
+  if(m[7]==='Z')return {d:new Date(Date.UTC(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6])),allDay:false};
+  return {d:new Date(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6]),allDay:false};
+}
+function nextOccurrence(start,dur,rrule,now,limit){
+  if(!rrule)return (start.getTime()+dur>=now.getTime()&&start<=limit)?start:null;
+  var parts=rrule.split(';'),freq=null,interval=1,until=null,byday=null,i,kv;
+  for(i=0;i<parts.length;i++){kv=parts[i].split('=');if(kv[0]==='FREQ')freq=kv[1];else if(kv[0]==='INTERVAL')interval=parseInt(kv[1],10)||1;else if(kv[0]==='UNTIL'){var u=icsDate(kv[1].replace('T000000Z',''));until=u?u.d:null;}else if(kv[0]==='BYDAY')byday=kv[1].split(',');}
+  var DOW={SU:0,MO:1,TU:2,WE:3,TH:4,FR:5,SA:6};
+  function ok(occ){return occ.getTime()+dur>=now.getTime()&&occ<=limit&&(!until||occ<=until);}
+  var k,occ;
+  if(freq==='DAILY'){
+    for(k=0;k<2000;k++){occ=new Date(start.getTime()+k*interval*86400000);if(occ>limit&&occ>now)break;if(ok(occ))return occ;}
+  }else if(freq==='WEEKLY'){
+    var days=byday?null:[start.getDay()];
+    if(byday){days=[];for(i=0;i<byday.length;i++){var code=byday[i].substr(byday[i].length-2);if(DOW[code]!=null)days.push(DOW[code]);}}
+    var weekStart=new Date(start.getFullYear(),start.getMonth(),start.getDate()-start.getDay(),start.getHours(),start.getMinutes(),start.getSeconds());
+    for(k=0;k<600;k++){
+      var base=new Date(weekStart.getTime()+k*interval*7*86400000);
+      var cands=[];
+      for(i=0;i<days.length;i++){var c=new Date(base.getTime()+days[i]*86400000);if(c>=start)cands.push(c);}
+      cands.sort(function(a,b){return a-b;});
+      for(i=0;i<cands.length;i++){if(ok(cands[i]))return cands[i];}
+      if(base>limit)break;
+    }
+  }
+  return null;
+}
+function loadCalendar(){
+  var url=getCalUrl();
+  if(!url)return;
+  fetchText(viaProxy(url),function(text){
+    if(!text)return;
+    text=text.replace(/\r\n[ \t]/g,'').replace(/\n[ \t]/g,'');
+    var lines=text.split(/\r?\n/),ev=null,events=[],i;
+    for(i=0;i<lines.length;i++){
+      var ln=lines[i];
+      if(ln==='BEGIN:VEVENT')ev={};
+      else if(ln==='END:VEVENT'){if(ev)events.push(ev);ev=null;}
+      else if(ev){
+        var c=ln.indexOf(':');if(c<0)continue;
+        var key=ln.substr(0,c),val=ln.substr(c+1);
+        if(key.indexOf('DTSTART')===0)ev.start=icsDate(val);
+        else if(key.indexOf('DTEND')===0)ev.end=icsDate(val);
+        else if(key==='SUMMARY')ev.summary=val.replace(/\\,/g,',').replace(/\\n/g,' ').replace(/\\/g,'');
+        else if(key==='RRULE')ev.rrule=val;
+      }
+    }
+    var now=new Date(),limit=new Date(now.getTime()+7*86400000),best=null,bestOcc=null;
+    for(i=0;i<events.length;i++){
+      var e=events[i];
+      if(!e.start||!e.summary)continue;
+      var dur=e.end?(e.end.d-e.start.d):3600000;
+      if(dur<0)dur=0;
+      var occ=nextOccurrence(e.start.d,dur,e.rrule,now,limit);
+      if(occ&&(!bestOcc||occ<bestOcc)){bestOcc=occ;best={e:e,occ:occ};}
+    }
+    if(!best){$('calEvent').style.display='none';return;}
+    var o=best.occ,today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
+    var tom=new Date(today.getTime()+86400000);
+    var when;
+    if(o.getFullYear()===today.getFullYear()&&o.getMonth()===today.getMonth()&&o.getDate()===today.getDate())when='Today';
+    else if(o.getFullYear()===tom.getFullYear()&&o.getMonth()===tom.getMonth()&&o.getDate()===tom.getDate())when='Tomorrow';
+    else when=DAYS[o.getDay()]+' '+MONTHS_S[o.getMonth()]+' '+o.getDate();
+    var time=best.e.start.allDay?'All day':fmt12(o);
+    $('calEvent').innerHTML='<span class="when">'+when+' \u00B7 '+time+'</span> \u2014 '+best.e.summary.replace(/</g,'&lt;');
+    $('calEvent').style.display='block';
+  });
+}
+loadCalendar(); setInterval(loadCalendar,30*60*1000);
+
 setTimeout(function(){location.reload();},6*60*60*1000);
 </script>
 </body>

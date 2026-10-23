@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080d18">
+<title>Entrance Dashboard</title>
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;background:#080d18;color:#f3f6fc;font-family:"Segoe UI",Arial,sans-serif}
+body{overflow:hidden;background:radial-gradient(ellipse at 18% 0%,#182946 0%,#080d18 55%)}
+body.night{background:#04060b}
+body.night main{opacity:.55}
+main{height:100vh;padding:3vh 3.5vw;display:flex;flex-direction:column}
+.top{display:flex;justify-content:space-between;align-items:flex-start}
+.eyebrow{font-size:15px;letter-spacing:.16em;text-transform:uppercase;color:#9aaac2}
+#clock{font-size:118px;line-height:1;font-weight:650;letter-spacing:-2px;margin-top:4px}
+#date{font-size:27px;color:#c3cee0;margin-top:6px}
+.now{text-align:right}
+#nowIcon{font-size:84px;line-height:1}
+#nowTemp{font-size:74px;font-weight:600;line-height:1.05}
+#nowCond{font-size:23px;color:#9aaac2}
+#nowFeels{font-size:21px;color:#c3cee0;margin-top:4px}
+.rule{height:1px;background:linear-gradient(90deg,transparent,#26344b,transparent);margin:2.6vh 0}
+.chips{display:flex;gap:14px}
+.chip{flex:1;background:rgba(255,255,255,.04);border:1px solid rgba(133,158,196,.16);border-radius:16px;padding:16px 18px;text-align:center}
+.chip-label{font-size:14px;letter-spacing:.12em;text-transform:uppercase;color:#9aaac2}
+.chip-value{font-size:30px;font-weight:600;margin-top:6px}
+.chip-sub{font-size:16px;color:#c3cee0;margin-top:3px}
+#advice{margin-top:2.4vh;background:linear-gradient(145deg,rgba(24,36,57,.94),rgba(13,21,35,.96));border:1px solid rgba(133,158,196,.16);border-radius:18px;padding:20px 24px;font-size:31px;font-weight:600;text-align:center}
+.forecast{display:flex;gap:14px;margin-top:2.4vh;flex:1}
+.day{flex:1;background:rgba(255,255,255,.035);border-radius:16px;padding:18px 10px;text-align:center;display:flex;flex-direction:column;justify-content:center}
+.day-name{font-size:18px;color:#9aaac2;text-transform:uppercase;letter-spacing:.1em}
+.day-icon{font-size:52px;margin:10px 0}
+.day-temp{font-size:29px;font-weight:600}
+.day-rain{font-size:18px;color:#9ecbff;margin-top:5px}
+.foot{display:flex;justify-content:space-between;color:#9aaac2;font-size:14px;margin-top:2.2vh}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#75d7a4;margin-right:7px;vertical-align:middle}
+</style>
+</head>
+<body>
+<main>
+  <div class="top">
+    <div>
+      <div class="eyebrow">Home &middot; Thornhill</div>
+      <div id="clock">--:--</div>
+      <div id="date">Loading date&hellip;</div>
+    </div>
+    <div class="now">
+      <div id="nowIcon">&#9729;&#65038;</div>
+      <div id="nowTemp">--&deg;</div>
+      <div id="nowCond">Loading weather&hellip;</div>
+      <div id="nowFeels"></div>
+    </div>
+  </div>
+  <div class="rule"></div>
+  <div class="chips">
+    <div class="chip"><div class="chip-label">Rain chance today</div><div class="chip-value" id="rainChance">—</div><div class="chip-sub" id="rainSub">—</div></div>
+    <div class="chip"><div class="chip-label">Wind</div><div class="chip-value" id="wind">—</div><div class="chip-sub">km/h</div></div>
+    <div class="chip"><div class="chip-label">Humidity</div><div class="chip-value" id="humidity">—</div><div class="chip-sub">relative</div></div>
+    <div class="chip"><div class="chip-label">Sun</div><div class="chip-value" id="sun">—</div><div class="chip-sub" id="sunSub">sunrise &middot; sunset</div></div>
+  </div>
+  <div id="advice">Checking what you need before you head out&hellip;</div>
+  <div class="forecast" id="forecast"></div>
+  <div class="foot">
+    <div><span class="dot"></span><span id="status">Weather loading</span></div>
+    <div>Entrance dashboard &middot; weather refreshes every 15 min</div>
+  </div>
+</main>
+<script>
+function $(id){return document.getElementById(id);}
+function pad(n){return (n<10?'0':'')+n;}
+function fmtTime(d,hour12){
+  var h=d.getHours(),m=pad(d.getMinutes());
+  if(!hour12){return pad(h)+':'+m;}
+  var ap=h>=12?'PM':'AM'; h=h%12; if(h===0)h=12; return h+':'+m+' '+ap;
+}
+var DAYS=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+var MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+function tick(){
+  var now=new Date();
+  $('clock').textContent=fmtTime(now,false);
+  $('date').textContent=DAYS[now.getDay()]+', '+MONTHS[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
+  var h=now.getHours();
+  document.body.className=(h>=23||h<6)?'night':'';
+}
+tick(); setInterval(tick,1000);
+
+var CODES={0:['Clear sky','\u2600\uFE0F'],1:['Mainly clear','\uD83C\uDF24\uFE0F'],2:['Partly cloudy','\u26C5'],3:['Overcast','\u2601\uFE0F'],
+45:['Fog','\uD83C\uDF2B\uFE0F'],48:['Rime fog','\uD83C\uDF2B\uFE0F'],51:['Light drizzle','\uD83C\uDF26\uFE0F'],53:['Drizzle','\uD83C\uDF26\uFE0F'],55:['Heavy drizzle','\uD83C\uDF27\uFE0F'],
+56:['Freezing drizzle','\uD83C\uDF27\uFE0F'],57:['Freezing drizzle','\uD83C\uDF27\uFE0F'],61:['Light rain','\uD83C\uDF26\uFE0F'],63:['Rain','\uD83C\uDF27\uFE0F'],65:['Heavy rain','\uD83C\uDF27\uFE0F'],
+66:['Freezing rain','\uD83C\uDF27\uFE0F'],67:['Freezing rain','\uD83C\uDF27\uFE0F'],71:['Light snow','\uD83C\uDF28\uFE0F'],73:['Snow','\u2744\uFE0F'],75:['Heavy snow','\u2744\uFE0F'],
+77:['Snow grains','\u2744\uFE0F'],80:['Rain showers','\uD83C\uDF26\uFE0F'],81:['Rain showers','\uD83C\uDF27\uFE0F'],82:['Heavy showers','\uD83C\uDF27\uFE0F'],
+85:['Snow showers','\uD83C\uDF28\uFE0F'],86:['Snow showers','\u2744\uFE0F'],95:['Thunderstorm','\u26C8\uFE0F'],96:['Thunderstorm','\u26C8\uFE0F'],99:['Thunderstorm','\u26C8\uFE0F']};
+function codeInfo(c){return CODES[c]||['Conditions unavailable','\uD83C\uDF21\uFE0F'];}
+function parseLocal(s){var p=s.split('T');var d=p[0].split('-');var t=(p[1]||'00:00').split(':');return new Date(+d[0],+d[1]-1,+d[2],+t[0],+t[1]);}
+function jacketAdvice(feels,rainPct,code){
+  var parts=[];
+  if(feels<=-10)parts.push('\uD83E\uDDE5 Heavy winter coat, hat and gloves');
+  else if(feels<0)parts.push('\uD83E\uDDE5 Winter coat weather');
+  else if(feels<8)parts.push('\uD83E\uDDE5 Warm jacket weather');
+  else if(feels<15)parts.push('\uD83E\uDDE7 Light jacket weather');
+  else if(feels<22)parts.push('\uD83D\uDC55 Long sleeves are fine');
+  else parts.push('\uD83D\uDC55 T-shirt weather');
+  if(rainPct>=50)parts.push('\u2602\uFE0F Take an umbrella — rain is likely');
+  else if(rainPct>=30)parts.push('\u2602\uFE0F Umbrella worth grabbing');
+  if(code>=71&&code<=86)parts.push('\u2744\uFE0F Snow today — boots help');
+  if(code>=95)parts.push('\u26C8\uFE0F Thunderstorms today');
+  return parts.join('  \u00B7  ');
+}
+function loadWeather(){
+  var url='https://api.open-meteo.com/v1/forecast?latitude=43.81&longitude=-79.42&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset&temperature_unit=celsius&wind_speed_unit=kmh&timezone=America%2FToronto&forecast_days=4';
+  var xhr=new XMLHttpRequest();
+  xhr.open('GET',url,true);
+  xhr.onreadystatechange=function(){
+    if(xhr.readyState!==4)return;
+    try{
+      if(xhr.status!==200)throw new Error('bad status');
+      var d=JSON.parse(xhr.responseText),c=d.current,daily=d.daily,info=codeInfo(c.weather_code);
+      $('nowTemp').textContent=Math.round(c.temperature_2m)+'\u00B0C';
+      $('nowCond').textContent=info[0];
+      $('nowIcon').textContent=info[1];
+      $('nowFeels').textContent='Feels like '+Math.round(c.apparent_temperature)+'\u00B0C';
+      var rp=(daily.precipitation_probability_max&&daily.precipitation_probability_max[0]!=null)?Math.round(daily.precipitation_probability_max[0]):null;
+      $('rainChance').textContent=(rp==null?'\u2014':rp+'%');
+      $('rainSub').textContent=(rp==null?'\u2014':(rp>=50?'rain likely':(rp>=30?'possible rain':'mostly dry')));
+      $('wind').textContent=Math.round(c.wind_speed_10m);
+      $('humidity').textContent=Math.round(c.relative_humidity_2m)+'%';
+      var sr=parseLocal(daily.sunrise[0]),ss=parseLocal(daily.sunset[0]);
+      $('sun').textContent=fmtTime(sr,true);
+      $('sunSub').textContent='up '+fmtTime(sr,true)+' \u00B7 down '+fmtTime(ss,true);
+      $('advice').textContent=jacketAdvice(c.apparent_temperature,(rp==null?0:rp),c.weather_code);
+      var html='';
+      for(var i=0;i<daily.time.length;i++){
+        var name=(i===0)?'Today':DAYS[parseLocal(daily.time[i]).getDay()];
+        var di=codeInfo(daily.weather_code[i]);
+        var dr=(daily.precipitation_probability_max&&daily.precipitation_probability_max[i]!=null)?Math.round(daily.precipitation_probability_max[i]):null;
+        html+='<div class="day"><div class="day-name">'+name+'</div><div class="day-icon">'+di[1]+'</div><div class="day-temp">'+Math.round(daily.temperature_2m_max[i])+'\u00B0 / '+Math.round(daily.temperature_2m_min[i])+'\u00B0</div><div class="day-rain">'+(dr==null?'':'\uD83D\uDCA7 '+dr+'%')+'</div></div>';
+      }
+      $('forecast').innerHTML=html;
+      $('status').textContent='Weather updated '+fmtTime(new Date(),true);
+    }catch(e){
+      $('nowCond').textContent='Weather unavailable';
+      $('status').textContent='Weather feed unavailable — check Wi-Fi';
+    }
+  };
+  xhr.send();
+}
+loadWeather(); setInterval(loadWeather,15*60*1000);
+setTimeout(function(){location.reload();},6*60*60*1000);
+</script>
+</body>
+</html>

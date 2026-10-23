@@ -162,12 +162,16 @@ function showCountdowns(){
   $('cdDhruv').textContent=cdText(daysUntil(CD_DHRUV));
   $('cdJapan').textContent=cdText(daysUntil(CD_JAPAN));
 }
+function fmt12big(d,small){
+  var h=d.getHours(),ap=h>=12?'PM':'AM';h=h%12;if(h===0)h=12;
+  return h+':'+pad(d.getMinutes())+' <span style="font-size:'+small+'px;vertical-align:baseline">'+ap+'</span>';
+}
 function tick(){
   var now=new Date();
-  $('clock').textContent=fmt24(now);
+  $('clock').innerHTML=fmt12big(now,44);
   $('date').textContent=DAYS[now.getDay()]+', '+MONTHS[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
   var ind=indiaNow();
-  $('indiaTime').textContent=fmt24(ind);
+  $('indiaTime').innerHTML=fmt12big(ind,20);
   $('indiaDay').textContent=DAYS[ind.getDay()]+', '+MONTHS[ind.getMonth()]+' '+ind.getDate();
   var h=now.getHours(),cls;
   if(h>=5&&h<8)cls='dawn';else if(h>=8&&h<17)cls='day';else if(h>=17&&h<21)cls='dusk';else cls='night';

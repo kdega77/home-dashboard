@@ -26,7 +26,9 @@ body.night main{opacity:.55}
 .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#8fa6bd;font-weight:600}
 #clock{font-size:84px;line-height:1;font-weight:700;letter-spacing:-2px;margin-top:2px}
 #date{font-size:15px;color:#9db2c8;margin-top:5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
-.india{margin-top:7px;padding:6px 12px;display:inline-block}
+.clockrow{display:flex;gap:10px;margin-top:7px;align-items:flex-start}
+.india{padding:6px 12px;display:inline-block}
+#stocks{display:none;flex:1;padding:7px 12px;font-size:13px;font-weight:600;line-height:1.5;text-align:left;white-space:nowrap;overflow:hidden}
 .india-label{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#93a9c0;font-weight:600}
 #indiaTime{font-size:24px;font-weight:600;line-height:1.1}
 #indiaDay{font-size:12px;color:rgba(235,242,252,.85)}
@@ -46,9 +48,8 @@ body.night main{opacity:.55}
 #advice{margin-top:1vh;padding:8px 16px;font-size:18px;font-weight:600;text-align:center}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
-#stocks{display:none;margin-top:1vh;padding:6px 14px;font-size:15px;font-weight:600;text-align:center;white-space:nowrap;overflow:hidden}
 .stUp{color:#7ee2a0}.stDn{color:#ff9a9a}
-.forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:80px;min-height:0}
+.forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:88px;min-height:0}
 .day{flex:1;padding:5px 5px;text-align:center;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
 .day-name{font-size:11px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600}
 .day-icon{font-size:18px;margin:2px 0}
@@ -76,10 +77,13 @@ body.night main{opacity:.55}
       <div class="eyebrow">Home &middot; Thornhill, Canada</div>
       <div id="clock">--:--</div>
       <div id="date">Loading date&hellip;</div>
-      <div class="india card">
-        <div class="india-label">India</div>
-        <div id="indiaTime">--:--</div>
-        <div id="indiaDay"></div>
+      <div class="clockrow">
+        <div class="india card">
+          <div class="india-label">India</div>
+          <div id="indiaTime">--:--</div>
+          <div id="indiaDay"></div>
+        </div>
+        <div id="stocks" class="card"></div>
       </div>
     </div>
     <div class="now card">
@@ -99,7 +103,6 @@ body.night main{opacity:.55}
   </div>
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
   <div class="forecast" id="forecast"></div>
-  <div id="stocks" class="card"></div>
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
   <div id="news" class="card"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
   <div class="counts">
@@ -349,15 +352,16 @@ function loadStocks(){
   fetchText('headlines.json?t='+new Date().getTime(),function(t){
     if(!t)return;
     var d; try{ d=JSON.parse(t); }catch(e){ return; }
-    var list=d.stocks||[],html='',i,q,cur,chg;
+    var list=d.stocks||[],lines=['',''],i,q,cur,chg,ln;
     for(i=0;i<list.length;i++){
       q=list[i];
       cur=(q.ccy==='INR')?'\u20B9':'$';
-      chg=(q.chg>=0?'+':'')+q.chg.toFixed(2)+'%';
-      if(i)html+=' &nbsp;\u00B7&nbsp; ';
-      html+='<span>'+q.sym+' '+cur+q.price.toFixed(2)+' <span class="'+(q.chg>=0?'stUp':'stDn')+'">'+chg+'</span></span>';
+      chg=(q.chg>=0?'+':'')+q.chg.toFixed(1)+'%';
+      ln=i<2?0:1;
+      if(lines[ln])lines[ln]+=' &nbsp;\u00B7&nbsp; ';
+      lines[ln]+='<span>'+q.sym+' '+cur+q.price.toFixed(2)+' <span class="'+(q.chg>=0?'stUp':'stDn')+'">'+chg+'</span></span>';
     }
-    if(html){ $('stocks').innerHTML=html; $('stocks').style.display='block'; }
+    if(lines[0]){ $('stocks').innerHTML=lines[0]+(lines[1]?'<br>'+lines[1]:''); $('stocks').style.display='block'; }
   });
 }
 loadStocks(); setInterval(loadStocks,15*60*1000);

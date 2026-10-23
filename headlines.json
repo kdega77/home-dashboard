@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-23T19:31:51+00:00",
+ "updated": "2026-10-23T19:52:52+00:00",
  "headlines": [
   "Trump to exempt some Canadian products from tariffs amid midterm pressure",
   "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
   "Loblaw CEO apologizes to 2 million shoppers for personal data hack, offers free credit monitoring",
   "Seven shot dead by gunmen at church funeral in Jordan, officials say",
-  "Carney says 'direct casualties' are result of Ukraine's restricted access to Musk's Starshield",
+  "Ukraine's restricted access to Musk's Starshield is costing lives, Carney says",
   "Israeli forces begin demolishing Palestinian buildings in Hebron after two Israeli soldiers shot dead",
   "As Connor Hellebuyck heads to New Jersey, Winnipeg Jets GM will hold on to the 'good memories'",
   "White House says Melania Trump brokers truce for Ukraine city 'on brink of disaster'",
@@ -13,9 +13,35 @@
   "Ukraine says Starlink still restricted after Trump says limits lifted",
   "Canadian woman dies in U.S. after fears of detainment prevented her from seeking medical care",
   "Oil spill washes up on UAE beaches after tanker strike",
-  "MapQuest now showing surveillance camera locations across Canada, U.S.",
+  "Stop-motion movie Wildwood is a staggering masterpiece. It's a miracle it exists at all",
   "Denmark to ban mink farming in government U-turn",
-  "Developer wants to build 500 modular homes on roof of struggling Sask. mall",
+  "MapQuest now showing surveillance camera locations across Canada, U.S.",
   "PSG v Lyon moved as Paris prepares for more protests"
+ ],
+ "stocks": [
+  {
+   "sym": "XEQT",
+   "ccy": "CAD",
+   "price": 44.815,
+   "chg": -0.52
+  },
+  {
+   "sym": "VFV",
+   "ccy": "CAD",
+   "price": 189.31,
+   "chg": -0.58
+  },
+  {
+   "sym": "INFY",
+   "ccy": "INR",
+   "price": 1153.8,
+   "chg": 0.04
+  },
+  {
+   "sym": "NIFTYBEES",
+   "ccy": "INR",
+   "price": 257.22,
+   "chg": -0.66
+  }
  ]
 }

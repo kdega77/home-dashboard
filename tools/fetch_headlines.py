@@ -29,6 +29,38 @@ def titles(url):
     return out
 
 
+STOCKS = [
+    ("XEQT", "XEQT.TO"),
+    ("VFV", "VFV.TO"),
+    ("INFY", "INFY.NS"),
+    ("NIFTYBEES", "NIFTYBEES.NS"),
+]
+
+
+def stocks():
+    out = []
+    for label, sym in STOCKS:
+        try:
+            url = "https://query1.finance.yahoo.com/v8/finance/chart/%s?interval=1d&range=1d" % sym
+            req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"})
+            with urllib.request.urlopen(req, timeout=20) as r:
+                d = json.load(r)
+            meta = d["chart"]["result"][0]["meta"]
+            price = meta.get("regularMarketPrice")
+            prev = meta.get("chartPreviousClose")
+            if price is None or not prev:
+                continue
+            out.append({
+                "sym": label,
+                "ccy": meta.get("currency", ""),
+                "price": price,
+                "chg": round((price - prev) / prev * 100, 2),
+            })
+        except Exception as e:
+            print("stock failed:", sym, e)
+    return out
+
+
 def main():
     blocks = []
     for f in FEEDS:
@@ -42,9 +74,17 @@ def main():
         for b in blocks:
             if i < len(b):
                 merged.append(b[i])
+    stk = stocks()
+    if not stk:
+        try:
+            with open("headlines.json") as fh:
+                stk = json.load(fh).get("stocks", [])
+        except Exception:
+            stk = []
     payload = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "headlines": merged,
+        "stocks": stk,
     }
     with open("headlines.json", "w") as fh:
         json.dump(payload, fh, indent=1)

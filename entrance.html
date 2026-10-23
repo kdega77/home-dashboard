@@ -16,6 +16,9 @@ body{overflow:hidden;background:#0b1526}
 #scrim{position:fixed;left:0;top:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(5,10,18,.36),rgba(5,10,18,.50));z-index:1;transition:background 4s}
 body.dusk #scrim{background:linear-gradient(180deg,rgba(6,8,22,.46),rgba(4,6,16,.58))}
 body.night #scrim{background:linear-gradient(180deg,rgba(2,4,8,.82),rgba(2,4,8,.88))}
+body.off #scrim{background:#000}
+body.off main{opacity:0}
+body.off #bgA,body.off #bgB{opacity:0 !important}
 main{position:relative;z-index:2;height:100vh;padding:18px 30px;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7);transition:opacity 4s}
 body.night main{opacity:.55}
 .card{background:rgba(15,24,38,.62);border:1px solid rgba(255,255,255,.09);border-radius:20px;box-shadow:0 10px 30px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.06);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
@@ -49,8 +52,6 @@ body.night main{opacity:.55}
 .day-icon{font-size:18px;margin:2px 0}
 .day-temp{font-size:14px;font-weight:600}
 .day-rain{font-size:11px;color:#ffffff;margin-top:2px}
-#calEvent{display:none;margin-top:1vh;padding:7px 16px;font-size:16px;font-weight:600;text-align:center}
-#calEvent .when{color:#a9e8c6}
 #news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -96,8 +97,7 @@ body.night main{opacity:.55}
   </div>
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
   <div class="forecast" id="forecast"></div>
-  <div id="notes" class="card"><span id="notesLabel">Groceries</span><span id="notesText"></span></div>
-  <div id="calEvent" class="card"></div>
+  <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
   <div id="news" class="card"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
   <div class="counts">
     <div class="count card"><div class="count-label">Dhruv turns 6</div><div class="count-value" id="cdDhruv">—</div><div class="count-sub" id="cdDhruvSub"></div></div>
@@ -134,6 +134,7 @@ var bgIdx=0,bgFront='bgA';
   for(var i=0;i<PHOTOS.length;i++){var im=new Image();im.src=PHOTOS[i];}
   $('bgA').style.backgroundImage='url("'+PHOTOS[0]+'")';
   setInterval(function(){
+    if(document.body.className==='off')return;
     bgIdx=(bgIdx+1)%PHOTOS.length;
     var back=(bgFront==='bgA')?'bgB':'bgA';
     var img=new Image();
@@ -181,7 +182,7 @@ function tick(){
   $('indiaTime').innerHTML=fmt12big(ind,14);
   $('indiaDay').textContent=DAYS[ind.getDay()]+', '+MONTHS[ind.getMonth()]+' '+ind.getDate();
   var h=now.getHours(),cls;
-  if(h>=5&&h<8)cls='dawn';else if(h>=8&&h<17)cls='day';else if(h>=17&&h<22)cls='dusk';else cls='night';
+  if(h>=23||h<7)cls='off';else if(h>=7&&h<8)cls='dawn';else if(h>=8&&h<17)cls='day';else if(h>=17&&h<22)cls='dusk';else cls='night';
   if(document.body.className!==cls)document.body.className=cls;
   showCountdowns();
 }
@@ -340,107 +341,28 @@ setInterval(function(){
   },650);
 },12000);
 
-/* ---------- Family calendar (optional iCal link) ---------- */
-function getCalUrl(){
-  var m=/[?&]cal=([^&]+)/.exec(location.search);
-  if(m){var u=decodeURIComponent(m[1]);try{localStorage.setItem('calUrl',u);}catch(e){}return u;}
-  try{return localStorage.getItem('calUrl');}catch(e){return null;}
-}
-function icsDate(v){
-  if(/^\d{8}$/.test(v))return {d:new Date(+v.substr(0,4),+v.substr(4,2)-1,+v.substr(6,2)),allDay:true};
-  var m=/^(\d{4})(\d{2})(\d{2})T(\d{2})(\d{2})(\d{2})(Z?)$/.exec(v);
-  if(!m)return null;
-  if(m[7]==='Z')return {d:new Date(Date.UTC(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6])),allDay:false};
-  return {d:new Date(+m[1],+m[2]-1,+m[3],+m[4],+m[5],+m[6]),allDay:false};
-}
-function nextOccurrence(start,dur,rrule,now,limit){
-  if(!rrule)return (start.getTime()+dur>=now.getTime()&&start<=limit)?start:null;
-  var parts=rrule.split(';'),freq=null,interval=1,until=null,byday=null,i,kv;
-  for(i=0;i<parts.length;i++){kv=parts[i].split('=');if(kv[0]==='FREQ')freq=kv[1];else if(kv[0]==='INTERVAL')interval=parseInt(kv[1],10)||1;else if(kv[0]==='UNTIL'){var u=icsDate(kv[1].replace('T000000Z',''));until=u?u.d:null;}else if(kv[0]==='BYDAY')byday=kv[1].split(',');}
-  var DOW={SU:0,MO:1,TU:2,WE:3,TH:4,FR:5,SA:6};
-  function ok(occ){return occ.getTime()+dur>=now.getTime()&&occ<=limit&&(!until||occ<=until);}
-  var k,occ;
-  if(freq==='DAILY'){
-    for(k=0;k<2000;k++){occ=new Date(start.getTime()+k*interval*86400000);if(occ>limit&&occ>now)break;if(ok(occ))return occ;}
-  }else if(freq==='WEEKLY'){
-    var days=byday?null:[start.getDay()];
-    if(byday){days=[];for(i=0;i<byday.length;i++){var code=byday[i].substr(byday[i].length-2);if(DOW[code]!=null)days.push(DOW[code]);}}
-    var weekStart=new Date(start.getFullYear(),start.getMonth(),start.getDate()-start.getDay(),start.getHours(),start.getMinutes(),start.getSeconds());
-    for(k=0;k<600;k++){
-      var base=new Date(weekStart.getTime()+k*interval*7*86400000);
-      var cands=[];
-      for(i=0;i<days.length;i++){var c=new Date(base.getTime()+days[i]*86400000);if(c>=start)cands.push(c);}
-      cands.sort(function(a,b){return a-b;});
-      for(i=0;i<cands.length;i++){if(ok(cands[i]))return cands[i];}
-      if(base>limit)break;
-    }
-  }
-  return null;
-}
-function loadCalendar(){
-  var url=getCalUrl();
-  if(!url)return;
-  fetchVia(url,0,function(text){
-    if(!text)return;
-    text=text.replace(/\r\n[ \t]/g,'').replace(/\n[ \t]/g,'');
-    var lines=text.split(/\r?\n/),ev=null,events=[],i;
-    for(i=0;i<lines.length;i++){
-      var ln=lines[i];
-      if(ln==='BEGIN:VEVENT')ev={};
-      else if(ln==='END:VEVENT'){if(ev)events.push(ev);ev=null;}
-      else if(ev){
-        var c=ln.indexOf(':');if(c<0)continue;
-        var key=ln.substr(0,c),val=ln.substr(c+1);
-        if(key.indexOf('DTSTART')===0)ev.start=icsDate(val);
-        else if(key.indexOf('DTEND')===0)ev.end=icsDate(val);
-        else if(key==='SUMMARY')ev.summary=val.replace(/\\,/g,',').replace(/\\n/g,' ').replace(/\\/g,'');
-        else if(key==='RRULE')ev.rrule=val;
-      }
-    }
-    var now=new Date(),limit=new Date(now.getTime()+7*86400000),best=null,bestOcc=null;
-    for(i=0;i<events.length;i++){
-      var e=events[i];
-      if(!e.start||!e.summary)continue;
-      var dur=e.end?(e.end.d-e.start.d):3600000;
-      if(dur<0)dur=0;
-      var occ=nextOccurrence(e.start.d,dur,e.rrule,now,limit);
-      if(occ&&(!bestOcc||occ<bestOcc)){bestOcc=occ;best={e:e,occ:occ};}
-    }
-    if(!best){$('calEvent').style.display='none';return;}
-    var o=best.occ,today=new Date(now.getFullYear(),now.getMonth(),now.getDate());
-    var tom=new Date(today.getTime()+86400000);
-    var when;
-    if(o.getFullYear()===today.getFullYear()&&o.getMonth()===today.getMonth()&&o.getDate()===today.getDate())when='Today';
-    else if(o.getFullYear()===tom.getFullYear()&&o.getMonth()===tom.getMonth()&&o.getDate()===tom.getDate())when='Tomorrow';
-    else when=DAYS[o.getDay()]+' '+MONTHS_S[o.getMonth()]+' '+o.getDate();
-    var time=best.e.start.allDay?'All day':fmt12(o);
-    $('calEvent').innerHTML='<span class="when">'+when+' \u00B7 '+time+'</span> \u2014 '+best.e.summary.replace(/</g,'&lt;');
-    $('calEvent').style.display='block';
-  });
-}
-loadCalendar(); setInterval(loadCalendar,30*60*1000);
-
-/* ---------- Groceries / notes (dictated via Muse) ---------- */
+/* ---------- Notes (notes.txt in the repo: edit from phone, or dictate to Muse) ---------- */
 function loadNotes(){
-  fetchText('groceries.json?t='+new Date().getTime(),function(t){
-    if(!t)return;
-    try{
-      var j=JSON.parse(t);
-      if(j.items&&j.items.length){
-        $('notesText').textContent=j.items.join('  \u00B7  ');
-        $('notes').style.display='block';
-      }else{
-        $('notes').style.display='none';
-      }
-    }catch(e){}
+  fetchText('notes.txt?t='+new Date().getTime(),function(t){
+    if(t==null)return;
+    var lines=t.split(/\r?\n/),items=[],i,v;
+    for(i=0;i<lines.length;i++){
+      v=lines[i].replace(/^\s+|\s+$/g,'');
+      if(v)items.push(v);
+    }
+    if(items.length){
+      $('notesText').textContent=items.join('  \u00B7  ');
+      $('notes').style.display='block';
+    }else{
+      $('notes').style.display='none';
+    }
   });
 }
 loadNotes(); setInterval(loadNotes,15*60*1000);
 
 setTimeout(function(){
-  var cal=getCalUrl();
   var base=location.href.split('?')[0];
-  location.replace(base+'?v='+new Date().getTime()+(cal?('&cal='+encodeURIComponent(cal)):''));
+  location.replace(base+'?v='+new Date().getTime());
 },30*60*1000);
 </script>
 </body>

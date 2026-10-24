@@ -1,10 +1,10 @@
 {
- "updated": "2026-10-24T09:01:31+00:00",
+ "updated": "2026-10-24T09:14:36+00:00",
  "headlines": [
   "Canadian privacy watchdogs powerless to hold Crime Stoppers accountable for data breach",
   "France prepares for day of protest a week after nationwide riots",
   "The Marineland belugas keep dying. Was it a mistake to move them?",
-  "Arrest made after fire at Hitler's famed Eagle's Nest retreat",
+  "Arrest made after fire at Hitler's mountaintop Eagle's Nest retreat",
   "Will the Alberta referendum feed a more polarized immigration debate?",
   "Father who killed Oregon school gunman describes anguish over children he couldn't save",
   "Can millions of people live on the moon? These scientists say yes \u2014 but not for very long",
@@ -18,37 +18,17 @@
   "Canadian cybersecurity exec arrested by FBI accused of working with criminals to defraud his own clients",
   "Australian MP's condition improves after alleged car attack"
  ],
- "stocks": [
-  {
-   "sym": "XEQT",
-   "ccy": "CAD",
-   "price": 44.84,
-   "chg": -0.47
-  },
-  {
-   "sym": "VFV",
-   "ccy": "CAD",
-   "price": 189.37,
-   "chg": -0.55
-  },
-  {
-   "sym": "INFY",
-   "ccy": "INR",
-   "price": 1153.8,
-   "chg": 0.04
-  },
-  {
-   "sym": "NIFTYBEES",
-   "ccy": "INR",
-   "price": 257.22,
-   "chg": -0.66
-  }
- ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
    "price": 35788.18,
+   "chg": -0.52
+  },
+  {
+   "sym": "S&P 500",
+   "ccy": "USD",
+   "price": 7623.68,
    "chg": -0.52
   },
   {

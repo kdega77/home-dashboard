@@ -29,15 +29,9 @@ def titles(url):
     return out
 
 
-STOCKS = [
-    ("XEQT", "XEQT.TO"),
-    ("VFV", "VFV.TO"),
-    ("INFY", "INFY.NS"),
-    ("NIFTYBEES", "NIFTYBEES.NS"),
-]
-
 INDICES = [
     ("TSX", "%5EGSPTSE"),
+    ("S&P 500", "%5EGSPC"),
     ("NIFTY", "%5ENSEI"),
 ]
 
@@ -79,22 +73,16 @@ def main():
         for b in blocks:
             if i < len(b):
                 merged.append(b[i])
-    stk = quotes(STOCKS)
     idx = quotes(INDICES)
-    if not stk or not idx:
+    if not idx:
         try:
             with open("headlines.json") as fh:
-                prev_payload = json.load(fh)
-            if not stk:
-                stk = prev_payload.get("stocks", [])
-            if not idx:
-                idx = prev_payload.get("indices", [])
+                idx = json.load(fh).get("indices", [])
         except Exception:
-            pass
+            idx = []
     payload = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "headlines": merged,
-        "stocks": stk,
         "indices": idx,
     }
     with open("headlines.json", "w") as fh:

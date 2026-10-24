@@ -35,6 +35,7 @@ body.night main{opacity:.55}
 .markets{display:none;margin-bottom:.6vh;padding:6px 8px;background:#000;border:1px solid #333;border-radius:0;box-shadow:none;font-family:"Courier New",Courier,monospace}
 .mkt-item{flex:1;text-align:center;font-size:12px;font-weight:700;letter-spacing:.02em;white-space:nowrap;color:#fff}
 .mkt-item+.mkt-item{border-left:1px solid #333}
+.mkt-item.dim{opacity:.45}
 .mdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
 .mdot.up{background:#46a758}
 .mdot.dn{background:#e5484d}
@@ -49,14 +50,14 @@ body.night main{opacity:.55}
 #nowFeels{font-size:13px;color:rgba(235,242,252,.85);margin-top:2px}
 #spark{margin-top:7px;width:100%;height:30px;display:block}
 .rule{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);margin:1vh 0}
-.strip{display:flex;padding:7px 4px}
+.strip{display:flex;padding:4px 4px}
 .seg{flex:1;text-align:center;padding:0 4px}
 .seg+.seg{border-left:1px solid rgba(255,255,255,.12)}
 .seg-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#93a9c0;font-weight:600}
-.seg-value{font-size:18px;font-weight:600;margin-top:1px}
-.seg-sub{font-size:11px;color:rgba(235,242,252,.85)}
+.seg-value{font-size:16px;font-weight:600;margin-top:0}
+.seg-sub{font-size:10px;color:rgba(235,242,252,.85)}
 .seg.dim{opacity:.45}
-.seg.dim .seg-value{font-size:16px}
+.seg.dim .seg-value{font-size:14px}
 #advice{margin-top:1vh;padding:8px 16px;font-size:18px;font-weight:600;text-align:center}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
@@ -388,13 +389,28 @@ setInterval(function(){
 },30000);
 
 /* ---------- One slim index strip: TSX, S&P 500, NIFTY (same headlines.json fetch) ---------- */
+/* Each ticker dims when its own market is closed (weekday hours only;
+   holidays not counted): TSX/S&P 500 9:30-16:00 Toronto, NIFTY 9:15-15:30 India. */
+function isNorthAmOpen(){
+  var n=new Date(),d=n.getDay();
+  if(d===0||d===6)return false;
+  var m=n.getHours()*60+n.getMinutes();
+  return m>=570&&m<960;
+}
+function isNiftyOpen(){
+  var ind=indiaNow(),d=ind.getDay();
+  if(d===0||d===6)return false;
+  var m=ind.getHours()*60+ind.getMinutes();
+  return m>=555&&m<930;
+}
 function renderIndices(list){
     if(!list.length)return;
-    var html='',i,q,up;
+    var html='',i,q,up,open;
     for(i=0;i<list.length;i++){
       q=list[i];
       up=q.chg>=0;
-      html+='<span class="mkt-item">'+q.sym+' <span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></span>';
+      open=(q.sym==='NIFTY')?isNiftyOpen():isNorthAmOpen();
+      html+='<span class="mkt-item'+(open?'':' dim')+'">'+q.sym+' <span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></span>';
     }
     $('markets').innerHTML=html;
     $('markets').style.display='flex';

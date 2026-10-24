@@ -32,9 +32,9 @@ body.night main{opacity:.55}
 #date{font-size:15px;color:#9db2c8;margin-top:5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
 .clockrow{display:flex;gap:10px;margin-top:7px;align-items:flex-start}
 .india{padding:6px 12px;display:inline-block}
-.markets{display:none;margin-bottom:.6vh;padding:6px 8px}
-.mkt-item{flex:1;text-align:center;font-size:12px;font-weight:600;letter-spacing:.04em;white-space:nowrap;color:#c9d6e6}
-.mkt-item+.mkt-item{border-left:1px solid rgba(255,255,255,.12)}
+.markets{display:none;margin-bottom:.6vh;padding:6px 8px;background:#000;border:1px solid #333;border-radius:0;box-shadow:none;font-family:"Courier New",Courier,monospace}
+.mkt-item{flex:1;text-align:center;font-size:12px;font-weight:700;letter-spacing:.02em;white-space:nowrap;color:#fff}
+.mkt-item+.mkt-item{border-left:1px solid #333}
 .mdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
 .mdot.up{background:#46a758}
 .mdot.dn{background:#e5484d}
@@ -60,7 +60,7 @@ body.night main{opacity:.55}
 #advice{margin-top:1vh;padding:8px 16px;font-size:18px;font-weight:600;text-align:center}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
-.stUp{color:#7ee2a0}.stDn{color:#ff9a9a}
+.stUp{color:#00e65c}.stDn{color:#ff3b30}
 .forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:72px;min-height:0}
 .day{flex:1;padding:3px 5px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
 .day-name{font-size:10px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
@@ -71,12 +71,12 @@ body.night main{opacity:.55}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .counts{display:flex;gap:10px;margin-top:1vh}
-.count{flex:1;padding:7px 14px;display:flex;align-items:center;gap:12px;border-left:3px solid rgba(109,179,255,.55)}
-.count-ico{font-size:19px;color:#6db3ff;background:rgba(77,163,255,.14);border:1px solid rgba(109,179,255,.35);border-radius:50%;width:36px;height:36px;line-height:36px;text-align:center;flex:0 0 36px}
+.count{flex:1;padding:6px 12px;display:flex;align-items:center;gap:10px;border-left:3px solid rgba(109,179,255,.55)}
+.count-ico{font-size:17px;color:#6db3ff;background:rgba(77,163,255,.14);border:1px solid rgba(109,179,255,.35);border-radius:50%;width:32px;height:32px;line-height:32px;text-align:center;flex:0 0 32px}
 .count-mid{flex:1;min-width:0}
-.count-label{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap}
-.count-value{font-size:22px;font-weight:700;white-space:nowrap;color:#ffffff}
-.count-sub{display:block;font-size:11px;color:#93a9c0;margin-top:2px;white-space:nowrap;overflow:hidden}
+.count-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap}
+.count-value{font-size:19px;font-weight:700;white-space:nowrap;color:#ffffff}
+.count-sub{display:block;font-size:10px;color:#93a9c0;margin-top:2px;white-space:nowrap;overflow:hidden}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#4da3ff;margin-right:7px;vertical-align:middle}
 </style>
@@ -394,7 +394,7 @@ function renderIndices(list){
     for(i=0;i<list.length;i++){
       q=list[i];
       up=q.chg>=0;
-      html+='<span class="mkt-item"><span class="mdot '+(up?'up':'dn')+'"></span>'+q.sym+' <span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></span>';
+      html+='<span class="mkt-item">'+q.sym+' <span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></span>';
     }
     $('markets').innerHTML=html;
     $('markets').style.display='flex';

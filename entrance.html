@@ -61,10 +61,12 @@ body.night main{opacity:.55}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .counts{display:flex;gap:10px;margin-top:1vh}
-.count{flex:1;padding:6px 12px;display:flex;align-items:baseline;justify-content:center;gap:10px}
-.count-label{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#93a9c0;font-weight:600;white-space:nowrap}
-.count-value{font-size:19px;font-weight:600;white-space:nowrap}
-.count-sub{display:none}
+.count{flex:1;padding:7px 14px;display:flex;align-items:center;gap:12px;border-left:3px solid rgba(109,179,255,.55)}
+.count-ico{font-size:19px;color:#6db3ff;background:rgba(77,163,255,.14);border:1px solid rgba(109,179,255,.35);border-radius:50%;width:36px;height:36px;line-height:36px;text-align:center;flex:0 0 36px}
+.count-mid{flex:1;min-width:0}
+.count-label{font-size:12px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap}
+.count-value{font-size:22px;font-weight:700;white-space:nowrap;color:#ffffff}
+.count-sub{display:block;font-size:11px;color:#93a9c0;margin-top:2px;white-space:nowrap;overflow:hidden}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
 .dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#4da3ff;margin-right:7px;vertical-align:middle}
 </style>
@@ -108,8 +110,8 @@ body.night main{opacity:.55}
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
   <div id="news" class="card"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
   <div class="counts">
-    <div class="count card"><div class="count-label">Dhruv turns 6</div><div class="count-value" id="cdDhruv">—</div><div class="count-sub" id="cdDhruvSub"></div></div>
-    <div class="count card"><div class="count-label">Japan trip</div><div class="count-value" id="cdJapan">—</div><div class="count-sub" id="cdJapanSub"></div></div>
+    <div class="count card"><div class="count-ico">&#9733;</div><div class="count-mid"><div class="count-label">Dhruv turns 6</div><div class="count-sub" id="cdDhruvSub"></div></div><div class="count-value" id="cdDhruv">—</div></div>
+    <div class="count card"><div class="count-ico">&#9992;</div><div class="count-mid"><div class="count-label">Japan trip</div><div class="count-sub" id="cdJapanSub"></div></div><div class="count-value" id="cdJapan">—</div></div>
   </div>
   <div class="foot">
     <div><span class="dot"></span><span id="status">Weather loading</span></div>
@@ -169,7 +171,7 @@ function daysUntil(t){
   return Math.round((t-t0)/86400000);
 }
 function cdText(d){if(d<0)return 'Enjoy!';if(d===0)return 'Today!';if(d===1)return '1 day';return d+' days';}
-function dateSub(t){return DAYS[t.getDay()]+', '+MONTHS[t.getMonth()]+' '+t.getDate()+', '+t.getFullYear();}
+function dateSub(t){return DAYS_S[t.getDay()]+', '+MONTHS_S[t.getMonth()]+' '+t.getDate()+', '+t.getFullYear();}
 var CD_DHRUV=new Date(2027,0,23,0,0,0);
 var CD_JAPAN=new Date(2027,3,8,0,0,0);
 $('cdDhruvSub').textContent=dateSub(CD_DHRUV);
@@ -308,13 +310,14 @@ function feedTitles(xmlText,out){
   }catch(e){}
   return out;
 }
-function loadNews(){
+function loadData(){
   fetchText('headlines.json?t='+new Date().getTime(),function(t){
     var ok=false;
     if(t){
       try{
         var j=JSON.parse(t);
-        if(j.headlines&&j.headlines.length){HEADLINES=j.headlines;newsIdx=0;$('newsText').textContent=HEADLINES[0];ok=true;}
+        ok=renderHeadlines(j);
+        renderStocks(j);
       }catch(e){}
     }
     if(!ok)loadNewsViaProxies();
@@ -337,7 +340,10 @@ function loadNewsViaProxies(){
     finish();
   });
 }
-loadNews(); setInterval(loadNews,15*60*1000);
+function renderHeadlines(j){
+  if(j.headlines&&j.headlines.length){HEADLINES=j.headlines;newsIdx=0;$('newsText').textContent=HEADLINES[0];return true;}
+  return false;
+}
 setInterval(function(){
   if(HEADLINES.length<2)return;
   var el=$('newsText');
@@ -347,13 +353,10 @@ setInterval(function(){
     el.textContent=HEADLINES[newsIdx];
     el.style.opacity='1';
   },650);
-},12000);
+},30000);
 
-/* ---------- Stocks (fetched by GitHub Actions into headlines.json) ---------- */
-function loadStocks(){
-  fetchText('headlines.json?t='+new Date().getTime(),function(t){
-    if(!t)return;
-    var d; try{ d=JSON.parse(t); }catch(e){ return; }
+/* ---------- Stocks (same headlines.json fetch as news — one GitHub hit, not two) ---------- */
+function renderStocks(d){
     var list=d.stocks||[],lines=['',''],i,q,cur,chg,ln;
     for(i=0;i<list.length;i++){
       q=list[i];
@@ -364,9 +367,8 @@ function loadStocks(){
       lines[ln]+='<span>'+q.sym+' '+cur+q.price.toFixed(2)+' <span class="'+(q.chg>=0?'stUp':'stDn')+'">'+chg+'</span></span>';
     }
     if(lines[0]){ $('stocks').innerHTML=lines[0]+(lines[1]?'<br>'+lines[1]:''); $('stocks').style.display='block'; }
-  });
 }
-loadStocks(); setInterval(loadStocks,15*60*1000);
+loadData(); setInterval(loadData,30*60*1000);
 
 /* ---------- Notes (notes.txt in the repo: edit from phone, or dictate to Muse) ---------- */
 function loadNotes(){
@@ -385,12 +387,12 @@ function loadNotes(){
     }
   });
 }
-loadNotes(); setInterval(loadNotes,15*60*1000);
+loadNotes(); setInterval(loadNotes,30*60*1000);
 
 setTimeout(function(){
   var base=location.href.split('?')[0];
   location.replace(base+'?v='+new Date().getTime());
-},30*60*1000);
+},60*60*1000);
 </script>
 </body>
 </html>

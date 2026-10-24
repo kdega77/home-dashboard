@@ -45,6 +45,8 @@ body.night main{opacity:.55}
 .seg-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#93a9c0;font-weight:600}
 .seg-value{font-size:18px;font-weight:600;margin-top:1px}
 .seg-sub{font-size:11px;color:rgba(235,242,252,.85)}
+.seg.dim{opacity:.45}
+.seg.dim .seg-value{font-size:16px}
 #advice{margin-top:1vh;padding:8px 16px;font-size:18px;font-weight:600;text-align:center}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
@@ -97,8 +99,8 @@ body.night main{opacity:.55}
   <div class="rule"></div>
   <div class="strip card">
     <div class="seg"><div class="seg-label">Rain chance</div><div class="seg-value" id="rainChance">—</div><div class="seg-sub" id="rainSub">—</div></div>
-    <div class="seg"><div class="seg-label">Wind</div><div class="seg-value" id="wind">—</div><div class="seg-sub">km/h</div></div>
-    <div class="seg"><div class="seg-label">Humidity</div><div class="seg-value" id="humidity">—</div><div class="seg-sub">relative</div></div>
+    <div class="seg dim"><div class="seg-label">Wind</div><div class="seg-value" id="wind">—</div><div class="seg-sub">km/h</div></div>
+    <div class="seg dim"><div class="seg-label">Humidity</div><div class="seg-value" id="humidity">—</div><div class="seg-sub">relative</div></div>
     <div class="seg"><div class="seg-label">Sunset</div><div class="seg-value" id="sun">—</div><div class="seg-sub" id="sunSub">sunrise</div></div>
   </div>
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>

@@ -1,5 +1,9 @@
 {
+<<<<<<< Updated upstream
  "updated": "2026-10-24T02:28:08+00:00",
+=======
+ "updated": "2026-10-24T02:34:24+00:00",
+>>>>>>> Stashed changes
  "headlines": [
   "Trump to swap some tariffs on Canadian goods amid midterm pressure",
   "Deadly shooting near Paris is a 'racist terrorist attack', Macron says",
@@ -42,6 +46,20 @@
    "ccy": "INR",
    "price": 257.22,
    "chg": -0.66
+  }
+ ],
+ "indices": [
+  {
+   "sym": "TSX",
+   "ccy": "CAD",
+   "price": 35788.18,
+   "chg": -0.52
+  },
+  {
+   "sym": "NIFTY",
+   "ccy": "INR",
+   "price": 22600.0,
+   "chg": -0.39
   }
  ]
 }

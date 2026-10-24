@@ -36,10 +36,15 @@ STOCKS = [
     ("NIFTYBEES", "NIFTYBEES.NS"),
 ]
 
+INDICES = [
+    ("TSX", "%5EGSPTSE"),
+    ("NIFTY", "%5ENSEI"),
+]
 
-def stocks():
+
+def quotes(pairs):
     out = []
-    for label, sym in STOCKS:
+    for label, sym in pairs:
         try:
             url = "https://query1.finance.yahoo.com/v8/finance/chart/%s?interval=1d&range=1d" % sym
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"})
@@ -74,17 +79,23 @@ def main():
         for b in blocks:
             if i < len(b):
                 merged.append(b[i])
-    stk = stocks()
-    if not stk:
+    stk = quotes(STOCKS)
+    idx = quotes(INDICES)
+    if not stk or not idx:
         try:
             with open("headlines.json") as fh:
-                stk = json.load(fh).get("stocks", [])
+                prev_payload = json.load(fh)
+            if not stk:
+                stk = prev_payload.get("stocks", [])
+            if not idx:
+                idx = prev_payload.get("indices", [])
         except Exception:
-            stk = []
+            pass
     payload = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "headlines": merged,
         "stocks": stk,
+        "indices": idx,
     }
     with open("headlines.json", "w") as fh:
         json.dump(payload, fh, indent=1)

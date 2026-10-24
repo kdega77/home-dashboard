@@ -28,16 +28,15 @@ body.night main{opacity:.55}
 #date{font-size:15px;color:#9db2c8;margin-top:5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
 .clockrow{display:flex;gap:10px;margin-top:7px;align-items:flex-start}
 .india{padding:6px 12px;display:inline-block}
-#stocks{display:none;flex:1;padding:6px 9px 2px;font-size:12px;font-weight:600;line-height:1.35;text-align:left;overflow:hidden}
-.chip{display:inline-block;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);border-radius:8px;padding:2px 7px;margin:0 4px 4px 0;white-space:nowrap}
-.markets{display:none;gap:8px;margin-bottom:1vh}
-.mkt{flex:1;display:flex;align-items:center;gap:8px;padding:5px 11px;border-radius:12px}
-.mdot{width:10px;height:10px;border-radius:50%;flex:0 0 10px}
+#stocks{display:none;flex:1;padding:5px 7px 1px;font-size:11px;font-weight:600;line-height:1.3;text-align:left;overflow:hidden}
+.chip{display:inline-block;background:rgba(255,255,255,.06);border:1px solid rgba(255,255,255,.10);border-radius:7px;padding:1px 5px;margin:0 3px 3px 0;white-space:nowrap}
+.markets{display:none;gap:6px;margin-bottom:.6vh}
+.mkt{flex:1;display:flex;align-items:center;gap:6px;padding:3px 9px;border-radius:10px}
+.mdot{width:8px;height:8px;border-radius:50%;flex:0 0 8px}
 .mdot.up{background:#46a758}
 .mdot.dn{background:#e5484d}
-.mkt-label{font-size:11px;font-weight:700;letter-spacing:.1em;white-space:nowrap}
-.mkt-chg{margin-left:auto;font-size:13px;font-weight:700;white-space:nowrap}
-.mkt-state{font-size:10px;color:#93a9c0;white-space:nowrap}
+.mkt-label{font-size:10px;font-weight:700;letter-spacing:.08em;white-space:nowrap}
+.mkt-chg{margin-left:auto;font-size:12px;font-weight:700;white-space:nowrap}
 .india-label{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#93a9c0;font-weight:600}
 #indiaTime{font-size:24px;font-weight:600;line-height:1.1}
 #indiaDay{font-size:12px;color:rgba(235,242,252,.85)}
@@ -60,7 +59,7 @@ body.night main{opacity:.55}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
 .stUp{color:#7ee2a0}.stDn{color:#ff9a9a}
-.forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:70px;min-height:0}
+.forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:66px;min-height:0}
 .day{flex:1;padding:5px 5px;text-align:center;display:flex;flex-direction:column;justify-content:center;overflow:hidden}
 .day-name{font-size:11px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600}
 .day-icon{font-size:18px;margin:2px 0}
@@ -393,7 +392,7 @@ function renderIndices(list){
       q=list[i];
       up=q.chg>=0;
       el=$('mkt'+i);
-      el.innerHTML='<span class="mdot '+(up?'up':'dn')+'"></span><span class="mkt-label">'+(labels[q.sym]||q.sym)+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span><span class="mkt-state">'+(up?'green today':'red today')+'</span>';
+      el.innerHTML='<span class="mdot '+(up?'up':'dn')+'"></span><span class="mkt-label">'+(labels[q.sym]||q.sym)+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span>';
     }
     $('markets').style.display='flex';
 }

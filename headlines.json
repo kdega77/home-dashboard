@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-26T09:39:21+00:00",
+ "updated": "2026-10-26T10:37:25+00:00",
  "headlines": [
   "Air Canada blamed maintenance issues to deny compensation. Records show it wanted planes for other routes",
   "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
@@ -15,7 +15,7 @@
   "Uganda imposes 21-day quarantine on citizens returning from DR Congo",
   "Lula re-elected in Brazil as Bolsonaro rejects results",
   "Deeply divided Israel braces for pivotal election",
-  "Carney's geopolitical ambitions tested in defence industry co-operation with Turkey",
+  "Ontario municipal elections: A look at 7 mayoral races as voters head to the polls",
   "Suspect in deadly Paris suburb shooting sent for psychiatric observation"
  ],
  "indices": [
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22713.3,
-   "chg": 0.5
+   "price": 22753.2,
+   "chg": 0.68
   }
  ]
 }

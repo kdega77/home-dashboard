@@ -1,11 +1,11 @@
 {
- "updated": "2026-10-26T03:32:09+00:00",
+ "updated": "2026-10-26T04:32:59+00:00",
  "headlines": [
-  "Carney's geopolitical ambitions tested in defence industry co-operation with Turkey",
-  "Elation across Serbia after veteran ruler Vu\u010di\u0107 concedes to student-led protest movement",
-  "Danielle Smith scores slim majority on immigration questions, Albertans reject constitutional changes",
-  "Deeply divided Israel braces for pivotal election",
   "Who is B.C.'s new premier Lorne Doerkson?",
+  "Elation across Serbia after veteran ruler Vu\u010di\u0107 concedes to student-led protest movement",
+  "Carney's geopolitical ambitions tested in defence industry co-operation with Turkey",
+  "Deeply divided Israel braces for pivotal election",
+  "Danielle Smith scores slim majority on immigration questions, Albertans reject constitutional changes",
   "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
   "Lula re-elected in Brazil as Bolsonaro rejects results",
   "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22600.0,
-   "chg": -0.39
+   "price": 22645.5,
+   "chg": 0.2
   }
  ]
 }

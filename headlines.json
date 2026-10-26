@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-26T18:09:36+00:00",
+ "updated": "2026-10-26T19:19:10+00:00",
  "headlines": [
-  "Alberta referendum tallies reveal rural-urban divide on 'the 9'",
-  "Lula wins fourth term in dramatic Brazil election comeback",
   "Canada-U.S. trade talks intensifying but wide gap remains, sources say",
+  "Lula wins fourth term in dramatic Brazil election comeback",
+  "Alberta referendum tallies reveal rural-urban divide on 'the 9'",
   "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
-  "Walter Koenig, Ensign Chekov on Star Trek: The Original Series, dead at 90",
+  "Carney holds news conference at meeting with First Nations leaders, premiers",
   "Chris Brown given suspended eight-month prison sentence over nightclub attack",
-  "Judge rules Trump administration illegally fired prosecutor Maurene Comey, daughter of ex-FBI director",
+  "Walter Koenig, Ensign Chekov on original Star Trek series, dead at 90",
   "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-  "Horse-drawn carriages are still a tradition in some Canadian cities",
+  "Judge rules Trump administration illegally fired prosecutor Maurene Comey, daughter of ex-FBI director",
   "Catholic bishops apologise for 'exploited' Trump meeting",
-  "Air Canada blamed maintenance issues to deny compensation. Records show it wanted planes for other routes",
+  "Horse-drawn carriages are still a tradition in some Canadian cities",
   "US Marine indicted for murder and robbery of woman in Japan",
-  "Canada's Eric Bauza, modern voice of Bugs Bunny, Daffy Duck and others, dead at 46",
+  "Air Canada blamed maintenance issues to deny compensation. Records show it wanted planes for other routes",
   "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
-  "The 2 crises haunting the Bank of Canada",
+  "Police locate vehicle allegedly used by Toronto mother to abduct 3 children",
   "Algeria to send troops to Niger in first foreign deployment since 1973"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36033.54,
-   "chg": 0.69
+   "price": 35976.29,
+   "chg": 0.53
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7684.13,
-   "chg": 0.79
+   "price": 7679.55,
+   "chg": 0.73
   },
   {
    "sym": "NIFTY",

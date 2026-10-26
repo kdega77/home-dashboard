@@ -1,22 +1,14 @@
 {
- "updated": "2026-10-26T05:31:48+00:00",
+ "updated": "2026-10-26T06:41:19+00:00",
  "headlines": [
-  "Who is B.C.'s new premier Lorne Doerkson?",
-  "Elation across Serbia after veteran ruler Vu\u010di\u0107 concedes to student-led protest movement",
-  "Carney's geopolitical ambitions tested in defence industry co-operation with Turkey",
-  "Deeply divided Israel braces for pivotal election",
-  "Danielle Smith scores slim majority on immigration questions, Albertans reject constitutional changes",
+  "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
   "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
-  "Lula re-elected in Brazil as Bolsonaro rejects results",
-  "Musk says SpaceX restricted Ukraine's Starlink connection as service restored",
-  "Serbia's longtime strongman Vu\u010di\u0107 concedes election defeat to student-led opposition",
+  "Deeply divided Israel braces for pivotal election",
+  "Australian murderer loses bid to eat Vegemite in prison",
   "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-  "Is this Quebec-developed fruit the 'apple of the future'?",
-  "Israel to close West Bank crossings on election day as crackdown escalates",
-  "Funeral mourners recall friendship, dedication of sergeant killed in CFB Wainwright fire",
-  "Gabon says access to social media restored after eight-month ban",
-  "Ukraine says its military did not violate Starlink terms, disputing Elon Musk claim",
-  "El Salvador president says bodies found in Haiti are not those of hostages"
+  "Russia to host first Olympic federation world event since Ukraine invasion",
+  "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
+  "Musk says SpaceX restricted Ukraine's Starlink connection as service restored"
  ],
  "indices": [
   {
@@ -34,8 +26,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22591.5,
-   "chg": -0.04
+   "price": 22595.4,
+   "chg": -0.02
   }
  ]
 }

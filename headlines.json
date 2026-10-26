@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-26T07:49:16+00:00",
+ "updated": "2026-10-26T08:42:40+00:00",
  "headlines": [
-  "Who is B.C.'s new premier Lorne Doerkson?",
+  "Air Canada blamed maintenance issues to deny compensation. Records show it wanted planes for other routes",
   "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
-  "Carney's geopolitical ambitions tested in defence industry co-operation with Turkey",
+  "U.S. officials accuse Canada of midterm meddling \u2014 but Trump has endorsed foreign candidates",
   "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
-  "Danielle Smith scores slim majority on immigration questions, Albertans reject constitutional changes",
+  "The Bank of Canada's inflation dilemma",
   "Deeply divided Israel braces for pivotal election",
-  "Lula re-elected in Brazil as Bolsonaro rejects results",
+  "A new cancer drug costs as much as a home down payment each month. Doctors say that's greed, not health care",
   "Australian murderer loses bid to eat Vegemite in prison",
-  "He broke the world record for speed skateboarding in Quebec | The Moment",
-  "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
-  "North Vancouver graduates-to-be have a night to remember as party boat gets stuck in the mud",
-  "Russia to host first Olympic federation world event since Ukraine invasion",
-  "Serbia's longtime strongman Vu\u010di\u0107 concedes election defeat to student-led opposition",
+  "First Nations want tangible results as 'historic' first ministers' meeting opens",
   "Eric Bauza, voice of Bugs Bunny and Daffy Duck, dies aged 46",
-  "Halifax\u2019s 'Pied Piper' J. Chalmers Doane becomes first Canadian in Ukulele Hall of Fame",
-  "Rapper Nicki Minaj joins Trump onstage at Michigan rally"
+  "Who is B.C.'s new premier Lorne Doerkson?",
+  "Rapper Nicki Minaj joins Trump onstage at Michigan rally",
+  "Lula re-elected in Brazil as Bolsonaro rejects results",
+  "Suspect in deadly Paris suburb shooting sent for psychiatric observation",
+  "Carney's geopolitical ambitions tested in defence industry co-operation with Turkey",
+  "Russia to host first Olympic federation world event since Ukraine invasion"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22634.75,
-   "chg": 0.15
+   "price": 22706.7,
+   "chg": 0.47
   }
  ]
 }

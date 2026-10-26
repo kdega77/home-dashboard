@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-26T14:43:02+00:00",
+ "updated": "2026-10-26T16:01:19+00:00",
  "headlines": [
-  "The 2 crises haunting the Bank of Canada",
+  "Alberta referendum tallies reveal rural-urban divide on 'the 9'",
   "Lula wins fourth term in dramatic Brazil election comeback",
+  "The 2 crises haunting the Bank of Canada",
+  "How 'Lula's Army' WhatsApp chat helped turn Brazil election around",
   "Air Canada blamed maintenance issues to deny compensation. Records show it wanted planes for other routes",
   "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
   "U.S. officials accuse Canada of midterm meddling \u2014 but Trump has endorsed foreign candidates",
   "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing",
-  "Alberta referendum tallies reveal rural-urban divide on \u2018the 9\u2019",
-  "Chris Brown given suspended eight-month prison sentence over nightclub attack",
   "Gamers, developers praise BioWare's envelope-pushing games following 'heartbreaking' closure",
   "US Marine indicted for murder and robbery of woman in Japan",
-  "Canada's Eric Bauza, modern voice of Bugs Bunny, Daffy Duck and others, dead at 46",
+  "Toronto\u2019s mayoral campaign is ending in a tight race. Here's how it got so close",
   "Algeria to send troops to Niger in first foreign deployment since 1973",
-  "A new cancer drug costs as much as a home down payment each month. Doctors say that's greed, not health care",
+  "Montreal police officer faces ethics probe for allegedly urinating on homeless people",
   "Venezuelan opposition leader Mar\u00eda Machado returns after months in exile",
-  "Manitoban denied out-of-province care for rare condition says he's 'tortured every single day'",
+  "Canada's Eric Bauza, modern voice of Bugs Bunny, Daffy Duck and others, dead at 46",
   "Nurse killed in attack while responding to Ebola alert in DR Congo"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36010.91,
-   "chg": 0.62
+   "price": 35943.55,
+   "chg": 0.43
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7679.85,
-   "chg": 0.74
+   "price": 7676.31,
+   "chg": 0.69
   },
   {
    "sym": "NIFTY",

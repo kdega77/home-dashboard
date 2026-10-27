@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-27T04:07:35+00:00",
+ "updated": "2026-10-27T05:07:16+00:00",
  "headlines": [
   "Toronto re-elects Olivia Chow as mayor, beating out challenger Brad Bradford",
   "Lula wins fourth term in dramatic Brazil election comeback",
-  "Keanin Loomis wins Hamilton mayoral race, CBC News projects",
-  "Ex-FBI chief James Comey faces federal charges for third time",
   "Canada-wide freeze on Crime Stoppers programs, partnerships surges to 35 agencies",
-  "Jay-Z to perform at Super Bowl half-time show",
+  "Ex-FBI chief James Comey faces federal charges for third time",
   "First Nations-first ministers' meeting brings funding announcements and mixed reviews",
   "Jordan carries out deadly strike in Syria in retaliation for church attack",
-  "The U.S. put surveillance drones in the Great Lakes, and this border town mayor isn't happy",
-  "Trump administration illegally fired James Comey's daughter, judge rules",
+  "Excitement 'beyond Hope' as B.C.'s next premier promises to bring rural, northern perspective to top job",
+  "Meghan to co-host Junior MasterChef Australia",
+  "New mayor, 8 new councillors for Hamilton, with results all in",
+  "Jay-Z to perform at Super Bowl half-time show",
   "The National | U.S.-Canada trade talks intensify",
   "Opposition leader Mar\u00eda Machado returns from exile to a Venezuela reshaped by Trump",
-  "This 3-year-old scored 10 goals. Then police showed up at his soccer game",
+  "The U.S. put surveillance drones in the Great Lakes, and this border town mayor isn't happy",
   "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
-  "Canada-U.S. trade talks intensifying but wide gap remains, sources say",
-  "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing"
+  "This 3-year-old scored 10 goals. Then police showed up at his soccer game",
+  "Trump administration illegally fired James Comey's daughter, judge rules"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22737.25,
-   "chg": -0.07
+   "price": 22758.05,
+   "chg": 0.02
   }
  ]
 }

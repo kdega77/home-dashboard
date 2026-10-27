@@ -1,28 +1,28 @@
 {
- "updated": "2026-10-27T03:10:10+00:00",
+ "updated": "2026-10-27T04:07:35+00:00",
  "headlines": [
-  "Toronto re-elects Olivia Chow as mayor",
+  "Toronto re-elects Olivia Chow as mayor, beating out challenger Brad Bradford",
   "Lula wins fourth term in dramatic Brazil election comeback",
-  "Lori Lococo topples incumbent Niagara Falls mayor, while Horwath trails in 3rd in Hamilton",
+  "Keanin Loomis wins Hamilton mayoral race, CBC News projects",
   "Ex-FBI chief James Comey faces federal charges for third time",
-  "First Nations-first ministers' meeting brings funding announcements and mixed reviews",
-  "Jay-Z to perform at Super Bowl half-time show",
   "Canada-wide freeze on Crime Stoppers programs, partnerships surges to 35 agencies",
-  "Jordan says 'terrorists' killed in Syria in retaliatory strike over church attack",
-  "Jay-Z to headline 2027 Super Bowl halftime show",
+  "Jay-Z to perform at Super Bowl half-time show",
+  "First Nations-first ministers' meeting brings funding announcements and mixed reviews",
+  "Jordan carries out deadly strike in Syria in retaliation for church attack",
+  "The U.S. put surveillance drones in the Great Lakes, and this border town mayor isn't happy",
   "Trump administration illegally fired James Comey's daughter, judge rules",
-  "Canada-U.S. trade talks intensifying but wide gap remains, sources say",
+  "The National | U.S.-Canada trade talks intensify",
   "Opposition leader Mar\u00eda Machado returns from exile to a Venezuela reshaped by Trump",
   "This 3-year-old scored 10 goals. Then police showed up at his soccer game",
   "Celebrations in Serbia after veteran ruler Vu\u010di\u0107 loses election to student-led protest movement",
-  "The U.S. put surveillance drones in the Great Lakes, and this border town mayor isn't happy",
+  "Canada-U.S. trade talks intensifying but wide gap remains, sources say",
   "Anthropic warns of 'catastrophic risk' to humankind ahead of blockbuster share listing"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35944.2,
+   "price": 35944.16,
    "chg": 0.44
   },
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22753.2,
-   "chg": 0.68
+   "price": 22737.25,
+   "chg": -0.07
   }
  ]
 }

@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-28T12:46:30+00:00",
+ "updated": "2026-10-28T13:55:19+00:00",
  "headlines": [
-  "Record amounts of Canadian cannabis seized as smuggling to Europe soars",
+  "Bank of Canada raises key interest rate to 2.5% in its first hike since 2023",
   "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-  "At least 30 dead in crash between 2 trains in central Spain, authorities say",
+  "Record amounts of Canadian cannabis seized as smuggling to Europe soars",
   "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-  "Election denial has gone mainstream in the U.S. What does that mean for the midterms?",
+  "At least 64 dead in crash between 2 trains in central Spain, authorities say",
   "Tanzania celebrates first natural gas discovery in more than 10 years",
-  "Parti Qu\u00e9b\u00e9cois promises to abolish time change, starting next year",
-  "Kenyan family protest extradition hearing delay of ex-British soldier accused of murdering kin",
-  "Why historic wins for women in Ontario's municipal elections are just 'half the battle'",
-  "Ceasefire extended across Ukraine's Kherson region, officials say",
+  "Election denial has gone mainstream in the U.S. What does that mean for the midterms?",
+  "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
   "Queen of Canada documentary director wants you to know her followers are still out there",
+  "Ceasefire extended across Ukraine's Kherson region, officials say",
+  "Parti Qu\u00e9b\u00e9cois promises to abolish time change, starting next year",
   "King acknowledges 'suffering of the past' as Caribbean tour begins",
-  "Indigenous scholars allege racism, poor treatment at University of Ottawa",
+  "Why historic wins for women in Ontario's municipal elections are just 'half the battle'",
   "Dutch zookeeper dies after being mauled by leopard",
-  "Netanyahu, Eisenkot stake rival claims to lead Israel after deadlocked vote",
+  "Indigenous scholars allege racism, poor treatment at University of Ottawa",
   "Norway and Finland leaders hold rare call with Putin"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36171.49,
-   "chg": 0.63
+   "price": 36176.54,
+   "chg": 0.01
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7722.6,
-   "chg": 0.6
+   "price": 7728.11,
+   "chg": 0.07
   },
   {
    "sym": "NIFTY",

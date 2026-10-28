@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T18:42:41+00:00",
+ "updated": "2026-10-28T19:43:32+00:00",
  "headlines": [
   "Government called its lawyers after U.S. steel CEO's 'confessions' over why he bought Stelco, Joly says",
   "Netanyahu's bloc leading Israel election but short of majority, partial results show",
@@ -7,29 +7,29 @@
   "How could Israel break election deadlock? Here are four scenarios",
   "Canada not in a 'position right now' to agree to U.S. trade deal, Carney says",
   "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-  "Bank of Canada governor says rate hike to 2.5% was needed in face of persistent inflation",
-  "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
-  "Cruise billed as floating home suspends global voyage over fuel costs, stranding passengers",
-  "Tanzania celebrates first natural gas discovery in more than 10 years",
-  "Bryan Adams takes aim at Lake Ontario name change in new song",
-  "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
   "Alberta pursuing own dental, drug plans despite referendum defeat on federal opt-outs",
+  "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
+  "Arab parties offer Israel's political leaders a path to victory. Why does no one want to take it?",
+  "Tanzania celebrates first natural gas discovery in more than 10 years",
+  "Cruise billed as floating home suspends global voyage over fuel costs, stranding passengers",
+  "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
+  "Most cougar deaths in Alberta study were caused by people",
   "Ceasefire extended across Ukraine's Kherson region, officials say",
-  "Montreal grandparent scammer who fled to Central America pleads guilty in U.S. court",
+  "'Crypto King' Aiden Pleterski addresses jury at his fraud trial for first time, says he's innocent",
   "King acknowledges 'suffering of the past' as Caribbean tour begins"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36314.17,
-   "chg": 0.39
+   "price": 36226.89,
+   "chg": 0.15
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7756.37,
-   "chg": 0.44
+   "price": 7736.73,
+   "chg": 0.18
   },
   {
    "sym": "NIFTY",

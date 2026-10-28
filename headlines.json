@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-28T14:50:51+00:00",
+ "updated": "2026-10-28T15:47:45+00:00",
  "headlines": [
   "Bank of Canada raises key interest rate to 2.5% in its first hike since 2023",
   "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
@@ -9,27 +9,27 @@
   "Tanzania celebrates first natural gas discovery in more than 10 years",
   "Cruise billed as floating home suspends global voyage over fuel costs, stranding passengers",
   "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
-  "Record amounts of Canadian cannabis seized as smuggling to Europe soars",
+  "Safe but excluded: Bureaucratic hurdles keep refugee kids from Gaza out of Alberta schools",
   "Ceasefire extended across Ukraine's Kherson region, officials say",
-  "Meet the 'hell chicken,' a feisty little dinosaur who feasted on fruit",
+  "Record amounts of Canadian cannabis seized as smuggling to Europe soars",
   "King acknowledges 'suffering of the past' as Caribbean tour begins",
-  "Polls open across Manitoba for the 'wonderful opportunity' to vote in municipal elections",
+  "Meet the 'hell chicken,' a feisty little dinosaur who feasted on fruit",
   "Dutch zookeeper dies after being mauled by leopard",
-  "Election denial has gone mainstream in the U.S. What does that mean for the midterms?",
+  "Polls open across Manitoba for the 'wonderful opportunity' to vote in municipal elections",
   "Norway and Finland leaders hold rare call with Putin"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36110.54,
-   "chg": -0.17
+   "price": 36185.97,
+   "chg": 0.04
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7727.57,
-   "chg": 0.06
+   "price": 7737.65,
+   "chg": 0.19
   },
   {
    "sym": "NIFTY",

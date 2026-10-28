@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-28T13:55:19+00:00",
+ "updated": "2026-10-28T14:50:51+00:00",
  "headlines": [
   "Bank of Canada raises key interest rate to 2.5% in its first hike since 2023",
   "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
-  "Record amounts of Canadian cannabis seized as smuggling to Europe soars",
+  "Why the Hispanic vote could sway the outcome of the U.S. midterm elections",
   "Serbian shot dead after attacking officer outside Israeli embassy, minister says",
   "At least 64 dead in crash between 2 trains in central Spain, authorities say",
   "Tanzania celebrates first natural gas discovery in more than 10 years",
-  "Election denial has gone mainstream in the U.S. What does that mean for the midterms?",
+  "Cruise billed as floating home suspends global voyage over fuel costs, stranding passengers",
   "Anger in Kenya over extradition hearing delay for ex-British soldier accused of murdering woman",
-  "Queen of Canada documentary director wants you to know her followers are still out there",
+  "Record amounts of Canadian cannabis seized as smuggling to Europe soars",
   "Ceasefire extended across Ukraine's Kherson region, officials say",
-  "Parti Qu\u00e9b\u00e9cois promises to abolish time change, starting next year",
+  "Meet the 'hell chicken,' a feisty little dinosaur who feasted on fruit",
   "King acknowledges 'suffering of the past' as Caribbean tour begins",
-  "Why historic wins for women in Ontario's municipal elections are just 'half the battle'",
+  "Polls open across Manitoba for the 'wonderful opportunity' to vote in municipal elections",
   "Dutch zookeeper dies after being mauled by leopard",
-  "Indigenous scholars allege racism, poor treatment at University of Ottawa",
+  "Election denial has gone mainstream in the U.S. What does that mean for the midterms?",
   "Norway and Finland leaders hold rare call with Putin"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36176.54,
-   "chg": 0.01
+   "price": 36110.54,
+   "chg": -0.17
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7728.11,
-   "chg": 0.07
+   "price": 7727.57,
+   "chg": 0.06
   },
   {
    "sym": "NIFTY",

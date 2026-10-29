@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-29T12:47:24+00:00",
+ "updated": "2026-10-29T13:57:01+00:00",
  "headlines": [
-  "Trump's increasing support for Russia carries existential danger for Canada",
+  "Why none of the EU's existing partnerships are the right fit for Canada",
   "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
   "More Canadian provinces are ending time changes. What does it mean for your health?",
   "Fl\u00e1vio Bolsonaro denies fleeing Brazil after landing in Miami",
-  "EU dropping associate membership title for its closer alliance with Canada",
-  "Netanyahu's bloc leading Israel election but short of majority, partial results show",
   "He tried to get into Montreal's kosher market. It led to a battle over alleged meat monopoly",
-  "Carney to push for closer ties at Canada-EU summit in Montreal",
-  "U.S. midterms could be the country's most expensive elections yet. To what end?",
-  "Details of thousands of US immigration agents leaked in major hack",
+  "Netanyahu's bloc leading Israel election but short of majority, partial results show",
+  "Trump's increasing support for Russia carries existential danger for Canada",
+  "Russian drone attack on Ukrainian train station kills at least 13, officials say",
+  "How genetic genealogy helped police find witnesses \u2014 but not the suspect \u2014 in the Byron Carr murder case",
+  "Philippine police obtain warrant to search Thomas Markle's devices",
   "Canadian astronaut Joshua Kutryk's 1st spacewalk underway",
-  "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
-  "N.S. premier doubles down on complaint to professor over AI data centre comments",
-  "Alaska governor orders probe into Democratic campaign's alleged links to same-name candidate",
-  "Higher mortgage costs set to depress already \u2018bleak\u2019 housing market",
-  "Death of US actress Hayden Panettiere ruled accidental, ending local police probe"
+  "Rock collapse kills two in Turkey's Cappadocia, local media reports",
+  "U.S. midterms could be the country's most expensive elections yet. To what end?",
+  "Carney to push for closer ties at Canada-EU summit in Montreal",
+  "BMO, CIBC, RBC, TD Bank block personal AI agents, citing safety and security",
+  "Record number of purges as Xi emphasises 'party discipline' at China political gathering"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36265.09,
-   "chg": 0.26
+   "price": 36199.01,
+   "chg": -0.18
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7743.98,
-   "chg": 0.28
+   "price": 7702.55,
+   "chg": -0.53
   },
   {
    "sym": "NIFTY",

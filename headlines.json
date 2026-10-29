@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-29T04:43:11+00:00",
+ "updated": "2026-10-29T05:41:13+00:00",
  "headlines": [
   "EU dropping associate membership title for its closer alliance with Canada",
   "High-speed train crash kills at least 68 people in Spain",
@@ -13,9 +13,9 @@
   "How could Israel break election deadlock? Here are four scenarios",
   "'Crypto King' Aiden Pleterski addresses jury at his fraud trial for first time, says he's innocent",
   "Girl seriously injured in wolf attack at German wildlife park",
-  "The National | High-speed train crash kills dozens in Spain",
-  "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
   "Personal data of 40,000 U.S. Homeland Security employees leaked in security breach",
+  "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+  "U.S. steel CEO's 'confessions' for buying Stelco prompted government to call its lawyers: industry minister",
   "Death of US actress Hayden Panettiere ruled accidental, ending local police probe"
  ],
  "indices": [
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22792.4,
-   "chg": 0.41
+   "price": 22819.1,
+   "chg": 0.53
   }
  ]
 }

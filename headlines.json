@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-29T16:49:38+00:00",
+ "updated": "2026-10-29T17:44:15+00:00",
  "headlines": [
   "Canadian Dental Care Plan working but costing more than expected, AG says",
-  "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
+  "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
   "EU chief continues to push making Canada an associate member despite objections",
   "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-  "\u2018Crypto King\u2019 Aiden Pleterski found guilty of fraud at his jury trial in Toronto",
+  "'Crypto King' Aiden Pleterski found guilty of fraud at his jury trial in Toronto",
   "Fl\u00e1vio Bolsonaro calls himself 'leader of Brazil' after election loss",
-  "Edmonton and Calgary rejected her referendum. Does Danielle Smith have a city problem?",
+  "Canada to invest up to $1.6B in Toronto-based AI company Cohere",
   "Philippine police obtain warrant to search Thomas Markle's devices",
   "Canada's new national security strategy will shield economy, modernize military",
   "Rock collapse kills two in Turkey's Cappadocia, local media reports",
-  "Hamilton bar dresses up as The Simpsons' Moe's Tavern for Halloween",
+  "At 71, this B.C. man has donated blood 500 times. He hopes others will consider rolling up their sleeves",
   "EU chief lays out vision for new Canada partnership at Montreal summit",
-  "Joly says she'll meet with Stelco owner if company gives 'concrete' plan to bring workers back",
+  "Edmonton and Calgary rejected her referendum. Does Danielle Smith have a city problem?",
   "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-  "What the jury didn't hear at 'Crypto King' Aiden Pleterski\u2019s fraud trial",
+  "Joly says she'll meet with Stelco owner if company gives 'concrete' plan to bring workers back",
   "Record number of purges as Xi emphasises 'party discipline' at China political gathering"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36159.27,
-   "chg": -0.29
+   "price": 36154.63,
+   "chg": -0.3
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7712.45,
-   "chg": -0.41
+   "price": 7703.23,
+   "chg": -0.53
   },
   {
    "sym": "NIFTY",

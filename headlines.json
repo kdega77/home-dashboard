@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-29T13:57:01+00:00",
+ "updated": "2026-10-29T14:54:25+00:00",
  "headlines": [
   "Why none of the EU's existing partnerships are the right fit for Canada",
   "Audio reveals exchanges between control centre and drivers before deadly Spain train crash",
-  "More Canadian provinces are ending time changes. What does it mean for your health?",
+  "Joly says she will meet with Stelco owner if company gives 'concrete' plan to bring workers back",
   "Fl\u00e1vio Bolsonaro denies fleeing Brazil after landing in Miami",
-  "He tried to get into Montreal's kosher market. It led to a battle over alleged meat monopoly",
+  "Financial intelligence agency slow to provide police with info to curb money laundering: AG",
   "Netanyahu's bloc leading Israel election but short of majority, partial results show",
-  "Trump's increasing support for Russia carries existential danger for Canada",
-  "Russian drone attack on Ukrainian train station kills at least 13, officials say",
-  "How genetic genealogy helped police find witnesses \u2014 but not the suspect \u2014 in the Byron Carr murder case",
+  "Rising water is forcing this French town off Newfoundland to move. Not everyone is ready to leave",
+  "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+  "More Canadian provinces are ending time changes. What does it mean for your health?",
   "Philippine police obtain warrant to search Thomas Markle's devices",
-  "Canadian astronaut Joshua Kutryk's 1st spacewalk underway",
+  "Trump's increasing support for Russia carries existential danger for Canada",
   "Rock collapse kills two in Turkey's Cappadocia, local media reports",
-  "U.S. midterms could be the country's most expensive elections yet. To what end?",
+  "Canadian astronaut Joshua Kutryk's 1st spacewalk underway",
   "Carney to push for closer ties at Canada-EU summit in Montreal",
-  "BMO, CIBC, RBC, TD Bank block personal AI agents, citing safety and security",
+  "He tried to get into Montreal's kosher market. It led to a battle over alleged meat monopoly",
   "Record number of purges as Xi emphasises 'party discipline' at China political gathering"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36199.01,
-   "chg": -0.18
+   "price": 36277.77,
+   "chg": 0.03
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7702.55,
-   "chg": -0.53
+   "price": 7706.97,
+   "chg": -0.48
   },
   {
    "sym": "NIFTY",

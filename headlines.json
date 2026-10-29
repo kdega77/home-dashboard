@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-29T06:47:44+00:00",
+ "updated": "2026-10-29T07:57:11+00:00",
  "headlines": [
   "EU dropping associate membership title for its closer alliance with Canada",
   "High-speed train crash kills at least 68 people in Spain",
   "Milwaukee Brewers defeat Tampa Bay Rays to become 1st-time World Series champions",
   "Bloodied, dazed and angry - how passengers' rail journey turned to disaster in Spain",
-  "'It feels fantastic,' Scott Gillingham says after winning another term as Winnipeg mayor",
+  "Incumbent councillors sent packing across Winnipeg as city votes for change",
   "Fl\u00e1vio Bolsonaro denies fleeing Brazil after landing in Miami",
   "Higher mortgage costs set to depress already \u2018bleak\u2019 housing market",
   "Netanyahu's bloc leading Israel election but short of majority, partial results show",
   "'Still in shock': Female angler catches monster sturgeon in B.C. | The Moment",
-  "How could Israel break election deadlock? Here are four scenarios",
+  "Elon Musk is a 'real genius', Putin says after satellite talks with SpaceX boss",
   "Three face murder charges in death of 12-year-old boy found in rural Alberta",
-  "Girl seriously injured in wolf attack at German wildlife park",
+  "Building boom puts 300,000 people in the path of potential Himalayan disasters",
   "'Crypto King' Aiden Pleterski addresses jury at his fraud trial for first time, says he's innocent",
-  "Luxury cruise passengers stranded in Cambodia due to soaring fuel costs",
+  "Details of thousands of US immigration agents leaked in major hack",
   "Personal data of 40,000 U.S. Homeland Security employees leaked in security breach",
-  "Death of US actress Hayden Panettiere ruled accidental, ending local police probe"
+  "Girl seriously injured in wolf attack at German wildlife park"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22861.3,
-   "chg": 0.72
+   "price": 22851.5,
+   "chg": 0.45
   }
  ]
 }

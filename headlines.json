@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-30T16:43:34+00:00",
+ "updated": "2026-10-30T17:38:59+00:00",
  "headlines": [
   "Carney says new alliance with EU will help both sides 'withstand shocks together'",
-  "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
+  "Crypto giant Binance attempting to recover $6.3bn stolen in hack linked to North Korea",
   "This American importer is suing Trump to end some tariffs on Canada",
-  "Ceasefire allows evacuation from devastated Russian-occupied Oleshky",
+  "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
   "'You can't just get out': How 2 boys were recruited into the drug trade at the age of 12",
-  "Prominent Russian newspaper shuts down under pressure from authorities",
+  "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
   "5 unforgettable Patrick Stewart performances as Jean-Luc Picard",
-  "Spain transport minister says he won't resign over high-speed rail disaster",
+  "Prominent Russian newspaper shuts down under pressure from authorities",
   "Christa Pike says she's in 'constant pain' since surviving execution attempt",
-  "Pope Leo XIV becomes first pontiff to vote in a US election",
+  "Spain transport minister says he won't resign over high-speed rail disaster",
   "Yes, Halloween candy is expensive this year \u2014 but some sweets are scarier than others",
+  "Pope Leo XIV becomes first pontiff to vote in a US election",
+  "Churchill River energy agreement with Quebec not open for renegotiation, says N.L.",
   "US tech stocks see sharp falls over AI cost fears",
   "Montreal police officer allegedly deleted domestic violence video evidence, investigation underway",
-  "Democratic senator blames Egypt press crackdown on US military aid decision",
-  "Canada faces fresh scrutiny, calls to do more to prevent Canadian corporate abuses abroad",
-  "Mushroom murderer fails to overturn convictions in Australian court challenge"
+  "Canada stops using 'avalanche dogs' for rescues in Rocky Mountains, stirring outrage"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35574.58,
-   "chg": -1.86
+   "price": 35477.44,
+   "chg": -2.13
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7599.65,
-   "chg": -1.56
+   "price": 7574.65,
+   "chg": -1.89
   },
   {
    "sym": "NIFTY",

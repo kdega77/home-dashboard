@@ -1,21 +1,21 @@
 {
- "updated": "2026-10-30T02:45:09+00:00",
+ "updated": "2026-10-30T03:43:55+00:00",
  "headlines": [
-  "Star Trek actor Patrick Stewart dead at 86",
-  "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
   "Carney says Canada is working to become an 'associate member' as he hosts EU leaders in Montreal",
+  "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+  "Star Trek actor Patrick Stewart dead at 86",
   "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
   "Tumbler Ridge shooting survivor Maya Gebala being released from hospital, father says",
   "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
   "B.C. NDP caucus taps Jennifer Whiteside to be new interim leader",
   "Russian drone attack on Ukrainian train station kills at least 14, officials say",
-  "70% of eligible voters turned out for Alberta referendum question on separation",
+  "Australian court says mushroom poison murderer should never be released from prison",
   "Fl\u00e1vio Bolsonaro calls himself 'leader of Brazil' after election loss",
-  "You can see You Can See Everything everywhere",
+  "The National | Fans mourn Star Trek, X-Men star Patrick Stewart",
   "Philippine police obtain warrant to search Thomas Markle's devices",
-  "Ottawa's sluggish bureaucracy leaves critical gaps in Canadian military ammo supply: AG",
+  "70% of eligible voters turned out for Alberta referendum question on separation",
   "EU chief lays out vision for new Canada partnership at Montreal summit",
-  "What's the deal with question period? Poilievre, MacKinnon trade Seinfeld-related barbs",
+  "OpenAI asks B.C. court to quash privacy commissioner investigation of Tumbler Ridge shooting",
   "Rock collapse kills two in Turkey's Cappadocia, local media reports"
  ],
  "indices": [
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22936.75,
-   "chg": 0.82
+   "price": 22964.5,
+   "chg": 1.17
   }
  ]
 }

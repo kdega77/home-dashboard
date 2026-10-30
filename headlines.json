@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-30T14:53:10+00:00",
+ "updated": "2026-10-30T15:46:20+00:00",
  "headlines": [
-  "This American importer is suing Trump to end some tariffs on Canada",
+  "Carney says new alliance with EU will help both sides 'withstand shocks together'",
   "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
   "Christa Pike says she's in 'constant pain' since surviving execution attempt",
   "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
-  "'You can't just get out': How 2 boys were recruited into the drug trade at the age of 12",
+  "This American importer is suing Trump to end some tariffs on Canada",
   "Prominent Russian newspaper shuts down under pressure from authorities",
-  "Carney points to EU's strong belief in democracy as political winds shift for 2 largest members",
+  "5 unforgettable Patrick Stewart performances as Jean-Luc Picard",
   "Spain transport minister says he won't resign over high-speed rail disaster",
-  "Dead humpback whale that was struck by ferry towed to First Nation for ceremony",
-  "Mushroom murderer fails to overturn convictions in Australian court challenge",
+  "'You can't just get out': How 2 boys were recruited into the drug trade at the age of 12",
+  "Pope Leo XIV becomes first pontiff to vote in a US election",
   "Yes, Halloween candy is expensive this year \u2014 but some sweets are scarier than others",
-  "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
-  "Quebec launches investigation after Montreal police officer allegedly deleted domestic violence video from evidence",
-  "Alaska Senate candidate denies knowing about alleged plot to put two Dan Sullivans on ballot",
-  "How drones and DNA testing are being used to hunt down invasive wild pigs in Manitoba",
-  "Helicopter carrying six people crashes in northern Indian state"
+  "US tech stocks see sharp falls over AI cost fears",
+  "Montreal police officer allegedly deleted domestic violence video evidence, investigation underway",
+  "Democratic senator blames Egypt press crackdown on US military aid decision",
+  "Dead humpback whale that was struck by ferry towed to First Nation for ceremony",
+  "Mushroom murderer fails to overturn convictions in Australian court challenge"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35641.15,
-   "chg": -1.68
+   "price": 35508.6,
+   "chg": -2.04
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7618.97,
-   "chg": -1.31
+   "price": 7595.99,
+   "chg": -1.61
   },
   {
    "sym": "NIFTY",

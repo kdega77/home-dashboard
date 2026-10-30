@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-30T08:55:40+00:00",
+ "updated": "2026-10-30T09:47:50+00:00",
  "headlines": [
   "'You can't just get out': How 2 boys were recruited into the drug trade at the age of 12",
-  "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
-  "Staring down a $40M tariff bill, this American importer is suing Trump to end some tariffs on Canada",
   "Mushroom murderer fails to overturn convictions in Australian court challenge",
-  "Accused sex predator Richard Neil disputes DNA link to Ontario crime scenes",
+  "Staring down a $40M tariff bill, this American importer is suing Trump to end some tariffs on Canada",
   "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
-  "Why the war in Iran might cost Trump and the Republicans at the ballot box",
+  "Accused sex predator Richard Neil disputes DNA link to Ontario crime scenes",
   "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
-  "Apple TV's Nocturne is Nordic noir by the numbers",
+  "Why the war in Iran might cost Trump and the Republicans at the ballot box",
   "How Kenyans got caught in $130m US ghost student scam",
-  "Carney says Canada is working to become an 'associate member' as he hosts EU leaders in Montreal",
+  "Apple TV's Nocturne is Nordic noir by the numbers",
   "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+  "Carney says Canada is working to become an 'associate member' as he hosts EU leaders in Montreal",
+  "'I made the wrong decision,' Hyrox athlete who soiled herself in race tells BBC",
   "Star Trek actor Patrick Stewart dead at 86",
-  "Hyrox athlete who soiled herself in race tells BBC she put others at risk but backlash was traumatic",
+  "Student-backed election winners demand sweeping resignations in Serbia",
   "'No sugar-coating it': NDP ex-ministers admit frustration at snap election blunder",
-  "Student-backed election winners demand sweeping resignations in Serbia"
+  "Google value plunges by $500bn as AI search hits ad sales"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23058.35,
-   "chg": 1.58
+   "price": 23010.0,
+   "chg": 1.37
   }
  ]
 }

@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-30T04:43:39+00:00",
+ "updated": "2026-10-30T05:41:24+00:00",
  "headlines": [
   "Carney says Canada is working to become an 'associate member' as he hosts EU leaders in Montreal",
-  "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+  "Crypto giant Binance hit by 'largest hack in history'",
   "Star Trek actor Patrick Stewart dead at 86",
-  "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
-  "Tumbler Ridge shooting survivor Maya Gebala being released from hospital, father says",
-  "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
+  "Mushroom murderer fails to overturn convictions in Australian court challenge",
   "'No sugar-coating it': NDP ex-ministers admit frustration at snap election blunder",
-  "Russian drone attack on Ukrainian train station kills at least 14, officials say",
+  "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+  "Tumbler Ridge shooting survivor Maya Gebala being released from hospital, father says",
+  "Three dead after two helicopters collide midair near Oregon airport",
   "Australian court says mushroom poison murderer should never be released from prison",
-  "Fl\u00e1vio Bolsonaro calls himself 'leader of Brazil' after election loss",
-  "The National | Fans mourn Star Trek, X-Men star Patrick Stewart",
-  "Philippine police obtain warrant to search Thomas Markle's devices",
+  "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
   "70% of eligible voters turned out for Alberta referendum question on separation",
-  "EU chief lays out vision for new Canada partnership at Montreal summit",
+  "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
   "OpenAI asks B.C. court to quash privacy commissioner investigation of Tumbler Ridge shooting",
-  "Rock collapse kills two in Turkey's Cappadocia, local media reports"
+  "Google value plunges by $500bn as AI fears rattle Wall Street",
+  "B.C. NDP caucus taps Jennifer Whiteside to be new interim leader",
+  "Russian drone attack on Ukrainian train station kills at least 14, officials say"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22933.1,
-   "chg": -0.02
+   "price": 23001.6,
+   "chg": 0.28
   }
  ]
 }

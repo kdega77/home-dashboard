@@ -1,5 +1,5 @@
 {
- "updated": "2026-10-30T03:43:55+00:00",
+ "updated": "2026-10-30T04:43:39+00:00",
  "headlines": [
   "Carney says Canada is working to become an 'associate member' as he hosts EU leaders in Montreal",
   "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
@@ -7,7 +7,7 @@
   "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
   "Tumbler Ridge shooting survivor Maya Gebala being released from hospital, father says",
   "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
-  "B.C. NDP caucus taps Jennifer Whiteside to be new interim leader",
+  "'No sugar-coating it': NDP ex-ministers admit frustration at snap election blunder",
   "Russian drone attack on Ukrainian train station kills at least 14, officials say",
   "Australian court says mushroom poison murderer should never be released from prison",
   "Fl\u00e1vio Bolsonaro calls himself 'leader of Brazil' after election loss",
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 22964.5,
-   "chg": 1.17
+   "price": 22933.1,
+   "chg": -0.02
   }
  ]
 }

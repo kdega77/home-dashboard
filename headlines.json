@@ -1,22 +1,22 @@
 {
- "updated": "2026-10-30T05:41:24+00:00",
+ "updated": "2026-10-30T06:48:38+00:00",
  "headlines": [
   "Carney says Canada is working to become an 'associate member' as he hosts EU leaders in Montreal",
-  "Crypto giant Binance hit by 'largest hack in history'",
+  "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
   "Star Trek actor Patrick Stewart dead at 86",
-  "Mushroom murderer fails to overturn convictions in Australian court challenge",
+  "Crypto giant Binance hit by $6.3bn hack suspected to be largest in history",
   "'No sugar-coating it': NDP ex-ministers admit frustration at snap election blunder",
-  "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election",
+  "Mushroom murderer fails to overturn convictions in Australian court challenge",
   "Tumbler Ridge shooting survivor Maya Gebala being released from hospital, father says",
-  "Three dead after two helicopters collide midair near Oregon airport",
-  "Australian court says mushroom poison murderer should never be released from prison",
-  "Audio reveals exchanges between Spain train operators and drivers moments before deadly crash",
-  "70% of eligible voters turned out for Alberta referendum question on separation",
   "'The city is alive': A brief peace in Kherson, but residents fear what comes next",
-  "OpenAI asks B.C. court to quash privacy commissioner investigation of Tumbler Ridge shooting",
+  "Australian court says mushroom poison murderer should never be released from prison",
   "Google value plunges by $500bn as AI fears rattle Wall Street",
-  "B.C. NDP caucus taps Jennifer Whiteside to be new interim leader",
-  "Russian drone attack on Ukrainian train station kills at least 14, officials say"
+  "Simpsons fans turn local bar into Moe's Tavern | The Moment",
+  "Hyrox athlete who soiled herself in race tells BBC she put others at risk but says backlash was traumatic",
+  "70% of eligible voters turned out for Alberta referendum question on separation",
+  "Record number of purges as Xi emphasises 'party discipline' at China political gathering",
+  "OpenAI asks B.C. court to quash privacy commissioner investigation of Tumbler Ridge shooting",
+  "Israeli opposition accuses Netanyahu of trying to 'delegitimise' election"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23001.6,
-   "chg": 0.28
+   "price": 23086.45,
+   "chg": 0.65
   }
  ]
 }

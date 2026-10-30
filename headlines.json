@@ -1,35 +1,35 @@
 {
- "updated": "2026-10-30T12:47:16+00:00",
+ "updated": "2026-10-30T13:56:10+00:00",
  "headlines": [
   "'You can't just get out': How 2 boys were recruited into the drug trade at the age of 12",
-  "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
+  "US inmate Christa Pike says she woke up 'confused and in pain' after failed execution",
   "Carney points to EU's strong belief in democracy as political winds shift for 2 largest members",
-  "Mushroom murderer fails to overturn convictions in Australian court challenge",
+  "Residents leave devastated Russian-occupied Oleshky as evacuation corridor opens",
   "Staring down a $40M tariff bill, this American importer is suing Trump to end some tariffs on Canada",
+  "Spain transport minister says he won't resign over high-speed rail disaster",
+  "How drones and DNA testing are being used to hunt down invasive wild pigs in Manitoba",
+  "Mushroom murderer fails to overturn convictions in Australian court challenge",
+  "Yes, Halloween candy is expensive this year \u2014 but some sweets are scarier than others",
   "Syrians struggle with soaring prices as crisis challenges post-Assad recovery",
-  "Binance says $6.3B US hacked in what could be largest cryptocurrency theft ever",
-  "How Kenyans got caught in $130m US ghost student scam",
-  "Accused sex predator Richard Neil disputes DNA link to Ontario crime scenes",
+  "Potato price-fixing lawsuit alleging N.B. giants are part of 'good ol' boys network' goes ahead",
   "Helicopter carrying six people crashes in northern Indian state",
   "Why the war in Iran might cost Trump and the Republicans at the ballot box",
-  "Human rights lawyer couple sentenced to 10 years' prison in Pakistan",
-  "Wind turbines have scary impacts on bats. Here's what can be done",
-  "Google value plunges by $500bn as its own AI search hits ad sales",
-  "Russia is back in the hockey world championships after sports court ruling",
-  "Record number of purges as Xi emphasises 'party discipline' at China political gathering"
+  "How Kenyans got caught in $130m US ghost student scam",
+  "Investigation into Station 39 reveals alleged misconduct in domestic violence case, police say",
+  "China denies allegations of spy operation targeting Nvidia CEO"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36249.03,
-   "chg": -0.04
+   "price": 35727.23,
+   "chg": -1.44
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7720.39,
-   "chg": -0.3
+   "price": 7627.38,
+   "chg": -1.2
   },
   {
    "sym": "NIFTY",

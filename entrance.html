@@ -122,8 +122,8 @@ body.night main{opacity:.55}
   <div id="news" class="card"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
   <div class="counts">
     <div class="count card"><div class="count-ico">&#9733;</div><div class="count-mid"><div class="count-label">Dhruv turns 6</div><div class="count-sub" id="cdDhruvSub"></div></div><div class="count-value" id="cdDhruv">—</div></div>
-    <div class="count card"><div class="count-ico">&#9733;</div><div class="count-mid"><div class="count-label">Spring milestone</div><div class="count-sub" id="cdJapanSub"></div></div><div class="count-value" id="cdJapan">—</div></div>
-    <div class="count card"><div class="count-ico">&#9733;</div><div class="count-mid"><div class="count-label">Winter milestone</div><div class="count-sub" id="cdPuntaSub"></div></div><div class="count-value" id="cdPunta">—</div></div>
+    <div class="count card"><div class="count-ico">&#9992;</div><div class="count-mid"><div class="count-label">Japan trip</div><div class="count-sub" id="cdJapanSub"></div></div><div class="count-value" id="cdJapan">—</div></div>
+    <div class="count card"><div class="count-ico">&#9992;</div><div class="count-mid"><div class="count-label">Punta Cana trip</div><div class="count-sub" id="cdPuntaSub"></div></div><div class="count-value" id="cdPunta">—</div></div>
   </div>
   <div class="foot">
     <div><span class="dot"></span><span id="status">Weather loading</span></div>
@@ -189,8 +189,8 @@ var CD_DHRUV=new Date(2027,0,23,0,0,0);
 var CD_JAPAN=new Date(2027,3,8,0,0,0);
 var CD_PUNTA=new Date(2027,0,22,0,0,0);
 $('cdDhruvSub').textContent=dateSub(CD_DHRUV);
-$('cdJapanSub').textContent=dateSub(CD_JAPAN);
-$('cdPuntaSub').textContent=dateSub(CD_PUNTA);
+$('cdJapanSub').textContent=dateSub(CD_JAPAN)+' \u00B7 Toronto \u2192 Tokyo';
+$('cdPuntaSub').textContent=dateSub(CD_PUNTA)+' \u00B7 Toronto \u2192 Punta Cana';
 function showCountdowns(){
   $('cdDhruv').textContent=cdText(daysUntil(CD_DHRUV));
   $('cdJapan').textContent=cdText(daysUntil(CD_JAPAN));

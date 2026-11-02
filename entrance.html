@@ -62,11 +62,11 @@ body.night main{opacity:.55}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
 .stUp{color:#00e65c}.stDn{color:#ff3b30}
-.forecast{display:flex;gap:12px;margin-top:1vh;flex:0 1 auto;max-height:120px;min-height:0}
-.day{flex:1;padding:8px 6px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
+.forecast{display:flex;gap:12px;margin-top:1vh;flex:0 1 auto;max-height:140px;min-height:0}
+.day{flex:1;padding:8px 6px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:visible}
 .day-name{font-size:12px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
-.day-icon{font-size:26px;margin:2px 0;line-height:1.2}
-.day-temp{font-size:17px;font-weight:600;line-height:1.2}
+.day-icon{font-size:20px;margin:2px 0;line-height:1.2}
+.day-temp{font-size:24px;font-weight:700;color:#ffffff;line-height:1.2;white-space:nowrap;margin:2px 0}
 .day-cond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .day-rain{font-size:12px;color:#ffffff;margin-top:2px;line-height:1.2}
 #news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
@@ -303,7 +303,9 @@ function loadWeather(){
         var name=(i===0)?'Today':DAYS_S[parseLocal(daily.time[i]).getDay()];
         var di=codeInfo(daily.weather_code[i]);
         var dr=(daily.precipitation_probability_max&&daily.precipitation_probability_max[i]!=null)?Math.round(daily.precipitation_probability_max[i]):null;
-        html+='<div class="day card"><div class="day-name">'+name+'</div><div class="day-icon">'+di[1]+'</div><div class="day-temp">'+Math.round(daily.temperature_2m_max[i])+'\u00B0 / '+Math.round(daily.temperature_2m_min[i])+'\u00B0</div><div class="day-cond">'+di[0]+'</div><div class="day-rain">'+(dr==null?'':'\uD83D\uDCA7 '+dr+'%')+'</div></div>';
+        var hi=(daily.temperature_2m_max&&daily.temperature_2m_max[i]!=null)?Math.round(daily.temperature_2m_max[i]):null;
+        var lo=(daily.temperature_2m_min&&daily.temperature_2m_min[i]!=null)?Math.round(daily.temperature_2m_min[i]):null;
+        html+='<div class="day card"><div class="day-name">'+name+'</div><div class="day-temp">'+(hi==null?'—':hi+'\u00B0 / '+(lo==null?'—':lo+'\u00B0'))+'</div><div class="day-icon">'+di[1]+'</div><div class="day-cond">'+di[0]+'</div><div class="day-rain">'+(dr==null?'':'\uD83D\uDCA7 '+dr+'%')+'</div></div>';
       }
       $('forecast').innerHTML=html;
       try{

@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-02T14:15:36+00:00",
+ "updated": "2026-11-02T15:25:35+00:00",
  "headlines": [
-  "5 reasons why Democrats might not take control of Congress in U.S. midterms",
-  "Shop freezers in seven European countries hit by suspected cyber-attack",
   "TD tried to make grieving mom pay $38K in student debt after daughter died of cancer",
+  "Shop freezers in seven European countries hit by cyber-attack",
+  "Canada's next budget to be unveiled this week amid U.S. trade war, economic uncertainty",
   "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
-  "'We often try suicide:' The hidden cost of problem gambling in Canada",
-  "Iran killed her teenage daughter - now she is facing up to the regime",
-  "Hudson Williams talks tattoos, sex scenes, Connor Storrie with neurodivergent interviewers in The Assembly S2",
+  "5 reasons why Democrats might not take control of Congress in U.S. midterms",
   "Nine killed as small jet crashes on Florida street",
-  "Economic frustration set to boil over in midterm elections",
+  "'We often try suicide:' The hidden cost of problem gambling in Canada",
   "Five arrested after South African farmer shot and tortured",
-  "Her neighbour built a garden suite. She calls it a 'watchtower' over her Toronto backyard",
+  "Hudson Williams talks tattoos, sex scenes, Connor Storrie with neurodivergent interviewers in The Assembly S2",
+  "Wizz Air flight from Luton in emergency landing after bomb threat",
+  "King Charles gets drenched in Antigua rainstorm as Camilla gets only umbrella",
   "Ryanair says it may freeze workers' pay and raise airfares",
-  "Canadian among the dead in Spanish high-speed rail crash",
+  "Her neighbour built a garden suite. She calls it a 'watchtower' over her Toronto backyard",
   "Binance users withdraw $3.6bn after largest-ever crypto hack",
-  "CBC's 90 years of being there with you",
+  "Economic frustration set to boil over in midterm elections",
   "Uganda begins withdrawing troops from Somalia after 20 years"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35620.03,
-   "chg": -1.74
+   "price": 35970.36,
+   "chg": 0.98
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7580.07,
-   "chg": -1.82
+   "price": 7657.6,
+   "chg": 1.02
   },
   {
    "sym": "NIFTY",

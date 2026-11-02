@@ -79,8 +79,15 @@ body.night main{opacity:.55}
 .count-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap}
 .count-value{font-size:19px;font-weight:700;white-space:nowrap;color:#ffffff}
 .count-sub{display:block;font-size:10px;color:#93a9c0;margin-top:2px;white-space:nowrap;overflow:hidden}
+.rot-dots{display:flex;gap:6px;align-items:center;margin-left:8px}
+.rot-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.25)}
+.rot-dot.on{background:#4da3ff}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
 .music{width:240px;flex:0 0 240px;padding:10px;display:flex;flex-direction:column;gap:8px;text-align:center}
+.music:not(.playing){width:60px;flex:0 0 60px;padding:10px 6px;justify-content:center}
+.music:not(.playing) .music-mid{display:none}
+.music:not(.playing) .music-btn:not(.play){display:none}
+.music:not(.playing) .music-controls{justify-content:center}
 #musicPlayer{position:absolute;left:-1000px;top:0;width:200px;height:113px;background:#000;overflow:hidden}
 #musicPlayer iframe{width:200px;height:113px;border:0}
 .music-controls{display:flex;gap:8px;justify-content:center}
@@ -111,7 +118,7 @@ body.night main{opacity:.55}
         </div>
       </div>
     </div>
-    <div class="music card">
+    <div class="music card" id="musicCard">
       <div id="musicPlayer"></div>
       <div class="music-mid"><div class="music-label">&#9834; Dhruv&rsquo;s music</div><div id="musicSong">Tap Play for Dhruv&rsquo;s playlist</div><div id="musicSub">YouTube playlist &middot; tap Play, Next, Prev</div></div>
       <div class="music-controls">
@@ -139,9 +146,7 @@ body.night main{opacity:.55}
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
   <div id="news" class="card"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
   <div class="counts">
-    <div class="count card"><div class="count-ico">&#9733;</div><div class="count-mid"><div class="count-label">Dhruv turns 6</div><div class="count-sub" id="cdDhruvSub"></div></div><div class="count-value" id="cdDhruv">—</div></div>
-    <div class="count card"><div class="count-ico">&#9992;</div><div class="count-mid"><div class="count-label">Japan trip</div><div class="count-sub" id="cdJapanSub"></div></div><div class="count-value" id="cdJapan">—</div></div>
-    <div class="count card"><div class="count-ico">&#9992;</div><div class="count-mid"><div class="count-label">Punta Cana trip</div><div class="count-sub" id="cdPuntaSub"></div></div><div class="count-value" id="cdPunta">—</div></div>
+    <div class="count card"><div class="count-ico" id="cdRotIco">&#9733;</div><div class="count-mid"><div class="count-label" id="cdRotLabel">Dhruv turns 6</div><div class="count-sub" id="cdRotSub"></div></div><div class="count-value" id="cdRotValue">—</div><div class="rot-dots"><span class="rot-dot on" id="rotDot0"></span><span class="rot-dot" id="rotDot1"></span><span class="rot-dot" id="rotDot2"></span></div></div>
   </div>
   <div class="foot">
     <div><span class="dot"></span><span id="status">Weather loading</span></div>
@@ -206,14 +211,21 @@ function dateSub(t){return DAYS_S[t.getDay()]+', '+MONTHS_S[t.getMonth()]+' '+t.
 var CD_DHRUV=new Date(2027,0,23,0,0,0);
 var CD_JAPAN=new Date(2027,3,8,0,0,0);
 var CD_PUNTA=new Date(2027,0,22,0,0,0);
-$('cdDhruvSub').textContent=dateSub(CD_DHRUV);
-$('cdJapanSub').textContent=dateSub(CD_JAPAN)+' \u00B7 Toronto \u2192 Tokyo';
-$('cdPuntaSub').textContent=dateSub(CD_PUNTA)+' \u00B7 Toronto \u2192 Punta Cana';
+var COUNTS=[
+  {label:'Dhruv turns 6',sub:dateSub(CD_DHRUV),ico:'\u2605',date:CD_DHRUV},
+  {label:'Japan trip',sub:dateSub(CD_JAPAN)+' \u00B7 Toronto \u2192 Tokyo',ico:'\u2708',date:CD_JAPAN},
+  {label:'Punta Cana trip',sub:dateSub(CD_PUNTA)+' \u00B7 Toronto \u2192 Punta Cana',ico:'\u2708',date:CD_PUNTA}
+];
+var rotIdx=0;
 function showCountdowns(){
-  $('cdDhruv').textContent=cdText(daysUntil(CD_DHRUV));
-  $('cdJapan').textContent=cdText(daysUntil(CD_JAPAN));
-  $('cdPunta').textContent=cdText(daysUntil(CD_PUNTA));
+  var c=COUNTS[rotIdx];
+  $('cdRotIco').textContent=c.ico;
+  $('cdRotLabel').textContent=c.label;
+  $('cdRotSub').textContent=c.sub;
+  $('cdRotValue').textContent=cdText(daysUntil(c.date));
+  for(var i=0;i<3;i++){$('rotDot'+i).className='rot-dot'+(i===rotIdx?' on':'');}
 }
+setInterval(function(){rotIdx=(rotIdx+1)%COUNTS.length;showCountdowns();},10000);
 function fmt12big(d,small){
   var h=d.getHours(),ap=h>=12?'PM':'AM';h=h%12;if(h===0)h=12;
   return h+':'+pad(d.getMinutes())+' <span style="font-size:'+small+'px;vertical-align:baseline">'+ap+'</span>';
@@ -498,8 +510,8 @@ function onYouTubeIframeAPIReady(){
     events:{
       onReady:function(){musicUpdate();},
       onStateChange:function(ev){
-        if(ev.data===1){musicPlaying=true;$('musicPlayBtn').innerHTML='&#10074;&#10074;';}
-        else if(ev.data===2){musicPlaying=false;$('musicPlayBtn').innerHTML='&#9654;';}
+        if(ev.data===1){musicPlaying=true;$('musicCard').className='music card playing';$('musicPlayBtn').innerHTML='&#10074;&#10074;';}
+        else if(ev.data===2||ev.data===0){musicPlaying=false;$('musicCard').className='music card';$('musicPlayBtn').innerHTML='&#9654;';}
         musicUpdate();
       },
       onError:function(ev){$('musicSub').textContent='Music error ('+ev.data+'). Try Next.';}

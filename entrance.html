@@ -62,13 +62,13 @@ body.night main{opacity:.55}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
 .stUp{color:#00e65c}.stDn{color:#ff3b30}
-.forecast{display:flex;gap:8px;margin-top:1vh;flex:0 1 auto;max-height:96px;min-height:0}
-.day{flex:1;padding:4px 4px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
-.day-name{font-size:10px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
-.day-icon{font-size:19px;margin:1px 0;line-height:1.2}
-.day-temp{font-size:13px;font-weight:600;line-height:1.2}
-.day-cond{font-size:10px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.day-rain{font-size:10px;color:#ffffff;margin-top:1px;line-height:1.2}
+.forecast{display:flex;gap:12px;margin-top:1vh;flex:0 1 auto;max-height:120px;min-height:0}
+.day{flex:1;padding:8px 6px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
+.day-name{font-size:12px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
+.day-icon{font-size:26px;margin:2px 0;line-height:1.2}
+.day-temp{font-size:17px;font-weight:600;line-height:1.2}
+.day-cond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.day-rain{font-size:12px;color:#ffffff;margin-top:2px;line-height:1.2}
 #news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -132,8 +132,6 @@ body.night main{opacity:.55}
   <div class="markets card" id="markets"></div>
   <div class="strip card">
     <div class="seg"><div class="seg-label">Rain chance</div><div class="seg-value" id="rainChance">—</div><div class="seg-sub" id="rainSub">—</div></div>
-    <div class="seg dim"><div class="seg-label">Wind</div><div class="seg-value" id="wind">—</div><div class="seg-sub">km/h</div></div>
-    <div class="seg dim"><div class="seg-label">Humidity</div><div class="seg-value" id="humidity">—</div><div class="seg-sub">relative</div></div>
     <div class="seg"><div class="seg-label">Sunset</div><div class="seg-value" id="sun">—</div><div class="seg-sub" id="sunSub">sunrise</div></div>
   </div>
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
@@ -281,7 +279,7 @@ function jacketAdvice(feels,rainPct,code){
   return parts.join('  \u00B7  ');
 }
 function loadWeather(){
-  var url='https://api.open-meteo.com/v1/forecast?latitude=43.81&longitude=-79.42&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m&hourly=temperature_2m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset&temperature_unit=celsius&wind_speed_unit=kmh&timezone=America%2FToronto&forecast_days=7';
+  var url='https://api.open-meteo.com/v1/forecast?latitude=43.81&longitude=-79.42&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m&hourly=temperature_2m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset&temperature_unit=celsius&wind_speed_unit=kmh&timezone=America%2FToronto&forecast_days=5';
   var xhr=new XMLHttpRequest();
   xhr.open('GET',url,true);
   xhr.onreadystatechange=function(){
@@ -292,12 +290,10 @@ function loadWeather(){
       $('nowTemp').textContent=Math.round(c.temperature_2m)+'\u00B0C';
       $('nowCond').textContent=info[0];
       $('nowIcon').textContent=info[1];
-      $('nowFeels').textContent='Feels like '+Math.round(c.apparent_temperature)+'\u00B0C';
+      $('nowFeels').textContent='Feels like '+Math.round(c.apparent_temperature)+'\u00B0C'+(Math.round(c.wind_speed_10m)>30?' \u00B7 Wind '+Math.round(c.wind_speed_10m)+' km/h':'');
       var rp=(daily.precipitation_probability_max&&daily.precipitation_probability_max[0]!=null)?Math.round(daily.precipitation_probability_max[0]):null;
       $('rainChance').textContent=(rp==null?'\u2014':rp+'%');
       $('rainSub').textContent=(rp==null?'\u2014':(rp>=50?'rain likely':(rp>=30?'possible rain':'mostly dry')));
-      $('wind').textContent=Math.round(c.wind_speed_10m);
-      $('humidity').textContent=Math.round(c.relative_humidity_2m)+'%';
       var sr=parseLocal(daily.sunrise[0]),ss=parseLocal(daily.sunset[0]);
       $('sun').textContent=fmt12(ss);
       $('sunSub').textContent='sunrise '+fmt12(sr);

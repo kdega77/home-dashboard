@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-02T18:51:49+00:00",
+ "updated": "2026-11-02T19:49:54+00:00",
  "headlines": [
-  "U.S. federal investigators to provide update after Florida plane crash that killed 9",
-  "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
   "Can the Carney government's second budget help put Canada on a path to net zero?",
+  "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
+  "20-year-old co-pilot among 9 victims in Florida plane crash, mother says",
   "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
   "Trump administration ramps up midterm battles, asks Supreme Court to intervene in California case",
   "Shop freezers in seven European countries hit by cyber-attack",
   "TD tried to make grieving mom pay $38K in student debt after daughter died of cancer",
   "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-  "Another cyberattack on supermarket fridges sweeps Europe, leaving food spoiled",
+  "Charges laid in homicide of missing 11-year-old Burnaby, B.C., boy",
   "Dutch police offer record \u20ac2m reward in hunt for drug lord",
   "Ministry alleges thousands of OSAP applications came from single IP address",
   "Five arrested after South African farmer shot and tortured",
   "Martha Stewart says she 'really screwed up' after posting homeless Halloween costume",
   "Wizz Air flight from Luton in emergency landing after bomb threat",
-  "The Democrats could still fall short in the U.S. midterms. Here's why",
+  "Another cyberattack on supermarket fridges sweeps Europe, leaving food spoiled",
   "Ryanair says it may freeze workers' pay and raise airfares"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35974.1,
-   "chg": 0.99
+   "price": 35833.7,
+   "chg": 0.6
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7595.02,
-   "chg": 0.2
+   "price": 7555.99,
+   "chg": -0.32
   },
   {
    "sym": "NIFTY",

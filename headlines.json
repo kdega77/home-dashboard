@@ -1,13 +1,13 @@
 {
- "updated": "2026-11-02T15:25:35+00:00",
+ "updated": "2026-11-02T16:31:45+00:00",
  "headlines": [
-  "TD tried to make grieving mom pay $38K in student debt after daughter died of cancer",
+  "The Democrats could still fall short in the U.S. midterms. Here's why",
   "Shop freezers in seven European countries hit by cyber-attack",
-  "Canada's next budget to be unveiled this week amid U.S. trade war, economic uncertainty",
+  "TD tried to make grieving mom pay $38K in student debt after daughter died of cancer",
   "Fake nuclear warnings issued after Ukrainian and Russian air alert apps hacked",
-  "5 reasons why Democrats might not take control of Congress in U.S. midterms",
-  "Nine killed as small jet crashes on Florida street",
   "'We often try suicide:' The hidden cost of problem gambling in Canada",
+  "Nine killed as small jet crashes on Florida street",
+  "It\u2019s my job to prepare people for a loved one\u2019s death. Yet I felt totally unready when my own dad was dying",
   "Five arrested after South African farmer shot and tortured",
   "Hudson Williams talks tattoos, sex scenes, Connor Storrie with neurodivergent interviewers in The Assembly S2",
   "Wizz Air flight from Luton in emergency landing after bomb threat",
@@ -15,21 +15,21 @@
   "Ryanair says it may freeze workers' pay and raise airfares",
   "Her neighbour built a garden suite. She calls it a 'watchtower' over her Toronto backyard",
   "Binance users withdraw $3.6bn after largest-ever crypto hack",
-  "Economic frustration set to boil over in midterm elections",
+  "Canada's next budget to be unveiled this week amid U.S. trade war, economic uncertainty",
   "Uganda begins withdrawing troops from Somalia after 20 years"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35970.36,
-   "chg": 0.98
+   "price": 35976.73,
+   "chg": 1.0
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7657.6,
-   "chg": 1.02
+   "price": 7628.27,
+   "chg": 0.64
   },
   {
    "sym": "NIFTY",

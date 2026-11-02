@@ -28,7 +28,7 @@ body.night main{opacity:.55}
 .card{background:rgba(15,24,38,.62);border:1px solid rgba(255,255,255,.09);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.06);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
 .top{display:flex;justify-content:space-between;align-items:flex-start}
 .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#8fa6bd;font-weight:600}
-#clock{font-size:74px;line-height:1;font-weight:700;letter-spacing:-2px;margin-top:2px}
+#clock{font-size:86px;line-height:1;font-weight:700;letter-spacing:-2px;margin-top:2px}
 #date{font-size:15px;color:#9db2c8;margin-top:5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
 .clockrow{display:flex;gap:10px;margin-top:7px;align-items:flex-start}
 .india{padding:6px 12px;display:inline-block}
@@ -62,7 +62,7 @@ body.night main{opacity:.55}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
 .stUp{color:#00e65c}.stDn{color:#ff3b30}
-.forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:64px;min-height:0}
+.forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:78px;min-height:0}
 .day{flex:1;padding:4px 5px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
 .day-name{font-size:10px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
 .day-icon{font-size:19px;margin:1px 0;line-height:1.2}
@@ -79,9 +79,10 @@ body.night main{opacity:.55}
 .count-value{font-size:19px;font-weight:700;white-space:nowrap;color:#ffffff}
 .count-sub{display:block;font-size:10px;color:#93a9c0;margin-top:2px;white-space:nowrap;overflow:hidden}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
-.music{display:flex;align-items:center;gap:10px;margin-top:1vh;padding:6px 10px}
-#musicPlayer{width:120px;height:68px;flex:0 0 120px;background:#000;border-radius:10px;overflow:hidden}
-#musicPlayer iframe{width:120px;height:68px;border:0}
+.music{width:240px;flex:0 0 240px;padding:10px;display:flex;flex-direction:column;gap:8px;text-align:center}
+#musicPlayer{width:220px;height:124px;background:#000;border-radius:10px;overflow:hidden;margin:0 auto}
+#musicPlayer iframe{width:220px;height:124px;border:0}
+.music-controls{display:flex;gap:8px;justify-content:center}
 .music-mid{flex:1;min-width:0}
 .music-label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600}
 #musicSong{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -109,6 +110,15 @@ body.night main{opacity:.55}
         </div>
       </div>
     </div>
+    <div class="music card">
+      <div id="musicPlayer"></div>
+      <div class="music-mid"><div class="music-label">&#9834; Dhruv&rsquo;s music</div><div id="musicSong">Tap Play for Dhruv&rsquo;s playlist</div><div id="musicSub">YouTube playlist &middot; tap Play, Next, Prev</div></div>
+      <div class="music-controls">
+        <button type="button" class="music-btn" onclick="musicPrev()">&#9198;</button>
+        <button type="button" class="music-btn play" id="musicPlayBtn" onclick="musicToggle()">&#9654;</button>
+        <button type="button" class="music-btn" onclick="musicNext()">&#9197;</button>
+      </div>
+    </div>
     <div class="now card">
       <div id="nowIcon">&#9729;</div>
       <div id="nowTemp">--&deg;</div>
@@ -129,13 +139,6 @@ body.night main{opacity:.55}
   <div class="forecast" id="forecast"></div>
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
   <div id="news" class="card"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
-  <div class="music card">
-    <div id="musicPlayer"></div>
-    <div class="music-mid"><div class="music-label">&#9834; Dhruv&rsquo;s music</div><div id="musicSong">Tap Play for Dhruv&rsquo;s playlist</div><div id="musicSub">YouTube playlist &middot; tap Play, Next, Prev</div></div>
-    <button type="button" class="music-btn" onclick="musicPrev()">&#9198;</button>
-    <button type="button" class="music-btn play" id="musicPlayBtn" onclick="musicToggle()">&#9654;</button>
-    <button type="button" class="music-btn" onclick="musicNext()">&#9197;</button>
-  </div>
   <div class="counts">
     <div class="count card"><div class="count-ico">&#9733;</div><div class="count-mid"><div class="count-label">Dhruv turns 6</div><div class="count-sub" id="cdDhruvSub"></div></div><div class="count-value" id="cdDhruv">—</div></div>
     <div class="count card"><div class="count-ico">&#9992;</div><div class="count-mid"><div class="count-label">Japan trip</div><div class="count-sub" id="cdJapanSub"></div></div><div class="count-value" id="cdJapan">—</div></div>
@@ -490,8 +493,8 @@ function musicPrev(){
 }
 function onYouTubeIframeAPIReady(){
   musicPlayer=new YT.Player('musicPlayer',{
-    height:'68',
-    width:'120',
+    height:'124',
+    width:'220',
     playerVars:{listType:'playlist',list:'PLZN9JkXZxKHf1pyH2WZgxbx5z_whH3Yf8',playsinline:1,rel:0},
     events:{
       onReady:function(){musicUpdate();},

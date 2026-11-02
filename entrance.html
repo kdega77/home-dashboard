@@ -62,11 +62,12 @@ body.night main{opacity:.55}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
 .stUp{color:#00e65c}.stDn{color:#ff3b30}
-.forecast{display:flex;gap:10px;margin-top:1vh;flex:0 1 auto;max-height:78px;min-height:0}
-.day{flex:1;padding:4px 5px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
+.forecast{display:flex;gap:8px;margin-top:1vh;flex:0 1 auto;max-height:96px;min-height:0}
+.day{flex:1;padding:4px 4px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
 .day-name{font-size:10px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
 .day-icon{font-size:19px;margin:1px 0;line-height:1.2}
 .day-temp{font-size:13px;font-weight:600;line-height:1.2}
+.day-cond{font-size:10px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .day-rain{font-size:10px;color:#ffffff;margin-top:1px;line-height:1.2}
 #news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
@@ -80,8 +81,8 @@ body.night main{opacity:.55}
 .count-sub{display:block;font-size:10px;color:#93a9c0;margin-top:2px;white-space:nowrap;overflow:hidden}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
 .music{width:240px;flex:0 0 240px;padding:10px;display:flex;flex-direction:column;gap:8px;text-align:center}
-#musicPlayer{width:220px;height:124px;background:#000;border-radius:10px;overflow:hidden;margin:0 auto}
-#musicPlayer iframe{width:220px;height:124px;border:0}
+#musicPlayer{position:absolute;left:-1000px;top:0;width:200px;height:113px;background:#000;overflow:hidden}
+#musicPlayer iframe{width:200px;height:113px;border:0}
 .music-controls{display:flex;gap:8px;justify-content:center}
 .music-mid{flex:1;min-width:0}
 .music-label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600}
@@ -280,7 +281,7 @@ function jacketAdvice(feels,rainPct,code){
   return parts.join('  \u00B7  ');
 }
 function loadWeather(){
-  var url='https://api.open-meteo.com/v1/forecast?latitude=43.81&longitude=-79.42&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m&hourly=temperature_2m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset&temperature_unit=celsius&wind_speed_unit=kmh&timezone=America%2FToronto&forecast_days=4';
+  var url='https://api.open-meteo.com/v1/forecast?latitude=43.81&longitude=-79.42&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m&hourly=temperature_2m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset&temperature_unit=celsius&wind_speed_unit=kmh&timezone=America%2FToronto&forecast_days=7';
   var xhr=new XMLHttpRequest();
   xhr.open('GET',url,true);
   xhr.onreadystatechange=function(){
@@ -306,7 +307,7 @@ function loadWeather(){
         var name=(i===0)?'Today':DAYS_S[parseLocal(daily.time[i]).getDay()];
         var di=codeInfo(daily.weather_code[i]);
         var dr=(daily.precipitation_probability_max&&daily.precipitation_probability_max[i]!=null)?Math.round(daily.precipitation_probability_max[i]):null;
-        html+='<div class="day card"><div class="day-name">'+name+'</div><div class="day-icon">'+di[1]+'</div><div class="day-temp">'+Math.round(daily.temperature_2m_max[i])+'\u00B0 / '+Math.round(daily.temperature_2m_min[i])+'\u00B0</div><div class="day-rain">'+(dr==null?'':'\uD83D\uDCA7 '+dr+'%')+'</div></div>';
+        html+='<div class="day card"><div class="day-name">'+name+'</div><div class="day-icon">'+di[1]+'</div><div class="day-temp">'+Math.round(daily.temperature_2m_max[i])+'\u00B0 / '+Math.round(daily.temperature_2m_min[i])+'\u00B0</div><div class="day-cond">'+di[0]+'</div><div class="day-rain">'+(dr==null?'':'\uD83D\uDCA7 '+dr+'%')+'</div></div>';
       }
       $('forecast').innerHTML=html;
       try{
@@ -493,8 +494,8 @@ function musicPrev(){
 }
 function onYouTubeIframeAPIReady(){
   musicPlayer=new YT.Player('musicPlayer',{
-    height:'124',
-    width:'220',
+    height:'113',
+    width:'200',
     playerVars:{listType:'playlist',list:'PLZN9JkXZxKHf1pyH2WZgxbx5z_whH3Yf8',playsinline:1,rel:0},
     events:{
       onReady:function(){musicUpdate();},

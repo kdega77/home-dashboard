@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-02T19:49:54+00:00",
+ "updated": "2026-11-02T20:41:36+00:00",
  "headlines": [
   "Can the Carney government's second budget help put Canada on a path to net zero?",
-  "Russian bombing kills 24 people at Ukraine aid centre, Kyiv says",
+  "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
   "20-year-old co-pilot among 9 victims in Florida plane crash, mother says",
-  "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine",
+  "Copilot in deadly Florida jet crash identified in reports as 20-year-old",
   "Trump administration ramps up midterm battles, asks Supreme Court to intervene in California case",
   "Shop freezers in seven European countries hit by cyber-attack",
-  "TD tried to make grieving mom pay $38K in student debt after daughter died of cancer",
-  "Fighting returns to Kherson region after longest Ukraine war ceasefire",
   "Charges laid in homicide of missing 11-year-old Burnaby, B.C., boy",
-  "Dutch police offer record \u20ac2m reward in hunt for drug lord",
-  "Ministry alleges thousands of OSAP applications came from single IP address",
-  "Five arrested after South African farmer shot and tortured",
-  "Martha Stewart says she 'really screwed up' after posting homeless Halloween costume",
-  "Wizz Air flight from Luton in emergency landing after bomb threat",
+  "Fighting returns to Kherson region after longest Ukraine war ceasefire",
+  "Thousands of Ontario student assistance applications came from a single IP address, ministry alleges",
+  "Man guilty of stealing cash from farm owned by South African president",
   "Another cyberattack on supermarket fridges sweeps Europe, leaving food spoiled",
-  "Ryanair says it may freeze workers' pay and raise airfares"
+  "Dutch police offer record \u20ac2m reward in hunt for drug lord",
+  "7 Montreal police officers dismissed over racist, discriminatory conduct",
+  "Trump to remove Rwanda and South Africa from US trade deal",
+  "Nathan Fielder lookalike contest coming to Toronto this month",
+  "Fake nuclear warning from hacked app sparks unease but not panic in Ukraine"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35833.7,
-   "chg": 0.6
+   "price": 35830.79,
+   "chg": 0.59
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7555.99,
-   "chg": -0.32
+   "price": 7543.78,
+   "chg": -0.48
   },
   {
    "sym": "NIFTY",

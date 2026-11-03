@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Camera Motion Test</title>
+<style>
+*{box-sizing:border-box}
+body{margin:0;padding:16px;background:#0b1526;color:#fff;font-family:Arial,sans-serif}
+h1{font-size:20px;margin:0 0 8px}
+p{font-size:14px;color:#cfe0f2}
+button{font-size:18px;padding:12px 20px;border-radius:10px;border:1px solid #4da3ff;background:#1c4d8f;color:#fff}
+#status{margin:12px 0;padding:12px;border-radius:10px;background:#16233a;font-size:16px;font-weight:bold}
+#status.motion{background:#1d6b2e}
+video{width:320px;max-width:100%;background:#000;border:1px solid #444}
+#score{font-size:16px;margin-top:8px}
+#log{font-size:13px;color:#9db2c8;white-space:pre-wrap}
+</style>
+</head>
+<body>
+<h1>Camera motion test (preview only)</h1>
+<p>This page does NOT change the dashboard. It only checks whether this tablet's browser can use the front camera and spot movement. Tap Start, then walk in front of the tablet and walk away.</p>
+<button type="button" id="startBtn">Start camera test</button>
+<div id="status">Not started yet.</div>
+<video id="vid" autoplay playsinline muted></video>
+<div id="score">Motion score: -</div>
+<div id="log"></div>
+<canvas id="cv" width="80" height="60" style="display:none"></canvas>
+<script>
+function $(id){return document.getElementById(id);}
+var vid=$('vid'),cv=$('cv'),ctx=cv.getContext('2d');
+var prev=null,running=false,lastMotion=0,frames=0;
+function log(t){$('log').textContent=t+'\n'+$('log').textContent;}
+function setStatus(t,motion){
+  var s=$('status');s.textContent=t;s.className=motion?'motion':'';
+}
+function tick(){
+  if(!running)return;
+  try{
+    ctx.drawImage(vid,0,0,80,60);
+    var data=ctx.getImageData(0,0,80,60).data;
+    var sum=0,changed=0,i,g,pg;
+    if(prev){
+      for(i=0;i<data.length;i+=4){
+        g=(data[i]+data[i+1]+data[i+2])/3;
+        pg=prev[i/4];
+        if(Math.abs(g-pg)>30)changed++;
+        sum+=Math.abs(g-pg);
+      }
+      var score=sum/(80*60);
+      var pct=changed/(80*60)*100;
+      frames++;
+      $('score').textContent='Motion score: '+score.toFixed(1)+'  |  pixels changed: '+pct.toFixed(1)+'%  |  frames: '+frames;
+      if(score>12&&pct>8){
+        lastMotion=new Date().getTime();
+        setStatus('MOTION DETECTED at '+new Date().toLocaleTimeString(),true);
+        log('Motion at '+new Date().toLocaleTimeString()+' score '+score.toFixed(1)+' changed '+pct.toFixed(1)+'%');
+      } else if(new Date().getTime()-lastMotion>5000){
+        setStatus('Camera running, no motion right now.',false);
+      }
+    }
+    var cur=[];
+    for(i=0;i<data.length;i+=4){cur.push((data[i]+data[i+1]+data[i+2])/3);}
+    prev=cur;
+  }catch(e){
+    setStatus('Frame error: '+e.message,false);
+  }
+  setTimeout(tick,200);
+}
+$('startBtn').onclick=function(){
+  var hasMedia=!!(navigator.mediaDevices&&navigator.mediaDevices.getUserMedia);
+  var hasLegacy=!!(navigator.getUserMedia||navigator.webkitGetUserMedia||navigator.mozGetUserMedia);
+  if(!hasMedia&&!hasLegacy){
+    setStatus('FAIL: getUserMedia is NOT supported in this browser. Camera motion will not work here.',false);
+    log('mediaDevices: '+(navigator.mediaDevices?'present':'missing')+' legacy getUserMedia: '+(hasLegacy?'present':'missing'));
+    return;
+  }
+  setStatus('Asking for camera permission...',false);
+  function onStream(stream){
+    try{
+      if('srcObject' in vid){vid.srcObject=stream;}
+      else{vid.src=window.URL.createObjectURL(stream);}
+    }catch(e){vid.src=window.URL.createObjectURL(stream);}
+    running=true;
+    setStatus('Camera running, no motion right now.',false);
+    log('Camera stream started. Video size: '+vid.videoWidth+'x'+vid.videoHeight);
+    tick();
+  }
+  function onErr(e){
+    setStatus('FAIL: camera error: '+(e&&e.name?e.name:'unknown')+' '+(e&&e.message?e.message:''),false);
+  }
+  if(hasMedia){
+    navigator.mediaDevices.getUserMedia({video:{facingMode:'user'},audio:false}).then(onStream,onErr);
+  } else {
+    var gum=navigator.getUserMedia||navigator.webkitGetUserMedia||navigator.mozGetUserMedia;
+    gum.call(navigator,{video:true,audio:false},onStream,onErr);
+  }
+};
+</script>
+</body>
+</html>

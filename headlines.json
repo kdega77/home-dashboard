@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-03T06:59:39+00:00",
+ "updated": "2026-11-03T08:17:20+00:00",
  "headlines": [
   "Canadian dentist detained by ICE in Minnesota released after federal court ruling",
-  "US strikes Iran ahead of midterm elections",
+  "Americans head to the polls for elections that could define Trump's closing chapter",
   "Couple, 2 children and a 20-year-old pilot among 9 dead in Florida crash",
-  "Supreme Court rejects Trump's request to stop California counting disputed votes",
+  "US strikes Iran ahead of midterm elections",
   "Woman, 48, and boy, 12, arrested after air cadet leader assaulted while selling poppies in Hamilton",
-  "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+  "Supreme Court rejects Trump's request to stop California counting disputed votes",
   "Former Alberta junior hockey executive charged with sex offences against players",
-  "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+  "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
   "Incident at University of Toronto Mississauga campus 'contained' to single residential unit, police say",
-  "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
+  "Thousands of European troops to rehearse Ukraine deployment in event of peace",
   "Scientists discover healthy corals can help dying corals recover | The Moment",
-  "Shop freezers in seven European countries hit by cyber-attack",
+  "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
   "Family members charged in homicide of missing 11-year-old Burnaby, B.C., boy",
-  "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-  "Amir Zuccolo will be 1st woman to sit in Charlottetown mayor's chair in more than 50 years",
-  "Legal challenge to Australia's social media ban to start in High Court"
+  "Asian Cup postponed in wake of attacks on Saudi Arabia",
+  "Her neighbour built a garden suite. She calls it a 'watchtower' over her Toronto backyard",
+  "Shop freezers in seven European countries hit by cyber-attack"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23670.8,
-   "chg": 0.98
+   "price": 23728.75,
+   "chg": 1.23
   }
  ]
 }

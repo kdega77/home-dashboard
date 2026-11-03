@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-03T15:47:04+00:00",
+ "updated": "2026-11-03T16:52:10+00:00",
  "headlines": [
   "These midterm races will decide who controls U.S. Congress for the rest of Trump's presidency",
   "US strikes Iranian island ahead of midterm elections",
-  "Man dead, police watchdog investigating after overnight incident at Mississauga, Ont., university dorm",
+  "Deadly fire at CFB Wainwright renews compliance clash between oil operator and Alberta regulator",
   "Tenerife striker De Miguel dies after on-field collision",
-  "Ottawa wants us all to have emergency supplies for 3 days. The good news is, that number hasn't changed",
+  "Man dead, police watchdog investigating after overnight incident at Mississauga, Ont., university dorm",
   "Libya's top religious authority rules against wearing Nike clothes",
-  "Ryan Wedding's $40M US motorbike collection to go up for auction",
+  "Ottawa wants us all to have emergency supplies for 3 days. The good news is, that number hasn't changed",
   "Indian tourist killed after two helicopters collide near Everest base camp",
-  "Florida crash: How did this private jet fall out of the sky?",
+  "Ryan Wedding's $40M US motorbike collection to go up for auction",
   "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries",
-  "Sweden and Norway join Finland in boycotting hockey world championship games against Russia",
+  "'Lest we forget' flag to fly at Queen's Park after advocacy work by New Dundee, Ont., veteran",
+  "Irish Olympian Ciara Mageean was a 'talented and inspirational human being'",
+  "Convicted killer no longer enrolled in McGill law school after admission controversy",
   "US urges Venezuela to release remaining political prisoners",
-  "24 hours in Antigua: Mark Carney's priorities at this year's Commonwealth Summit",
-  "Asian Cup postponed in wake of attacks on Saudi Arabia",
-  "Putin pushes the myth of Russian invincibility, seemingly to set his terms for peace",
-  "Thousands of European troops to rehearse Ukraine deployment in event of peace"
+  "Florida crash: How did this private jet fall out of the sky?",
+  "Asian Cup postponed in wake of attacks on Saudi Arabia"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35674.74,
-   "chg": -0.35
+   "price": 35573.82,
+   "chg": -0.63
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7572.82,
-   "chg": 0.42
+   "price": 7572.09,
+   "chg": 0.41
   },
   {
    "sym": "NIFTY",

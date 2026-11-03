@@ -1,35 +1,35 @@
 {
- "updated": "2026-11-03T13:41:06+00:00",
+ "updated": "2026-11-03T14:54:19+00:00",
  "headlines": [
   "These midterm races will decide who controls U.S. Congress for the rest of Trump's presidency",
   "US strikes Iranian island ahead of midterm elections",
-  "1 person dead, SIU investigating after overnight incident at U of T Mississauga: police",
+  "Man dead, SIU investigating after overnight incident at U of T Mississauga: police",
   "Tenerife striker De Miguel dies after on-field collision",
   "Putin pushes the myth of Russian invincibility, seemingly to set his terms for peace",
   "Indian tourist killed after two helicopters collide near Everest base camp",
   "Ottawa wants us all to have emergency supplies for 3 days. The good news is, that number hasn't changed",
-  "Europe on alert after supermarket freezers hit by cyber-attacks in nine countries",
+  "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries",
   "Florida crash: How did this private jet fall out of the sky?",
   "US urges Venezuela to release remaining political prisoners",
-  "Norway joins Finland in boycotting hockey world championship games against Russia",
+  "Sweden and Norway join Finland in boycotting hockey world championship games against Russia",
   "Asian Cup postponed in wake of attacks on Saudi Arabia",
-  "Dozens still missing from deadly Russian guided-bomb attack in southern Ukraine",
+  "24 hours in Antigua: Mark Carney's priorities at this year's Commonwealth Summit",
   "Thousands of European troops to rehearse Ukraine deployment in event of peace",
-  "Warsaw airport reopens after bomb threat forces plane landing; 2nd flight checked at another airport",
+  "Spanish soccer player dies after on-field collision in 2nd-division match",
   "Russian bombing kills 31 people at Ukraine aid centre, Kyiv says"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35801.09,
-   "chg": 0.51
+   "price": 35525.62,
+   "chg": -0.77
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7541.4,
-   "chg": -0.51
+   "price": 7560.78,
+   "chg": 0.26
   },
   {
    "sym": "NIFTY",

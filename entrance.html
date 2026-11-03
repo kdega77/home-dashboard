@@ -31,7 +31,7 @@ body.night main{opacity:.55}
 .glow-blue{width:480px;height:480px;right:-140px;top:20%;background:rgba(0,90,255,.26)}
 .glow-purple{width:420px;height:420px;left:30%;bottom:-180px;background:rgba(150,0,255,.26)}
 .pill{display:inline-block;padding:4px 12px;border-radius:999px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.14);color:#aef7ff;text-shadow:0 0 10px rgba(0,229,255,.8)}
-.eyebrow{display:inline-block;padding:4px 12px;border-radius:999px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.14);color:#aef7ff;text-shadow:0 0 10px rgba(0,229,255,.8)}
+.eyebrow{display:inline-block;padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.65);background:rgba(5,12,28,.85);color:#ffffff;font-size:14px;text-shadow:0 2px 6px rgba(0,0,0,.9);box-shadow:0 2px 10px rgba(0,0,0,.5)}
 .india-label,.music-label,.seg-label,.count-label{display:inline-block;padding:3px 10px;border-radius:999px;border:1px solid rgba(150,120,255,.45);background:rgba(150,0,255,.14);color:#dcc8ff;text-shadow:0 0 10px rgba(150,120,255,.8)}
 #newsTag{border:1px solid rgba(0,229,255,.55);background:rgba(0,229,255,.16);color:#aef7ff;text-shadow:0 0 10px rgba(0,229,255,.8);border-radius:999px}
 .now{border-color:rgba(0,229,255,.40);box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 26px rgba(0,229,255,.25)}
@@ -74,13 +74,15 @@ body.night main{opacity:.55}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
 .stUp{color:#00e65c}.stDn{color:#ff3b30}
-.forecast{display:flex;gap:12px;margin-top:1vh;flex:0 1 auto;max-height:140px;min-height:0}
-.day{flex:1;padding:8px 6px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:visible}
+.forecast{display:flex;gap:12px;margin-top:1vh;flex:0 0 auto;max-height:none;min-height:0}
+.day{flex:1;padding:8px 6px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
 .day-name{font-size:12px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
 .day-icon{font-size:20px;margin:2px 0;line-height:1.2}
 .day-temp{font-size:24px;font-weight:700;color:#ffffff;line-height:1.2;white-space:nowrap;margin:2px 0}
 .day-cond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .day-rain{font-size:12px;color:#ffffff;margin-top:2px;line-height:1.2}
+.day-iconcond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.day-iconcond .day-icon{font-size:16px;margin:0 4px 0 0}
 #news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -159,7 +161,6 @@ body.night main{opacity:.55}
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
   <div class="forecast" id="forecast"></div>
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
-  <div id="news" class="card"><span id="newsTag">NEWS</span><span id="newsText">Loading headlines&hellip;</span></div>
   <div class="counts">
     <div class="count card"><div class="count-ico" id="cdRotIco">&#9733;</div><div class="count-mid"><div class="count-label" id="cdRotLabel">Dhruv turns 6</div><div class="count-sub" id="cdRotSub"></div></div><div class="count-value" id="cdRotValue">—</div><div class="rot-dots"><span class="rot-dot on" id="rotDot0"></span><span class="rot-dot" id="rotDot1"></span><span class="rot-dot" id="rotDot2"></span></div></div>
   </div>
@@ -332,7 +333,7 @@ function loadWeather(){
         var dr=(daily.precipitation_probability_max&&daily.precipitation_probability_max[i]!=null)?Math.round(daily.precipitation_probability_max[i]):null;
         var hi=(daily.temperature_2m_max&&daily.temperature_2m_max[i]!=null)?Math.round(daily.temperature_2m_max[i]):null;
         var lo=(daily.temperature_2m_min&&daily.temperature_2m_min[i]!=null)?Math.round(daily.temperature_2m_min[i]):null;
-        html+='<div class="day card"><div class="day-name">'+name+'</div><div class="day-temp">'+(hi==null?'—':hi+'\u00B0 / '+(lo==null?'—':lo+'\u00B0'))+'</div><div class="day-icon">'+di[1]+'</div><div class="day-cond">'+di[0]+'</div><div class="day-rain">'+(dr==null?'':'\uD83D\uDCA7 '+dr+'%')+'</div></div>';
+        html+='<div class="day card"><div class="day-name">'+name+'</div><div class="day-temp">'+(hi==null?'—':hi+'\u00B0 / '+(lo==null?'—':lo+'\u00B0'))+'</div><div class="day-iconcond"><span class="day-icon">'+di[1]+'</span>'+di[0]+'</div><div class="day-rain">'+(dr==null?'':'\uD83D\uDCA7 '+dr+'%')+'</div></div>';
       }
       $('forecast').innerHTML=html;
       try{
@@ -412,8 +413,8 @@ function loadNewsViaProxies(){
   function finish(){
     done++;
     if(done<2)return;
-    if(all.length){HEADLINES=all;newsIdx=0;$('newsText').textContent=HEADLINES[0];}
-    else if(!HEADLINES.length)$('newsText').textContent='Headlines unavailable right now';
+    if(all.length){HEADLINES=all;newsIdx=0;if($('newsText'))$('newsText').textContent=HEADLINES[0];}
+    else if(!HEADLINES.length&&$('newsText'))$('newsText').textContent='Headlines unavailable right now';
   }
   fetchVia('https://www.cbc.ca/webfeed/rss/rss-topstories',0,function(t){
     if(t)all=feedTitles(t,all);
@@ -425,11 +426,11 @@ function loadNewsViaProxies(){
   });
 }
 function renderHeadlines(j){
-  if(j.headlines&&j.headlines.length){HEADLINES=j.headlines;newsIdx=0;$('newsText').textContent=HEADLINES[0];return true;}
+  if(j.headlines&&j.headlines.length){HEADLINES=j.headlines;newsIdx=0;if($('newsText'))$('newsText').textContent=HEADLINES[0];return true;}
   return false;
 }
 setInterval(function(){
-  if(HEADLINES.length<2)return;
+  if(HEADLINES.length<2||!$('newsText'))return;
   var el=$('newsText');
   el.style.opacity='0';
   setTimeout(function(){

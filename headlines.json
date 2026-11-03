@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-03T20:43:14+00:00",
+ "updated": "2026-11-03T21:40:36+00:00",
  "headlines": [
-  "There are calls from U.K. to Japan to stock up on emergency supplies for 72 hours. What's Canada saying?",
-  "Spanish transport minister resigns days after deadly train crash",
-  "These midterm races will decide who controls U.S. Congress for the rest of Trump's presidency",
-  "Seven flights across Europe targeted by suspected bomb threats",
   "Home in Amherstburg, Ont., unlivable after family spent $155K on renovations, police looking for contractor",
-  "Binance says fake job interviews used as part of $6.3bn crypto hack",
+  "Spanish transport minister resigns days after deadly train crash",
+  "Who will control the House and Senate for the rest of Trump's time in office? Get live results here",
+  "Seven flights across Europe targeted by suspected bomb threats",
   "Conservatives call for probe of friendship between Carney and Telesat CEO",
-  "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
-  "1 person dead, 1 missing in suspected grizzly bear attack in Bella Coola, B.C.",
-  "Libya's top religious authority rules against wearing Nike clothes",
-  "Former junior hockey executive charged with child luring also facing domestic violence-related offences",
-  "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries",
+  "Binance says fake job interviews used as part of $6.3bn crypto hack",
   "Alberta to lawyer up if NDP challenges electoral boundary report: Smith",
+  "Death toll rises in Ukraine after Russia attacks aid centre, hospice and hospital",
+  "Carney holds news conference at Commonwealth meeting",
+  "Libya's top religious authority rules against wearing Nike clothes",
+  "Parts of small plane that crashed in South Florida found as far as 6 km from where it came down",
+  "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries",
+  "Former junior hockey executive charged with child luring also facing domestic violence-related offences",
   "US strikes Iranian island ahead of midterm elections",
   "Sweden, Norway, Czech Republic join growing boycott of hockey world championship games against Russia",
   "Indian tourist killed after two helicopters collide near Everest base camp"
@@ -22,14 +22,14 @@
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35545.41,
-   "chg": -0.71
+   "price": 35532.28,
+   "chg": -0.75
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7564.69,
-   "chg": 0.31
+   "price": 7568.92,
+   "chg": 0.36
   },
   {
    "sym": "NIFTY",

@@ -25,7 +25,19 @@ body.wake main{opacity:1}
 body.off #wakeHint{display:block}
 main{position:relative;z-index:2;height:100vh;padding:14px 30px;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7);transition:opacity 4s}
 body.night main{opacity:.55}
-.card{background:rgba(15,24,38,.62);border:1px solid rgba(255,255,255,.09);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.35),inset 0 1px 0 rgba(255,255,255,.06);-webkit-backdrop-filter:blur(14px);backdrop-filter:blur(14px)}
+.card{background:rgba(18,28,58,.55);border:1px solid rgba(0,229,255,.28);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 22px rgba(0,150,255,.18),0 0 34px rgba(150,0,255,.10),inset 0 1px 0 rgba(255,255,255,.10);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
+.glow{position:fixed;border-radius:50%;pointer-events:none;z-index:1;-webkit-filter:blur(60px);filter:blur(60px)}
+.glow-cyan{width:420px;height:420px;left:-120px;top:-140px;background:rgba(0,229,255,.28)}
+.glow-blue{width:480px;height:480px;right:-140px;top:20%;background:rgba(0,90,255,.26)}
+.glow-purple{width:420px;height:420px;left:30%;bottom:-180px;background:rgba(150,0,255,.26)}
+.pill{display:inline-block;padding:4px 12px;border-radius:999px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.14);color:#aef7ff;text-shadow:0 0 10px rgba(0,229,255,.8)}
+.eyebrow{display:inline-block;padding:4px 12px;border-radius:999px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.14);color:#aef7ff;text-shadow:0 0 10px rgba(0,229,255,.8)}
+.india-label,.music-label,.seg-label,.count-label{display:inline-block;padding:3px 10px;border-radius:999px;border:1px solid rgba(150,120,255,.45);background:rgba(150,0,255,.14);color:#dcc8ff;text-shadow:0 0 10px rgba(150,120,255,.8)}
+#newsTag{border:1px solid rgba(0,229,255,.55);background:rgba(0,229,255,.16);color:#aef7ff;text-shadow:0 0 10px rgba(0,229,255,.8);border-radius:999px}
+.now{border-color:rgba(0,229,255,.40);box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 26px rgba(0,229,255,.25)}
+#nowTemp{color:#eafcff;text-shadow:0 0 16px rgba(0,229,255,.7)}
+#sparkLine{stroke:#00e5ff}
+#sparkFill{fill:rgba(0,229,255,.20)}
 .top{display:flex;justify-content:space-between;align-items:flex-start}
 .eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#8fa6bd;font-weight:600}
 #clock{font-size:86px;line-height:1;font-weight:700;letter-spacing:-2px;margin-top:2px}
@@ -104,6 +116,9 @@ body.night main{opacity:.55}
 <div id="bgA"></div>
 <div id="bgB"></div>
 <div id="scrim"></div>
+<div class="glow glow-cyan"></div>
+<div class="glow glow-blue"></div>
+<div class="glow glow-purple"></div>
 <main>
   <div class="top">
     <div>
@@ -128,7 +143,7 @@ body.night main{opacity:.55}
       </div>
     </div>
     <div class="now card">
-      <div id="nowIcon">&#9729;</div>
+      <div id="nowIcon"><svg width="64" height="48" viewBox="0 0 64 48" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="moong" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#aef7ff"/><stop offset="1" stop-color="#7b5cff"/></linearGradient></defs><path d="M22 6a14 14 0 1 0 12 20A16 16 0 0 1 22 6Z" fill="url(#moong)"/><g fill="#eafcff" opacity="0.95"><ellipse cx="34" cy="32" rx="16" ry="9"/><ellipse cx="26" cy="27" rx="9" ry="7"/><ellipse cx="44" cy="27" rx="8" ry="6"/><circle cx="50" cy="22" r="2" fill="#00e5ff"/><circle cx="14" cy="14" r="1.6" fill="#aef7ff"/></g></svg></div>
       <div id="nowTemp">--&deg;</div>
       <div id="nowCond">Loading weather&hellip;</div>
       <div id="nowFeels"></div>
@@ -301,7 +316,7 @@ function loadWeather(){
       var d=JSON.parse(xhr.responseText),c=d.current,daily=d.daily,info=codeInfo(c.weather_code);
       $('nowTemp').textContent=Math.round(c.temperature_2m)+'\u00B0C';
       $('nowCond').textContent=info[0];
-      $('nowIcon').textContent=info[1];
+      /* Theme preview: keep the stylised cloud-and-moon graphic, do not overwrite it with a text glyph. */
       $('nowFeels').textContent='Feels like '+Math.round(c.apparent_temperature)+'\u00B0C'+(Math.round(c.wind_speed_10m)>30?' \u00B7 Wind '+Math.round(c.wind_speed_10m)+' km/h':'');
       var rp=(daily.precipitation_probability_max&&daily.precipitation_probability_max[0]!=null)?Math.round(daily.precipitation_probability_max[0]):null;
       $('rainChance').textContent=(rp==null?'\u2014':rp+'%');

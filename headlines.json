@@ -1,17 +1,17 @@
 {
- "updated": "2026-11-03T05:50:55+00:00",
+ "updated": "2026-11-03T06:59:39+00:00",
  "headlines": [
   "Canadian dentist detained by ICE in Minnesota released after federal court ruling",
   "US strikes Iran ahead of midterm elections",
-  "Incident at University of Toronto Mississauga campus 'contained' to single residential unit, police say",
-  "Supreme Court rejects Trump's request to stop California counting disputed votes",
   "Couple, 2 children and a 20-year-old pilot among 9 dead in Florida crash",
-  "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
+  "Supreme Court rejects Trump's request to stop California counting disputed votes",
   "Woman, 48, and boy, 12, arrested after air cadet leader assaulted while selling poppies in Hamilton",
-  "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+  "Russian bombing kills 26 people at Ukraine aid centre, Kyiv says",
   "Former Alberta junior hockey executive charged with sex offences against players",
+  "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+  "Incident at University of Toronto Mississauga campus 'contained' to single residential unit, police say",
   "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
-  "The National | Trump\u2019s final pitch to voters ahead of midterms",
+  "Scientists discover healthy corals can help dying corals recover | The Moment",
   "Shop freezers in seven European countries hit by cyber-attack",
   "Family members charged in homicide of missing 11-year-old Burnaby, B.C., boy",
   "Fighting returns to Kherson region after longest Ukraine war ceasefire",
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23648.45,
-   "chg": 0.89
+   "price": 23670.8,
+   "chg": 0.98
   }
  ]
 }

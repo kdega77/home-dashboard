@@ -86,16 +86,14 @@ body.night main{opacity:.55}
 #news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.counts{display:flex;gap:10px;margin-top:1vh}
-.count{flex:1;padding:6px 12px;display:flex;align-items:center;gap:10px;border-left:3px solid rgba(109,179,255,.55)}
-.count-ico{font-size:17px;color:#6db3ff;background:rgba(77,163,255,.14);border:1px solid rgba(109,179,255,.35);border-radius:50%;width:32px;height:32px;line-height:32px;text-align:center;flex:0 0 32px}
-.count-mid{flex:1;min-width:0}
-.count-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap}
-.count-value{font-size:19px;font-weight:700;white-space:nowrap;color:#ffffff}
+.counts{display:flex;gap:12px;margin-top:1vh}
+.count{flex:1;padding:10px 8px 8px;text-align:center;background:linear-gradient(180deg,rgba(0,229,255,.14),rgba(150,0,255,.14));border:1px solid rgba(255,255,255,.20);border-radius:20px}
+.count-sym{font-size:28px;line-height:1;text-shadow:0 0 14px rgba(0,229,255,.7)}
+.count-sym.purple{text-shadow:0 0 14px rgba(200,120,255,.8)}
+.count-sym.sun{text-shadow:0 0 14px rgba(255,200,80,.8)}
+.count-value{font-size:26px;font-weight:700;white-space:nowrap;color:#ffffff;margin-top:4px}
+.count-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap;margin-top:4px}
 .count-sub{display:block;font-size:10px;color:#93a9c0;margin-top:2px;white-space:nowrap;overflow:hidden}
-.rot-dots{display:flex;gap:6px;align-items:center;margin-left:8px}
-.rot-dot{width:6px;height:6px;border-radius:50%;background:rgba(255,255,255,.25)}
-.rot-dot.on{background:#4da3ff}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
 .music{width:240px;flex:0 0 240px;padding:10px;display:flex;flex-direction:column;gap:8px;text-align:center}
 .music:not(.playing){width:60px;flex:0 0 60px;padding:10px 6px;justify-content:center}
@@ -162,7 +160,9 @@ body.night main{opacity:.55}
   <div class="forecast" id="forecast"></div>
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
   <div class="counts">
-    <div class="count card"><div class="count-ico" id="cdRotIco">&#9733;</div><div class="count-mid"><div class="count-label" id="cdRotLabel">Dhruv turns 6</div><div class="count-sub" id="cdRotSub"></div></div><div class="count-value" id="cdRotValue">—</div><div class="rot-dots"><span class="rot-dot on" id="rotDot0"></span><span class="rot-dot" id="rotDot1"></span><span class="rot-dot" id="rotDot2"></span></div></div>
+    <div class="count"><div class="count-sym purple">&#9733;</div><div class="count-value" id="cdDhruv">—</div><div class="count-label">Dhruv turns 6</div><div class="count-sub" id="cdDhruvSub"></div></div>
+    <div class="count"><div class="count-sym">&#9992;</div><div class="count-value" id="cdJapan">—</div><div class="count-label">Japan trip</div><div class="count-sub" id="cdJapanSub"></div></div>
+    <div class="count"><div class="count-sym sun">&#9728;</div><div class="count-value" id="cdPunta">—</div><div class="count-label">Punta Cana trip</div><div class="count-sub" id="cdPuntaSub"></div></div>
   </div>
   <div class="foot">
     <div><span class="dot"></span><span id="status">Weather loading</span></div>
@@ -227,21 +227,14 @@ function dateSub(t){return DAYS_S[t.getDay()]+', '+MONTHS_S[t.getMonth()]+' '+t.
 var CD_DHRUV=new Date(2027,0,23,0,0,0);
 var CD_JAPAN=new Date(2027,3,8,0,0,0);
 var CD_PUNTA=new Date(2027,0,22,0,0,0);
-var COUNTS=[
-  {label:'Dhruv turns 6',sub:dateSub(CD_DHRUV),ico:'\u2605',date:CD_DHRUV},
-  {label:'Japan trip',sub:dateSub(CD_JAPAN)+' \u00B7 Toronto \u2192 Tokyo',ico:'\u2708',date:CD_JAPAN},
-  {label:'Punta Cana trip',sub:dateSub(CD_PUNTA)+' \u00B7 Toronto \u2192 Punta Cana',ico:'\u2708',date:CD_PUNTA}
-];
-var rotIdx=0;
+$('cdDhruvSub').textContent=dateSub(CD_DHRUV);
+$('cdJapanSub').textContent=dateSub(CD_JAPAN)+' \u00B7 Toronto \u2192 Tokyo';
+$('cdPuntaSub').textContent=dateSub(CD_PUNTA)+' \u00B7 Toronto \u2192 Punta Cana';
 function showCountdowns(){
-  var c=COUNTS[rotIdx];
-  $('cdRotIco').textContent=c.ico;
-  $('cdRotLabel').textContent=c.label;
-  $('cdRotSub').textContent=c.sub;
-  $('cdRotValue').textContent=cdText(daysUntil(c.date));
-  for(var i=0;i<3;i++){$('rotDot'+i).className='rot-dot'+(i===rotIdx?' on':'');}
+  $('cdDhruv').textContent=cdText(daysUntil(CD_DHRUV));
+  $('cdJapan').textContent=cdText(daysUntil(CD_JAPAN));
+  $('cdPunta').textContent=cdText(daysUntil(CD_PUNTA));
 }
-setInterval(function(){rotIdx=(rotIdx+1)%COUNTS.length;showCountdowns();},10000);
 function fmt12big(d,small){
   var h=d.getHours(),ap=h>=12?'PM':'AM';h=h%12;if(h===0)h=12;
   return h+':'+pad(d.getMinutes())+' <span style="font-size:'+small+'px;vertical-align:baseline">'+ap+'</span>';

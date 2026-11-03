@@ -23,7 +23,7 @@ body.wake #scrim{background:linear-gradient(180deg,rgba(2,4,8,.60),rgba(2,4,8,.6
 body.wake main{opacity:1}
 #wakeHint{display:none;position:fixed;left:0;right:0;bottom:22px;text-align:center;z-index:5;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.30);pointer-events:none}
 body.off #wakeHint{display:block}
-main{position:relative;z-index:2;height:100vh;padding:14px 30px;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7);transition:opacity 4s}
+main{position:relative;z-index:2;height:100vh;padding:10px 30px 8px;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7);transition:opacity 4s}
 body.night main{opacity:.55}
 .card{background:rgba(18,28,58,.55);border:1px solid rgba(0,229,255,.28);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 22px rgba(0,150,255,.18),0 0 34px rgba(150,0,255,.10),inset 0 1px 0 rgba(255,255,255,.10);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
 .glow{position:fixed;border-radius:50%;pointer-events:none;z-index:1;-webkit-filter:blur(60px);filter:blur(60px)}
@@ -70,15 +70,15 @@ body.night main{opacity:.55}
 .seg-sub{font-size:10px;color:rgba(235,242,252,.85)}
 .seg.dim{opacity:.45}
 .seg.dim .seg-value{font-size:14px}
-#advice{margin-top:1vh;padding:8px 16px;font-size:18px;font-weight:600;text-align:center}
+#advice{margin-top:1vh;padding:6px 14px;font-size:17px;font-weight:600;text-align:center}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
 .stUp{color:#00e65c}.stDn{color:#ff3b30}
 .forecast{display:flex;gap:12px;margin-top:1vh;flex:0 0 auto;max-height:none;min-height:0}
-.day{flex:1;padding:8px 6px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
+.day{flex:1;padding:6px 6px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
 .day-name{font-size:12px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
 .day-icon{font-size:20px;margin:2px 0;line-height:1.2}
-.day-temp{font-size:24px;font-weight:700;color:#ffffff;line-height:1.2;white-space:nowrap;margin:2px 0}
+.day-temp{font-size:22px;font-weight:700;color:#ffffff;line-height:1.2;white-space:nowrap;margin:2px 0}
 .day-cond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
 .day-rain{font-size:12px;color:#ffffff;margin-top:2px;line-height:1.2}
 .day-iconcond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
@@ -86,14 +86,15 @@ body.night main{opacity:.55}
 #news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.counts{display:flex;gap:12px;margin-top:1vh}
-.count{flex:1;padding:10px 8px 8px;text-align:center;background:linear-gradient(180deg,rgba(0,229,255,.14),rgba(150,0,255,.14));border:1px solid rgba(255,255,255,.20);border-radius:20px}
-.count-sym{font-size:28px;line-height:1;text-shadow:0 0 14px rgba(0,229,255,.7)}
-.count-sym.purple{text-shadow:0 0 14px rgba(200,120,255,.8)}
-.count-sym.sun{text-shadow:0 0 14px rgba(255,200,80,.8)}
-.count-value{font-size:26px;font-weight:700;white-space:nowrap;color:#ffffff;margin-top:4px}
-.count-label{font-size:11px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap;margin-top:4px}
-.count-sub{display:block;font-size:10px;color:#93a9c0;margin-top:2px;white-space:nowrap;overflow:hidden}
+.counts{display:flex;gap:0;margin-top:1vh;padding:6px 4px}
+.count{flex:1;padding:4px 6px;text-align:center}
+.count+.count{border-left:1px solid rgba(255,255,255,.18)}
+.count-sym{font-size:20px;line-height:1;text-shadow:0 0 12px rgba(0,229,255,.7);vertical-align:middle}
+.count-sym.purple{text-shadow:0 0 12px rgba(200,120,255,.8)}
+.count-sym.sun{text-shadow:0 0 12px rgba(255,200,80,.8)}
+.count-value{display:inline;font-size:20px;font-weight:700;white-space:nowrap;color:#ffffff;margin-left:6px;vertical-align:middle}
+.count-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap;margin-top:2px}
+.count-sub{display:block;font-size:9px;color:#93a9c0;margin-top:1px;white-space:nowrap;overflow:hidden}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
 .music{width:240px;flex:0 0 240px;padding:10px;display:flex;flex-direction:column;gap:8px;text-align:center}
 .music:not(.playing){width:60px;flex:0 0 60px;padding:10px 6px;justify-content:center}
@@ -159,10 +160,10 @@ body.night main{opacity:.55}
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
   <div class="forecast" id="forecast"></div>
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
-  <div class="counts">
-    <div class="count"><div class="count-sym purple">&#9733;</div><div class="count-value" id="cdDhruv">—</div><div class="count-label">Dhruv turns 6</div><div class="count-sub" id="cdDhruvSub"></div></div>
-    <div class="count"><div class="count-sym">&#9992;</div><div class="count-value" id="cdJapan">—</div><div class="count-label">Japan trip</div><div class="count-sub" id="cdJapanSub"></div></div>
-    <div class="count"><div class="count-sym sun">&#9728;</div><div class="count-value" id="cdPunta">—</div><div class="count-label">Punta Cana trip</div><div class="count-sub" id="cdPuntaSub"></div></div>
+  <div class="counts card">
+    <div class="count"><div><span class="count-sym purple">&#9733;</span><span class="count-value" id="cdDhruv">—</span></div><div class="count-label">Dhruv turns 6</div><div class="count-sub" id="cdDhruvSub"></div></div>
+    <div class="count"><div><span class="count-sym">&#9992;</span><span class="count-value" id="cdJapan">—</span></div><div class="count-label">Japan trip</div><div class="count-sub" id="cdJapanSub"></div></div>
+    <div class="count"><div><span class="count-sym sun">&#9728;</span><span class="count-value" id="cdPunta">—</span></div><div class="count-label">Punta Cana trip</div><div class="count-sub" id="cdPuntaSub"></div></div>
   </div>
   <div class="foot">
     <div><span class="dot"></span><span id="status">Weather loading</span></div>

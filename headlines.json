@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-03T09:22:55+00:00",
+ "updated": "2026-11-03T10:26:53+00:00",
  "headlines": [
   "These midterm races will decide who controls U.S. Congress for the rest of Trump's presidency",
-  "Americans head to the polls for elections that could define Trump's closing chapter",
-  "Putin pushes the myth of Russian invincibility, seemingly to set his terms for peace",
   "US strikes Iranian island ahead of midterm elections",
-  "Ryan Wedding's $40M US motorbike collection to go up for auction",
-  "Supreme Court rejects Trump's request to stop California counting disputed votes",
-  "Canadian dentist detained by ICE in Minnesota released after federal court ruling",
-  "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
   "Ottawa wants us all to have emergency supplies for 3 days. The good news is, that number hasn't changed",
+  "Supreme Court rejects Trump's request to stop California counting disputed votes",
+  "Putin pushes the myth of Russian invincibility, seemingly to set his terms for peace",
+  "Russian bombing kills 29 people at Ukraine aid centre, Kyiv says",
+  "Canadian dentist detained by ICE in Minnesota released after federal court ruling",
   "Tenerife striker De Miguel dies after on-field collision",
+  "Ryan Wedding's $40M US motorbike collection to go up for auction",
+  "Jet may have broken apart before Florida crash, officials say, as family named among victims",
   "Millions of fish died at an Ontario nuclear plant in 2025. Now its operator faces federal charges",
-  "Plane may have broken apart ahead of deadly Florida jet crash, say investigators",
-  "24 hours in Antigua: Mark Carney's priorities at this year's Commonwealth Summit",
   "Asian Cup postponed in wake of attacks on Saudi Arabia",
-  "Couple, 2 children and a 20-year-old pilot among 9 dead in Florida crash",
-  "Thousands of European troops to rehearse Ukraine deployment in event of peace"
+  "Lockdown at University of Toronto Mississauga partially lifted",
+  "Thousands of European troops to rehearse Ukraine deployment in event of peace",
+  "24 hours in Antigua: Mark Carney's priorities at this year's Commonwealth Summit",
+  "Shop freezers in seven European countries hit by cyber-attack"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23698.2,
-   "chg": 1.1
+   "price": 23810.85,
+   "chg": 1.58
   }
  ]
 }

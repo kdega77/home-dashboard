@@ -1,0 +1,569 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#080d18">
+<title>Entrance Dashboard</title>
+<style>
+:root{color-scheme:dark}
+*{box-sizing:border-box}
+html,body{margin:0;width:100%;height:100%;color:#ffffff;font-family:"Segoe UI",Arial,sans-serif}
+body{overflow:hidden;background:#0b1526}
+#bgA,#bgB{position:fixed;left:0;top:0;right:0;bottom:0;background-size:cover;background-position:center;transition:opacity 2.5s;z-index:0;-webkit-filter:blur(7px) brightness(.58) saturate(.85);filter:blur(7px) brightness(.58) saturate(.85);-webkit-transform:scale(1.08);transform:scale(1.08)}
+#bgA{opacity:1}
+#bgB{opacity:0}
+#scrim{position:fixed;left:0;top:0;right:0;bottom:0;background:linear-gradient(180deg,rgba(5,10,18,.36),rgba(5,10,18,.50));z-index:1;transition:background 4s}
+body.dusk #scrim{background:linear-gradient(180deg,rgba(6,8,22,.46),rgba(4,6,16,.58))}
+body.night #scrim{background:linear-gradient(180deg,rgba(2,4,8,.82),rgba(2,4,8,.88))}
+body.off #scrim{background:#000}
+body.off main{opacity:0}
+body.off #bgA,body.off #bgB{opacity:0 !important}
+body.wake #scrim{background:linear-gradient(180deg,rgba(2,4,8,.60),rgba(2,4,8,.68))}
+body.wake main{opacity:1}
+#wakeHint{display:none;position:fixed;left:0;right:0;bottom:22px;text-align:center;z-index:5;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.30);pointer-events:none}
+body.off #wakeHint{display:block}
+main{position:relative;z-index:2;height:100vh;padding:10px 30px 8px;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7);transition:opacity 4s}
+body.night main{opacity:.55}
+.card{background:rgba(18,28,58,.55);border:1px solid rgba(0,229,255,.28);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 22px rgba(0,150,255,.18),0 0 34px rgba(150,0,255,.10),inset 0 1px 0 rgba(255,255,255,.10);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
+.glow{position:fixed;border-radius:50%;pointer-events:none;z-index:1;-webkit-filter:blur(60px);filter:blur(60px)}
+.glow-cyan{width:420px;height:420px;left:-120px;top:-140px;background:rgba(0,229,255,.28)}
+.glow-blue{width:480px;height:480px;right:-140px;top:20%;background:rgba(0,90,255,.26)}
+.glow-purple{width:420px;height:420px;left:30%;bottom:-180px;background:rgba(150,0,255,.26)}
+.pill{display:inline-block;padding:4px 12px;border-radius:999px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.14);color:#aef7ff;text-shadow:0 0 10px rgba(0,229,255,.8)}
+.eyebrow{display:inline-block;padding:6px 14px;border-radius:999px;border:1px solid rgba(255,255,255,.65);background:rgba(5,12,28,.85);color:#ffffff;font-size:14px;text-shadow:0 2px 6px rgba(0,0,0,.9);box-shadow:0 2px 10px rgba(0,0,0,.5)}
+.india-label,.music-label,.seg-label,.count-label{display:inline-block;padding:3px 10px;border-radius:999px;border:1px solid rgba(150,120,255,.45);background:rgba(150,0,255,.14);color:#dcc8ff;text-shadow:0 0 10px rgba(150,120,255,.8)}
+#newsTag{border:1px solid rgba(0,229,255,.55);background:rgba(0,229,255,.16);color:#aef7ff;text-shadow:0 0 10px rgba(0,229,255,.8);border-radius:999px}
+.now{border-color:rgba(0,229,255,.40);box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 26px rgba(0,229,255,.25)}
+#nowTemp{color:#eafcff;text-shadow:0 0 16px rgba(0,229,255,.7)}
+#sparkLine{stroke:#00e5ff}
+#sparkFill{fill:rgba(0,229,255,.20)}
+.top{display:flex;justify-content:space-between;align-items:flex-start}
+.eyebrow{font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#8fa6bd;font-weight:600}
+#clock{font-size:86px;line-height:1;font-weight:700;letter-spacing:-2px;margin-top:2px}
+#date{font-size:15px;color:#9db2c8;margin-top:5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
+.clockrow{display:flex;gap:10px;margin-top:7px;align-items:flex-start}
+.india{padding:6px 12px;display:inline-block}
+.metrics-mini{display:flex;align-items:flex-start;padding:6px 12px}
+.metrics-mini .seg{padding:0 6px}
+.metrics-mini .seg:first-child{padding-left:0}
+.metrics-mini .seg-value{font-size:16px}
+.markets{display:flex;gap:8px;margin-bottom:.6vh;padding:6px 8px}
+.mkt-card{flex:1;text-align:left;padding:2px 4px;min-width:0}
+.mkt-card+.mkt-card{border-left:1px solid rgba(255,255,255,.18);padding-left:12px}
+/* Markets are never dimmed, even when closed (Nov 4, 2026) */
+.mkt-name{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#93a9c0;font-weight:600;white-space:nowrap}
+.mkt-head{display:flex;justify-content:space-between;align-items:baseline;gap:6px}
+.mkt-ytd{font-size:12px;font-weight:700;white-space:nowrap}
+.mkt-chg{font-size:13px;font-weight:700;white-space:nowrap;margin-left:6px}
+.mkt-spark{width:100%;height:28px;display:block;margin-top:2px}
+.mdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
+.mdot.up{background:#46a758}
+.mdot.dn{background:#e5484d}
+.mkt-chg{font-weight:700}
+.india-label{font-size:10px;letter-spacing:.16em;text-transform:uppercase;color:#93a9c0;font-weight:600}
+#indiaTime{font-size:24px;font-weight:600;line-height:1.1}
+#indiaDay{font-size:12px;color:rgba(235,242,252,.85)}
+.now{text-align:right;padding:8px 14px}
+#nowIcon{font-size:30px;line-height:1}
+#nowTemp{font-size:40px;font-weight:600;line-height:1.05}
+#nowCond{font-size:15px;color:#f2f6fc;font-weight:600}
+#nowFeels{font-size:13px;color:rgba(235,242,252,.85);margin-top:2px}
+#spark{margin-top:7px;width:100%;height:30px;display:block}
+.now-metrics{font-size:12px;line-height:1.35;color:rgba(235,242,252,.9);margin-top:4px;text-align:right}
+.rule{height:1px;background:linear-gradient(90deg,transparent,rgba(255,255,255,.35),transparent);margin:1vh 0}
+.strip{display:flex;padding:4px 4px}
+.seg{flex:1;text-align:center;padding:0 4px}
+.seg+.seg{border-left:1px solid rgba(255,255,255,.12)}
+.seg-label{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#93a9c0;font-weight:600}
+.seg-value{font-size:16px;font-weight:600;margin-top:0}
+.seg-sub{font-size:10px;color:rgba(235,242,252,.85)}
+.seg.dim{opacity:.45}
+.seg.dim .seg-value{font-size:14px}
+#advice{margin-top:1vh;padding:6px 14px;font-size:17px;font-weight:600;text-align:center}
+#notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
+#notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
+.stUp{color:#00e65c}.stDn{color:#ff3b30}
+.forecast{display:flex;gap:8px;margin-top:1vh;flex:0 0 auto;max-height:none;min-height:0}
+.day{flex:1;padding:4px 4px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
+.day-name{font-size:11px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
+.day-icon{font-size:20px;margin:2px 0;line-height:1.2}
+.day-temp{font-size:18px;font-weight:700;color:#ffffff;line-height:1.2;white-space:nowrap;margin:2px 0}
+.day-cond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.day-rain{font-size:11px;color:#ffffff;margin-top:2px;line-height:1.2}
+.day-iconcond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.day-iconcond .day-icon{font-size:14px;margin:0 4px 0 0}
+#news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
+#newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
+#newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.counts{display:flex;gap:0;margin-top:1vh;padding:4px 4px}
+.count{flex:1;padding:3px 6px;text-align:center}
+.count+.count{border-left:1px solid rgba(255,255,255,.18)}
+.count-sym{font-size:16px;line-height:1;text-shadow:0 0 12px rgba(0,229,255,.7);vertical-align:middle}
+.count-sym.purple{text-shadow:0 0 12px rgba(200,120,255,.8)}
+.count-sym.sun{text-shadow:0 0 12px rgba(255,200,80,.8)}
+.count-value{display:inline;font-size:16px;font-weight:700;white-space:nowrap;color:#ffffff;margin-left:6px;vertical-align:middle}
+.count-label{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap;margin-top:2px}
+.count-sub{display:block;font-size:8px;color:#93a9c0;margin-top:1px;white-space:nowrap;overflow:hidden}
+.foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
+.music{width:240px;flex:0 0 240px;padding:10px;display:flex;flex-direction:column;gap:8px;text-align:center}
+.music:not(.playing){width:60px;flex:0 0 60px;padding:10px 6px;justify-content:center}
+.music:not(.playing) .music-mid{display:none}
+.music:not(.playing) .music-btn:not(.play){display:none}
+.music:not(.playing) .music-controls{justify-content:center}
+#musicPlayer{position:absolute;left:-1000px;top:0;width:200px;height:113px;background:#000;overflow:hidden}
+#musicPlayer iframe{width:200px;height:113px;border:0}
+.music-controls{display:flex;gap:8px;justify-content:center}
+.music-mid{flex:1;min-width:0}
+.music-label{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600}
+#musicSong{font-size:15px;font-weight:700;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+#musicSub{font-size:11px;color:#93a9c0;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.music-btn{flex:0 0 36px;width:36px;height:36px;border-radius:50%;border:1px solid rgba(109,179,255,.45);background:rgba(77,163,255,.18);color:#fff;font-size:15px;line-height:1;padding:0}
+.music-btn.play{flex:0 0 44px;width:44px;height:44px;font-size:18px;background:rgba(77,163,255,.35)}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;background:#4da3ff;margin-right:7px;vertical-align:middle}
+</style>
+</head>
+<body class="day">
+<div id="bgA"></div>
+<div id="bgB"></div>
+<div id="scrim"></div>
+<div class="glow glow-cyan"></div>
+<div class="glow glow-blue"></div>
+<div class="glow glow-purple"></div>
+<main>
+  <div class="top">
+    <div>
+      <div class="eyebrow">Home &middot; Thornhill, Canada</div>
+      <div id="clock">--:--</div>
+      <div id="date">Loading date&hellip;</div>
+      <div class="clockrow">
+        <div class="india card">
+          <div class="india-label">India</div>
+          <div id="indiaTime">--:--</div>
+          <div id="indiaDay"></div>
+        </div>
+      </div>
+    </div>
+    <div class="music card" id="musicCard">
+      <div id="musicPlayer"></div>
+      <div class="music-mid"><div class="music-label">&#9834; Dhruv&rsquo;s music</div><div id="musicSong">Tap Play for Dhruv&rsquo;s playlist</div><div id="musicSub">YouTube playlist &middot; tap Play, Next, Prev</div></div>
+      <div class="music-controls">
+        <button type="button" class="music-btn" onclick="musicPrev()">&#9198;</button>
+        <button type="button" class="music-btn play" id="musicPlayBtn" onclick="musicToggle()">&#9654;</button>
+        <button type="button" class="music-btn" onclick="musicNext()">&#9197;</button>
+      </div>
+    </div>
+    <div class="now card">
+      <div id="nowIcon"><svg width="64" height="48" viewBox="0 0 64 48" xmlns="http://www.w3.org/2000/svg"><defs><linearGradient id="moong" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#aef7ff"/><stop offset="1" stop-color="#7b5cff"/></linearGradient></defs><path d="M22 6a14 14 0 1 0 12 20A16 16 0 0 1 22 6Z" fill="url(#moong)"/><g fill="#eafcff" opacity="0.95"><ellipse cx="34" cy="32" rx="16" ry="9"/><ellipse cx="26" cy="27" rx="9" ry="7"/><ellipse cx="44" cy="27" rx="8" ry="6"/><circle cx="50" cy="22" r="2" fill="#00e5ff"/><circle cx="14" cy="14" r="1.6" fill="#aef7ff"/></g></svg></div>
+      <div id="nowTemp">--&deg;</div>
+      <div id="nowCond">Loading weather&hellip;</div>
+      <div id="nowFeels"></div>
+      <div class="now-metrics">&#128167; <span id="rainChance">—</span> <span id="rainSub">—</span> &middot; Sunset <span id="sun">—</span> <span id="sunSub">sunrise</span></div>
+      <svg id="spark" viewBox="0 0 200 36" preserveAspectRatio="none"><polygon id="sparkFill" fill="rgba(77,163,255,.16)" points=""></polygon><polyline id="sparkLine" fill="none" stroke="#4da3ff" stroke-width="2" points=""></polyline></svg>
+    </div>
+  </div>
+  <div class="rule"></div>
+  <div class="markets card" id="markets"></div>
+  <div style="text-align:center;font-size:11px;color:#93a9c0;margin-bottom:.6vh">PREVIEW ONLY &middot; footer label removed, rain/sunset in weather block &middot; live page unchanged</div>
+  <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
+  <div class="forecast" id="forecast"></div>
+  <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
+  <div class="counts card">
+    <div class="count"><div><span class="count-sym purple">&#9733;</span><span class="count-value" id="cdDhruv">—</span></div><div class="count-label">Dhruv turns 6</div><div class="count-sub" id="cdDhruvSub"></div></div>
+    <div class="count"><div><span class="count-sym">&#9992;</span><span class="count-value" id="cdJapan">—</span></div><div class="count-label">Japan trip</div><div class="count-sub" id="cdJapanSub"></div></div>
+    <div class="count"><div><span class="count-sym sun">&#9728;</span><span class="count-value" id="cdPunta">—</span></div><div class="count-label">Punta Cana trip</div><div class="count-sub" id="cdPuntaSub"></div></div>
+  </div>
+  <div class="foot">
+    <div><span class="dot"></span><span id="status">Weather loading</span></div>
+  </div>
+</main>
+<div id="wakeHint">Tap to view</div>
+<script>
+function $(id){return document.getElementById(id);}
+function pad(n){return (n<10?'0':'')+n;}
+function fmt24(d){return pad(d.getHours())+':'+pad(d.getMinutes());}
+function fmt12(d){var h=d.getHours(),ap=h>=12?'PM':'AM';h=h%12;if(h===0)h=12;return h+':'+pad(d.getMinutes())+' '+ap;}
+var DAYS=['Sunday','Monday','Tuesday','Wednesday','Thursday','Friday','Saturday'];
+var DAYS_S=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+var MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+var MONTHS_S=['Jan','Feb','Mar','Apr','May','Jun','Jul','Aug','Sep','Oct','Nov','Dec'];
+
+/* ---------- Photo backgrounds (Wikimedia Commons, verified) ---------- */
+var PHOTOS=[
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/0/01/%2CMoraine_Lake_%26_Mount_Fay_seen_from_Mount_Temple_Summit.jpg/1280px-%2CMoraine_Lake_%26_Mount_Fay_seen_from_Mount_Temple_Summit.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/8a/20181110_Fushimi_Inari_Torii_12.jpg/1280px-20181110_Fushimi_Inari_Torii_12.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/ed/Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg/1280px-Yasaka-dori_early_morning_with_street_lanterns_and_the_Tower_of_Yasaka_%28Hokan-ji_Temple%29%2C_Kyoto%2C_Japan.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c2/Aerial_image_of_Matterhorn_%28view_from_the_north%29.jpg/1280px-Aerial_image_of_Matterhorn_%28view_from_the_north%29.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/8/82/Oia%2C_Santorini_HDR_sunset.jpg/1280px-Oia%2C_Santorini_HDR_sunset.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/9/98/Sk%C3%B3gafoss_July_2014.JPG/1280px-Sk%C3%B3gafoss_July_2014.JPG',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/e/eb/Anantara_Kihavah_-_Aerial_Hero_Shot_2024.jpg/1280px-Anantara_Kihavah_-_Aerial_Hero_Shot_2024.jpg',
+'https://thumb.wikimedia.org/wikipedia/commons/thumb/b/bf/2019-11-27_16_05_44_Silver_Maple_leaves_in_late_autumn_along_a_walking_path_in_the_Armfield_Farm_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg/1280px-2019-11-27_16_05_44_Silver_Maple_leaves_in_late_autumn_along_a_walking_path_in_the_Armfield_Farm_section_of_Chantilly%2C_Fairfax_County%2C_Virginia.jpg'
+];
+var bgIdx=0,bgFront='bgA';
+(function(){
+  for(var i=0;i<PHOTOS.length;i++){var im=new Image();im.src=PHOTOS[i];}
+  $('bgA').style.backgroundImage='url("'+PHOTOS[0]+'")';
+  setInterval(function(){
+    if(document.body.className==='off')return;
+    bgIdx=(bgIdx+1)%PHOTOS.length;
+    var back=(bgFront==='bgA')?'bgB':'bgA';
+    var img=new Image();
+    img.onload=function(){
+      var b=$(back);
+      b.style.backgroundImage='url("'+PHOTOS[bgIdx]+'")';
+      b.style.opacity='1';
+      $(bgFront).style.opacity='0';
+      bgFront=back;
+    };
+    img.src=PHOTOS[bgIdx];
+  },60000);
+})();
+
+/* ---------- Clocks & countdowns ---------- */
+function indiaNow(){
+  var now=new Date();
+  var utc=now.getTime()+(now.getTimezoneOffset()*60000);
+  return new Date(utc+(330*60000));
+}
+function daysUntil(t){
+  var n=new Date();
+  var t0=new Date(n.getFullYear(),n.getMonth(),n.getDate());
+  return Math.round((t-t0)/86400000);
+}
+function cdText(d){if(d<0)return 'Enjoy!';if(d===0)return 'Today!';if(d===1)return '1 day';return d+' days';}
+function dateSub(t){return DAYS_S[t.getDay()]+', '+MONTHS_S[t.getMonth()]+' '+t.getDate()+', '+t.getFullYear();}
+var CD_DHRUV=new Date(2027,0,23,0,0,0);
+var CD_JAPAN=new Date(2027,3,8,0,0,0);
+var CD_PUNTA=new Date(2027,0,22,0,0,0);
+$('cdDhruvSub').textContent=dateSub(CD_DHRUV);
+$('cdJapanSub').textContent=dateSub(CD_JAPAN)+' \u00B7 Toronto \u2192 Tokyo';
+$('cdPuntaSub').textContent=dateSub(CD_PUNTA)+' \u00B7 Toronto \u2192 Punta Cana';
+function showCountdowns(){
+  $('cdDhruv').textContent=cdText(daysUntil(CD_DHRUV));
+  $('cdJapan').textContent=cdText(daysUntil(CD_JAPAN));
+  $('cdPunta').textContent=cdText(daysUntil(CD_PUNTA));
+}
+function fmt12big(d,small){
+  var h=d.getHours(),ap=h>=12?'PM':'AM';h=h%12;if(h===0)h=12;
+  return h+':'+pad(d.getMinutes())+' <span style="font-size:'+small+'px;vertical-align:baseline">'+ap+'</span>';
+}
+/* ---------- Tap-to-wake during the 11 PM–7 AM blackout ---------- */
+/* Black screen stays the default at night, but a tap (or a manual refresh)
+   wakes the dashboard for 2 minutes, then it goes black again on its own.
+   Any tap while awake restarts the 2 minutes. */
+var wakeTimer=null,awake=false;
+function isOffHours(){var h=new Date().getHours();return h>=23||h<7;}
+function wakeUp(){
+  if(!isOffHours())return;
+  awake=true;
+  if(wakeTimer)clearTimeout(wakeTimer);
+  wakeTimer=setTimeout(function(){awake=false;},120000);
+}
+document.addEventListener('touchstart',wakeUp,false);
+document.addEventListener('click',wakeUp,false);
+/* A manual refresh wakes too; the hourly auto-reload (which sets the flag
+   below before reloading) stays black so the tablet never lights up hourly. */
+try{
+  if(isOffHours()&&sessionStorage.getItem('autoReload')!=='1')wakeUp();
+  sessionStorage.removeItem('autoReload');
+}catch(e){}
+
+var musicPlaying=false;
+var musicPlayer=null;
+function tick(){
+  var now=new Date();
+  $('clock').innerHTML=fmt12big(now,30);
+  $('date').textContent=DAYS[now.getDay()]+', '+MONTHS[now.getMonth()]+' '+now.getDate()+', '+now.getFullYear();
+  var ind=indiaNow();
+  $('indiaTime').innerHTML=fmt12big(ind,14);
+  $('indiaDay').textContent=DAYS[ind.getDay()]+', '+MONTHS[ind.getMonth()]+' '+ind.getDate();
+  var h=now.getHours(),cls;
+  if(h>=23||h<7)cls=(awake||musicPlaying)?'wake':'off';else if(h>=7&&h<8)cls='dawn';else if(h>=8&&h<17)cls='day';else if(h>=17&&h<22)cls='dusk';else cls='night';
+  if(document.body.className!==cls)document.body.className=cls;
+  showCountdowns();
+}
+tick(); setInterval(tick,1000);
+
+/* ---------- Weather (Open-Meteo) ---------- */
+var CODES={0:['Clear sky','\u2600'],1:['Mainly clear','\u2600'],2:['Partly cloudy','\u2601'],3:['Overcast','\u2601'],
+45:['Fog','\u2601'],48:['Rime fog','\u2601'],51:['Light drizzle','\u2602'],53:['Drizzle','\u2602'],55:['Heavy drizzle','\u2602'],
+56:['Freezing drizzle','\u2602'],57:['Freezing drizzle','\u2602'],61:['Light rain','\u2602'],63:['Rain','\u2602'],65:['Heavy rain','\u2602'],
+66:['Freezing rain','\u2602'],67:['Freezing rain','\u2602'],71:['Light snow','\u2744'],73:['Snow','\u2744'],75:['Heavy snow','\u2744'],
+77:['Snow grains','\u2744'],80:['Rain showers','\u2602'],81:['Rain showers','\u2602'],82:['Heavy showers','\u2602'],
+85:['Snow showers','\u2744'],86:['Snow showers','\u2744'],95:['Thunderstorm','\u26A1'],96:['Thunderstorm','\u26A1'],99:['Thunderstorm','\u26A1']};
+function codeInfo(c){return CODES[c]||['Conditions unavailable','\u2601'];}
+function parseLocal(s){var p=s.split('T');var d=p[0].split('-');var t=(p[1]||'00:00').split(':');return new Date(+d[0],+d[1]-1,+d[2],+t[0],+t[1]);}
+function jacketAdvice(feels,rainPct,code){
+  var parts=[];
+  if(feels<=-10)parts.push('Heavy winter coat, hat and gloves');
+  else if(feels<0)parts.push('Winter coat weather');
+  else if(feels<8)parts.push('Warm jacket weather');
+  else if(feels<15)parts.push('Light jacket weather');
+  else if(feels<22)parts.push('Long sleeves are fine');
+  else parts.push('T-shirt weather');
+  if(rainPct>=50)parts.push('\u2602\uFE0F Take an umbrella \u2014 rain is likely');
+  else if(rainPct>=30)parts.push('\u2602\uFE0F Umbrella worth grabbing');
+  if(code>=71&&code<=86)parts.push('\u2744\uFE0F Snow today \u2014 boots help');
+  if(code>=95)parts.push('\u26C8\uFE0F Thunderstorms today');
+  return parts.join('  \u00B7  ');
+}
+function loadWeather(){
+  var url='https://api.open-meteo.com/v1/forecast?latitude=43.81&longitude=-79.42&current=temperature_2m,relative_humidity_2m,apparent_temperature,weather_code,wind_speed_10m&hourly=temperature_2m&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max,sunrise,sunset&temperature_unit=celsius&wind_speed_unit=kmh&timezone=America%2FToronto&forecast_days=5';
+  var xhr=new XMLHttpRequest();
+  xhr.open('GET',url,true);
+  xhr.onreadystatechange=function(){
+    if(xhr.readyState!==4)return;
+    try{
+      if(xhr.status!==200)throw new Error('bad status');
+      var d=JSON.parse(xhr.responseText),c=d.current,daily=d.daily,info=codeInfo(c.weather_code);
+      $('nowTemp').textContent=Math.round(c.temperature_2m)+'\u00B0C';
+      $('nowCond').textContent=info[0];
+      /* Theme preview: keep the stylised cloud-and-moon graphic, do not overwrite it with a text glyph. */
+      $('nowFeels').textContent='Feels like '+Math.round(c.apparent_temperature)+'\u00B0C'+(Math.round(c.wind_speed_10m)>30?' \u00B7 Wind '+Math.round(c.wind_speed_10m)+' km/h':'');
+      var rp=(daily.precipitation_probability_max&&daily.precipitation_probability_max[0]!=null)?Math.round(daily.precipitation_probability_max[0]):null;
+      $('rainChance').textContent=(rp==null?'\u2014':rp+'%');
+      $('rainSub').textContent=(rp==null?'\u2014':(rp>=50?'rain likely':(rp>=30?'possible rain':'mostly dry')));
+      var sr=parseLocal(daily.sunrise[0]),ss=parseLocal(daily.sunset[0]);
+      $('sun').textContent=fmt12(ss);
+      $('sunSub').textContent='sunrise '+fmt12(sr);
+      $('advice').textContent=jacketAdvice(c.apparent_temperature,(rp==null?0:rp),c.weather_code);
+      var html='';
+      for(var i=0;i<daily.time.length;i++){
+        var name=(i===0)?'Today':DAYS_S[parseLocal(daily.time[i]).getDay()];
+        var di=codeInfo(daily.weather_code[i]);
+        var dr=(daily.precipitation_probability_max&&daily.precipitation_probability_max[i]!=null)?Math.round(daily.precipitation_probability_max[i]):null;
+        var hi=(daily.temperature_2m_max&&daily.temperature_2m_max[i]!=null)?Math.round(daily.temperature_2m_max[i]):null;
+        var lo=(daily.temperature_2m_min&&daily.temperature_2m_min[i]!=null)?Math.round(daily.temperature_2m_min[i]):null;
+        html+='<div class="day card"><div class="day-name">'+name+'</div><div class="day-temp">'+(hi==null?'—':hi+'\u00B0 / '+(lo==null?'—':lo+'\u00B0'))+'</div><div class="day-iconcond"><span class="day-icon">'+di[1]+'</span>'+di[0]+'</div><div class="day-rain">'+(dr==null?'':'\uD83D\uDCA7 '+dr+'%')+'</div></div>';
+      }
+      $('forecast').innerHTML=html;
+      try{
+        var hr=(d.hourly&&d.hourly.temperature_2m)?d.hourly.temperature_2m.slice(0,24):[];
+        if(hr.length>3){
+          var mn=Math.min.apply(null,hr),mx=Math.max.apply(null,hr),rg=(mx-mn)||1,pts='',i2,x,y;
+          for(i2=0;i2<hr.length;i2++){
+            x=(i2*(200/(hr.length-1))).toFixed(1);
+            y=(30-((hr[i2]-mn)/rg)*24).toFixed(1);
+            pts+=x+','+y+' ';
+          }
+          document.getElementById('sparkLine').setAttribute('points',pts);
+          document.getElementById('sparkFill').setAttribute('points','0,36 '+pts+'200,36');
+        }
+      }catch(e2){}
+      $('status').textContent='Weather updated '+fmt12(new Date());
+    }catch(e){
+      $('nowCond').textContent='Weather unavailable';
+      $('status').textContent='Weather feed unavailable \u2014 check Wi-Fi';
+    }
+  };
+  xhr.send();
+}
+loadWeather(); setInterval(loadWeather,15*60*1000);
+
+/* ---------- News headlines (CBC + BBC via CORS proxy) ---------- */
+var HEADLINES=[],newsIdx=0;
+var PROXIES=[
+  function(u){return 'https://api.allorigins.win/raw?url='+encodeURIComponent(u);},
+  function(u){return 'https://corsproxy.io/?url='+encodeURIComponent(u);},
+  function(u){return 'https://api.codetabs.com/v1/proxy?quest='+encodeURIComponent(u);}
+];
+function viaProxy(u){return PROXIES[0](u);}
+function fetchText(url,cb){
+  var xhr=new XMLHttpRequest();
+  xhr.open('GET',url,true);
+  xhr.onreadystatechange=function(){
+    if(xhr.readyState!==4)return;
+    if(xhr.status===200)cb(xhr.responseText);
+    else cb(null);
+  };
+  xhr.send();
+}
+function fetchVia(url,idx,cb){
+  if(idx>=PROXIES.length){cb(null);return;}
+  fetchText(PROXIES[idx](url),function(t){
+    if(t&&t.length>200)cb(t);
+    else fetchVia(url,idx+1,cb);
+  });
+}
+function feedTitles(xmlText,out){
+  try{
+    var doc=new DOMParser().parseFromString(xmlText,'text/xml');
+    var items=doc.getElementsByTagName('item');
+    for(var i=0;i<items.length&&out.length<9;i++){
+      var t=items[i].getElementsByTagName('title')[0];
+      if(t&&t.textContent)out.push(t.textContent.replace(/\s+/g,' ').replace(/^\s+|\s+$/g,''));
+    }
+  }catch(e){}
+  return out;
+}
+function loadData(){
+  fetchText('headlines.json?t='+new Date().getTime(),function(t){
+    var ok=false;
+    if(t){
+      try{
+        var j=JSON.parse(t);
+        ok=renderHeadlines(j);
+        renderIndices(j.indices||[]);
+      }catch(e){}
+    }
+    if(!ok)loadNewsViaProxies();
+  });
+}
+function loadNewsViaProxies(){
+  var all=[],done=0;
+  function finish(){
+    done++;
+    if(done<2)return;
+    if(all.length){HEADLINES=all;newsIdx=0;if($('newsText'))$('newsText').textContent=HEADLINES[0];}
+    else if(!HEADLINES.length&&$('newsText'))$('newsText').textContent='Headlines unavailable right now';
+  }
+  fetchVia('https://www.cbc.ca/webfeed/rss/rss-topstories',0,function(t){
+    if(t)all=feedTitles(t,all);
+    finish();
+  });
+  fetchVia('https://feeds.bbci.co.uk/news/world/rss.xml',0,function(t){
+    if(t)all=feedTitles(t,all);
+    finish();
+  });
+}
+function renderHeadlines(j){
+  if(j.headlines&&j.headlines.length){HEADLINES=j.headlines;newsIdx=0;if($('newsText'))$('newsText').textContent=HEADLINES[0];return true;}
+  return false;
+}
+setInterval(function(){
+  if(HEADLINES.length<2||!$('newsText'))return;
+  var el=$('newsText');
+  el.style.opacity='0';
+  setTimeout(function(){
+    newsIdx=(newsIdx+1)%HEADLINES.length;
+    el.textContent=HEADLINES[newsIdx];
+    el.style.opacity='1';
+  },650);
+},30000);
+
+/* ---------- One slim index strip: TSX, S&P 500, NIFTY (same headlines.json fetch) ---------- */
+/* Each ticker dims when its own market is closed (weekday hours only;
+   holidays not counted): TSX/S&P 500 9:30-16:00 Toronto, NIFTY 9:15-15:30 India. */
+function isNorthAmOpen(){
+  var n=new Date(),d=n.getDay();
+  if(d===0||d===6)return false;
+  var m=n.getHours()*60+n.getMinutes();
+  return m>=570&&m<960;
+}
+function isNiftyOpen(){
+  var ind=indiaNow(),d=ind.getDay();
+  if(d===0||d===6)return false;
+  var m=ind.getHours()*60+ind.getMinutes();
+  return m>=555&&m<930;
+}
+function sparkPts(vals,w,h){
+  var mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),rg=(mx-mn)||1,pts='',i,x,y;
+  for(i=0;i<vals.length;i++){
+    x=(i*(w/(vals.length-1))).toFixed(1);
+    y=(h-2-((vals[i]-mn)/rg)*(h-4)).toFixed(1);
+    pts+=x+','+y+' ';
+  }
+  return pts;
+}
+/* Markets are never dimmed when closed, per Nov 4, 2026 request. */
+function renderIndices(list){
+    if(!list.length)return;
+    var html='',i,q,up,open,pts,col,fill;
+    for(i=0;i<list.length;i++){
+      q=list[i];
+      up=q.chg>=0;
+      col=up?'#00e65c':'#ff3b30';
+      fill=up?'rgba(0,230,92,.18)':'rgba(255,59,48,.18)';
+      pts=q.closes?sparkPts(q.closes,200,28):'';
+      html+='<div class="mkt-card"><div class="mkt-head"><span><span class="mkt-name">'+q.sym+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></span>'+(q.ytd!=null?'<span class="mkt-ytd '+(q.ytd>=0?'stUp':'stDn')+'">YTD '+(q.ytd>=0?'\u25B2 ':'\u25BC ')+Math.abs(q.ytd).toFixed(2)+'%</span>':'')+'</div>';
+      if(pts)html+='<svg class="mkt-spark" viewBox="0 0 200 28" preserveAspectRatio="none"><polygon fill="'+fill+'" points="0,28 '+pts+'200,28"></polygon><polyline fill="none" stroke="'+col+'" stroke-width="2" points="'+pts+'"></polyline></svg>';
+      html+='</div>';
+    }
+    $('markets').innerHTML=html;
+    $('markets').style.display='flex';
+}
+loadData(); setInterval(loadData,30*60*1000);
+
+/* ---------- Notes (notes.txt in the repo: edit from phone, or dictate to Muse) ---------- */
+function loadNotes(){
+  fetchText('notes.txt?t='+new Date().getTime(),function(t){
+    if(t==null)return;
+    var lines=t.split(/\r?\n/),items=[],i,v;
+    for(i=0;i<lines.length;i++){
+      v=lines[i].replace(/^\s+|\s+$/g,'');
+      if(v)items.push(v);
+    }
+    if(items.length){
+      $('notesText').textContent=items.join('  \u00B7  ');
+      $('notes').style.display='block';
+    }else{
+      $('notes').style.display='none';
+    }
+  });
+}
+loadNotes(); setInterval(loadNotes,30*60*1000);
+
+/* ---------- Dhruv music (YouTube playlist, no login in the page) ---------- */
+/* While a song is playing, the hourly reload is postponed and the night
+   blackout stays in wake mode, so playback is not cut off. */
+function musicUpdate(){
+  try{
+    if(musicPlayer&&musicPlayer.getVideoData){
+      var d=musicPlayer.getVideoData();
+      if(d&&d.title){$('musicSong').textContent=d.title;}
+    }
+    if(musicPlayer&&musicPlayer.getPlaylistIndex){
+      var idx=musicPlayer.getPlaylistIndex();
+      if(idx>=0){$('musicSub').textContent='Song '+(idx+1)+' in Dhruv playlist';}
+    }
+  }catch(e){}
+}
+function musicToggle(){
+  if(!musicPlayer){$('musicSub').textContent='Music player not ready yet, try again in a few seconds.';return;}
+  try{
+    if(musicPlaying){musicPlayer.pauseVideo();}
+    else{musicPlayer.playVideo();}
+  }catch(e){$('musicSub').textContent='Playback error, try again.';}
+}
+function musicNext(){
+  if(!musicPlayer)return;
+  try{musicPlayer.nextVideo();}catch(e){}
+}
+function musicPrev(){
+  if(!musicPlayer)return;
+  try{musicPlayer.previousVideo();}catch(e){}
+}
+function onYouTubeIframeAPIReady(){
+  musicPlayer=new YT.Player('musicPlayer',{
+    height:'113',
+    width:'200',
+    playerVars:{listType:'playlist',list:'PLZN9JkXZxKHf1pyH2WZgxbx5z_whH3Yf8',playsinline:1,rel:0},
+    events:{
+      onReady:function(){musicUpdate();},
+      onStateChange:function(ev){
+        if(ev.data===1){musicPlaying=true;$('musicCard').className='music card playing';$('musicPlayBtn').innerHTML='&#10074;&#10074;';}
+        else if(ev.data===2||ev.data===0){musicPlaying=false;$('musicCard').className='music card';$('musicPlayBtn').innerHTML='&#9654;';}
+        musicUpdate();
+      },
+      onError:function(ev){$('musicSub').textContent='Music error ('+ev.data+'). Try Next.';}
+    }
+  });
+}
+(function(){
+  var s=document.createElement('script');
+  s.src='https://www.youtube.com/iframe_api';
+  document.getElementsByTagName('head')[0].appendChild(s);
+  setTimeout(function(){
+    if(!musicPlayer){$('musicSub').textContent='Music player did not load. Check Wi-Fi, then refresh.';}
+  },15000);
+})();
+function scheduleReload(){
+  if(musicPlaying){setTimeout(scheduleReload,10*60*1000);return;}
+  try{sessionStorage.setItem('autoReload','1');}catch(e){}
+  var base=location.href.split('?')[0];
+  location.replace(base+'?v='+new Date().getTime());
+}
+setTimeout(scheduleReload,60*60*1000);
+</script>
+</body>
+</html>

@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-04T20:50:10+00:00",
+ "updated": "2026-11-04T21:46:14+00:00",
  "headlines": [
   "U.S. midterms: Trump appears to accept Democrats' wins, but says he wouldn't change campaign",
   "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-  "Suggested curfew, night patrols in place following suspected fatal grizzly attack near Bella Coola, B.C.",
+  "Senior Democratic congressman says party 'going to put an end' to Trump's tariffs",
   "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-  "Native American women make history in U.S. midterm elections",
+  "Code orange declared at hospitals in Prince George and Mackenzie, B.C., after major bus crash",
   "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-  "Contractor charged with fraud after Amherstburg, Ont., family spent $155K in renos that left home unlivable",
+  "National chief didn't mean to 'hurt anybody' with remarks on M\u00e9tis identity",
   "French blood storage impacted by freezer hacks as theories swirl about culprits",
   "Will Ontario end seasonal time changes? Ford says he's 'all in' \u2014 with conditions",
   "'Most difficult days of my life' for keeper Owono",
-  "'Confusing' definition of M\u00e9tis identity fuelling bitter Indigenous rights dispute: retired lawyer",
+  "NASA's Swift space telescope plunges to Earth after 22 years in orbit",
   "Israel's president begins consultations with parties after election deadlock",
-  "China extends tariff relief for Canadian canola, lobster and crab",
+  "Contractor charged with fraud after Amherstburg, Ont., family spent $155K in renos that left home unlivable",
   "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-  "Ontario student assistance program freeze 'ruined my life,' says student living in a shelter",
+  "Native American women make history in U.S. midterm elections",
   "Secret police files released in Hungary, 37 years after fall of communism"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36366.22,
-   "chg": 2.43,
+   "price": 36341.4,
+   "chg": 2.36,
    "closes": [
     35518.6,
     35649.5,
@@ -46,15 +46,15 @@
     35620.0,
     35801.1,
     35532.3,
-    36366.22
+    36341.4
    ],
-   "ytd": 14.67
+   "ytd": 14.6
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7690.55,
-   "chg": -0.42,
+   "price": 7688.62,
+   "chg": -0.44,
    "closes": [
     7773.95,
     7818.93,
@@ -78,9 +78,9 @@
     7580.07,
     7541.4,
     7568.92,
-    7690.55
+    7688.62
    ],
-   "ytd": 12.34
+   "ytd": 12.32
   },
   {
    "sym": "NIFTY",

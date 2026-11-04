@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-04T17:50:26+00:00",
+ "updated": "2026-11-04T18:52:39+00:00",
  "headlines": [
-  "U.S. midterms fallout: JD Vance blames Iran war for Republicans' blowout loss",
+  "Trump says it's 'largely true' Iran war led to Republican midterm losses",
   "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-  "Funeral service for soldier killed in CFB Wainwright fire starts in Prince Albert, Sask.",
+  "China extends tariff relief for Canadian canola, lobster and crab",
   "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-  "Until the midterms, only 3 Black governors were ever elected in U.S. Tuesday saw 5 wins",
+  "Contractor charged with fraud after Amherstburg, Ont., family spent $155K in renos that left home unlivable",
+  "Ukraine says bodycam video shows deadly Russian double-tap bombing",
+  "Funeral service held for Sask. soldier killed in CFB Wainwright fire",
   "French blood storage impacted by freezer hacks as theories swirl about culprits",
-  "Province's last boundary panel chair urged new panelists not to alter southern Alberta ridings. They did.",
+  "Canada-U.S. trade minister says Democrats' midterm landslide doesn't change Ottawa's strategy",
   "'Most difficult days of my life' for keeper Owono",
-  "A runner died in the New York City Marathon. Have the risks changed as more people race?",
+  "Ontario student assistance program freeze 'ruined my life,' says student living in a shelter",
   "Israel's president begins consultations with parties after election deadlock",
-  "Legend of Zelda: Ocarina of Time's gorgeous remake retains the original's soul",
-  "Iran's chief negotiator says Americans voted 'no to war'",
-  "Israeli president accepts certified election results after commission denies voter fraud",
+  "What 'cost us $1,000 ... is now $2,000': Hamilton farmer takes stock of future as fuel, equipment costs rise",
   "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-  "Canada dismisses fears of international blowback over Russian world junior hockey ban",
+  "'Confusing' definition of M\u00e9tis identity fuelling bitter Indigenous rights dispute: retired lawyer",
   "Secret police files released in Hungary, 37 years after fall of communism"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36281.44,
-   "chg": 2.19,
+   "price": 36267.99,
+   "chg": 2.16,
    "closes": [
     35518.6,
     35649.5,
@@ -46,15 +46,15 @@
     35620.0,
     35801.1,
     35532.3,
-    36281.44
+    36267.99
    ],
-   "ytd": 14.41
+   "ytd": 14.36
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7708.97,
-   "chg": -0.18,
+   "price": 7701.05,
+   "chg": -0.28,
    "closes": [
     7773.95,
     7818.93,
@@ -78,9 +78,9 @@
     7580.07,
     7541.4,
     7568.92,
-    7708.97
+    7701.05
    ],
-   "ytd": 12.61
+   "ytd": 12.5
   },
   {
    "sym": "NIFTY",
@@ -108,8 +108,7 @@
     22936.75,
     23053.1,
     23440.8,
-    23810.85,
-    23960.6
+    23810.85
    ],
    "ytd": -8.3
   }

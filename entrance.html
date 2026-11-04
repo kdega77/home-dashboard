@@ -53,6 +53,8 @@ body.night main{opacity:.55}
 .mkt-card+.mkt-card{border-left:1px solid rgba(255,255,255,.18);padding-left:12px}
 /* Markets are never dimmed, even when closed (Nov 4, 2026) */
 .mkt-name{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#93a9c0;font-weight:600;white-space:nowrap}
+.mkt-head{display:flex;justify-content:space-between;align-items:baseline;gap:6px}
+.mkt-ytd{font-size:12px;font-weight:700;white-space:nowrap}
 .mkt-chg{font-size:13px;font-weight:700;white-space:nowrap;margin-left:6px}
 .mkt-spark{width:100%;height:28px;display:block;margin-top:2px}
 .mdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
@@ -475,7 +477,7 @@ function renderIndices(list){
       col=up?'#00e65c':'#ff3b30';
       fill=up?'rgba(0,230,92,.18)':'rgba(255,59,48,.18)';
       pts=q.closes?sparkPts(q.closes,200,28):'';
-      html+='<div class="mkt-card"><div><span class="mkt-name">'+q.sym+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></div>';
+      html+='<div class="mkt-card"><div class="mkt-head"><span><span class="mkt-name">'+q.sym+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></span>'+(q.ytd!=null?'<span class="mkt-ytd '+(q.ytd>=0?'stUp':'stDn')+'">YTD '+(q.ytd>=0?'\u25B2 ':'\u25BC ')+Math.abs(q.ytd).toFixed(2)+'%</span>':'')+'</div>';
       if(pts)html+='<svg class="mkt-spark" viewBox="0 0 200 28" preserveAspectRatio="none"><polygon fill="'+fill+'" points="0,28 '+pts+'200,28"></polygon><polyline fill="none" stroke="'+col+'" stroke-width="2" points="'+pts+'"></polyline></svg>';
       html+='</div>';
     }

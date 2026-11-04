@@ -54,13 +54,28 @@ def quotes(pairs):
             if price is None or not prev:
                 continue
             closes = [c for c in (res.get("indicators", {}).get("quote", [{}])[0].get("close") or []) if c is not None]
-            out.append({
+            entry = {
                 "sym": label,
                 "ccy": meta.get("currency", ""),
                 "price": price,
                 "chg": round((price - prev) / prev * 100, 2),
                 "closes": [round(c, 2) for c in closes],
-            })
+            }
+            # YTD: latest price vs the previous year-end close (the chartPreviousClose
+            # of a YTD-range query), shown on the right side of each market card.
+            try:
+                yurl = "https://query1.finance.yahoo.com/v8/finance/chart/%s?interval=1d&range=ytd" % sym
+                yreq = urllib.request.Request(yurl, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"})
+                with urllib.request.urlopen(yreq, timeout=20) as yr:
+                    yd = json.load(yr)
+                ymeta = yd["chart"]["result"][0]["meta"]
+                yprev = ymeta.get("chartPreviousClose")
+                yprice = ymeta.get("regularMarketPrice")
+                if yprice is not None and yprev:
+                    entry["ytd"] = round((yprice - yprev) / yprev * 100, 2)
+            except Exception as e:
+                print("ytd failed:", sym, e)
+            out.append(entry)
         except Exception as e:
             print("stock failed:", sym, e)
     return out

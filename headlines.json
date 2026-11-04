@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-04T17:04:14+00:00",
+ "updated": "2026-11-04T17:16:55+00:00",
  "headlines": [
   "U.S. midterms fallout: JD Vance blames Iran war for Republicans' blowout loss",
   "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
   "Province's last boundary panel chair urged new panelists not to alter southern Alberta ridings. They did.",
-  "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+  "French blood storage impacted by freezer hacks as theories swirl about culprits",
   "A runner died in the New York City Marathon. Have the risks changed as more people race?",
-  "Left-wing Democrat Abdul El-Sayed wins in Michigan to become first Muslim senator",
+  "'Most difficult days of my life' for keeper Owono",
   "Legend of Zelda: Ocarina of Time's gorgeous remake retains the original's soul",
   "Israel's president begins consultations with parties after election deadlock",
   "Israeli president accepts certified election results after commission denies voter fraud",
   "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
-  "Google launches AI-based shopping in Canada in race to dominate e-commerce",
+  "Canada dismisses fears of international blowback over Russian world junior hockey ban",
   "Iran's chief negotiator says Americans voted 'no to war'",
-  "No catastrophic financial hit required to fight climate change, scientists say in landmark court case",
+  "Google launches AI-based shopping in Canada in race to dominate e-commerce",
   "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-  "Woman who was beaten by her ex-husband says 'life could've been in jeopardy' after N.L. justice department didn't tell her about his release",
+  "No catastrophic financial hit required to fight climate change, scientists say in landmark court case",
   "Nadal set to join Real Madrid board of directors"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36265.52,
-   "chg": 2.15,
+   "price": 36249.96,
+   "chg": 2.1,
    "closes": [
     35518.6,
     35649.5,
@@ -46,14 +46,15 @@
     35620.0,
     35801.1,
     35532.3,
-    36265.52
-   ]
+    36249.96
+   ],
+   "ytd": 14.31
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7699.74,
-   "chg": -0.3,
+   "price": 7698.34,
+   "chg": -0.32,
    "closes": [
     7773.95,
     7818.93,
@@ -77,8 +78,9 @@
     7580.07,
     7541.4,
     7568.92,
-    7699.74
-   ]
+    7698.34
+   ],
+   "ytd": 12.46
   },
   {
    "sym": "NIFTY",
@@ -108,7 +110,8 @@
     23440.8,
     23810.85,
     23960.6
-   ]
+   ],
+   "ytd": -8.3
   }
  ]
 }

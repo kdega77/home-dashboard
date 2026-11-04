@@ -1,16 +1,16 @@
 {
- "updated": "2026-11-04T14:55:02+00:00",
+ "updated": "2026-11-04T15:52:16+00:00",
  "headlines": [
-  "What the Republican midterm defeat means for Trump, the U.S. and Canada",
+  "U.S. midterms: Democrat leaders to detail next steps after taking Congress in blue wave",
   "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
   "Canada looking to Germany for 8 submarines up front and 4 later: sources",
   "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
   "No catastrophic financial hit required to fight climate change, scientists say in landmark court case",
   "Left-wing Democrat Abdul El-Sayed wins in Michigan to become first Muslim senator",
   "The give and take (and partisan wrangling) in Alberta's urban-rural hybrid riding maps",
-  "Florida Republicans fend off Democrats as state elects first black governor",
-  "Google launches AI-based shopping in Canada in race to dominate e-commerce",
   "Iran's chief negotiator says Americans voted 'no to war'",
+  "Google launches AI-based shopping in Canada in race to dominate e-commerce",
+  "Zelensky gives Melania Trump Ukraine's highest award after Oleshky ceasefire",
   "A runner died in the New York City Marathon. Have the risks changed as more people race?",
   "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
   "Iranian officials welcome U.S. midterm results after voters rebuke Trump administration, Iran war",
@@ -22,14 +22,14 @@
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35954.79,
-   "chg": 1.19
+   "price": 36049.45,
+   "chg": 1.46
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7689.26,
-   "chg": 1.59
+   "price": 7669.81,
+   "chg": 1.33
   },
   {
    "sym": "NIFTY",

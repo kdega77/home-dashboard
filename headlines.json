@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T04:53:08+00:00",
+ "updated": "2026-11-04T05:54:32+00:00",
  "headlines": [
   "U.S. midterms: Democrats take control of both chambers of Congress, major networks project",
   "South Carolina elects Democratic senator for first time in almost three decades",
@@ -9,13 +9,13 @@
   "Spanish transport minister resigns days after deadly train crash",
   "Home in Amherstburg, Ont., unlivable after family spent $155K on renovations, police looking for contractor",
   "Seven flights across Europe targeted by suspected bomb threats",
-  "Carney says U.S. 'asking less and offering more' with 'more intense' trade talks underway",
+  "UBC prof testifies she acted as a 'conduit' for sex assault allegations against Steven Galloway",
   "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea",
-  "A part of B.C. now observes the same time as a part of Florida",
+  "Carney says U.S. 'asking less and offering more' with 'more intense' trade talks underway",
   "Binance says fake job interviews used as part of $6.3bn crypto hack",
-  "Correction on our previous reporting on charges faced by Alberta hockey executive",
+  "A part of B.C. now observes the same time as a part of Florida",
   "NTSB says crucial plane parts found three miles from Florida crash site",
-  "P.E.I. Premier Rob Lantz facing pressure to step down",
+  "Correction on our previous reporting on charges faced by Alberta hockey executive",
   "Europe on alert after supermarket freezers hit by cyber-attacks in 10 countries"
  ],
  "indices": [
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23872.25,
-   "chg": 0.26
+   "price": 23831.65,
+   "chg": 0.09
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-04T07:04:25+00:00",
+ "updated": "2026-11-04T08:31:45+00:00",
  "headlines": [
   "U.S. midterms: Democrats take control of both chambers of Congress, major networks project",
   "South Carolina elects Democratic senator for first time in almost three decades",
@@ -8,15 +8,15 @@
   "Prime Minister says Russia will not be allowed to compete at 2026 world juniors in Alberta",
   "Florida Republicans fend off Democrats as state elects first black governor",
   "Home in Amherstburg, Ont., unlivable after family spent $155K on renovations, police looking for contractor",
-  "Democratic rising star Ossoff projected to hold Georgia seat",
+  "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
   "UBC prof testifies she acted as a 'conduit' for sex assault allegations against Steven Galloway",
-  "Spanish transport minister resigns days after deadly train crash",
-  "Carney says U.S. 'asking less and offering more' with 'more intense' trade talks underway",
   "ANC under pressure to reverse South Africa decline",
-  "A part of B.C. now observes the same time as a part of Florida",
+  "Carney says U.S. 'asking less and offering more' with 'more intense' trade talks underway",
   "Killer who escaped Tennessee prison captured after week-long manhunt",
+  "A part of B.C. now observes the same time as a part of Florida",
+  "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea",
   "Correction on our previous reporting on charges faced by Alberta hockey executive",
-  "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea"
+  "Spanish transport minister resigns days after deadly train crash"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23800.3,
-   "chg": -0.04
+   "price": 23882.9,
+   "chg": 1.89
   }
  ]
 }

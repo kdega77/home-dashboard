@@ -40,20 +40,26 @@ def quotes(pairs):
     out = []
     for label, sym in pairs:
         try:
-            url = "https://query1.finance.yahoo.com/v8/finance/chart/%s?interval=1d&range=1d" % sym
+            # 1-month daily closes feed the sparkline area cards on the dashboard.
+            # The page draws the sparkline from "closes" and never dims a card
+            # when its market is closed, so closes are kept even for closed markets.
+            url = "https://query1.finance.yahoo.com/v8/finance/chart/%s?interval=1d&range=1mo" % sym
             req = urllib.request.Request(url, headers={"User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36"})
             with urllib.request.urlopen(req, timeout=20) as r:
                 d = json.load(r)
-            meta = d["chart"]["result"][0]["meta"]
+            res = d["chart"]["result"][0]
+            meta = res["meta"]
             price = meta.get("regularMarketPrice")
             prev = meta.get("chartPreviousClose")
             if price is None or not prev:
                 continue
+            closes = [c for c in (res.get("indicators", {}).get("quote", [{}])[0].get("close") or []) if c is not None]
             out.append({
                 "sym": label,
                 "ccy": meta.get("currency", ""),
                 "price": price,
                 "chg": round((price - prev) / prev * 100, 2),
+                "closes": [round(c, 2) for c in closes],
             })
         except Exception as e:
             print("stock failed:", sym, e)

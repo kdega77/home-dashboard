@@ -44,10 +44,17 @@ body.night main{opacity:.55}
 #date{font-size:15px;color:#9db2c8;margin-top:5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
 .clockrow{display:flex;gap:10px;margin-top:7px;align-items:flex-start}
 .india{padding:6px 12px;display:inline-block}
-.markets{display:none;margin-bottom:.6vh;padding:6px 8px;background:#000;border:1px solid #333;border-radius:0;box-shadow:none;font-family:"Courier New",Courier,monospace}
-.mkt-item{flex:1;text-align:center;font-size:12px;font-weight:700;letter-spacing:.02em;white-space:nowrap;color:#fff}
-.mkt-item+.mkt-item{border-left:1px solid #333}
-.mkt-item.dim{opacity:.45}
+.metrics-mini{display:flex;align-items:flex-start;padding:6px 12px}
+.metrics-mini .seg{padding:0 6px}
+.metrics-mini .seg:first-child{padding-left:0}
+.metrics-mini .seg-value{font-size:16px}
+.markets{display:flex;gap:8px;margin-bottom:.6vh;padding:6px 8px}
+.mkt-card{flex:1;text-align:left;padding:2px 4px;min-width:0}
+.mkt-card+.mkt-card{border-left:1px solid rgba(255,255,255,.18);padding-left:12px}
+/* Markets are never dimmed, even when closed (Nov 4, 2026) */
+.mkt-name{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#93a9c0;font-weight:600;white-space:nowrap}
+.mkt-chg{font-size:13px;font-weight:700;white-space:nowrap;margin-left:6px}
+.mkt-spark{width:100%;height:28px;display:block;margin-top:2px}
 .mdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
 .mdot.up{background:#46a758}
 .mdot.dn{background:#e5484d}
@@ -74,27 +81,27 @@ body.night main{opacity:.55}
 #notes{display:none;margin-top:1vh;padding:8px 14px;font-size:14px;font-weight:600;text-align:center}
 #notesLabel{font-size:10px;letter-spacing:.14em;text-transform:uppercase;color:#93a9c0;font-weight:600;margin-right:10px}
 .stUp{color:#00e65c}.stDn{color:#ff3b30}
-.forecast{display:flex;gap:12px;margin-top:1vh;flex:0 0 auto;max-height:none;min-height:0}
-.day{flex:1;padding:6px 6px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
-.day-name{font-size:12px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
+.forecast{display:flex;gap:8px;margin-top:1vh;flex:0 0 auto;max-height:none;min-height:0}
+.day{flex:1;padding:4px 4px;text-align:center;display:flex;flex-direction:column;justify-content:flex-start;overflow:hidden}
+.day-name{font-size:11px;color:#93a9c0;text-transform:uppercase;letter-spacing:.1em;font-weight:600;line-height:1.2}
 .day-icon{font-size:20px;margin:2px 0;line-height:1.2}
-.day-temp{font-size:22px;font-weight:700;color:#ffffff;line-height:1.2;white-space:nowrap;margin:2px 0}
+.day-temp{font-size:18px;font-weight:700;color:#ffffff;line-height:1.2;white-space:nowrap;margin:2px 0}
 .day-cond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.day-rain{font-size:12px;color:#ffffff;margin-top:2px;line-height:1.2}
+.day-rain{font-size:11px;color:#ffffff;margin-top:2px;line-height:1.2}
 .day-iconcond{font-size:12px;color:#eaf2fb;line-height:1.2;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.day-iconcond .day-icon{font-size:16px;margin:0 4px 0 0}
+.day-iconcond .day-icon{font-size:14px;margin:0 4px 0 0}
 #news{margin-top:auto;padding:9px 14px;font-size:19px;display:flex;align-items:center;gap:12px}
 #newsTag{font-size:12px;letter-spacing:.14em;font-weight:600;color:#6db3ff;border:1px solid rgba(109,179,255,.5);border-radius:7px;padding:2px 8px;white-space:nowrap}
 #newsText{transition:opacity .6s;font-weight:600;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
-.counts{display:flex;gap:0;margin-top:1vh;padding:6px 4px}
-.count{flex:1;padding:4px 6px;text-align:center}
+.counts{display:flex;gap:0;margin-top:1vh;padding:4px 4px}
+.count{flex:1;padding:3px 6px;text-align:center}
 .count+.count{border-left:1px solid rgba(255,255,255,.18)}
-.count-sym{font-size:20px;line-height:1;text-shadow:0 0 12px rgba(0,229,255,.7);vertical-align:middle}
+.count-sym{font-size:16px;line-height:1;text-shadow:0 0 12px rgba(0,229,255,.7);vertical-align:middle}
 .count-sym.purple{text-shadow:0 0 12px rgba(200,120,255,.8)}
 .count-sym.sun{text-shadow:0 0 12px rgba(255,200,80,.8)}
-.count-value{display:inline;font-size:20px;font-weight:700;white-space:nowrap;color:#ffffff;margin-left:6px;vertical-align:middle}
-.count-label{font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap;margin-top:2px}
-.count-sub{display:block;font-size:9px;color:#93a9c0;margin-top:1px;white-space:nowrap;overflow:hidden}
+.count-value{display:inline;font-size:16px;font-weight:700;white-space:nowrap;color:#ffffff;margin-left:6px;vertical-align:middle}
+.count-label{font-size:9px;letter-spacing:.1em;text-transform:uppercase;color:#eaf2fb;font-weight:700;white-space:nowrap;margin-top:2px}
+.count-sub{display:block;font-size:8px;color:#93a9c0;margin-top:1px;white-space:nowrap;overflow:hidden}
 .foot{display:flex;justify-content:space-between;color:rgba(220,232,248,.45);font-size:10px;margin-top:.8vh}
 .music{width:240px;flex:0 0 240px;padding:10px;display:flex;flex-direction:column;gap:8px;text-align:center}
 .music:not(.playing){width:60px;flex:0 0 60px;padding:10px 6px;justify-content:center}
@@ -132,6 +139,10 @@ body.night main{opacity:.55}
           <div id="indiaTime">--:--</div>
           <div id="indiaDay"></div>
         </div>
+        <div class="india card metrics-mini">
+          <div class="seg"><div class="seg-label">Rain chance</div><div class="seg-value" id="rainChance">—</div><div class="seg-sub" id="rainSub">—</div></div>
+          <div class="seg"><div class="seg-label">Sunset</div><div class="seg-value" id="sun">—</div><div class="seg-sub" id="sunSub">sunrise</div></div>
+        </div>
       </div>
     </div>
     <div class="music card" id="musicCard">
@@ -153,10 +164,6 @@ body.night main{opacity:.55}
   </div>
   <div class="rule"></div>
   <div class="markets card" id="markets"></div>
-  <div class="strip card">
-    <div class="seg"><div class="seg-label">Rain chance</div><div class="seg-value" id="rainChance">—</div><div class="seg-sub" id="rainSub">—</div></div>
-    <div class="seg"><div class="seg-label">Sunset</div><div class="seg-value" id="sun">—</div><div class="seg-sub" id="sunSub">sunrise</div></div>
-  </div>
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
   <div class="forecast" id="forecast"></div>
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>
@@ -449,14 +456,28 @@ function isNiftyOpen(){
   var m=ind.getHours()*60+ind.getMinutes();
   return m>=555&&m<930;
 }
+function sparkPts(vals,w,h){
+  var mn=Math.min.apply(null,vals),mx=Math.max.apply(null,vals),rg=(mx-mn)||1,pts='',i,x,y;
+  for(i=0;i<vals.length;i++){
+    x=(i*(w/(vals.length-1))).toFixed(1);
+    y=(h-2-((vals[i]-mn)/rg)*(h-4)).toFixed(1);
+    pts+=x+','+y+' ';
+  }
+  return pts;
+}
+/* Markets are never dimmed when closed, per Nov 4, 2026 request. */
 function renderIndices(list){
     if(!list.length)return;
-    var html='',i,q,up,open;
+    var html='',i,q,up,open,pts,col,fill;
     for(i=0;i<list.length;i++){
       q=list[i];
       up=q.chg>=0;
-      open=(q.sym==='NIFTY')?isNiftyOpen():isNorthAmOpen();
-      html+='<span class="mkt-item'+(open?'':' dim')+'">'+q.sym+' <span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></span>';
+      col=up?'#00e65c':'#ff3b30';
+      fill=up?'rgba(0,230,92,.18)':'rgba(255,59,48,.18)';
+      pts=q.closes?sparkPts(q.closes,200,28):'';
+      html+='<div class="mkt-card"><div><span class="mkt-name">'+q.sym+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></div>';
+      if(pts)html+='<svg class="mkt-spark" viewBox="0 0 200 28" preserveAspectRatio="none"><polygon fill="'+fill+'" points="0,28 '+pts+'200,28"></polygon><polyline fill="none" stroke="'+col+'" stroke-width="2" points="'+pts+'"></polyline></svg>';
+      html+='</div>';
     }
     $('markets').innerHTML=html;
     $('markets').style.display='flex';

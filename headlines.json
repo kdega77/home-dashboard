@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-04T09:57:48+00:00",
+ "updated": "2026-11-04T12:15:50+00:00",
  "headlines": [
   "What the Republican midterm defeat means for Trump, the U.S. and Canada",
   "South Carolina elects Democratic senator for first time in almost three decades",
-  "The give and take (and partisan wrangling) in Alberta's urban-rural hybrid riding maps",
-  "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
-  "A runner died in the New York City Marathon. Have the risks changed as more people race?",
-  "Florida Republicans fend off Democrats as state elects first black governor",
   "Canada looking to Germany for 8 submarines up front and 4 later: sources",
-  "Iran's chief negotiator says Americans voted 'no to war'",
-  "Tax and tariff relief top small businesses' wish list for Budget 2026",
-  "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+  "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
   "Mother and daughter dead in suspected grizzly bear attack near Bella Coola, B.C.",
+  "Florida Republicans fend off Democrats as state elects first black governor",
+  "The give and take (and partisan wrangling) in Alberta's urban-rural hybrid riding maps",
+  "Iran's chief negotiator says Americans voted 'no to war'",
+  "Google launches AI-based shopping in Canada, with a new \u2018universal\u2019 checkout cart",
+  "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+  "A runner died in the New York City Marathon. Have the risks changed as more people race?",
   "ANC under pressure to reverse South Africa decline",
-  "Prime Minister says Russia will not be allowed to compete at 2026 world juniors in Alberta",
-  "Killer who escaped Tennessee prison captured after week-long manhunt",
-  "Home in Amherstburg, Ont., unlivable after family spent $155K on renovations, police looking for contractor",
-  "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea"
+  "Clarington's new mayor will serve with a councillor charged for allegedly threatening him",
+  "Rwanda's army team removed from Africa league after US sanctions, NBA says",
+  "Tax and tariff relief top small businesses' wish list for Budget 2026",
+  "Killer who escaped Tennessee prison captured after week-long manhunt"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23911.7,
-   "chg": 2.01
+   "price": 23960.6,
+   "chg": 2.22
   }
  ]
 }

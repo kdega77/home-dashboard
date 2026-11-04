@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-04T19:54:13+00:00",
+ "updated": "2026-11-04T20:50:10+00:00",
  "headlines": [
-  "Trump says it's 'largely true' Iran war led to Republican midterm losses",
+  "U.S. midterms: Trump appears to accept Democrats' wins, but says he wouldn't change campaign",
   "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
-  "Contractor charged with fraud after Amherstburg, Ont., family spent $155K in renos that left home unlivable",
+  "Suggested curfew, night patrols in place following suspected fatal grizzly attack near Bella Coola, B.C.",
   "US midterm results a 'victory' for Canadians hopeful of tariff relief",
-  "'Confusing' definition of M\u00e9tis identity fuelling bitter Indigenous rights dispute: retired lawyer",
+  "Native American women make history in U.S. midterm elections",
   "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-  "China extends tariff relief for Canadian canola, lobster and crab",
+  "Contractor charged with fraud after Amherstburg, Ont., family spent $155K in renos that left home unlivable",
   "French blood storage impacted by freezer hacks as theories swirl about culprits",
-  "Ontario student assistance program freeze 'ruined my life,' says student living in a shelter",
+  "Will Ontario end seasonal time changes? Ford says he's 'all in' \u2014 with conditions",
   "'Most difficult days of my life' for keeper Owono",
-  "Infrastructure gap and specific claims top issues for Assembly of First Nations for federal budget",
+  "'Confusing' definition of M\u00e9tis identity fuelling bitter Indigenous rights dispute: retired lawyer",
   "Israel's president begins consultations with parties after election deadlock",
-  "Kellogg's Rice Krispies changed its U.K. recipe, muffling its iconic snap, crackle and pop",
+  "China extends tariff relief for Canadian canola, lobster and crab",
   "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-  "What 'cost us $1,000 ... is now $2,000': Hamilton farmer takes stock of future as fuel, equipment costs rise",
+  "Ontario student assistance program freeze 'ruined my life,' says student living in a shelter",
   "Secret police files released in Hungary, 37 years after fall of communism"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36310.67,
-   "chg": 2.28,
+   "price": 36366.22,
+   "chg": 2.43,
    "closes": [
     35518.6,
     35649.5,
@@ -46,15 +46,15 @@
     35620.0,
     35801.1,
     35532.3,
-    36310.67
+    36366.22
    ],
-   "ytd": 14.5
+   "ytd": 14.67
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7697.62,
-   "chg": -0.33,
+   "price": 7690.55,
+   "chg": -0.42,
    "closes": [
     7773.95,
     7818.93,
@@ -78,9 +78,9 @@
     7580.07,
     7541.4,
     7568.92,
-    7697.62
+    7690.55
    ],
-   "ytd": 12.45
+   "ytd": 12.34
   },
   {
    "sym": "NIFTY",

@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-04T08:31:45+00:00",
+ "updated": "2026-11-04T09:57:48+00:00",
  "headlines": [
-  "U.S. midterms: Democrats take control of both chambers of Congress, major networks project",
+  "What the Republican midterm defeat means for Trump, the U.S. and Canada",
   "South Carolina elects Democratic senator for first time in almost three decades",
-  "Mother and daughter dead in suspected grizzly bear attack near Bella Coola, B.C.",
+  "The give and take (and partisan wrangling) in Alberta's urban-rural hybrid riding maps",
   "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
-  "Prime Minister says Russia will not be allowed to compete at 2026 world juniors in Alberta",
+  "A runner died in the New York City Marathon. Have the risks changed as more people race?",
   "Florida Republicans fend off Democrats as state elects first black governor",
-  "Home in Amherstburg, Ont., unlivable after family spent $155K on renovations, police looking for contractor",
+  "Canada looking to Germany for 8 submarines up front and 4 later: sources",
+  "Iran's chief negotiator says Americans voted 'no to war'",
+  "Tax and tariff relief top small businesses' wish list for Budget 2026",
   "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-  "UBC prof testifies she acted as a 'conduit' for sex assault allegations against Steven Galloway",
+  "Mother and daughter dead in suspected grizzly bear attack near Bella Coola, B.C.",
   "ANC under pressure to reverse South Africa decline",
-  "Carney says U.S. 'asking less and offering more' with 'more intense' trade talks underway",
+  "Prime Minister says Russia will not be allowed to compete at 2026 world juniors in Alberta",
   "Killer who escaped Tennessee prison captured after week-long manhunt",
-  "A part of B.C. now observes the same time as a part of Florida",
-  "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea",
-  "Correction on our previous reporting on charges faced by Alberta hockey executive",
-  "Spanish transport minister resigns days after deadly train crash"
+  "Home in Amherstburg, Ont., unlivable after family spent $155K on renovations, police looking for contractor",
+  "Weapon or wine bottle? China disputes reports of artillery shell in Papua New Guinea"
  ],
  "indices": [
   {
@@ -34,8 +34,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23882.9,
-   "chg": 1.89
+   "price": 23911.7,
+   "chg": 2.01
   }
  ]
 }

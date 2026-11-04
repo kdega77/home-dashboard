@@ -44,6 +44,10 @@ body.night main{opacity:.55}
 #date{font-size:15px;color:#9db2c8;margin-top:5px;font-weight:600;letter-spacing:.22em;text-transform:uppercase}
 .clockrow{display:flex;gap:10px;margin-top:7px;align-items:flex-start}
 .india{padding:6px 12px;display:inline-block}
+.metrics-mini{display:flex;align-items:flex-start;padding:6px 12px}
+.metrics-mini .seg{padding:0 6px}
+.metrics-mini .seg:first-child{padding-left:0}
+.metrics-mini .seg-value{font-size:16px}
 .markets{display:flex;gap:8px;margin-bottom:.6vh;padding:6px 8px}
 .mkt-card{flex:1;text-align:left;padding:2px 4px;min-width:0}
 .mkt-card+.mkt-card{border-left:1px solid rgba(255,255,255,.18);padding-left:12px}
@@ -135,6 +139,10 @@ body.night main{opacity:.55}
           <div id="indiaTime">--:--</div>
           <div id="indiaDay"></div>
         </div>
+        <div class="india card metrics-mini">
+          <div class="seg"><div class="seg-label">Rain chance</div><div class="seg-value" id="rainChance">—</div><div class="seg-sub" id="rainSub">—</div></div>
+          <div class="seg"><div class="seg-label">Sunset</div><div class="seg-value" id="sun">—</div><div class="seg-sub" id="sunSub">sunrise</div></div>
+        </div>
       </div>
     </div>
     <div class="music card" id="musicCard">
@@ -157,10 +165,6 @@ body.night main{opacity:.55}
   <div class="rule"></div>
   <div class="markets card" id="markets"></div>
   <div style="text-align:center;font-size:11px;color:#93a9c0;margin-bottom:.6vh">PREVIEW ONLY &middot; sample past-month data, not live &middot; live page unchanged</div>
-  <div class="strip card">
-    <div class="seg"><div class="seg-label">Rain chance</div><div class="seg-value" id="rainChance">—</div><div class="seg-sub" id="rainSub">—</div></div>
-    <div class="seg"><div class="seg-label">Sunset</div><div class="seg-value" id="sun">—</div><div class="seg-sub" id="sunSub">sunrise</div></div>
-  </div>
   <div id="advice" class="card">Checking what you need before you head out&hellip;</div>
   <div class="forecast" id="forecast"></div>
   <div id="notes" class="card"><span id="notesLabel">Notes</span><span id="notesText"></span></div>

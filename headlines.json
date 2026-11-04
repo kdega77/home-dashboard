@@ -1,12 +1,12 @@
 {
- "updated": "2026-11-04T13:42:20+00:00",
+ "updated": "2026-11-04T14:55:02+00:00",
  "headlines": [
   "What the Republican midterm defeat means for Trump, the U.S. and Canada",
-  "Trump takes aim at Republicans but says Democrats did a 'good job'",
+  "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
   "Canada looking to Germany for 8 submarines up front and 4 later: sources",
-  "Left-wing Democrat Abdul El-Sayed wins in Michigan to become first Muslim senator",
-  "No catastrophic financial hit required to fight climate change, scientists say in landmark court case",
   "James Talarico becomes first Democrat to win Texas Senate seat since 1988",
+  "No catastrophic financial hit required to fight climate change, scientists say in landmark court case",
+  "Left-wing Democrat Abdul El-Sayed wins in Michigan to become first Muslim senator",
   "The give and take (and partisan wrangling) in Alberta's urban-rural hybrid riding maps",
   "Florida Republicans fend off Democrats as state elects first black governor",
   "Google launches AI-based shopping in Canada in race to dominate e-commerce",
@@ -14,22 +14,22 @@
   "A runner died in the New York City Marathon. Have the risks changed as more people race?",
   "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
   "Iranian officials welcome U.S. midterm results after voters rebuke Trump administration, Iran war",
-  "ANC under pressure to reverse South Africa decline",
+  "Nadal set to join Real Madrid board of directors",
   "In new memoir, Harper says he offered Carney a job \u2014 but not finance minister",
-  "Sharp objects found in Halloween sweets in three European nations"
+  "ANC under pressure to reverse South Africa decline"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35532.28,
-   "chg": -0.75
+   "price": 35954.79,
+   "chg": 1.19
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7568.92,
-   "chg": 0.36
+   "price": 7689.26,
+   "chg": 1.59
   },
   {
    "sym": "NIFTY",

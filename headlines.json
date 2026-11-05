@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-05T13:46:57+00:00",
+ "updated": "2026-11-05T14:53:36+00:00",
  "headlines": [
-  "1 in 3 young people in Canada have faced dating violence, pediatricians warn",
-  "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-  "Melania Trump is preparing to host officials from Russia and Ukraine. Just what's behind her peace push?",
-  "What Democrats can and can't do with their new power after taking Congress",
-  "Bomb threats plague European air travel for 2nd time this week",
-  "France holds new strikes and protests as unions demand immediate answers",
-  "University libraries are being swarmed by AI bots, putting public access at risk",
-  "Ronaldo retires from Portugal duty",
   "What to watch for as Carney introduces his 2nd federal budget",
-  "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-  "Is Grand Theft Auto VI the most anticipated video game of all time? Here are some reasons why",
-  "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'",
-  "Judge rejects grandparent scammer's bid to back out of guilty plea, sends her to jail instead",
-  "Pope Leo hosts Bob Dylan at official residence in Rome",
+  "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+  "Russell Brand convicted of rape and sexual assault",
+  "What Democrats can and can't do with their new power after taking Congress",
+  "Family of injured Wainwright soldier holds bedside vigil in burn unit",
+  "France holds new strikes and protests as unions demand immediate answers",
+  "Bomb threats affect at least 25 flights, leading to emergency landings at several European airports",
+  "Ronaldo retires from Portugal duty",
   "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
+  "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+  "1 in 3 young people in Canada have faced dating violence, pediatricians warn",
+  "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'",
+  "Will this year\u2019s super El Ni\u00f1o push 2026 to be the warmest year on record?",
+  "Pope Leo hosts Bob Dylan at official residence in Rome",
+  "Habiba Nosheen on her new documentary \u2014 and working with Malala",
   "India's costliest film retells a beloved Hindu epic - but divides critics"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36341.4,
-   "chg": 2.36,
+   "price": 36235.26,
+   "chg": 2.02,
    "closes": [
     35518.6,
     35649.5,
@@ -46,15 +46,16 @@
     35620.0,
     35801.1,
     35532.3,
-    36341.4
+    36341.4,
+    36235.26
    ],
-   "ytd": 14.6
+   "ytd": 14.26
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7688.62,
-   "chg": -0.44,
+   "price": 7576.18,
+   "chg": -2.54,
    "closes": [
     7773.95,
     7818.93,
@@ -78,9 +79,10 @@
     7580.07,
     7541.4,
     7568.92,
-    7688.62
+    7688.62,
+    7576.18
    ],
-   "ytd": 12.32
+   "ytd": 10.67
   },
   {
    "sym": "NIFTY",

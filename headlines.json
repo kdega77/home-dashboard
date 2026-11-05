@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-05T17:06:41+00:00",
+ "updated": "2026-11-05T18:10:32+00:00",
  "headlines": [
   "Family of injured Wainwright soldier holds bedside vigil in burn unit",
   "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-  "Telus outage disrupting phone, wireless services across areas in Ontario and Quebec",
-  "France holds new strikes and protests as unions demand immediate answers",
+  "Telus outage disrupting phone, wireless services across parts of Ontario, Alberta and B.C.",
+  "French protests see numbers surge as unions join strikes over high cost of living",
   "What to watch for as Carney introduces his 2nd federal budget",
-  "Paraguay President Santiago Pe\u00f1a resigns",
-  "U.S. midterms are a 'vindication' of Alberta's approach to tariffs, says Premier Smith",
+  "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
+  "I thought extra academics made me a good mom. Now I wonder what my daughters lost",
   "Was an Italian chef really fired over refusal to put pineapple on pizza?",
-  "Russell Brand convicted of rape and sexual assault",
+  "Ramayana: Part 1 has the muscle, but lacks a certain epic soul",
   "The Pitt and ER are similar enough for lawsuit to proceed, judge rules",
-  "1 in 3 young people in Canada have faced dating violence, pediatricians warn",
+  "LIV Golf shutting down operations, lawyer says in bankruptcy hearing",
   "Russell Brand is being investigated over two new rape complaints, police say",
-  "Bomb threats affect at least 27 flights, leading to emergency landings at several European airports",
+  "U.S. midterms are a 'vindication' of Alberta's approach to tariffs, says Premier Smith",
   "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-  "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
+  "Russell Brand convicted of rape and sexual assault",
   "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35692.94,
-   "chg": 0.49,
+   "price": 35621.88,
+   "chg": 0.29,
    "closes": [
     35518.6,
     35649.5,
@@ -47,15 +47,15 @@
     35801.1,
     35532.3,
     36341.4,
-    35692.94
+    35621.88
    ],
-   "ytd": 12.55
+   "ytd": 12.33
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7421.84,
-   "chg": -4.53,
+   "price": 7401.95,
+   "chg": -4.79,
    "closes": [
     7773.95,
     7818.93,
@@ -80,9 +80,9 @@
     7541.4,
     7568.92,
     7688.62,
-    7421.84
+    7401.95
    ],
-   "ytd": 8.42
+   "ytd": 8.13
   },
   {
    "sym": "NIFTY",

@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-05T19:27:36+00:00",
+ "updated": "2026-11-05T20:21:00+00:00",
  "headlines": [
-  "Family of injured Wainwright soldier holds bedside vigil in burn unit",
+  "Liberal government to table latest budget today",
   "Hoax bomb threats target European airlines and airports for second time in a week",
   "Mexican judge arrested over alleged $2M bribe to release Ryan Wedding's second-in-command",
-  "French protests see numbers surge as unions join strikes over high cost of living",
-  "What to watch for as Carney introduces his 2nd federal budget",
-  "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
+  "Who could be behind hoax bomb threats to European air travel?",
+  "Family of injured Wainwright soldier holds bedside vigil in burn unit",
+  "California governor commutes death sentences for all 548 people on death row",
   "Google offers schools AI-boosted search or none at all",
-  "Manhunt in western Turkey after eight killed in series of shootings",
+  "French protests see numbers surge as unions join strikes over high cost of living",
   "Maple Leaf Foods plans to raise prices again early next year, CEO says in earnings call",
-  "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
+  "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
+  "Post-secondary students across Ontario walk out of classrooms to protest OSAP changes, tuition hike",
+  "Eight killed in series of shootings in western Turkey",
+  "Married at First Sight UK cancelled after review, sexual assault allegations",
+  "Shares in Musk's SpaceX plunge as tech and AI stocks fall",
   "I thought extra academics made me a good mom. Now I wonder what my daughters lost",
-  "The Pitt and ER are similar enough for lawsuit to proceed, judge rules",
-  "Ramayana: Part 1 has the muscle, but lacks a certain epic soul",
-  "Russell Brand is being investigated over two new rape complaints, police say",
-  "LIV Golf shutting down operations, lawyer says in bankruptcy hearing",
-  "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years"
+  "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35607.91,
-   "chg": 0.25,
+   "price": 35691.08,
+   "chg": 0.49,
    "closes": [
     35518.6,
     35649.5,
@@ -47,15 +47,15 @@
     35801.1,
     35532.3,
     36341.4,
-    35607.91
+    35691.08
    ],
-   "ytd": 12.28
+   "ytd": 12.54
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7374.62,
-   "chg": -5.14,
+   "price": 7385.02,
+   "chg": -5.0,
    "closes": [
     7773.95,
     7818.93,
@@ -80,9 +80,9 @@
     7541.4,
     7568.92,
     7688.62,
-    7374.62
+    7385.02
    ],
-   "ytd": 7.73
+   "ytd": 7.86
   },
   {
    "sym": "NIFTY",

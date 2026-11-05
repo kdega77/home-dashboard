@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T05:33:59+00:00",
+ "updated": "2026-11-05T07:09:03+00:00",
  "headlines": [
   "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
   "Vance walks Trump tightrope with scathing election critique blaming Iran war",
@@ -85,8 +85,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24372.65,
-   "chg": 8.06,
+   "price": 24433.9,
+   "chg": 8.33,
    "closes": [
     22555.75,
     22776.1,
@@ -110,9 +110,9 @@
     23440.8,
     23810.85,
     23960.6,
-    24372.65
+    24433.9
    ],
-   "ytd": -6.72
+   "ytd": -6.49
   }
  ]
 }

@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-05T08:35:38+00:00",
+ "updated": "2026-11-05T09:57:12+00:00",
  "headlines": [
-  "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
+  "Melania Trump is preparing to host officials from Russia and Ukraine. Just what's behind her peace push?",
   "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-  "Senior Democratic congressman says party 'going to put an end' to Trump's tariffs",
+  "What to watch for as Carney introduces his 2nd federal budget",
   "What Democrats can and can't do with their new power after taking Congress",
-  "Russian hacker group claims to have posted B.C. school district information on dark web",
+  "Pediatrician accused of uploading illicit video of young girl remained licensed for months",
   "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-  "Prominent Hong Kong activist Joshua Wong sentenced to 10 years in 2nd national security case",
+  "University libraries are being swarmed by AI bots, putting public access at risk",
   "Italian chef fired after refusing to put pineapple on pizza",
-  "He just wrapped a 28-year walk around the world | The Moment",
+  "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
   "French blood storage impacted by freezer hacks as theories swirl about culprits",
-  "Beach weather in November? In Canada? These photos prove it",
+  "Judge rejects grandparent scammer's bid to back out of guilty plea, sends her to jail instead",
   "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'",
-  "Valkyries celebrate WNBA championship with San Francisco and Oakland fans",
+  "Will this year\u2019s super El Ni\u00f1o push 2026 to be the warmest year on record?",
   "'Most difficult days of my life' for keeper Owono",
-  "Former NASA chief economist named new head of Canadian Space Agency",
+  "Senior Democratic congressman says party 'going to put an end' to Trump's tariffs",
   "Pope Leo hosts Bob Dylan at official residence in Rome"
  ],
  "indices": [
@@ -85,8 +85,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24560.0,
-   "chg": 8.89,
+   "price": 24542.2,
+   "chg": 8.81,
    "closes": [
     22555.75,
     22776.1,
@@ -110,9 +110,9 @@
     23440.8,
     23810.85,
     23960.6,
-    24560.0
+    24542.2
    ],
-   "ytd": -6.01
+   "ytd": -6.08
   }
  ]
 }

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T07:09:03+00:00",
+ "updated": "2026-11-05T08:35:38+00:00",
  "headlines": [
   "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
   "Vance walks Trump tightrope with scathing election critique blaming Iran war",
@@ -8,15 +8,15 @@
   "Russian hacker group claims to have posted B.C. school district information on dark web",
   "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
   "Prominent Hong Kong activist Joshua Wong sentenced to 10 years in 2nd national security case",
+  "Italian chef fired after refusing to put pineapple on pizza",
+  "He just wrapped a 28-year walk around the world | The Moment",
   "French blood storage impacted by freezer hacks as theories swirl about culprits",
   "Beach weather in November? In Canada? These photos prove it",
   "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'",
   "Valkyries celebrate WNBA championship with San Francisco and Oakland fans",
   "'Most difficult days of my life' for keeper Owono",
   "Former NASA chief economist named new head of Canadian Space Agency",
-  "Pope Leo hosts Bob Dylan at official residence in Rome",
-  "Jimmy Kimmel roasts Trump in late night monologue amid 'blue tsunami' midterms",
-  "Mother and daughter die after suspected grizzly bear attack in Canada"
+  "Pope Leo hosts Bob Dylan at official residence in Rome"
  ],
  "indices": [
   {
@@ -85,8 +85,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24433.9,
-   "chg": 8.33,
+   "price": 24560.0,
+   "chg": 8.89,
    "closes": [
     22555.75,
     22776.1,
@@ -110,9 +110,9 @@
     23440.8,
     23810.85,
     23960.6,
-    24433.9
+    24560.0
    ],
-   "ytd": -6.49
+   "ytd": -6.01
   }
  ]
 }

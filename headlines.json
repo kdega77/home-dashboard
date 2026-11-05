@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-05T04:29:35+00:00",
+ "updated": "2026-11-05T05:33:59+00:00",
  "headlines": [
-  "JD Vance blames Iran war for midterm thumping. Is he really blaming Trump?",
+  "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
   "Vance walks Trump tightrope with scathing election critique blaming Iran war",
   "Senior Democratic congressman says party 'going to put an end' to Trump's tariffs",
   "What Democrats can and can't do with their new power after taking Congress",
@@ -15,7 +15,7 @@
   "'Most difficult days of my life' for keeper Owono",
   "Former NASA chief economist named new head of Canadian Space Agency",
   "Pope Leo hosts Bob Dylan at official residence in Rome",
-  "Motorcade honours B.C. soldier killed in fire at CFB Wainwright",
+  "Jimmy Kimmel roasts Trump in late night monologue amid 'blue tsunami' midterms",
   "Mother and daughter die after suspected grizzly bear attack in Canada"
  ],
  "indices": [
@@ -85,8 +85,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24409.55,
-   "chg": 8.22,
+   "price": 24372.65,
+   "chg": 8.06,
    "closes": [
     22555.75,
     22776.1,
@@ -110,9 +110,9 @@
     23440.8,
     23810.85,
     23960.6,
-    24409.55
+    24372.65
    ],
-   "ytd": -6.58
+   "ytd": -6.72
   }
  ]
 }

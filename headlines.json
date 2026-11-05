@@ -1,28 +1,28 @@
 {
- "updated": "2026-11-05T15:55:31+00:00",
+ "updated": "2026-11-05T17:06:41+00:00",
  "headlines": [
-  "What to watch for as Carney introduces his 2nd federal budget",
-  "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-  "Russell Brand convicted of rape and sexual assault",
-  "What Democrats can and can't do with their new power after taking Congress",
   "Family of injured Wainwright soldier holds bedside vigil in burn unit",
+  "Vance walks Trump tightrope with scathing election critique blaming Iran war",
+  "Telus outage disrupting phone, wireless services across areas in Ontario and Quebec",
   "France holds new strikes and protests as unions demand immediate answers",
-  "Bomb threats affect at least 25 flights, leading to emergency landings at several European airports",
-  "A bitter end for Ronaldo - the icon who transformed Portugal",
-  "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
-  "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+  "What to watch for as Carney introduces his 2nd federal budget",
+  "Paraguay President Santiago Pe\u00f1a resigns",
+  "U.S. midterms are a 'vindication' of Alberta's approach to tariffs, says Premier Smith",
+  "Was an Italian chef really fired over refusal to put pineapple on pizza?",
+  "Russell Brand convicted of rape and sexual assault",
+  "The Pitt and ER are similar enough for lawsuit to proceed, judge rules",
   "1 in 3 young people in Canada have faced dating violence, pediatricians warn",
-  "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'",
-  "Will this year\u2019s super El Ni\u00f1o push 2026 to be the warmest year on record?",
-  "Pope Leo hosts Bob Dylan at official residence in Rome",
-  "Habiba Nosheen on her new documentary \u2014 and working with Malala",
-  "India's costliest film retells a beloved Hindu epic - but divides critics"
+  "Russell Brand is being investigated over two new rape complaints, police say",
+  "Bomb threats affect at least 27 flights, leading to emergency landings at several European airports",
+  "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+  "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
+  "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35691.88,
+   "price": 35692.94,
    "chg": 0.49,
    "closes": [
     35518.6,
@@ -47,15 +47,15 @@
     35801.1,
     35532.3,
     36341.4,
-    35691.88
+    35692.94
    ],
    "ytd": 12.55
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7418.71,
-   "chg": -4.57,
+   "price": 7421.84,
+   "chg": -4.53,
    "closes": [
     7773.95,
     7818.93,
@@ -80,9 +80,9 @@
     7541.4,
     7568.92,
     7688.62,
-    7418.71
+    7421.84
    ],
-   "ytd": 8.37
+   "ytd": 8.42
   },
   {
    "sym": "NIFTY",

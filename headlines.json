@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-05T18:10:32+00:00",
+ "updated": "2026-11-05T19:27:36+00:00",
  "headlines": [
   "Family of injured Wainwright soldier holds bedside vigil in burn unit",
-  "Vance walks Trump tightrope with scathing election critique blaming Iran war",
-  "Telus outage disrupting phone, wireless services across parts of Ontario, Alberta and B.C.",
+  "Hoax bomb threats target European airlines and airports for second time in a week",
+  "Mexican judge arrested over alleged $2M bribe to release Ryan Wedding's second-in-command",
   "French protests see numbers surge as unions join strikes over high cost of living",
   "What to watch for as Carney introduces his 2nd federal budget",
   "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
+  "Google offers schools AI-boosted search or none at all",
+  "Manhunt in western Turkey after eight killed in series of shootings",
+  "Maple Leaf Foods plans to raise prices again early next year, CEO says in earnings call",
+  "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials",
   "I thought extra academics made me a good mom. Now I wonder what my daughters lost",
-  "Was an Italian chef really fired over refusal to put pineapple on pizza?",
-  "Ramayana: Part 1 has the muscle, but lacks a certain epic soul",
   "The Pitt and ER are similar enough for lawsuit to proceed, judge rules",
-  "LIV Golf shutting down operations, lawyer says in bankruptcy hearing",
+  "Ramayana: Part 1 has the muscle, but lacks a certain epic soul",
   "Russell Brand is being investigated over two new rape complaints, police say",
-  "U.S. midterms are a 'vindication' of Alberta's approach to tariffs, says Premier Smith",
-  "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
-  "Russell Brand convicted of rape and sexual assault",
-  "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'"
+  "LIV Golf shutting down operations, lawyer says in bankruptcy hearing",
+  "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35621.88,
-   "chg": 0.29,
+   "price": 35607.91,
+   "chg": 0.25,
    "closes": [
     35518.6,
     35649.5,
@@ -47,15 +47,15 @@
     35801.1,
     35532.3,
     36341.4,
-    35621.88
+    35607.91
    ],
-   "ytd": 12.33
+   "ytd": 12.28
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7401.95,
-   "chg": -4.79,
+   "price": 7374.62,
+   "chg": -5.14,
    "closes": [
     7773.95,
     7818.93,
@@ -80,9 +80,9 @@
     7541.4,
     7568.92,
     7688.62,
-    7401.95
+    7374.62
    ],
-   "ytd": 8.13
+   "ytd": 7.73
   },
   {
    "sym": "NIFTY",
@@ -111,8 +111,7 @@
     23053.1,
     23440.8,
     23810.85,
-    23960.6,
-    24536.6
+    23960.6
    ],
    "ytd": -6.1
   }

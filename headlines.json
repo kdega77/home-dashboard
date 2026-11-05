@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-05T14:53:36+00:00",
+ "updated": "2026-11-05T15:55:31+00:00",
  "headlines": [
   "What to watch for as Carney introduces his 2nd federal budget",
   "Vance walks Trump tightrope with scathing election critique blaming Iran war",
@@ -8,7 +8,7 @@
   "Family of injured Wainwright soldier holds bedside vigil in burn unit",
   "France holds new strikes and protests as unions demand immediate answers",
   "Bomb threats affect at least 25 flights, leading to emergency landings at several European airports",
-  "Ronaldo retires from Portugal duty",
+  "A bitter end for Ronaldo - the icon who transformed Portugal",
   "Ohio and Texas went from red to blue in the midterms, but may not stay that way in 2028",
   "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
   "1 in 3 young people in Canada have faced dating violence, pediatricians warn",
@@ -22,8 +22,8 @@
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36235.26,
-   "chg": 2.02,
+   "price": 35691.88,
+   "chg": 0.49,
    "closes": [
     35518.6,
     35649.5,
@@ -47,15 +47,15 @@
     35801.1,
     35532.3,
     36341.4,
-    36235.26
+    35691.88
    ],
-   "ytd": 14.26
+   "ytd": 12.55
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7576.18,
-   "chg": -2.54,
+   "price": 7418.71,
+   "chg": -4.57,
    "closes": [
     7773.95,
     7818.93,
@@ -80,9 +80,9 @@
     7541.4,
     7568.92,
     7688.62,
-    7576.18
+    7418.71
    ],
-   "ytd": 10.67
+   "ytd": 8.37
   },
   {
    "sym": "NIFTY",

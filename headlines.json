@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-05T03:20:34+00:00",
+ "updated": "2026-11-05T04:29:35+00:00",
  "headlines": [
   "JD Vance blames Iran war for midterm thumping. Is he really blaming Trump?",
-  "'This is a disaster': Angry Republicans blame Trump for midterms defeat",
+  "Vance walks Trump tightrope with scathing election critique blaming Iran war",
   "Senior Democratic congressman says party 'going to put an end' to Trump's tariffs",
-  "US midterm results a 'victory' for Canadians hopeful of tariff relief",
+  "What Democrats can and can't do with their new power after taking Congress",
   "Russian hacker group claims to have posted B.C. school district information on dark web",
-  "Ukraine says bodycam video shows deadly Russian double-tap bombing",
-  "Alberta's governing UCP endorses proposed riding boundary changes as NDP reiterates concerns",
+  "Joshua Wong, face of Hong Kong's pro-democracy protests, jailed for 10 years",
+  "Prominent Hong Kong activist Joshua Wong sentenced to 10 years in 2nd national security case",
   "French blood storage impacted by freezer hacks as theories swirl about culprits",
   "Beach weather in November? In Canada? These photos prove it",
+  "Typhoons batter East Asia as El Ni\u00f1o makes Pacific 'burn with fever'",
+  "Valkyries celebrate WNBA championship with San Francisco and Oakland fans",
   "'Most difficult days of my life' for keeper Owono",
   "Former NASA chief economist named new head of Canadian Space Agency",
-  "Israel's president begins consultations with parties after election deadlock",
-  "Jimmy Kimmel roasts Trump in late night monologue amid 'blue tsunami' midterms",
-  "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
-  "National chief didn't mean to 'hurt anybody' with remarks on M\u00e9tis identity",
-  "Secret police files released in Hungary, 37 years after fall of communism"
+  "Pope Leo hosts Bob Dylan at official residence in Rome",
+  "Motorcade honours B.C. soldier killed in fire at CFB Wainwright",
+  "Mother and daughter die after suspected grizzly bear attack in Canada"
  ],
  "indices": [
   {
@@ -85,8 +85,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 23960.6,
-   "chg": 6.86,
+   "price": 24409.55,
+   "chg": 8.22,
    "closes": [
     22555.75,
     22776.1,
@@ -109,9 +109,10 @@
     23053.1,
     23440.8,
     23810.85,
-    23960.6
+    23960.6,
+    24409.55
    ],
-   "ytd": -8.3
+   "ytd": -6.58
   }
  ]
 }

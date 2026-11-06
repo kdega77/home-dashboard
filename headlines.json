@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-06T07:08:19+00:00",
+ "updated": "2026-11-06T08:30:02+00:00",
  "headlines": [
   "Mark Carney's quiet revolution rests on investment and affordability",
-  "Global tech stocks plunge as US midterms add to AI slowdown fears",
-  "Trump declares his redesigned Oval Office a national monument",
   "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-  "From groceries to tax credits, how much is in the federal budget for your wallet?",
+  "Trump declares his redesigned Oval Office a national monument",
   "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+  "From groceries to tax credits, how much is in the federal budget for your wallet?",
+  "Trump signs order to preserve Oval Office as national monument",
   "Married at First Sight U.K. cancelled after review, sexual assault allegations",
-  "Trump signs order preventing future presidents from changing Oval Office",
+  "Major construction ongoing near Iran missile bases, satellite images suggest",
   "Man accused of killing 11-year-old Burnaby boy makes 1st court appearance",
   "California governor commutes sentences for state's 548 death row inmates",
   "PR expert says author Steven Galloway had path to rehabilitate reputation",
-  "Macau jails pro-democracy campaigner in city's first national security case",
+  "Somalia's top court rejects president's term extension amid political crisis",
   "Dolly Parton's manager moves to drop complaint against late singer's nephew",
-  "Chris vs Chris: Who's running and what's at stake this New Zealand election",
+  "Will Atiku Abubakar be on Nigeria's presidential ballot after court ruling?",
   "What prediction markets told us about the midterm election",
-  "Paraguay President Santiago Pe\u00f1a resigns after bank collapse"
+  "Macau jails pro-democracy campaigner in city's first national security case"
  ],
  "indices": [
   {
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24675.7,
-   "chg": 8.34,
+   "price": 24822.15,
+   "chg": 8.98,
    "closes": [
     22776.1,
     22603.05,
@@ -111,9 +111,9 @@
     23810.85,
     23960.6,
     24536.6,
-    24675.7
+    24822.15
    ],
-   "ytd": -5.63
+   "ytd": -5.07
   }
  ]
 }

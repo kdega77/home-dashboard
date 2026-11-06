@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T03:50:17+00:00",
+ "updated": "2026-11-06T04:54:45+00:00",
  "headlines": [
   "Mark Carney's quiet revolution rests on investment and affordability",
   "Global tech stocks plunge as US midterms add to AI slowdown fears",
@@ -7,15 +7,15 @@
   "Trump signs order preventing future presidents from changing Oval Office",
   "From groceries to tax credits, how much is in the federal budget for your wallet?",
   "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-  "L.A. has a new mayor, and she's a democratic socialist",
-  "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
   "Married at First Sight U.K. cancelled after review, sexual assault allegations",
-  "Hoax bomb threats target European airlines and airports for second time in a week",
+  "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
   "Man accused of killing 11-year-old Burnaby boy makes 1st court appearance",
-  "California governor commutes sentences for state's 548 death row inmates",
+  "Hoax bomb threats target European airlines and airports for second time in a week",
   "What prediction markets told us about the midterm election",
+  "California governor commutes sentences for state's 548 death row inmates",
+  "Dolly Parton's manager moves to drop complaint against late singer's nephew",
   "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
-  "Mexican judge arrested over alleged $2M bribe to release Ryan Wedding's second-in-command",
+  "L.A. has a new mayor, and she's a democratic socialist",
   "French protests see numbers surge as unions join strikes over high cost of living"
  ],
  "indices": [
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24524.15,
-   "chg": 7.67,
+   "price": 24654.7,
+   "chg": 8.25,
    "closes": [
     22776.1,
     22603.05,
@@ -111,9 +111,9 @@
     23810.85,
     23960.6,
     24536.6,
-    24524.15
+    24654.7
    ],
-   "ytd": -6.21
+   "ytd": -5.7
   }
  ]
 }

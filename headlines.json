@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-06T04:54:45+00:00",
+ "updated": "2026-11-06T05:55:25+00:00",
  "headlines": [
   "Mark Carney's quiet revolution rests on investment and affordability",
   "Global tech stocks plunge as US midterms add to AI slowdown fears",
@@ -47,7 +47,7 @@
     35801.1,
     35532.3,
     36341.4,
-    35605.27
+    35605.3
    ],
    "ytd": 11.67
   },
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24654.7,
-   "chg": 8.25,
+   "price": 24605.15,
+   "chg": 8.03,
    "closes": [
     22776.1,
     22603.05,
@@ -111,9 +111,9 @@
     23810.85,
     23960.6,
     24536.6,
-    24654.7
+    24605.15
    ],
-   "ytd": -5.7
+   "ytd": -5.9
   }
  ]
 }

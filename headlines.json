@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-06T09:29:55+00:00",
+ "updated": "2026-11-06T10:37:27+00:00",
  "headlines": [
-  "Carney's bet on economic growth \u2014 and the risks that come with it",
-  "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
   "Republicans ran away from Trump's Canadian tariffs, but not far enough",
-  "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-  "Hidden cameras reveal accessibility barriers at leading restaurants",
+  "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
+  "Carney's bet on economic growth \u2014 and the risks that come with it",
   "Trump signs order to preserve Oval Office as national monument",
+  "Hidden cameras reveal accessibility barriers at leading restaurants",
+  "Two dead after bus crashes in France, officials say",
+  "Is The Pitt an unauthorized ER reboot? Court approves lawsuit alleging yes",
+  "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
   "Federal budget maps out defence spending surge, but questions remain over NATO target",
   "Major construction ongoing near Iran missile bases, satellite images suggest",
-  "Is The Pitt an unauthorized ER reboot? Court approves lawsuit alleging yes",
-  "California governor commutes sentences for state's 548 death row inmates",
   "Worst of beef price hikes may be over, but don\u2019t expect cheaper steak anytime soon",
-  "Somalia's top court rejects president's term extension amid political crisis",
+  "Tanzanian opposition leader found guilty of incitement",
   "Trump declares his redesigned Oval Office a national monument",
-  "Nigerian court rules opposition candidate cannot stand in elections",
+  "Elon Musk appears to signal the end of the road for Cybertruck",
   "From groceries to tax credits, how much is in the federal budget for your wallet?",
-  "Macau jails pro-democracy campaigner in city's first national security case"
+  "Somalia's top court rejects president's term extension amid political crisis"
  ],
  "indices": [
   {
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24873.05,
-   "chg": 9.21,
+   "price": 25030.35,
+   "chg": 9.9,
    "closes": [
     22776.1,
     22603.05,
@@ -111,9 +111,9 @@
     23810.85,
     23960.6,
     24536.6,
-    24873.05
+    25030.35
    ],
-   "ytd": -4.87
+   "ytd": -4.27
   }
  ]
 }

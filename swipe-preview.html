@@ -5,8 +5,20 @@
 <style>
 *{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;color:#fff;font-family:"Segoe UI",Arial,sans-serif}
 body{background:radial-gradient(1200px 800px at 20% -10%,rgba(0,229,255,.18),transparent 60%),radial-gradient(1000px 700px at 90% 110%,rgba(147,51,234,.22),transparent 60%),#0b1526}
-#deck{display:flex;width:300%;height:calc(100% - 34px);transition:transform .3s ease}
-.page{width:33.3333%;height:100%;padding:12px 18px 6px;overflow:hidden;flex-shrink:0}
+#deck{display:flex;width:400%;height:calc(100% - 34px);transition:transform .3s ease}
+.page{width:25%;height:100%;padding:12px 18px 6px;overflow:hidden;flex-shrink:0}
+/* big music */
+.mtitle{font-size:32px;font-weight:700;line-height:1.2;min-height:78px}
+.msub{font-size:14px;color:#9db2c8;margin:4px 0 14px}
+.mbtns{display:flex;gap:12px;margin:14px 0}
+.mbtns button{flex:1;min-height:72px;border-radius:16px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.12);color:#aef7ff;font-size:26px;font-weight:700;cursor:pointer}
+.mbtns button:active{background:rgba(0,229,255,.35);color:#fff}
+.mplay{flex:1.4 !important;font-size:30px !important}
+.mbar{height:10px;border-radius:999px;background:rgba(255,255,255,.12);overflow:hidden;margin:6px 0}
+.mbar div{height:100%;width:0%;background:#00e5ff}
+.mtime{font-size:13px;color:#9db2c8}
+.mvol{display:flex;gap:12px;margin-top:14px}
+.mvol button{flex:1;min-height:48px;border-radius:12px;border:1px solid rgba(0,229,255,.35);background:rgba(0,229,255,.08);color:#aef7ff;font-size:20px;cursor:pointer}
 h1{font-size:19px;margin:0 0 2px}h1 span{font-size:12px;color:#9db2c8;font-weight:400}
 .sub{font-size:12px;color:#9db2c8;margin:0 0 10px}
 .card{background:rgba(255,255,255,.07);border:1px solid rgba(0,229,255,.30);border-radius:14px;padding:10px 14px;margin-bottom:10px}
@@ -54,7 +66,7 @@ h1{font-size:19px;margin:0 0 2px}h1 span{font-size:12px;color:#9db2c8;font-weigh
   <!-- PAGE 1 : current dashboard (preview mock) -->
   <div class="page">
     <h1>Main dashboard <span>&mdash; page 1 &middot; preview mock, live page unchanged</span></h1>
-    <div class="sub">Swipe right (or tap &#8250;) to see the calendar, then trips &amp; Dhruv. Left swipe can open Fully&rsquo;s menu, so right swipe is the main one.</div>
+    <div class="sub">Swipe right (or tap &#8250;) for Dhruv&rsquo;s music, then the calendar, then trips. Left swipe can open Fully&rsquo;s menu, so right swipe is the main one.</div>
     <div class="row">
       <div class="card"><span class="pill">Toronto</span><div class="clock" id="clock">--:--</div><div class="small">India <span id="clockIn">--:--</span></div></div>
       <div class="card"><span class="pill">Weather</span><div class="big">17&deg; &middot; Drizzle</div><div class="small">Feels like 15&deg; &middot; Rain 57% &middot; Sunset 5:09 PM</div></div>
@@ -69,9 +81,32 @@ h1{font-size:19px;margin:0 0 2px}h1 span{font-size:12px;color:#9db2c8;font-weigh
     </div>
     <div class="card"><span class="pill">Notes</span><div>kandipappu &middot; minapappu &middot; vegetables</div></div>
   </div>
-  <!-- PAGE 2 : family calendar -->
+  <!-- PAGE 2 : big music -->
   <div class="page">
-    <h1>Family calendar <span>&mdash; page 2 &middot; preview</span></h1>
+    <h1>Dhruv&rsquo;s music <span>&mdash; page 2 &middot; preview &middot; big, audio only</span></h1>
+    <div class="sub">Moved here from the main page. Same playlist, no video &mdash; just big controls.</div>
+    <div class="card">
+      <span class="pill">Now playing &middot; Playlist: Dhruv</span>
+      <div class="mtitle" id="mTitle">Tap play to start</div>
+      <div class="msub" id="mState">YouTube playlist &middot; audio only</div>
+      <div class="mbar"><div id="mFill"></div></div>
+      <div class="mtime"><span id="mCur">0:00</span> / <span id="mDur">0:00</span></div>
+      <div class="mbtns">
+        <button onclick="mPrev()">&#9198; Prev</button>
+        <button class="mplay" id="mPlay" onclick="mToggle()">&#9654; Play</button>
+        <button onclick="mNext()">Next &#9197;</button>
+      </div>
+      <div class="mvol">
+        <button onclick="mVol(-10)">&#8722; Quieter</button>
+        <button onclick="mVol(10)">Louder +</button>
+      </div>
+    </div>
+    <div class="card"><div class="d" style="font-size:13px;line-height:1.55">The tablet needs one tap before audio plays. Music keeps playing while you swipe to other pages.</div></div>
+    <div id="ytplayer" style="position:fixed;left:-9999px;top:0;width:1px;height:1px"></div>
+  </div>
+  <!-- PAGE 3 : family calendar -->
+  <div class="page">
+    <h1>Family calendar <span>&mdash; page 3 &middot; preview</span></h1>
     <div class="sub">Tap a day to see its events. Events come from a simple list you can edit from your phone.</div>
     <div class="calnav"><button onclick="moveMonth(-1)">&#8249;</button><div class="mt" id="calTitle"></div><button onclick="moveMonth(1)">&#8250;</button></div>
     <div class="grid" id="calGrid"></div>
@@ -79,19 +114,20 @@ h1{font-size:19px;margin:0 0 2px}h1 span{font-size:12px;color:#9db2c8;font-weigh
   </div>
   <!-- PAGE 3 : trips + Dhruv -->
   <div class="page">
-    <h1>Trips &amp; Dhruv <span>&mdash; page 3 &middot; preview</span></h1>
+    <h1>Trips &amp; Dhruv <span>&mdash; page 4 &middot; preview</span></h1>
     <div class="sub">Everything for the two trips, and Dhruv&rsquo;s stuff in one place.</div>
     <div class="trip">
       <div class="card"><span class="pill">Japan &middot; Apr 8&ndash;19, 2027</span><div class="n" id="tJapan">--</div><div class="l">days to go</div><div class="d">AC1 Thu Apr 8, 1:05 PM YYZ &rarr; HND<br>AC2 Mon Apr 19, 6:05 PM HND &rarr; YYZ<br>Seats row 34 &middot; Booking AC764B<br><b>Next:</b> book hotels by Dec 14</div></div>
       <div class="card"><span class="pill">Punta Cana &middot; Jan 22&ndash;26, 2027</span><div class="n" id="tPunta">--</div><div class="l">days to go</div><div class="d">AC1410 Fri Jan 22, 8:30 AM YYZ &rarr; PUJ<br>AC1411 Tue Jan 26, 3:35 PM PUJ &rarr; YYZ<br>Catalonia Bavaro &middot; Booking 23941576<br><b>Next:</b> DR e-ticket for all three</div></div>
     </div>
-    <div class="card"><span class="pill">Dhruv</span><div class="d">&#9733; Turns 6 on Sat Jan 23, 2027 &mdash; right in the middle of Punta Cana.<br>&#129351; Li&rsquo;l Dragons taekwondo at Authentic TKD.<br>&#128214; 7 library books overdue since Oct 27 (Fairview) &mdash; return or renew.<br>&#127829; Pizza lunch every Tuesday at school.<br>&#127925; Dhruv&rsquo;s playlist lives on the main page music card.</div></div>
+    <div class="card"><span class="pill">Dhruv</span><div class="d">&#9733; Turns 6 on Sat Jan 23, 2027 &mdash; right in the middle of Punta Cana.<br>&#129351; Li&rsquo;l Dragons taekwondo at Authentic TKD.<br>&#128214; 7 library books overdue since Oct 27 (Fairview) &mdash; return or renew.<br>&#127829; Pizza lunch every Tuesday at school.<br>&#127925; Dhruv&rsquo;s playlist lives on page 2 &mdash; big music.</div></div>
   </div>
 </div>
 <button class="nav-arrow" id="arrL" onclick="goPage(cur-1)">&#8249;</button>
 <button class="nav-arrow" id="arrR" onclick="goPage(cur+1)">&#8250;</button>
-<div id="dots"><button class="on" onclick="goPage(0)"></button><button onclick="goPage(1)"></button><button onclick="goPage(2)"></button></div>
+<div id="dots"><button class="on" onclick="goPage(0)"></button><button onclick="goPage(1)"></button><button onclick="goPage(2)"></button><button onclick="goPage(3)"></button></div>
 <div id="idle">Slides back to page 1 after 60 seconds of no touching.</div>
+<script src="https://www.youtube.com/iframe_api"></script>
 <script>
 /* ---- data: real dates from the family calendar ---- */
 var EVENTS=[
@@ -165,8 +201,8 @@ function moveMonth(dir){calM+=dir;if(calM<0){calM=11;calY--;}if(calM>11){calM=0;
 /* ---- swipe ---- */
 var cur=0,idleTimer=null;
 function goPage(n){
-  cur=((n%3)+3)%3;
-  document.getElementById('deck').style.transform='translateX(-'+(cur*33.3333)+'%)';
+  cur=((n%4)+4)%4;
+  document.getElementById('deck').style.transform='translateX(-'+(cur*25)+'%)';
   var ds=document.getElementById('dots').getElementsByTagName('button'),i;
   for(i=0;i<ds.length;i++)ds[i].className=(i===cur)?'on':'';
   resetIdle();
@@ -186,6 +222,36 @@ document.addEventListener('touchstart',function(e){var t=e.changedTouches[0];onS
 document.addEventListener('touchend',function(e){var t=e.changedTouches[0];onEnd(t.clientX,t.clientY);},false);
 document.addEventListener('mousedown',function(e){onStart(e.clientX,e.clientY);},false);
 document.addEventListener('mouseup',function(e){onEnd(e.clientX,e.clientY);},false);
+/* ---- big music player (YouTube playlist, audio only) ---- */
+var mPlayer=null,mReady=false;
+function onYouTubeIframeAPIReady(){
+  mPlayer=new YT.Player('ytplayer',{height:'1',width:'1',
+    playerVars:{listType:'playlist',list:'PLZN9JkXZxKHf1pyH2WZgxbx5z_whH3Yf8',autoplay:0},
+    events:{onReady:function(){mReady=true;},onStateChange:onMState}});
+}
+function onMState(e){
+  var b=document.getElementById('mPlay');
+  if(e.data===1){b.innerHTML='&#10074;&#10074; Pause';document.getElementById('mState').textContent='Playing';}
+  else{b.innerHTML='&#9654; Play';if(e.data===2)document.getElementById('mState').textContent='Paused';}
+  try{
+    var d=mPlayer.getVideoData();
+    if(d&&d.title)document.getElementById('mTitle').textContent=d.title;
+  }catch(err){}
+}
+function mToggle(){if(!mReady)return;var s=mPlayer.getPlayerState();if(s===1)mPlayer.pauseVideo();else mPlayer.playVideo();}
+function mPrev(){if(mReady)mPlayer.previousVideo();}
+function mNext(){if(mReady)mPlayer.nextVideo();}
+function mVol(d){if(!mReady)return;var v=mPlayer.getVolume()+d;if(v<0)v=0;if(v>100)v=100;mPlayer.setVolume(v);}
+function fmtT(s){if(!isFinite(s)||s<0)s=0;s=Math.floor(s);return Math.floor(s/60)+':'+(s%60<10?'0':'')+(s%60);}
+setInterval(function(){
+  if(!mReady)return;
+  try{
+    var c=mPlayer.getCurrentTime(),d=mPlayer.getDuration();
+    document.getElementById('mCur').textContent=fmtT(c);
+    document.getElementById('mDur').textContent=fmtT(d);
+    document.getElementById('mFill').style.width=(d>0?(c/d*100):0)+'%';
+  }catch(err){}
+},500);
 /* ---- clocks + countdowns ---- */
 function daysTo(y,m,d){
   var t=new Date(y,m-1,d),n=new Date();n.setHours(0,0,0,0);

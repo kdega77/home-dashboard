@@ -34,14 +34,22 @@ function clickSound(){
   try{
     var AC=window.AudioContext||window.webkitAudioContext;
     if(!AC)return;
-    var ctx=new AC(),o=ctx.createOscillator(),g=ctx.createGain();
+    var ctx=new AC(),t=ctx.currentTime;
+    var o=ctx.createOscillator(),g=ctx.createGain();
     o.connect(g);g.connect(ctx.destination);
-    o.type='triangle';
-    o.frequency.setValueAtTime(1600,ctx.currentTime);
-    o.frequency.exponentialRampToValueAtTime(900,ctx.currentTime+0.05);
-    g.gain.setValueAtTime(0.10,ctx.currentTime);
-    g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+0.07);
-    o.start();o.stop(ctx.currentTime+0.08);
+    o.type='sine';
+    o.frequency.setValueAtTime(240,t);
+    o.frequency.exponentialRampToValueAtTime(110,t+0.06);
+    g.gain.setValueAtTime(0.18,t);
+    g.gain.exponentialRampToValueAtTime(0.001,t+0.08);
+    o.start(t);o.stop(t+0.09);
+    var o2=ctx.createOscillator(),g2=ctx.createGain();
+    o2.connect(g2);g2.connect(ctx.destination);
+    o2.type='triangle';
+    o2.frequency.value=1400;
+    g2.gain.setValueAtTime(0.03,t);
+    g2.gain.exponentialRampToValueAtTime(0.001,t+0.02);
+    o2.start(t);o2.stop(t+0.03);
   }catch(e){}
 }
 function tileColor(chg){

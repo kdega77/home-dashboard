@@ -1,0 +1,209 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Swipe Pages — Preview</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;overflow:hidden;color:#fff;font-family:"Segoe UI",Arial,sans-serif}
+body{background:radial-gradient(1200px 800px at 20% -10%,rgba(0,229,255,.18),transparent 60%),radial-gradient(1000px 700px at 90% 110%,rgba(147,51,234,.22),transparent 60%),#0b1526}
+#deck{display:flex;width:300%;height:calc(100% - 34px);transition:transform .3s ease}
+.page{width:33.3333%;height:100%;padding:12px 18px 6px;overflow:hidden;flex-shrink:0}
+h1{font-size:19px;margin:0 0 2px}h1 span{font-size:12px;color:#9db2c8;font-weight:400}
+.sub{font-size:12px;color:#9db2c8;margin:0 0 10px}
+.card{background:rgba(255,255,255,.07);border:1px solid rgba(0,229,255,.30);border-radius:14px;padding:10px 14px;margin-bottom:10px}
+.pill{display:inline-block;font-size:11px;letter-spacing:.08em;text-transform:uppercase;color:#aef7ff;border:1px solid rgba(0,229,255,.45);border-radius:999px;padding:2px 10px;margin-bottom:6px}
+/* page 1 mock */
+.clock{font-size:44px;font-weight:700;line-height:1}
+.row{display:flex;gap:10px}
+.row .card{flex:1}
+.big{font-size:22px;font-weight:700}
+.small{font-size:12px;color:#9db2c8}
+.cd{display:flex;gap:10px}
+.cd .card{flex:1;text-align:center}
+.cd .n{font-size:26px;font-weight:700}
+.cd .l{font-size:11px;color:#9db2c8}
+/* calendar */
+.calnav{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.calnav button{width:44px;height:36px;border-radius:10px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.12);color:#aef7ff;font-size:18px;cursor:pointer}
+.calnav .mt{font-size:18px;font-weight:700}
+.grid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.dow{font-size:11px;color:#9db2c8;text-align:center;padding:2px 0}
+.day{min-height:44px;border-radius:8px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);padding:3px 5px;font-size:14px;cursor:pointer}
+.day.off{background:transparent;border-color:transparent}
+.day.today{border:2px solid #00e5ff;background:rgba(0,229,255,.15)}
+.day.sel{border:2px solid #fff}
+.day .dots{margin-top:3px}
+.dot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:3px}
+.c-health{background:#ff5a5a}.c-school{background:#ffb020}.c-trip{background:#22c55e}.c-money{background:#c084fc}.c-family{background:#38bdf8}
+.up{font-size:13px;line-height:1.5}
+.up b{color:#aef7ff}
+/* trips */
+.trip{display:flex;gap:10px}
+.trip .card{flex:1}
+.trip .n{font-size:30px;font-weight:700}
+.trip .l{font-size:12px;color:#9db2c8}
+.trip .d{font-size:13px;line-height:1.55}
+/* dots */
+#dots{height:34px;display:flex;align-items:center;justify-content:center;gap:10px}
+#dots button{width:12px;height:12px;border-radius:50%;border:1px solid rgba(0,229,255,.6);background:transparent;padding:0;cursor:pointer}
+#dots button.on{background:#00e5ff}
+#idle{font-size:11px;color:#9db2c8;text-align:center;margin-top:-6px}
+.nav-arrow{position:fixed;top:45%;width:44px;height:64px;border-radius:12px;border:1px solid rgba(0,229,255,.45);background:rgba(0,0,0,.35);color:#aef7ff;font-size:30px;z-index:5;cursor:pointer}
+#arrL{left:6px}#arrR{right:6px}
+</style></head><body>
+<div id="deck">
+  <!-- PAGE 1 : current dashboard (preview mock) -->
+  <div class="page">
+    <h1>Main dashboard <span>&mdash; page 1 &middot; preview mock, live page unchanged</span></h1>
+    <div class="sub">Swipe right (or tap &#8250;) to see the calendar, then trips &amp; Dhruv. Left swipe can open Fully&rsquo;s menu, so right swipe is the main one.</div>
+    <div class="row">
+      <div class="card"><span class="pill">Toronto</span><div class="clock" id="clock">--:--</div><div class="small">India <span id="clockIn">--:--</span></div></div>
+      <div class="card"><span class="pill">Weather</span><div class="big">17&deg; &middot; Drizzle</div><div class="small">Feels like 15&deg; &middot; Rain 57% &middot; Sunset 5:09 PM</div></div>
+    </div>
+    <div class="row">
+      <div class="card"><span class="pill">Markets</span><div class="big">TSX &#9650;0.24% &middot; S&amp;P 500 &#9660;5.41% &middot; NIFTY &#9650;8.78%</div><div class="small">YTD &mdash; TSX 11.67% &middot; S&amp;P 7.22% &middot; NIFTY -6.16% &middot; tap a card for the heatmap</div></div>
+    </div>
+    <div class="cd">
+      <div class="card"><div class="n" id="cdDhruv">--</div><div class="l">&#9733; Dhruv turns 6 &middot; Jan 23, 2027</div></div>
+      <div class="card"><div class="n" id="cdJapan">--</div><div class="l">&#9992; Japan trip &middot; Apr 8, 2027</div></div>
+      <div class="card"><div class="n" id="cdPunta">--</div><div class="l">&#9728; Punta Cana &middot; Jan 22, 2027</div></div>
+    </div>
+    <div class="card"><span class="pill">Notes</span><div>kandipappu &middot; minapappu &middot; vegetables</div></div>
+  </div>
+  <!-- PAGE 2 : family calendar -->
+  <div class="page">
+    <h1>Family calendar <span>&mdash; page 2 &middot; preview</span></h1>
+    <div class="sub">Tap a day to see its events. Events come from a simple list you can edit from your phone.</div>
+    <div class="calnav"><button onclick="moveMonth(-1)">&#8249;</button><div class="mt" id="calTitle"></div><button onclick="moveMonth(1)">&#8250;</button></div>
+    <div class="grid" id="calGrid"></div>
+    <div class="card" style="margin-top:8px"><span class="pill" id="selTitle">Coming up</span><div class="up" id="selList"></div></div>
+  </div>
+  <!-- PAGE 3 : trips + Dhruv -->
+  <div class="page">
+    <h1>Trips &amp; Dhruv <span>&mdash; page 3 &middot; preview</span></h1>
+    <div class="sub">Everything for the two trips, and Dhruv&rsquo;s stuff in one place.</div>
+    <div class="trip">
+      <div class="card"><span class="pill">Japan &middot; Apr 8&ndash;19, 2027</span><div class="n" id="tJapan">--</div><div class="l">days to go</div><div class="d">AC1 Thu Apr 8, 1:05 PM YYZ &rarr; HND<br>AC2 Mon Apr 19, 6:05 PM HND &rarr; YYZ<br>Seats row 34 &middot; Booking AC764B<br><b>Next:</b> book hotels by Dec 14</div></div>
+      <div class="card"><span class="pill">Punta Cana &middot; Jan 22&ndash;26, 2027</span><div class="n" id="tPunta">--</div><div class="l">days to go</div><div class="d">AC1410 Fri Jan 22, 8:30 AM YYZ &rarr; PUJ<br>AC1411 Tue Jan 26, 3:35 PM PUJ &rarr; YYZ<br>Catalonia Bavaro &middot; Booking 23941576<br><b>Next:</b> DR e-ticket for all three</div></div>
+    </div>
+    <div class="card"><span class="pill">Dhruv</span><div class="d">&#9733; Turns 6 on Sat Jan 23, 2027 &mdash; right in the middle of Punta Cana.<br>&#129351; Li&rsquo;l Dragons taekwondo at Authentic TKD.<br>&#128214; 7 library books overdue since Oct 27 (Fairview) &mdash; return or renew.<br>&#127829; Pizza lunch every Tuesday at school.<br>&#127925; Dhruv&rsquo;s playlist lives on the main page music card.</div></div>
+  </div>
+</div>
+<button class="nav-arrow" id="arrL" onclick="goPage(cur-1)">&#8249;</button>
+<button class="nav-arrow" id="arrR" onclick="goPage(cur+1)">&#8250;</button>
+<div id="dots"><button class="on" onclick="goPage(0)"></button><button onclick="goPage(1)"></button><button onclick="goPage(2)"></button></div>
+<div id="idle">Slides back to page 1 after 60 seconds of no touching.</div>
+<script>
+/* ---- data: real dates from the family calendar ---- */
+var EVENTS=[
+ {d:'2026-11-05',t:'Cardio Health appt, 9 AM (Holter fitted)',c:'health'},
+ {d:'2026-11-06',t:'Dr. Kavita Zoom lab review, 5\u20136 PM',c:'health'},
+ {d:'2026-11-16',t:'Grizzly Gear orders due (SchoolCash)',c:'school'},
+ {d:'2026-11-16',t:'Thursday patty lunch orders due',c:'school'},
+ {d:'2026-11-18',t:'Parent Council trinket/toy donations due',c:'school'},
+ {d:'2026-11-20',t:'Peak Perks $20 reward \u2014 pick delivery method',c:'money'},
+ {d:'2026-11-25',t:'Arbor Glen Movie Night',c:'school'},
+ {d:'2026-11-27',t:'HiTek image scanning, 10 AM',c:'health'},
+ {d:'2026-11-30',t:'Black Friday / Cyber Monday watch ends',c:'money'},
+ {d:'2026-12-05',t:'ICICI NRI Premium \u2014 keep \u20b925L / \u20b91Cr or lose perks',c:'money'},
+ {d:'2026-12-14',t:'Japan hotels \u2014 booking reminder',c:'trip'},
+ {d:'2026-12-23',t:'YCC FOB verification deadline',c:'family'},
+ {d:'2026-12-23',t:'Old Wealthsimple Mastercard stops working',c:'money'},
+ {d:'2027-01-15',t:'Mercury Tax checklist reminder',c:'money'},
+ {d:'2027-01-22',t:'Punta Cana \u2014 fly out (AC1410, 8:30 AM)',c:'trip'},
+ {d:'2027-01-23',t:'Dhruv turns 6 \u2014 birthday in Punta Cana!',c:'family'},
+ {d:'2027-01-26',t:'Punta Cana \u2014 fly home (AC1411, 3:35 PM)',c:'trip'},
+ {d:'2027-01-29',t:'Mercury Tax meeting, 12:15 PM',c:'money'},
+ {d:'2027-04-08',t:'Japan \u2014 fly out (AC1, 1:05 PM)',c:'trip'},
+ {d:'2027-04-19',t:'Japan \u2014 fly home (AC2, 6:05 PM)',c:'trip'}
+];
+var MONTHS=['January','February','March','April','May','June','July','August','September','October','November','December'];
+var DOW=['Sun','Mon','Tue','Wed','Thu','Fri','Sat'];
+var today=new Date();today.setHours(0,0,0,0);
+var calY=2026,calM=10,selDate=null;
+function pad(n){return (n<10?'0':'')+n;}
+function key(y,m,d){return y+'-'+pad(m+1)+'-'+pad(d);}
+function evOn(k){var r=[],i;for(i=0;i<EVENTS.length;i++)if(EVENTS[i].d===k)r.push(EVENTS[i]);return r;}
+function renderCal(){
+  var title=document.getElementById('calTitle');
+  title.textContent=MONTHS[calM]+' '+calY;
+  var g=document.getElementById('calGrid');
+  var html='',i;
+  for(i=0;i<7;i++)html+='<div class="dow">'+DOW[i]+'</div>';
+  var first=new Date(calY,calM,1).getDay();
+  var days=new Date(calY,calM+1,0).getDate();
+  for(i=0;i<first;i++)html+='<div class="day off"></div>';
+  for(var d=1;d<=days;d++){
+    var k=key(calY,calM,d),evs=evOn(k),cls='day';
+    if(k===key(today.getFullYear(),today.getMonth(),today.getDate()))cls+=' today';
+    if(selDate===k)cls+=' sel';
+    html+='<div class="'+cls+'" onclick="pickDay(\''+k+'\')">'+d;
+    if(evs.length){html+='<div class="dots">';for(i=0;i<evs.length;i++)html+='<span class="dot c-'+evs[i].c+'"></span>';html+='</div>';}
+    html+='</div>';
+  }
+  g.innerHTML=html;
+}
+function showList(){
+  var list=document.getElementById('selList'),title=document.getElementById('selTitle');
+  var html='',i,n=0;
+  if(selDate){
+    var evs=evOn(selDate);
+    title.textContent='Events \u2014 '+selDate;
+    if(!evs.length)html='Nothing on this day.';
+    for(i=0;i<evs.length;i++)html+='<div><span class="dot c-'+evs[i].c+'"></span> '+evs[i].t+'</div>';
+  }else{
+    title.textContent='Coming up';
+    var tkey=key(today.getFullYear(),today.getMonth(),today.getDate());
+    for(i=0;i<EVENTS.length&&n<5;i++){
+      if(EVENTS[i].d>=tkey){html+='<div><b>'+EVENTS[i].d+'</b> &mdash; '+EVENTS[i].t+'</div>';n++;}
+    }
+    if(!n)html='Nothing coming up.';
+  }
+  list.innerHTML=html;
+}
+function pickDay(k){selDate=(selDate===k)?null:k;renderCal();showList();}
+function moveMonth(dir){calM+=dir;if(calM<0){calM=11;calY--;}if(calM>11){calM=0;calY++;}selDate=null;renderCal();showList();}
+/* ---- swipe ---- */
+var cur=0,idleTimer=null;
+function goPage(n){
+  cur=((n%3)+3)%3;
+  document.getElementById('deck').style.transform='translateX(-'+(cur*33.3333)+'%)';
+  var ds=document.getElementById('dots').getElementsByTagName('button'),i;
+  for(i=0;i<ds.length;i++)ds[i].className=(i===cur)?'on':'';
+  resetIdle();
+}
+function resetIdle(){
+  if(idleTimer)clearTimeout(idleTimer);
+  idleTimer=setTimeout(function(){if(cur!==0)goPage(0);},60000);
+}
+var sx=0,sy=0;
+function onStart(x,y){sx=x;sy=y;}
+function onEnd(x,y){
+  var dx=x-sx,dy=y-sy;
+  if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)){goPage(cur+(dx>0?1:-1));}
+  else resetIdle();
+}
+document.addEventListener('touchstart',function(e){var t=e.changedTouches[0];onStart(t.clientX,t.clientY);},false);
+document.addEventListener('touchend',function(e){var t=e.changedTouches[0];onEnd(t.clientX,t.clientY);},false);
+document.addEventListener('mousedown',function(e){onStart(e.clientX,e.clientY);},false);
+document.addEventListener('mouseup',function(e){onEnd(e.clientX,e.clientY);},false);
+/* ---- clocks + countdowns ---- */
+function daysTo(y,m,d){
+  var t=new Date(y,m-1,d),n=new Date();n.setHours(0,0,0,0);
+  return Math.round((t-n)/86400000);
+}
+function tick(){
+  var now=new Date();
+  function fmt(d){var h=d.getHours(),m=d.getMinutes(),ap=h>=12?'PM':'AM';h=h%12;if(h===0)h=12;return h+':'+(m<10?'0':'')+m+' '+ap;}
+  document.getElementById('clock').textContent=fmt(now);
+  var ind=new Date(now.getTime()+(now.getTimezoneOffset()+330)*60000);
+  document.getElementById('clockIn').textContent=fmt(ind);
+  var d1=daysTo(2027,1,23),d2=daysTo(2027,4,8),d3=daysTo(2027,1,22);
+  document.getElementById('cdDhruv').textContent=d1;
+  document.getElementById('cdJapan').textContent=d2;
+  document.getElementById('cdPunta').textContent=d3;
+  document.getElementById('tJapan').textContent=d2;
+  document.getElementById('tPunta').textContent=d3;
+}
+renderCal();showList();tick();setInterval(tick,1000);resetIdle();
+</script>
+</body></html>

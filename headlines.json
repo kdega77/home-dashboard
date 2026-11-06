@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-06T17:22:58+00:00",
+ "updated": "2026-11-06T18:16:56+00:00",
  "headlines": [
   "Carney's bet on economic growth \u2014 and the risks that come with it",
   "AI stocks climb after trillions wiped from market values",
   "What we know about Europe's latest wave of bomb threats targeting flights \u2014 and now newsrooms",
-  "Trump signs order to preserve Oval Office as national monument",
+  "Four midterms takeaways for 2028 White House race",
   "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
-  "Dozens of Democrats eyeing 2028 presidential run, says former Obama aide",
-  "Crown stays murder charge against only accused in Sask. triple homicide",
   "Two dead after bus crashes in France, officials say",
+  "Crown stays murder charge against only accused in Sask. triple homicide",
+  "New wave of bomb threats hit European airlines",
   "Canada dominates Sweden 5-1 at women's hockey worlds opener",
   "Kenyan doomsday cult leader given life sentence for murdering 191 people",
   "Canadian economy lost 4,700 jobs in October as unemployment rate ticked up to 6.7%",
-  "New wave of bomb threats hit European airlines",
+  "Judge blocks construction of Trump's massive arch after federal agency approval",
   "Republicans ran away from Trump's Canadian tariffs, but not far enough",
-  "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
-  "History tells us Calgary never figured out its water system",
-  "Russian extremist group denies sending hoax bomb threats"
+  "Russian extremist group denies sending hoax bomb threats",
+  "Canada, others call on China to end 'unjust prosecutions' after sentencing of Joshua Wong",
+  "Pope begins lengthy trip to Latin America weeks after lung cancer surgery"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35891.1,
-   "chg": 0.68,
+   "price": 35801.28,
+   "chg": 0.43,
    "closes": [
     35649.5,
     35041.9,
@@ -47,15 +47,15 @@
     35532.3,
     36341.4,
     35605.3,
-    35891.1
+    35801.28
    ],
-   "ytd": 12.57
+   "ytd": 12.29
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7420.46,
-   "chg": -5.1,
+   "price": 7387.28,
+   "chg": -5.52,
    "closes": [
     7818.93,
     7801.77,
@@ -80,9 +80,9 @@
     7568.92,
     7688.62,
     7353.73,
-    7420.46
+    7387.28
    ],
-   "ytd": 8.19
+   "ytd": 7.71
   },
   {
    "sym": "NIFTY",

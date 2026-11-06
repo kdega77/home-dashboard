@@ -23,7 +23,48 @@ body.wake #scrim{background:linear-gradient(180deg,rgba(2,4,8,.60),rgba(2,4,8,.6
 body.wake main{opacity:1}
 #wakeHint{display:none;position:fixed;left:0;right:0;bottom:22px;text-align:center;z-index:5;font-size:13px;letter-spacing:.14em;text-transform:uppercase;color:rgba(255,255,255,.30);pointer-events:none}
 body.off #wakeHint{display:block}
-main{position:relative;z-index:2;height:100vh;padding:10px 30px 8px;display:flex;flex-direction:column;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7);transition:opacity 4s}
+main{position:relative;z-index:2;height:100vh;padding:0;overflow:hidden;text-shadow:0 2px 10px rgba(0,0,0,.7);transition:opacity 4s}
+#deck{display:flex;width:400%;height:100%;transition:transform .3s ease}
+.page{width:25%;height:100%;flex-shrink:0;padding:10px 30px 8px;display:flex;flex-direction:column;overflow:hidden}
+.page h1{font-size:19px;margin:0 0 2px}
+.page h1 span{font-size:12px;color:#9db2c8;font-weight:400}
+.page .sub{font-size:12px;color:#9db2c8;margin:0 0 10px}
+#dots{position:fixed;left:0;right:0;bottom:4px;display:flex;align-items:center;justify-content:center;gap:10px;z-index:4}
+#dots button{width:12px;height:12px;border-radius:50%;border:1px solid rgba(0,229,255,.6);background:rgba(0,0,0,.4);padding:0;cursor:pointer}
+#dots button.on{background:#00e5ff}
+.nav-arrow{position:fixed;top:45%;width:44px;height:64px;border-radius:12px;border:1px solid rgba(0,229,255,.45);background:rgba(0,0,0,.35);color:#aef7ff;font-size:30px;z-index:4;cursor:pointer}
+#arrL{left:6px}#arrR{right:6px}
+body.off #dots,body.off .nav-arrow{display:none}
+.mtitle{font-size:32px;font-weight:700;line-height:1.2;min-height:78px}
+.msub{font-size:14px;color:#9db2c8;margin:4px 0 14px}
+.mbtns{display:flex;gap:12px;margin:14px 0}
+.mbtns button{flex:1;min-height:72px;border-radius:16px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.12);color:#aef7ff;font-size:26px;font-weight:700;cursor:pointer}
+.mbtns button:active{background:rgba(0,229,255,.35);color:#fff}
+.mplay{flex:1.4 !important;font-size:30px !important}
+.mbar{height:10px;border-radius:999px;background:rgba(255,255,255,.12);overflow:hidden;margin:6px 0}
+.mbar div{height:100%;width:0%;background:#00e5ff}
+.mtime{font-size:13px;color:#9db2c8}
+.mvol{display:flex;gap:12px;margin-top:14px}
+.mvol button{flex:1;min-height:48px;border-radius:12px;border:1px solid rgba(0,229,255,.35);background:rgba(0,229,255,.08);color:#aef7ff;font-size:20px;cursor:pointer}
+.calnav{display:flex;align-items:center;gap:12px;margin-bottom:8px}
+.calnav button{width:44px;height:36px;border-radius:10px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.12);color:#aef7ff;font-size:18px;cursor:pointer}
+.calnav .mt{font-size:18px;font-weight:700}
+.calgrid{display:grid;grid-template-columns:repeat(7,1fr);gap:4px}
+.caldow{font-size:11px;color:#9db2c8;text-align:center;padding:2px 0}
+.calday{min-height:44px;border-radius:8px;background:rgba(255,255,255,.05);border:1px solid rgba(255,255,255,.08);padding:3px 5px;font-size:14px;cursor:pointer}
+.calday.off{background:transparent;border-color:transparent}
+.calday.today{border:2px solid #00e5ff;background:rgba(0,229,255,.15)}
+.calday.sel{border:2px solid #fff}
+.calday .cdots{margin-top:3px}
+.cdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:3px}
+.c-health{background:#ff5a5a}.c-school{background:#ffb020}.c-trip{background:#22c55e}.c-money{background:#c084fc}.c-family{background:#38bdf8}
+.up{font-size:13px;line-height:1.5}
+.up b{color:#aef7ff}
+.trip{display:flex;gap:10px}
+.trip .card{flex:1}
+.trip .n{font-size:30px;font-weight:700}
+.trip .l{font-size:12px;color:#9db2c8}
+.trip .d{font-size:13px;line-height:1.55}
 body.night main{opacity:.55}
 .card{background:rgba(18,28,58,.55);border:1px solid rgba(0,229,255,.28);border-radius:24px;box-shadow:0 10px 30px rgba(0,0,0,.45),0 0 22px rgba(0,150,255,.18),0 0 34px rgba(150,0,255,.10),inset 0 1px 0 rgba(255,255,255,.10);-webkit-backdrop-filter:blur(16px);backdrop-filter:blur(16px)}
 .glow{position:fixed;border-radius:50%;pointer-events:none;z-index:1;-webkit-filter:blur(60px);filter:blur(60px)}
@@ -133,6 +174,8 @@ body.night main{opacity:.55}
 <div class="glow glow-blue"></div>
 <div class="glow glow-purple"></div>
 <main>
+<div id="deck">
+<div class="page" id="page-main">
   <div class="top">
     <div>
       <div class="eyebrow">Home &middot; Thornhill, Canada</div>
@@ -144,15 +187,6 @@ body.night main{opacity:.55}
           <div id="indiaTime">--:--</div>
           <div id="indiaDay"></div>
         </div>
-      </div>
-    </div>
-    <div class="music card" id="musicCard">
-      <div id="musicPlayer"></div>
-      <div class="music-mid"><div class="music-label">&#9834; Dhruv&rsquo;s music</div><div id="musicSong">Tap Play for Dhruv&rsquo;s playlist</div><div id="musicSub">YouTube playlist &middot; tap Play, Next, Prev</div></div>
-      <div class="music-controls">
-        <button type="button" class="music-btn" onclick="musicPrev()">&#9198;</button>
-        <button type="button" class="music-btn play" id="musicPlayBtn" onclick="musicToggle()">&#9654;</button>
-        <button type="button" class="music-btn" onclick="musicNext()">&#9197;</button>
       </div>
     </div>
     <div class="now card">
@@ -177,7 +211,50 @@ body.night main{opacity:.55}
   <div class="foot">
     <div><span class="dot"></span><span id="status">Weather loading</span></div>
   </div>
+</div>
+<div class="page">
+    <h1>Dhruv&rsquo;s music <span>&mdash; page 2 &middot; big, audio only</span></h1>
+    <div class="sub">Moved here from the main page. Same playlist, no video &mdash; just big controls.</div>
+    <div class="card" id="musicCard" style="padding:14px 18px">
+      <div id="musicPlayer"></div>
+      <span class="pill">Now playing &middot; Playlist: Dhruv</span>
+      <div class="mtitle" id="musicSong">Tap Play for Dhruv&rsquo;s playlist</div>
+      <div class="msub" id="musicSub">YouTube playlist &middot; tap Play, Next, Prev</div>
+      <div class="mbar"><div id="mFill"></div></div>
+      <div class="mtime"><span id="mCur">0:00</span> / <span id="mDur">0:00</span></div>
+      <div class="mbtns">
+        <button type="button" onclick="musicPrev()">&#9198; Prev</button>
+        <button type="button" class="mplay" id="musicPlayBtn" onclick="musicToggle()">&#9654; Play</button>
+        <button type="button" onclick="musicNext()">Next &#9197;</button>
+      </div>
+      <div class="mvol">
+        <button type="button" onclick="mVol(-10)">&#8722; Quieter</button>
+        <button type="button" onclick="mVol(10)">Louder +</button>
+      </div>
+    </div>
+    <div class="card" style="margin-top:10px;padding:10px 14px"><div style="font-size:13px;line-height:1.55">The tablet needs one tap before audio plays. Music keeps playing while you swipe to other pages.</div></div>
+</div>
+<div class="page">
+    <h1>Family calendar <span>&mdash; page 3</span></h1>
+    <div class="sub">Tap a day to see its events.</div>
+    <div class="calnav"><button type="button" onclick="moveMonth(-1)">&#8249;</button><div class="mt" id="calTitle"></div><button type="button" onclick="moveMonth(1)">&#8250;</button></div>
+    <div class="calgrid" id="calGrid"></div>
+    <div class="card" style="margin-top:8px;padding:10px 14px"><span class="pill" id="selTitle">Coming up</span><div class="up" id="selList" style="margin-top:6px"></div></div>
+</div>
+<div class="page">
+    <h1>Trips &amp; Dhruv <span>&mdash; page 4</span></h1>
+    <div class="sub">Everything for the two trips, and Dhruv&rsquo;s stuff in one place.</div>
+    <div class="trip">
+      <div class="card" style="padding:10px 14px"><span class="pill">Japan &middot; Apr 8&ndash;19, 2027</span><div class="n" id="tJapan">--</div><div class="l">days to go</div><div class="d">AC1 Thu Apr 8, 1:05 PM YYZ &rarr; HND<br>AC2 Mon Apr 19, 6:05 PM HND &rarr; YYZ<br>Seats row 34 &middot; Booking AC764B<br><b>Next:</b> book hotels by Dec 14</div></div>
+      <div class="card" style="padding:10px 14px"><span class="pill">Punta Cana &middot; Jan 22&ndash;26, 2027</span><div class="n" id="tPunta">--</div><div class="l">days to go</div><div class="d">AC1410 Fri Jan 22, 8:30 AM YYZ &rarr; PUJ<br>AC1411 Tue Jan 26, 3:35 PM PUJ &rarr; YYZ<br>Catalonia Bavaro &middot; Booking 23941576<br><b>Next:</b> DR e-ticket for all three</div></div>
+    </div>
+    <div class="card" style="margin-top:10px;padding:10px 14px"><span class="pill">Dhruv</span><div class="d" style="font-size:13px;line-height:1.55">&#9733; Turns 6 on Sat Jan 23, 2027 &mdash; right in the middle of Punta Cana.<br>&#129351; Li&rsquo;l Dragons taekwondo at Authentic TKD.<br>&#128214; 7 library books overdue since Oct 27 (Fairview) &mdash; return or renew.<br>&#127829; Pizza lunch every Tuesday at school.<br>&#127925; Dhruv&rsquo;s playlist lives on page 2 &mdash; big music.</div></div>
+</div>
+</div>
 </main>
+<button class="nav-arrow" id="arrL" onclick="goPage(cur-1)">&#8249;</button>
+<button class="nav-arrow" id="arrR" onclick="goPage(cur+1)">&#8250;</button>
+<div id="dots"><button class="on" onclick="goPage(0)"></button><button onclick="goPage(1)"></button><button onclick="goPage(2)"></button><button onclick="goPage(3)"></button></div>
 <div id="wakeHint">Tap to view</div>
 <script>
 function $(id){return document.getElementById(id);}
@@ -570,8 +647,8 @@ function onYouTubeIframeAPIReady(){
     events:{
       onReady:function(){musicUpdate();},
       onStateChange:function(ev){
-        if(ev.data===1){musicPlaying=true;$('musicCard').className='music card playing';$('musicPlayBtn').innerHTML='&#10074;&#10074;';}
-        else if(ev.data===2||ev.data===0){musicPlaying=false;$('musicCard').className='music card';$('musicPlayBtn').innerHTML='&#9654;';}
+        if(ev.data===1){musicPlaying=true;$('musicCard').className='card playing';$('musicPlayBtn').innerHTML='&#10074;&#10074; Pause';}
+        else if(ev.data===2||ev.data===0){musicPlaying=false;$('musicCard').className='card';$('musicPlayBtn').innerHTML='&#9654; Play';}
         musicUpdate();
       },
       onError:function(ev){$('musicSub').textContent='Music error ('+ev.data+'). Try Next.';}
@@ -586,6 +663,121 @@ function onYouTubeIframeAPIReady(){
     if(!musicPlayer){$('musicSub').textContent='Music player did not load. Check Wi-Fi, then refresh.';}
   },15000);
 })();
+/* ---------- Swipe pages: 1 main, 2 big music, 3 calendar, 4 trips+Dhruv ---------- */
+/* Right swipe = next page (left swipe can open Fully Kiosk's menu). Dots and
+   side arrows also change pages. After 60s idle it slides back to page 1,
+   unless music is playing. */
+var cur=0,idleTimer=null;
+function goPage(n){
+  cur=((n%4)+4)%4;
+  $('deck').style.transform='translateX(-'+(cur*25)+'%)';
+  var ds=$('dots').getElementsByTagName('button'),i;
+  for(i=0;i<ds.length;i++)ds[i].className=(i===cur)?'on':'';
+  if(document.body.className!=='off')clickSound();
+  resetIdle();
+}
+function resetIdle(){
+  if(idleTimer)clearTimeout(idleTimer);
+  idleTimer=setTimeout(function(){if(cur!==0&&!musicPlaying)goPage(0);},60000);
+}
+var sx=0,sy=0;
+function swipeStart(x,y){sx=x;sy=y;}
+function swipeEnd(x,y){
+  var dx=x-sx,dy=y-sy;
+  if(Math.abs(dx)>60&&Math.abs(dx)>Math.abs(dy)){goPage(cur+(dx>0?1:-1));}
+  else resetIdle();
+}
+document.addEventListener('touchstart',function(e){var c=e.changedTouches[0];swipeStart(c.clientX,c.clientY);},false);
+document.addEventListener('touchend',function(e){var c=e.changedTouches[0];swipeEnd(c.clientX,c.clientY);},false);
+document.addEventListener('mousedown',function(e){swipeStart(e.clientX,e.clientY);},false);
+document.addEventListener('mouseup',function(e){swipeEnd(e.clientX,e.clientY);},false);
+
+/* ---------- Family calendar (page 3): events list, editable like notes ---------- */
+var EVENTS=[
+ {d:'2026-11-05',t:'Cardio Health appt, 9 AM (Holter fitted)',c:'health'},
+ {d:'2026-11-06',t:'Dr. Kavita Zoom lab review, 5\u20136 PM',c:'health'},
+ {d:'2026-11-16',t:'Grizzly Gear orders due (SchoolCash)',c:'school'},
+ {d:'2026-11-16',t:'Thursday patty lunch orders due',c:'school'},
+ {d:'2026-11-18',t:'Parent Council trinket/toy donations due',c:'school'},
+ {d:'2026-11-20',t:'Peak Perks $20 reward \u2014 pick delivery method',c:'money'},
+ {d:'2026-11-25',t:'Arbor Glen Movie Night',c:'school'},
+ {d:'2026-11-27',t:'HiTek image scanning, 10 AM',c:'health'},
+ {d:'2026-11-30',t:'Black Friday / Cyber Monday watch ends',c:'money'},
+ {d:'2026-12-05',t:'ICICI NRI Premium \u2014 keep \u20b925L / \u20b91Cr or lose perks',c:'money'},
+ {d:'2026-12-14',t:'Japan hotels \u2014 booking reminder',c:'trip'},
+ {d:'2026-12-23',t:'YCC FOB verification deadline',c:'family'},
+ {d:'2026-12-23',t:'Old Wealthsimple Mastercard stops working',c:'money'},
+ {d:'2027-01-15',t:'Mercury Tax checklist reminder',c:'money'},
+ {d:'2027-01-22',t:'Punta Cana \u2014 fly out (AC1410, 8:30 AM)',c:'trip'},
+ {d:'2027-01-23',t:'Dhruv turns 6 \u2014 birthday in Punta Cana!',c:'family'},
+ {d:'2027-01-26',t:'Punta Cana \u2014 fly home (AC1411, 3:35 PM)',c:'trip'},
+ {d:'2027-01-29',t:'Mercury Tax meeting, 12:15 PM',c:'money'},
+ {d:'2027-04-08',t:'Japan \u2014 fly out (AC1, 1:05 PM)',c:'trip'},
+ {d:'2027-04-19',t:'Japan \u2014 fly home (AC2, 6:05 PM)',c:'trip'}
+];
+var calY=2026,calM=10,selDate=null;
+var calToday=new Date();calToday.setHours(0,0,0,0);
+function calKey(y,m,d){return y+'-'+pad(m+1)+'-'+pad(d);}
+function evOn(k){var r=[],i;for(i=0;i<EVENTS.length;i++)if(EVENTS[i].d===k)r.push(EVENTS[i]);return r;}
+function renderCal(){
+  $('calTitle').textContent=MONTHS[calM]+' '+calY;
+  var g=$('calGrid'),html='',i;
+  for(i=0;i<7;i++)html+='<div class="caldow">'+DAYS_S[i]+'</div>';
+  var first=new Date(calY,calM,1).getDay();
+  var days=new Date(calY,calM+1,0).getDate();
+  for(i=0;i<first;i++)html+='<div class="calday off"></div>';
+  for(var d=1;d<=days;d++){
+    var k=calKey(calY,calM,d),evs=evOn(k),cls='calday';
+    if(k===calKey(calToday.getFullYear(),calToday.getMonth(),calToday.getDate()))cls+=' today';
+    if(selDate===k)cls+=' sel';
+    html+='<div class="'+cls+'" onclick="pickDay(\''+k+'\')">'+d;
+    if(evs.length){html+='<div class="cdots">';for(i=0;i<evs.length;i++)html+='<span class="cdot c-'+evs[i].c+'"></span>';html+='</div>';}
+    html+='</div>';
+  }
+  g.innerHTML=html;
+}
+function showCalList(){
+  var list=$('selList'),title=$('selTitle'),html='',i,n=0;
+  if(selDate){
+    var evs=evOn(selDate);
+    title.textContent='Events \u2014 '+selDate;
+    if(!evs.length)html='Nothing on this day.';
+    for(i=0;i<evs.length;i++)html+='<div><span class="cdot c-'+evs[i].c+'"></span> '+evs[i].t+'</div>';
+  }else{
+    title.textContent='Coming up';
+    var tkey=calKey(calToday.getFullYear(),calToday.getMonth(),calToday.getDate());
+    for(i=0;i<EVENTS.length&&n<5;i++){
+      if(EVENTS[i].d>=tkey){html+='<div><b>'+EVENTS[i].d+'</b> &mdash; '+EVENTS[i].t+'</div>';n++;}
+    }
+    if(!n)html='Nothing coming up.';
+  }
+  list.innerHTML=html;
+}
+function pickDay(k){selDate=(selDate===k)?null:k;renderCal();showCalList();}
+function moveMonth(dir){calM+=dir;if(calM<0){calM=11;calY--;}if(calM>11){calM=0;calY++;}selDate=null;renderCal();showCalList();}
+renderCal();showCalList();
+
+/* ---------- Trips page countdowns (page 4) ---------- */
+$('tJapan').textContent=daysUntil(CD_JAPAN);
+$('tPunta').textContent=daysUntil(CD_PUNTA);
+
+/* ---------- Big music: volume + progress bar (page 2) ---------- */
+function mVol(d){
+  if(!musicPlayer)return;
+  try{var v=musicPlayer.getVolume()+d;if(v<0)v=0;if(v>100)v=100;musicPlayer.setVolume(v);}catch(e){}
+}
+function fmtT(s){if(!isFinite(s)||s<0)s=0;s=Math.floor(s);return Math.floor(s/60)+':'+(s%60<10?'0':'')+(s%60);}
+setInterval(function(){
+  if(!musicPlayer)return;
+  try{
+    var c=musicPlayer.getCurrentTime(),d=musicPlayer.getDuration();
+    $('mCur').textContent=fmtT(c);
+    $('mDur').textContent=fmtT(d);
+    $('mFill').style.width=(d>0?(c/d*100):0)+'%';
+  }catch(e){}
+},500);
+resetIdle();
+
 function scheduleReload(){
   if(musicPlaying){setTimeout(scheduleReload,10*60*1000);return;}
   try{sessionStorage.setItem('autoReload','1');}catch(e){}

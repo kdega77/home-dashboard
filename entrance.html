@@ -474,10 +474,12 @@ function clickSound(){
     if(!AC)return;
     var ctx=new AC(),o=ctx.createOscillator(),g=ctx.createGain();
     o.connect(g);g.connect(ctx.destination);
-    o.frequency.value=880;
-    g.gain.setValueAtTime(0.12,ctx.currentTime);
-    g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+0.08);
-    o.start();o.stop(ctx.currentTime+0.09);
+    o.type='triangle';
+    o.frequency.setValueAtTime(1600,ctx.currentTime);
+    o.frequency.exponentialRampToValueAtTime(900,ctx.currentTime+0.05);
+    g.gain.setValueAtTime(0.10,ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+0.07);
+    o.start();o.stop(ctx.currentTime+0.08);
   }catch(e){}
 }
 function openHeatmap(tab){

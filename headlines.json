@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-06T15:15:57+00:00",
+ "updated": "2026-11-06T16:21:45+00:00",
  "headlines": [
+  "Meghan Markle's father arrested on charges related to child sexual abuse material: AP",
+  "AI stocks climb after trillions wiped from market values",
   "Carney's bet on economic growth \u2014 and the risks that come with it",
   "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
   "Canadian economy lost 4,700 jobs in October as unemployment rate ticked up to 6.7%",
   "Trump signs order to preserve Oval Office as national monument",
-  "Former U of Manitoba law dean accused of fraud loses bid to fight extradition from France",
-  "Two dead after bus crashes in France, officials say",
-  "A mysterious U.S. army barrel washed ashore in Quebec. Why did it drum up anthrax concerns?",
-  "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-  "Federal budget maps out defence spending surge, but questions remain over NATO target",
-  "Russian extremist group denies sending hoax bomb threats",
   "Wild Horse Nine is a bleak, hopeless sign of the times. You're going to love it",
+  "Two dead after bus crashes in France, officials say",
+  "History tells us Calgary never figured out its water system",
+  "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+  "Former U of Manitoba law dean accused of fraud loses bid to fight extradition from France",
+  "New wave of bomb threats hit European airlines",
+  "A mysterious U.S. army barrel washed ashore in Quebec. Why did it drum up anthrax concerns?",
   "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
-  "Worst of beef price hikes may be over, but don\u2019t expect cheaper steak anytime soon",
-  "Tanzanian opposition leader found guilty of inciting unrest but acquitted of treason",
-  "They thought they buried their brother in the family plot; it was a stranger instead",
-  "Elon Musk appears to signal the end of the road for Cybertruck"
+  "Federal budget maps out defence spending surge, but questions remain over NATO target",
+  "Tanzanian opposition leader found guilty of inciting unrest but acquitted of treason"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35688.42,
-   "chg": 0.11,
+   "price": 35750.8,
+   "chg": 0.28,
    "closes": [
     35649.5,
     35041.9,
@@ -47,15 +47,15 @@
     35532.3,
     36341.4,
     35605.3,
-    35688.42
+    35750.8
    ],
-   "ytd": 11.93
+   "ytd": 12.13
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7436.13,
-   "chg": -4.9,
+   "price": 7409.38,
+   "chg": -5.24,
    "closes": [
     7818.93,
     7801.77,
@@ -80,9 +80,9 @@
     7568.92,
     7688.62,
     7353.73,
-    7436.13
+    7409.38
    ],
-   "ytd": 8.42
+   "ytd": 8.03
   },
   {
    "sym": "NIFTY",

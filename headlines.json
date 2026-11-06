@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-06T18:16:56+00:00",
+ "updated": "2026-11-06T19:27:26+00:00",
  "headlines": [
   "Carney's bet on economic growth \u2014 and the risks that come with it",
   "AI stocks climb after trillions wiped from market values",
-  "What we know about Europe's latest wave of bomb threats targeting flights \u2014 and now newsrooms",
+  "Trump's chief of staff Susie Wiles out after midterm defeat",
   "Four midterms takeaways for 2028 White House race",
-  "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
+  "Joly asks Competition Bureau to investigate Cleveland-Cliffs purchase of Stelco",
   "Two dead after bus crashes in France, officials say",
-  "Crown stays murder charge against only accused in Sask. triple homicide",
+  "Blue Jays player faces backlash after reposting Islamophobic content on social media following U.S. midterms",
   "New wave of bomb threats hit European airlines",
-  "Canada dominates Sweden 5-1 at women's hockey worlds opener",
+  "Landslide prompts evacuation order for village of Zeballos on Vancouver Island",
   "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-  "Canadian economy lost 4,700 jobs in October as unemployment rate ticked up to 6.7%",
+  "What we know about Europe's latest wave of bomb threats targeting flights \u2014 and now newsrooms",
   "Judge blocks construction of Trump's massive arch after federal agency approval",
-  "Republicans ran away from Trump's Canadian tariffs, but not far enough",
+  "Meghan Markle's father arrested and charged with possessing child sexual abuse material",
   "Russian extremist group denies sending hoax bomb threats",
-  "Canada, others call on China to end 'unjust prosecutions' after sentencing of Joshua Wong",
+  "Crown stays murder charge against only accused in Sask. triple homicide",
   "Pope begins lengthy trip to Latin America weeks after lung cancer surgery"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35801.28,
-   "chg": 0.43,
+   "price": 35820.38,
+   "chg": 0.48,
    "closes": [
     35649.5,
     35041.9,
@@ -47,15 +47,15 @@
     35532.3,
     36341.4,
     35605.3,
-    35801.28
+    35820.38
    ],
-   "ytd": 12.29
+   "ytd": 12.35
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7387.28,
-   "chg": -5.52,
+   "price": 7406.62,
+   "chg": -5.27,
    "closes": [
     7818.93,
     7801.77,
@@ -80,9 +80,9 @@
     7568.92,
     7688.62,
     7353.73,
-    7387.28
+    7406.62
    ],
-   "ytd": 7.71
+   "ytd": 7.99
   },
   {
    "sym": "NIFTY",
@@ -111,8 +111,7 @@
     23440.8,
     23810.85,
     23960.6,
-    24536.6,
-    25030.35
+    24536.6
    ],
    "ytd": -4.27
   }

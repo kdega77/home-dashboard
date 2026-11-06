@@ -58,7 +58,7 @@ body.night main{opacity:.55}
 .mkt-ytdline{font-size:11px;font-weight:700;white-space:nowrap;margin-top:1px}
 .mkt-ytd{font-size:11px;font-weight:700;white-space:nowrap}
 .mkt-chg{font-size:12px;font-weight:700;white-space:nowrap;margin-left:6px}
-.mkt-spark{width:100%;height:22px;display:block;margin-top:2px}
+.mkt-spark{width:100%;height:18px;display:block;margin-top:3px}
 .mdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
 .mdot.up{background:#46a758}
 .mdot.dn{background:#e5484d}
@@ -491,12 +491,11 @@ function renderIndices(list){
       q=list[i];
       up=q.chg>=0;
       col=up?'#00e65c':'#ff3b30';
-      fill=up?'rgba(0,230,92,.18)':'rgba(255,59,48,.18)';
-      pts=q.closes?sparkPts(q.closes,200,22):'';
+      pts=q.closes?sparkPts(q.closes,200,18):'';
       var tab=(q.sym==='TSX')?'tsx':((q.sym==='NIFTY')?'nse':'sp');
       html+='<div class="mkt-card" onclick="openHeatmap(\''+tab+'\')"><div class="mkt-head"><span class="mkt-name">'+q.sym+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></div>';
       if(q.ytd!=null)html+='<div class="mkt-ytdline '+(q.ytd>=0?'stUp':'stDn')+'">YTD '+(q.ytd>=0?'\u25B2 ':'\u25BC ')+Math.abs(q.ytd).toFixed(2)+'%</div>';
-      if(pts)html+='<svg class="mkt-spark" viewBox="0 0 200 22" preserveAspectRatio="none"><polygon fill="'+fill+'" points="0,22 '+pts+'200,22"></polygon><polyline fill="none" stroke="'+col+'" stroke-width="2" points="'+pts+'"></polyline></svg>';
+      if(pts)html+='<svg class="mkt-spark" viewBox="0 0 200 18" preserveAspectRatio="none"><polyline fill="none" stroke="'+col+'" stroke-width="2" points="'+pts+'"></polyline></svg>';
       html+='</div>';
     }
     $('markets').innerHTML=html;

@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-06T20:19:44+00:00",
+ "updated": "2026-11-06T21:14:11+00:00",
  "headlines": [
-  "Trump replaces chief of staff Susie Wiles with Stephen Miller after midterm defeat",
-  "AI stocks climb after trillions wiped from market values",
   "Your questions about this year's federal budget, answered",
+  "AI stocks climb after trillions wiped from market values",
+  "Landslide risk prompts evacuation order for village of Zeballos on Vancouver Island",
   "Four midterms takeaways for 2028 White House race",
-  "Joly asks Competition Bureau to investigate Cleveland-Cliffs purchase of Stelco",
+  "Trump replaces chief of staff Susie Wiles with Stephen Miller after midterm defeat",
   "Two dead after bus crashes in France, officials say",
-  "Tesla will stop making Cybertrucks next year: Musk",
+  "Calgary friends win $90M in country's largest-ever lotto jackpot",
   "New wave of bomb threats hit European airlines",
-  "Blue Jays player faces backlash after reposting Islamophobic content on social media following U.S. midterms",
+  "Tesla will stop making Cybertrucks next year: Musk",
   "Kenyan doomsday cult leader given life sentence for murdering 191 people",
-  "Carney's bet on economic growth \u2014 and the risks that come with it",
+  "Joly asks Competition Bureau to investigate Cleveland-Cliffs purchase of Stelco",
   "Judge blocks construction of Trump's massive arch after federal agency approval",
-  "Landslide prompts evacuation order for village of Zeballos on Vancouver Island",
-  "Russian extremist group denies sending hoax bomb threats",
   "Morgan Fairchild, the icy diva you couldn't miss on 1980s TV, joins racy subscriber platform OnlyFans",
+  "Russian extremist group denies sending hoax bomb threats",
+  "Blue Jays player faces backlash after reposting Islamophobic content on social media following U.S. midterms",
   "Pope begins lengthy trip to Latin America weeks after lung cancer surgery"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35819.9,
-   "chg": 0.48,
+   "price": 35789.09,
+   "chg": 0.39,
    "closes": [
     35649.5,
     35041.9,
@@ -47,17 +47,16 @@
     35532.3,
     36341.4,
     35605.3,
-    35819.9
+    35789.09
    ],
-   "ytd": 12.35
+   "ytd": 12.25
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7399.0,
-   "chg": -5.37,
+   "price": 7376.86,
+   "chg": -5.65,
    "closes": [
-    7818.93,
     7801.77,
     7765.36,
     7811.54,
@@ -80,9 +79,9 @@
     7568.92,
     7688.62,
     7353.73,
-    7399.0
+    7376.86
    ],
-   "ytd": 7.88
+   "ytd": 7.56
   },
   {
    "sym": "NIFTY",

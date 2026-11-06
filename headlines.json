@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-06T01:44:48+00:00",
+ "updated": "2026-11-06T02:49:42+00:00",
  "headlines": [
   "Mark Carney's quiet revolution rests on investment and affordability",
   "Major tech stocks plunge as US midterms add to fears of AI slowdown",
   "Trump declares his redesigned Oval Office a national monument",
-  "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
+  "Trump signs order preventing future presidents from changing Oval Office",
   "From groceries to tax credits, how much is in the federal budget for your wallet?",
-  "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
+  "White House denies Hegseth and Rubio to leave jobs after Republican election losses",
   "Married at First Sight U.K. cancelled after review, sexual assault allegations",
-  "Hoax bomb threats target European airlines and airports for second time in a week",
+  "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
   "Man accused of killing 11-year-old Burnaby boy makes 1st court appearance",
-  "California governor commutes sentences for state's 548 death row inmates",
+  "Hoax bomb threats target European airlines and airports for second time in a week",
   "U.S. midterms are a 'vindication' of Alberta's approach to tariffs, says Premier Smith",
-  "French protests see numbers surge as unions join strikes over high cost of living",
+  "California governor commutes sentences for state's 548 death row inmates",
   "Canada's new budget proposes $5B for culture. Here's where it would go",
   "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
   "Google offers schools AI-boosted search or none at all",
-  "Eight killed in series of shootings in western Turkey"
+  "French protests see numbers surge as unions join strikes over high cost of living"
  ],
  "indices": [
   {
@@ -110,7 +110,8 @@
     23053.1,
     23440.8,
     23810.85,
-    23960.6
+    23960.6,
+    24536.6
    ],
    "ytd": -6.16
   }

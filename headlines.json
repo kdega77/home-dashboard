@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-06T00:09:16+00:00",
+ "updated": "2026-11-06T00:42:45+00:00",
  "headlines": [
-  "Liberal government's 2026 budget doubles down on plan to build economy at home",
+  "Budget 2026: Liberal government doubles down on plan to build Canadian economy at home",
   "Major tech stocks plunge as US midterms add to fears of AI slowdown",
   "From groceries to tax credits, how much is in the federal budget for your wallet?",
-  "Hoax bomb threats target European airlines and airports for second time in a week",
+  "Democratic socialist defeats incumbent Karen Bass in Los Angeles mayor's race",
   "Canada's new budget proposes $5B for culture. Here's where it would go",
-  "California governor commutes sentences for state's 548 death row inmates",
+  "Pope begins lengthy trip to Latin America weeks after lung cancer surgery",
   "Married at First Sight UK cancelled after review, sexual assault allegations",
-  "French protests see numbers surge as unions join strikes over high cost of living",
+  "Hoax bomb threats target European airlines and airports for second time in a week",
   "Man accused of killing 11-year-old Burnaby boy makes 1st court appearance",
-  "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
+  "California governor commutes sentences for state's 548 death row inmates",
   "U.S. midterms are a 'vindication' of Alberta's approach to tariffs, says Premier Smith",
-  "Eight killed in series of shootings in western Turkey",
+  "French protests see numbers surge as unions join strikes over high cost of living",
+  "Google offers schools AI-boosted search or none at all",
+  "Paraguay President Santiago Pe\u00f1a resigns after bank collapse",
   "15 patients released, 5 still hospitalized following bus crash near Mackenzie, B.C.",
-  "Who could be behind hoax bomb threats to European air travel?",
-  "Telus says 'small number' of calls interrupted in Eastern Canada on Thursday",
-  "Melania Trump calls for lasting Ukraine truce as she hosts Russian and Ukrainian officials"
+  "Eight killed in series of shootings in western Turkey"
  ],
  "indices": [
   {
@@ -49,7 +49,7 @@
     36341.4,
     35605.27
    ],
-   "ytd": 12.27
+   "ytd": 11.67
   },
   {
    "sym": "S&P 500",
@@ -81,7 +81,7 @@
     7688.62,
     7353.73
    ],
-   "ytd": 7.42
+   "ytd": 7.22
   },
   {
    "sym": "NIFTY",
@@ -112,7 +112,7 @@
     23810.85,
     23960.6
    ],
-   "ytd": -6.1
+   "ytd": -6.16
   }
  ]
 }

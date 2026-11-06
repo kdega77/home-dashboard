@@ -48,15 +48,17 @@ body.night main{opacity:.55}
 .metrics-mini .seg{padding:0 6px}
 .metrics-mini .seg:first-child{padding-left:0}
 .metrics-mini .seg-value{font-size:16px}
-.markets{display:flex;gap:8px;margin-bottom:.6vh;padding:6px 8px}
-.mkt-card{flex:1;text-align:left;padding:2px 4px;min-width:0}
+.markets{display:flex;gap:8px;margin-bottom:.6vh;padding:6px 8px;overflow:hidden}
+.mkt-card{flex:1;text-align:left;padding:2px 6px;min-width:0;overflow:hidden;cursor:pointer}
+.mkt-card:active{background:rgba(0,229,255,.18)}
 .mkt-card+.mkt-card{border-left:1px solid rgba(255,255,255,.18);padding-left:12px}
 /* Markets are never dimmed, even when closed (Nov 4, 2026) */
-.mkt-name{font-size:11px;letter-spacing:.12em;text-transform:uppercase;color:#93a9c0;font-weight:600;white-space:nowrap}
-.mkt-head{display:flex;justify-content:space-between;align-items:baseline;gap:6px}
-.mkt-ytd{font-size:12px;font-weight:700;white-space:nowrap}
-.mkt-chg{font-size:13px;font-weight:700;white-space:nowrap;margin-left:6px}
-.mkt-spark{width:100%;height:28px;display:block;margin-top:2px}
+.mkt-name{font-size:10px;letter-spacing:.12em;text-transform:uppercase;color:#93a9c0;font-weight:600;white-space:nowrap}
+.mkt-head{display:flex;justify-content:space-between;align-items:baseline;gap:4px;flex-wrap:wrap}
+.mkt-ytdline{font-size:11px;font-weight:700;white-space:nowrap;margin-top:1px}
+.mkt-ytd{font-size:11px;font-weight:700;white-space:nowrap}
+.mkt-chg{font-size:12px;font-weight:700;white-space:nowrap;margin-left:6px}
+.mkt-spark{width:100%;height:22px;display:block;margin-top:2px}
 .mdot{display:inline-block;width:8px;height:8px;border-radius:50%;margin-right:6px;vertical-align:1px}
 .mdot.up{background:#46a758}
 .mdot.dn{background:#e5484d}
@@ -465,6 +467,23 @@ function sparkPts(vals,w,h){
   return pts;
 }
 /* Markets are never dimmed when closed, per Nov 4, 2026 request. */
+/* Tap a market card to open its heatmap, with a short click sound. */
+function clickSound(){
+  try{
+    var AC=window.AudioContext||window.webkitAudioContext;
+    if(!AC)return;
+    var ctx=new AC(),o=ctx.createOscillator(),g=ctx.createGain();
+    o.connect(g);g.connect(ctx.destination);
+    o.frequency.value=880;
+    g.gain.setValueAtTime(0.12,ctx.currentTime);
+    g.gain.exponentialRampToValueAtTime(0.001,ctx.currentTime+0.08);
+    o.start();o.stop(ctx.currentTime+0.09);
+  }catch(e){}
+}
+function openHeatmap(tab){
+  clickSound();
+  setTimeout(function(){location.href='heatmap-preview.html?tab='+tab;},90);
+}
 function renderIndices(list){
     if(!list.length)return;
     var html='',i,q,up,open,pts,col,fill;
@@ -473,9 +492,11 @@ function renderIndices(list){
       up=q.chg>=0;
       col=up?'#00e65c':'#ff3b30';
       fill=up?'rgba(0,230,92,.18)':'rgba(255,59,48,.18)';
-      pts=q.closes?sparkPts(q.closes,200,28):'';
-      html+='<div class="mkt-card"><div class="mkt-head"><span><span class="mkt-name">'+q.sym+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></span>'+(q.ytd!=null?'<span class="mkt-ytd '+(q.ytd>=0?'stUp':'stDn')+'">YTD '+(q.ytd>=0?'\u25B2 ':'\u25BC ')+Math.abs(q.ytd).toFixed(2)+'%</span>':'')+'</div>';
-      if(pts)html+='<svg class="mkt-spark" viewBox="0 0 200 28" preserveAspectRatio="none"><polygon fill="'+fill+'" points="0,28 '+pts+'200,28"></polygon><polyline fill="none" stroke="'+col+'" stroke-width="2" points="'+pts+'"></polyline></svg>';
+      pts=q.closes?sparkPts(q.closes,200,22):'';
+      var tab=(q.sym==='TSX')?'tsx':((q.sym==='NIFTY')?'nse':'sp');
+      html+='<div class="mkt-card" onclick="openHeatmap(\''+tab+'\')"><div class="mkt-head"><span class="mkt-name">'+q.sym+'</span><span class="mkt-chg '+(up?'stUp':'stDn')+'">'+(up?'\u25B2 ':'\u25BC ')+Math.abs(q.chg).toFixed(2)+'%</span></div>';
+      if(q.ytd!=null)html+='<div class="mkt-ytdline '+(q.ytd>=0?'stUp':'stDn')+'">YTD '+(q.ytd>=0?'\u25B2 ':'\u25BC ')+Math.abs(q.ytd).toFixed(2)+'%</div>';
+      if(pts)html+='<svg class="mkt-spark" viewBox="0 0 200 22" preserveAspectRatio="none"><polygon fill="'+fill+'" points="0,22 '+pts+'200,22"></polygon><polyline fill="none" stroke="'+col+'" stroke-width="2" points="'+pts+'"></polyline></svg>';
       html+='</div>';
     }
     $('markets').innerHTML=html;

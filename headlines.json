@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T09:43:31+00:00",
+ "updated": "2026-11-08T10:39:46+00:00",
  "headlines": [
   "What needs to happen for Canada to join Europe's flagship student exchange program?",
   "What we know so far after Krakow gun attack",
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25022.65,
-   "chg": 9.86,
+   "price": 24986.4,
+   "chg": 9.7,
    "closes": [
     22776.1,
     22603.05,
@@ -112,9 +112,9 @@
     23960.6,
     24536.6,
     25030.35,
-    25022.65
+    24986.4
    ],
-   "ytd": -4.3
+   "ytd": -4.44
   }
  ]
 }

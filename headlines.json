@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-08T07:56:40+00:00",
+ "updated": "2026-11-08T08:49:07+00:00",
  "headlines": [
   "What Ottawa's 'RRSP for life' plan means for Canadian seniors",
   "What we know so far after Krakow gun attack",
@@ -14,9 +14,9 @@
   "Elks to face Alouettes in Grey Cup after beating Lions in West final",
   "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
   "Protests across Nova Scotia oppose AI data centres",
-  "With Stephen Miller pick, Trump readies for a battle",
+  "Paraguay's former president charged after bank collapse",
   "Regional gaps in safe sport rules remain a 'major' concern for Canada's sport integrity agency",
-  "Paraguay's former president charged after bank collapse"
+  "Pope in 'pretty good health' as he starts Latin America tour"
  ],
  "indices": [
   {
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25030.35,
-   "chg": 9.9,
+   "price": 25070.45,
+   "chg": 10.07,
    "closes": [
     22776.1,
     22603.05,
@@ -111,9 +111,10 @@
     23810.85,
     23960.6,
     24536.6,
-    25030.35
+    25030.35,
+    25070.45
    ],
-   "ytd": -4.27
+   "ytd": -4.12
   }
  ]
 }

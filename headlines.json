@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-08T08:49:07+00:00",
+ "updated": "2026-11-08T09:43:31+00:00",
  "headlines": [
-  "What Ottawa's 'RRSP for life' plan means for Canadian seniors",
+  "What needs to happen for Canada to join Europe's flagship student exchange program?",
   "What we know so far after Krakow gun attack",
-  "Polish police say gunman kills 6 in 'act of terror'; 3 more dead found at suspect's home",
+  "How the Democrats' midterm wave shows a path back to the presidency",
   "Houthis say at least 33 killed in Saudi air strike",
-  "UFC boss Dana White says he's meeting with Trump after press secretary job offer",
+  "Injured Wainwright soldiers benefit from cutting-edge Canadian burn research",
   "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
-  "LifeLabs in B.C. ordered to pay $32K for misgendering transgender, non-binary patients: Human Rights Tribunal",
+  "How Trump's tariffs are threatening to spoil the success of Canadian cheese",
   "Israel's president tasks opposition leader Eisenkot with forming government",
-  "The age of AI warfare is here. Is Canada ready?",
+  "Poilievre pans Liberal budget's $15M capital gains exemption, calls for 'simpler' plan",
   "US offers $20m reward for information about Iran's nuclear programme",
-  "Elks to face Alouettes in Grey Cup after beating Lions in West final",
+  "Freshwater species are at risk. A new global threat map could help save some from brink of extinction",
   "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
-  "Protests across Nova Scotia oppose AI data centres",
+  "What Ottawa's 'RRSP for life' plan means for Canadian seniors",
   "Paraguay's former president charged after bank collapse",
-  "Regional gaps in safe sport rules remain a 'major' concern for Canada's sport integrity agency",
+  "Polish police say gunman kills 6 in 'act of terror'; 3 more dead found at suspect's home",
   "Pope in 'pretty good health' as he starts Latin America tour"
  ],
  "indices": [
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25070.45,
-   "chg": 10.07,
+   "price": 25022.65,
+   "chg": 9.86,
    "closes": [
     22776.1,
     22603.05,
@@ -112,9 +112,9 @@
     23960.6,
     24536.6,
     25030.35,
-    25070.45
+    25022.65
    ],
-   "ytd": -4.12
+   "ytd": -4.3
   }
  ]
 }

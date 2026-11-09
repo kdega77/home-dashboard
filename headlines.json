@@ -1,33 +1,30 @@
 {
- "updated": "2026-11-09T13:03:50+00:00",
+ "updated": "2026-11-09T14:30:20+00:00",
  "headlines": [
-  "Drug possession is illegal. Why can people use openly in public?",
-  "Krakow shooting suspect has died in hospital, police say",
-  "Veterans, families call for better access to make claims for exposure-related illness",
-  "Inside the French drug gangs recruiting children to kill",
   "Some women in Canada are choosing fertility treatments to avoid passing down genetic mutations to their kids",
+  "Krakow shooting suspect has died in hospital, police say",
+  "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
+  "Inside the French drug gangs recruiting children to kill",
+  "Drug possession is illegal. Why can people use openly in public?",
   "Trump says he was 'kidding' about Dana White press secretary offer",
-  "Suspicious tree removal and permits linked to Toronto developer",
-  "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
-  "Critics warn of health data privacy concerns as Ottawa ramps up AI strategy",
-  "Pope delivers veiled rebuke of Milei's austerity measures",
-  "Canada heads to UN climate summit in Turkey with finance, fossil fuel transition on the agenda",
+  "Veterans, families call for better access to make claims for exposure-related illness",
   "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-  "These moms fought to change Canada's 'discriminatory' EI Act \u2014 and officially won",
+  "Suspicious tree removal and permits linked to Toronto developer",
   "Nine foreigners caught allegedly trying to leave South Africa to fight in Ukraine",
-  "Nvidia probes whether CEO Jensen Huang targeted by foreign intelligence as he admits affair",
-  "Four killed in Gaza after sand embankment collapses onto tents, health ministry says"
+  "Critics warn of health data privacy concerns as Ottawa ramps up AI strategy",
+  "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
+  "Canada heads to UN climate summit in Turkey with finance, fossil fuel transition on the agenda",
+  "Thirteen migrants die after boat sinks off Crete",
+  "These moms fought to change Canada's 'discriminatory' EI Act \u2014 and officially won",
+  "Pope delivers veiled rebuke of Milei's austerity measures"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35789.09,
-   "chg": 0.39,
+   "price": 36130.94,
+   "chg": 1.31,
    "closes": [
-    35649.5,
-    35041.9,
-    35145.4,
     35664.6,
     35984.0,
     35584.5,
@@ -47,18 +44,17 @@
     35532.3,
     36341.4,
     35605.3,
-    35789.1
+    35789.1,
+    36130.94
    ],
-   "ytd": 12.25
+   "ytd": 13.32
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7376.86,
-   "chg": -5.65,
+   "price": 7440.68,
+   "chg": -4.75,
    "closes": [
-    7801.77,
-    7765.36,
     7811.54,
     7807.24,
     7805.45,
@@ -79,9 +75,10 @@
     7568.92,
     7688.62,
     7353.73,
-    7376.86
+    7376.86,
+    7440.68
    ],
-   "ytd": 7.56
+   "ytd": 8.49
   },
   {
    "sym": "NIFTY",

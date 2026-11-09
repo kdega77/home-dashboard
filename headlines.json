@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-09T05:59:26+00:00",
+ "updated": "2026-11-09T07:26:14+00:00",
  "headlines": [
   "Republicans took big hits in the U.S. midterms. Does that mean Trump's political era is over?",
-  "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
+  "Krakow shooting suspect has died in hospital, police say",
   "Nvidia probes whether CEO Jensen Huang targeted by foreign intelligence as he admits affair",
-  "Seven dead and more than 100 injured after trains collide in Egypt",
+  "Inside the French drug gangs recruiting children to kill",
   "19-year-old golfer becomes youngest PGA Tour winner in 95 years",
-  "Homes and temples glow across India to mark Diwali",
+  "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
   "Norway says it has been bumped by the IIHF to allow Russia to compete at world juniors in Canada",
-  "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
+  "Seven dead and more than 100 injured after trains collide in Egypt",
   "Pizzeria destroyed in 4th suspicious fire to hit Ormstown, Que., in recent months",
-  "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
+  "Pope delivers veiled rebuke of Milei's austerity measures",
   "Canada\u2019s unlikely trade war influencer fighting for the little guys",
-  "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+  "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
   "Trump insists he was 'only kidding' about wanting UFC's Dana White as press secretary",
-  "Iran executes three men for 'armed unrest' after January protests",
+  "Homes and temples glow across India to mark Diwali",
   "North Vancouver soldier who died in Wainwright fire remembered as fearless at funeral",
-  "Paraguay's former president charged after bank collapse"
+  "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes"
  ],
  "indices": [
   {
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24927.5,
-   "chg": 10.69,
+   "price": 24930.6,
+   "chg": 10.7,
    "closes": [
     22520.45,
     22363.35,
@@ -109,9 +109,9 @@
     23960.6,
     24536.6,
     25030.35,
-    24927.5
+    24930.6
    ],
-   "ytd": -4.66
+   "ytd": -4.65
   }
  ]
 }

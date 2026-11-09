@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-09T14:30:20+00:00",
+ "updated": "2026-11-09T15:57:17+00:00",
  "headlines": [
   "Some women in Canada are choosing fertility treatments to avoid passing down genetic mutations to their kids",
   "Krakow shooting suspect has died in hospital, police say",
-  "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
+  "Russell Brand sentenced to more than 10 years in prison on convictions for rape, sexual assaults",
   "Inside the French drug gangs recruiting children to kill",
-  "Drug possession is illegal. Why can people use openly in public?",
+  "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
   "Trump says he was 'kidding' about Dana White press secretary offer",
-  "Veterans, families call for better access to make claims for exposure-related illness",
+  "Inuvik killed dozens of grizzly bears at a dump this summer. Experts say it may have been the kindest option",
   "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-  "Suspicious tree removal and permits linked to Toronto developer",
+  "B.C. businesses push back against 'AI slop' with pen-and-paper ads",
   "Nine foreigners caught allegedly trying to leave South Africa to fight in Ukraine",
-  "Critics warn of health data privacy concerns as Ottawa ramps up AI strategy",
-  "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
-  "Canada heads to UN climate summit in Turkey with finance, fossil fuel transition on the agenda",
+  "Hellebuyck willing to face the music, but Devils say he won't play game in Winnipeg",
+  "At least 39 die after Europe-bound migrant boat sinks off Senegal",
+  "Woman, 3 children killed in Gaza after sand embankment collapses onto tents",
   "Thirteen migrants die after boat sinks off Crete",
-  "These moms fought to change Canada's 'discriminatory' EI Act \u2014 and officially won",
+  "Veterans, families call for better access to make claims for exposure-related illness",
   "Pope delivers veiled rebuke of Milei's austerity measures"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36130.94,
-   "chg": 1.31,
+   "price": 36292.66,
+   "chg": 1.76,
    "closes": [
     35664.6,
     35984.0,
@@ -45,15 +45,15 @@
     36341.4,
     35605.3,
     35789.1,
-    36130.94
+    36292.66
    ],
-   "ytd": 13.32
+   "ytd": 13.83
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7440.68,
-   "chg": -4.75,
+   "price": 7538.73,
+   "chg": -3.49,
    "closes": [
     7811.54,
     7807.24,
@@ -76,9 +76,9 @@
     7688.62,
     7353.73,
     7376.86,
-    7440.68
+    7538.73
    ],
-   "ytd": 8.49
+   "ytd": 9.92
   },
   {
    "sym": "NIFTY",

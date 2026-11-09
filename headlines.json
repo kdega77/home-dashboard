@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-09T08:47:27+00:00",
+ "updated": "2026-11-09T09:59:45+00:00",
  "headlines": [
-  "Republicans took big hits in the U.S. midterms. Does that mean Trump's political era is over?",
+  "Canada heads to UN climate summit in Turkey with finance, fossil fuel transition on the agenda",
   "Krakow shooting suspect has died in hospital, police say",
-  "Nvidia probes whether CEO Jensen Huang targeted by foreign intelligence as he admits affair",
+  "Veterans, families call for better access to make claims for exposure-related illness",
   "Inside the French drug gangs recruiting children to kill",
-  "19-year-old golfer becomes youngest PGA Tour winner in 95 years",
-  "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
-  "Norway says it has been bumped by the IIHF to allow Russia to compete at world juniors in Canada",
-  "Seven dead and more than 100 injured after trains collide in Egypt",
-  "Pizzeria destroyed in 4th suspicious fire to hit Ormstown, Que., in recent months",
+  "Critics warn of health data privacy concerns as Ottawa ramps up AI strategy",
+  "Trump says he was 'kidding' about Dana White press secretary offer",
+  "Some women in Canada are choosing fertility treatments to avoid passing down genetic mutations to their kids",
+  "At least 34 dead after Europe-bound migrant boat sinks off Senegal",
+  "Suspicious tree removal and permits linked to Toronto developer",
   "Pope delivers veiled rebuke of Milei's austerity measures",
-  "Canada\u2019s unlikely trade war influencer fighting for the little guys",
+  "Republicans took big hits in the U.S. midterms. Does that mean Trump's political era is over?",
   "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-  "Trump insists he was 'only kidding' about wanting UFC's Dana White as press secretary",
-  "'Devastating message' as ANC records worst-ever result in South Africa election",
-  "North Vancouver soldier who died in Wainwright fire remembered as fearless at funeral",
-  "Homes and temples glow across India to mark Diwali"
+  "Nvidia probes whether CEO Jensen Huang targeted by foreign intelligence as he admits affair",
+  "Seven dead and more than 100 injured after trains collide in Egypt",
+  "19-year-old golfer becomes youngest PGA Tour winner in 95 years",
+  "'Devastating message' as ANC records worst-ever result in South Africa election"
  ],
  "indices": [
   {
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25023.15,
-   "chg": 11.11,
+   "price": 25044.65,
+   "chg": 11.21,
    "closes": [
     22520.45,
     22363.35,
@@ -109,9 +109,9 @@
     23960.6,
     24536.6,
     25030.35,
-    25023.15
+    25044.65
    ],
-   "ytd": -4.3
+   "ytd": -4.21
   }
  ]
 }

@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-09T20:26:39+00:00",
+ "updated": "2026-11-09T21:24:51+00:00",
  "headlines": [
-  "Ford says protesters against changes to Ontario\u2019s student aid program should be 'thanking the government'",
+  "Stellantis signs deal to sell Brampton, Ont., assembly plant to Canadian armoured vehicle maker",
   "France accuses Iran of supermarket fridge hacking",
-  "Top U.S. hedge fund executive named CEO of Canada's new sovereign wealth fund",
-  "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-  "Honda Canada announces plans to retool Alliston, Ont., plant for hybrid production",
-  "Trump questions midterm elections integrity after previously accepting results",
-  "$276 for hair ties? Skims offers advent calendar refunds after online backlash",
-  "Turkey steel factory blast kills at least 16 people",
-  "Canada's secretary of sport casts doubt on Russia competing as neutrals at Alberta world juniors",
-  "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-  "Decoding report card \u2018edu-ese\u2019: Why parents are frustrated \u2014 and Alberta is getting involved",
-  "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
   "Payments Canada launches long-delayed instant payments system",
+  "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
+  "U.S. House Republican moves to force vote on impeaching Pete Hegseth",
+  "Trump questions midterm elections integrity after previously accepting results",
+  "Tyler Robinson, man accused of shooting Charlie Kirk, to face trial in 2028",
+  "Turkey steel factory blast kills at least 17 people",
+  "Ontario university student pleads not guilty in U.S. court amid Chinese 'espionage' probe",
+  "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+  "$276 for hair ties? Skims offers advent calendar refunds after online backlash",
+  "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
+  "Ford says protesters against changes to Ontario\u2019s student aid program should be 'thanking the government'",
   "Russia's leading independent newspaper closes after eviction",
-  "The family business: Arnold Schwarzenegger\u2019s son muscles into top 5 at bodybuilding competition",
-  "At least 39 die after Europe-bound migrant boat sinks off Senegal"
+  "Like father, like son: Arnold Schwarzenegger\u2019s son muscles into top 5 at bodybuilding competition",
+  "Judge denies motion to dismiss Lindsay Clancy's murder case - media reports"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36561.47,
-   "chg": 2.51,
+   "price": 36446.26,
+   "chg": 2.19,
    "closes": [
     35664.6,
     35984.0,
@@ -45,17 +45,16 @@
     36341.4,
     35605.3,
     35789.1,
-    36561.47
+    36446.26
    ],
-   "ytd": 14.67
+   "ytd": 14.31
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7575.07,
-   "chg": -3.03,
+   "price": 7549.94,
+   "chg": -3.35,
    "closes": [
-    7811.54,
     7807.24,
     7805.45,
     7718.94,
@@ -76,9 +75,9 @@
     7688.62,
     7353.73,
     7376.86,
-    7575.07
+    7549.94
    ],
-   "ytd": 10.45
+   "ytd": 10.08
   },
   {
    "sym": "NIFTY",

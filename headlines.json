@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T04:35:20+00:00",
+ "updated": "2026-11-09T05:59:26+00:00",
  "headlines": [
   "Republicans took big hits in the U.S. midterms. Does that mean Trump's political era is over?",
   "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
@@ -13,9 +13,9 @@
   "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
   "Canada\u2019s unlikely trade war influencer fighting for the little guys",
   "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
-  "The National | Powerful storms batter B.C.",
-  "Iran executes three men for 'armed unrest' after January protests",
   "Trump insists he was 'only kidding' about wanting UFC's Dana White as press secretary",
+  "Iran executes three men for 'armed unrest' after January protests",
+  "North Vancouver soldier who died in Wainwright fire remembered as fearless at funeral",
   "Paraguay's former president charged after bank collapse"
  ],
  "indices": [
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24917.45,
-   "chg": 10.64,
+   "price": 24927.5,
+   "chg": 10.69,
    "closes": [
     22520.45,
     22363.35,
@@ -109,9 +109,9 @@
     23960.6,
     24536.6,
     25030.35,
-    24917.45
+    24927.5
    ],
-   "ytd": -4.7
+   "ytd": -4.66
   }
  ]
 }

@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-09T15:57:17+00:00",
+ "updated": "2026-11-09T17:05:17+00:00",
  "headlines": [
+  "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
+  "France accuses Iran of supermarket fridge hacking",
   "Some women in Canada are choosing fertility treatments to avoid passing down genetic mutations to their kids",
   "Krakow shooting suspect has died in hospital, police say",
-  "Russell Brand sentenced to more than 10 years in prison on convictions for rape, sexual assaults",
+  "France blames Iran for cyberattack that hacked supermarket refrigerators across the country",
   "Inside the French drug gangs recruiting children to kill",
-  "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
-  "Trump says he was 'kidding' about Dana White press secretary offer",
-  "Inuvik killed dozens of grizzly bears at a dump this summer. Experts say it may have been the kindest option",
+  "Russell Brand sentenced to more than 10 years in prison on convictions for rape, sexual assaults",
   "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-  "B.C. businesses push back against 'AI slop' with pen-and-paper ads",
-  "Nine foreigners caught allegedly trying to leave South Africa to fight in Ukraine",
+  "Decoding report card \u2018edu-ese\u2019: Why parents are frustrated \u2014 and Alberta is getting involved",
+  "Trump questions midterm elections integrity after previously accepting results",
   "Hellebuyck willing to face the music, but Devils say he won't play game in Winnipeg",
+  "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
+  "Inuvik killed dozens of grizzly bears at a dump this summer. Experts say it may have been the kindest option",
   "At least 39 die after Europe-bound migrant boat sinks off Senegal",
-  "Woman, 3 children killed in Gaza after sand embankment collapses onto tents",
-  "Thirteen migrants die after boat sinks off Crete",
   "Veterans, families call for better access to make claims for exposure-related illness",
-  "Pope delivers veiled rebuke of Milei's austerity measures"
+  "Thirteen migrants die after boat sinks off Crete"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36292.66,
-   "chg": 1.76,
+   "price": 36365.26,
+   "chg": 1.96,
    "closes": [
     35664.6,
     35984.0,
@@ -45,15 +45,15 @@
     36341.4,
     35605.3,
     35789.1,
-    36292.66
+    36365.26
    ],
-   "ytd": 13.83
+   "ytd": 14.06
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7538.73,
-   "chg": -3.49,
+   "price": 7537.29,
+   "chg": -3.51,
    "closes": [
     7811.54,
     7807.24,
@@ -76,9 +76,9 @@
     7688.62,
     7353.73,
     7376.86,
-    7538.73
+    7537.29
    ],
-   "ytd": 9.92
+   "ytd": 9.9
   },
   {
    "sym": "NIFTY",

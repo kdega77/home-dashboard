@@ -1,28 +1,28 @@
 {
- "updated": "2026-11-09T18:19:16+00:00",
+ "updated": "2026-11-09T19:28:58+00:00",
  "headlines": [
-  "Nvidia's shares slide as chip giant probes CEO Jensen Huang over spy claims",
+  "Ford says protesters against changes to Ontario\u2019s student aid program should be 'thanking the government'",
   "France accuses Iran of supermarket fridge hacking",
   "Top U.S. hedge fund executive named CEO of Canada's new sovereign wealth fund",
   "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
-  "Decoding report card \u2018edu-ese\u2019: Why parents are frustrated \u2014 and Alberta is getting involved",
-  "Krakow shooting suspect has died in hospital, police say",
-  "Drug possession is illegal. Why can people use openly in public?",
-  "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
-  "France blames Iran for cyberattack that hacked supermarket refrigerators across the country",
+  "Honda Canada announces plans to retool Alliston, Ont., plant for hybrid production",
   "Trump questions midterm elections integrity after previously accepting results",
-  "Hellebuyck willing to face the music, but Devils say he won't play game in Winnipeg",
+  "Canada's secretary of sport casts doubt on Russia competing as neutrals at Alberta world juniors",
+  "Turkey steel factory blast kills at least 16 people",
+  "$276 for hair ties? Skims offers advent calendar refunds after online backlash",
+  "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
+  "Rock duo Angine de Poitrine took home 5 Quebec music industry awards \u2014 and torched a hot dog on stage",
   "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
-  "Some women in Canada are choosing fertility treatments to avoid passing down genetic mutations to their kids",
+  "Decoding report card \u2018edu-ese\u2019: Why parents are frustrated \u2014 and Alberta is getting involved",
   "Russia's leading independent newspaper closes after eviction",
-  "Ford says protesters against changes to Ontario\u2019s student aid program should be \u2018thanking the government\u2019",
+  "Red Deer, Alta., wins bid to host the 2028 Brier men\u2019s national curling championship",
   "At least 39 die after Europe-bound migrant boat sinks off Senegal"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36448.98,
+   "price": 36449.37,
    "chg": 2.2,
    "closes": [
     35664.6,
@@ -45,15 +45,15 @@
     36341.4,
     35605.3,
     35789.1,
-    36448.98
+    36449.37
    ],
    "ytd": 14.32
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7545.9,
-   "chg": -3.4,
+   "price": 7542.59,
+   "chg": -3.44,
    "closes": [
     7811.54,
     7807.24,
@@ -76,9 +76,9 @@
     7688.62,
     7353.73,
     7376.86,
-    7545.9
+    7542.59
    ],
-   "ytd": 10.02
+   "ytd": 9.97
   },
   {
    "sym": "NIFTY",
@@ -105,8 +105,7 @@
     23810.85,
     23960.6,
     24536.6,
-    25030.35,
-    25044.65
+    25030.35
    ],
    "ytd": -4.21
   }

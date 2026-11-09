@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T03:19:23+00:00",
+ "updated": "2026-11-09T04:35:20+00:00",
  "headlines": [
   "Republicans took big hits in the U.S. midterms. Does that mean Trump's political era is over?",
   "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
@@ -8,15 +8,15 @@
   "19-year-old golfer becomes youngest PGA Tour winner in 95 years",
   "Homes and temples glow across India to mark Diwali",
   "Norway says it has been bumped by the IIHF to allow Russia to compete at world juniors in Canada",
-  "Iran executes three men for 'armed unrest' after January protests",
+  "Cruise ship pianist rescued from sea after nine hours in Pacific Ocean",
   "Pizzeria destroyed in 4th suspicious fire to hit Ormstown, Que., in recent months",
   "Aramco Tower hit in heart of Saudi capital as Houthis launch fresh strikes",
   "Canada\u2019s unlikely trade war influencer fighting for the little guys",
   "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
   "The National | Powerful storms batter B.C.",
-  "Paraguay's former president charged after bank collapse",
+  "Iran executes three men for 'armed unrest' after January protests",
   "Trump insists he was 'only kidding' about wanting UFC's Dana White as press secretary",
-  "Pope in 'pretty good health' as he starts Latin America tour"
+  "Paraguay's former president charged after bank collapse"
  ],
  "indices": [
   {
@@ -86,12 +86,9 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 24986.4,
-   "chg": 9.7,
+   "price": 24917.45,
+   "chg": 10.64,
    "closes": [
-    22776.1,
-    22603.05,
-    22231.8,
     22520.45,
     22363.35,
     22721.95,
@@ -112,9 +109,9 @@
     23960.6,
     24536.6,
     25030.35,
-    24986.4
+    24917.45
    ],
-   "ytd": -4.44
+   "ytd": -4.7
   }
  ]
 }

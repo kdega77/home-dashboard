@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-09T19:28:58+00:00",
+ "updated": "2026-11-09T20:26:39+00:00",
  "headlines": [
   "Ford says protesters against changes to Ontario\u2019s student aid program should be 'thanking the government'",
   "France accuses Iran of supermarket fridge hacking",
@@ -7,23 +7,23 @@
   "Nvidia shares tumble over investigation into Huang's affair with alleged Chinese spy",
   "Honda Canada announces plans to retool Alliston, Ont., plant for hybrid production",
   "Trump questions midterm elections integrity after previously accepting results",
-  "Canada's secretary of sport casts doubt on Russia competing as neutrals at Alberta world juniors",
-  "Turkey steel factory blast kills at least 16 people",
   "$276 for hair ties? Skims offers advent calendar refunds after online backlash",
+  "Turkey steel factory blast kills at least 16 people",
+  "Canada's secretary of sport casts doubt on Russia competing as neutrals at Alberta world juniors",
   "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-  "Rock duo Angine de Poitrine took home 5 Quebec music industry awards \u2014 and torched a hot dog on stage",
-  "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
   "Decoding report card \u2018edu-ese\u2019: Why parents are frustrated \u2014 and Alberta is getting involved",
+  "Nine Zimbabweans caught allegedly trying to leave South Africa to fight in Ukraine",
+  "Payments Canada launches long-delayed instant payments system",
   "Russia's leading independent newspaper closes after eviction",
-  "Red Deer, Alta., wins bid to host the 2028 Brier men\u2019s national curling championship",
+  "The family business: Arnold Schwarzenegger\u2019s son muscles into top 5 at bodybuilding competition",
   "At least 39 die after Europe-bound migrant boat sinks off Senegal"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36449.37,
-   "chg": 2.2,
+   "price": 36561.47,
+   "chg": 2.51,
    "closes": [
     35664.6,
     35984.0,
@@ -45,15 +45,15 @@
     36341.4,
     35605.3,
     35789.1,
-    36449.37
+    36561.47
    ],
-   "ytd": 14.32
+   "ytd": 14.67
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7542.59,
-   "chg": -3.44,
+   "price": 7575.07,
+   "chg": -3.03,
    "closes": [
     7811.54,
     7807.24,
@@ -76,9 +76,9 @@
     7688.62,
     7353.73,
     7376.86,
-    7542.59
+    7575.07
    ],
-   "ytd": 9.97
+   "ytd": 10.45
   },
   {
    "sym": "NIFTY",

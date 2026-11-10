@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-10T06:59:27+00:00",
+ "updated": "2026-11-10T08:17:09+00:00",
  "headlines": [
   "Could Nvidia survive without its ultra-powerful CEO, Jensen Huang?",
   "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
@@ -16,7 +16,7 @@
   "Premier Doug Ford suggests 'ass whooping' for 2 boys connected to alleged assault of Hamilton cadet leader",
   "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
   "Federal government budgets record $12M for Justin Trudeau's archives \u2014 the most for any former PM",
-  "France accuses Iran of supermarket fridge hacking"
+  "DR Congo sentences 66 soldiers to death for being 'cowards'"
  ],
  "indices": [
   {
@@ -82,7 +82,7 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25044.65,
+   "price": 25044.7,
    "chg": 11.21,
    "closes": [
     22520.45,

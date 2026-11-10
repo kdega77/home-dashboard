@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-10T18:45:23+00:00",
+ "updated": "2026-11-10T19:50:03+00:00",
  "headlines": [
   "Stellantis auto plant closure in Brampton, Ont., a 'betrayal' to all Canadians, Carney says",
   "First day of Ukraine peace talks constructive, Zelensky says",
   "4 grizzly bears found responsible for killing mother and daughter in B.C.",
   "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
-  "Defiant Hegseth calls Republican's impeachment resolution a 'farce'",
+  "Supreme Court reserves decision on whether federal firearms ban should stand",
   "Israel's new parliament sworn in as leaders compete to form government",
-  "'The editor's here!': CBC journalist stars in viral video with American stand-up Josh Johnson",
+  "Connor Hellebuyck tells media online death threats, family played roles in trade demand",
   "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-  "Connor Hellebuyck tells media online death threats to family played role in trade demand",
+  "Defiant Hegseth calls Republican's impeachment resolution a 'farce'",
   "Anti-homosexuality laws in Trinidad and Tobago overturned",
-  "Manitoba volunteers search for unmarked veterans' graves to make sure all get proper headstones",
+  "'The editor's here!': CBC journalist stars in viral video with American stand-up Josh Johnson",
   "French wartime resistance heroine Solange Alexandre dies aged 104",
-  "Amid sky-high oilpatch profits, Alberta's premier wants to offer oil companies a new subsidy. Here's why",
+  "Descendants say reviving Japanese Canadian veterans' Legion rights historical wrong",
   "Twelve dead after motorway pile-ups in Bulgaria fog",
   "David Walliams, U.K. comedian and author, accused of preying on teenage girls",
   "US federal authorities could have prevented Epstein crimes, report finds"
@@ -22,8 +22,8 @@
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36178.91,
-   "chg": 1.44,
+   "price": 36236.73,
+   "chg": 1.6,
    "closes": [
     35984.0,
     35584.5,
@@ -45,15 +45,15 @@
     35605.3,
     35789.1,
     36446.3,
-    36178.91
+    36236.73
    ],
-   "ytd": 13.47
+   "ytd": 13.65
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7495.61,
-   "chg": -4.04,
+   "price": 7517.12,
+   "chg": -3.77,
    "closes": [
     7807.24,
     7805.45,
@@ -76,9 +76,9 @@
     7353.73,
     7376.86,
     7549.94,
-    7495.61
+    7517.12
    ],
-   "ytd": 9.29
+   "ytd": 9.6
   },
   {
    "sym": "NIFTY",

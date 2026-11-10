@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-10T15:44:37+00:00",
+ "updated": "2026-11-10T16:49:05+00:00",
  "headlines": [
-  "Amid sky-high oilpatch profits, Alberta's premier wants to offer oil companies a new subsidy. Here's why",
-  "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
   "Defiant Hegseth calls Republican's impeachment resolution a 'farce'",
+  "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
+  "Manitoba volunteers search for unmarked veterans' graves to make sure all get proper headstones",
   "First day of Ukraine peace talks 'very productive', US says",
-  "Military budget squeeze limits paid Remembrance Day participation in Ontario",
+  "Amid sky-high oilpatch profits, Alberta's premier wants to offer oil companies a new subsidy. Here's why",
   "DR Congo sentences 66 soldiers to death for being 'cowards'",
-  "Where Trump goes now on the big 3: tariffs, Iran war, immigration",
+  "Connor Hellebuyck speaks to media in 1st return to Winnipeg since trade",
   "'Cruise for life' ship seized in Singapore",
   "Specialized burn treatments deployed for soldiers injured in Alberta military base fire",
   "Arrests made in Mohamed Al Fayed probe in France, police say",
   "Hamilton, 3 other expansion PWHL teams reveal names and logos ahead of inaugural season",
-  "Israel's new parliament to be sworn in as leaders compete to form government",
-  "Lions and tigers are kept legally in Ontario backyards. No one knows how many there are",
+  "Israel's new parliament sworn in as leaders compete to form government",
+  "Where Trump goes now on the big 3: tariffs, Iran war, immigration",
   "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
-  "Anthropic eyes $1 trillion US valuation in hotly anticipated IPO that's a key test for AI market",
+  "Lions and tigers are kept legally in Ontario backyards. No one knows how many there are",
   "Iran rejects French claims it was behind supermarket fridge hacking"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36220.71,
-   "chg": 1.56,
+   "price": 36080.19,
+   "chg": 1.17,
    "closes": [
     35984.0,
     35584.5,
@@ -45,15 +45,15 @@
     35605.3,
     35789.1,
     36446.3,
-    36220.71
+    36080.19
    ],
-   "ytd": 13.6
+   "ytd": 13.16
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7504.11,
-   "chg": -3.94,
+   "price": 7482.99,
+   "chg": -4.21,
    "closes": [
     7807.24,
     7805.45,
@@ -76,9 +76,9 @@
     7353.73,
     7376.86,
     7549.94,
-    7504.11
+    7482.99
    ],
-   "ytd": 9.41
+   "ytd": 9.11
   },
   {
    "sym": "NIFTY",

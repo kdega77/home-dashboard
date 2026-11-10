@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-10T17:44:54+00:00",
+ "updated": "2026-11-10T18:45:23+00:00",
  "headlines": [
-  "Poilievre demands Carney fire his industry minister over Brampton, Ont., auto plant closure",
+  "Stellantis auto plant closure in Brampton, Ont., a 'betrayal' to all Canadians, Carney says",
   "First day of Ukraine peace talks constructive, Zelensky says",
-  "Connor Hellebuyck speaks to media in 1st return to Winnipeg since forcing trade from Jets",
-  "Arrests made in Mohamed Al Fayed probe in France, police say",
+  "4 grizzly bears found responsible for killing mother and daughter in B.C.",
+  "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
   "Defiant Hegseth calls Republican's impeachment resolution a 'farce'",
   "Israel's new parliament sworn in as leaders compete to form government",
   "'The editor's here!': CBC journalist stars in viral video with American stand-up Josh Johnson",
-  "Twelve dead after motorway pile-ups in Bulgaria fog",
+  "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
+  "Connor Hellebuyck tells media online death threats to family played role in trade demand",
+  "Anti-homosexuality laws in Trinidad and Tobago overturned",
   "Manitoba volunteers search for unmarked veterans' graves to make sure all get proper headstones",
-  "Police officer dies and another injured after backpack explosion in northern Spain",
-  "Amid sky-high oilpatch profits, Alberta's premier wants to offer oil companies a new subsidy. Here's why",
   "French wartime resistance heroine Solange Alexandre dies aged 104",
-  "Lions and tigers are kept legally in Ontario backyards. No one knows how many there are",
-  "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-  "Specialized burn treatments deployed for soldiers injured in Alberta military base fire",
-  "Board of Peace says Israel's aid response after Gaza floods 'insufficent'"
+  "Amid sky-high oilpatch profits, Alberta's premier wants to offer oil companies a new subsidy. Here's why",
+  "Twelve dead after motorway pile-ups in Bulgaria fog",
+  "David Walliams, U.K. comedian and author, accused of preying on teenage girls",
+  "US federal authorities could have prevented Epstein crimes, report finds"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36157.13,
-   "chg": 1.38,
+   "price": 36178.91,
+   "chg": 1.44,
    "closes": [
     35984.0,
     35584.5,
@@ -45,15 +45,15 @@
     35605.3,
     35789.1,
     36446.3,
-    36157.13
+    36178.91
    ],
-   "ytd": 13.4
+   "ytd": 13.47
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7479.52,
-   "chg": -4.25,
+   "price": 7495.61,
+   "chg": -4.04,
    "closes": [
     7807.24,
     7805.45,
@@ -76,9 +76,9 @@
     7353.73,
     7376.86,
     7549.94,
-    7479.52
+    7495.61
    ],
-   "ytd": 9.05
+   "ytd": 9.29
   },
   {
    "sym": "NIFTY",

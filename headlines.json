@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-10T19:50:03+00:00",
+ "updated": "2026-11-10T20:41:48+00:00",
  "headlines": [
   "Stellantis auto plant closure in Brampton, Ont., a 'betrayal' to all Canadians, Carney says",
   "First day of Ukraine peace talks constructive, Zelensky says",
   "4 grizzly bears found responsible for killing mother and daughter in B.C.",
   "Malaysia's disgraced former PM leaves jail for house arrest after embezzling millions",
-  "Supreme Court reserves decision on whether federal firearms ban should stand",
+  "More than a dozen private companies loaning workers to Major Projects Office: document",
   "Israel's new parliament sworn in as leaders compete to form government",
   "Connor Hellebuyck tells media online death threats, family played roles in trade demand",
+  "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
+  "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
   "Board of Peace says Israel's aid response after Gaza floods 'insufficent'",
-  "Defiant Hegseth calls Republican's impeachment resolution a 'farce'",
+  "\u2018Garbage,\u2019 \u2018egregious,\u2019 \u2018an assault\u2019: museum chair warns AI slop on Inuk war hero John Shiwak making rounds",
   "Anti-homosexuality laws in Trinidad and Tobago overturned",
+  "Supreme Court reserves decision on whether federal firearms ban should stand",
+  "Nvidia hires major New York law firm to investigate Jensen Huang affair",
   "'The editor's here!': CBC journalist stars in viral video with American stand-up Josh Johnson",
-  "French wartime resistance heroine Solange Alexandre dies aged 104",
-  "Descendants say reviving Japanese Canadian veterans' Legion rights historical wrong",
-  "Twelve dead after motorway pile-ups in Bulgaria fog",
-  "David Walliams, U.K. comedian and author, accused of preying on teenage girls",
-  "US federal authorities could have prevented Epstein crimes, report finds"
+  "French wartime resistance heroine Solange Alexandre dies aged 104"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36236.73,
-   "chg": 1.6,
+   "price": 36185.61,
+   "chg": 1.46,
    "closes": [
     35984.0,
     35584.5,
@@ -45,15 +45,15 @@
     35605.3,
     35789.1,
     36446.3,
-    36236.73
+    36185.61
    ],
-   "ytd": 13.65
+   "ytd": 13.49
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7517.12,
-   "chg": -3.77,
+   "price": 7515.1,
+   "chg": -3.79,
    "closes": [
     7807.24,
     7805.45,
@@ -76,9 +76,9 @@
     7353.73,
     7376.86,
     7549.94,
-    7517.12
+    7515.1
    ],
-   "ytd": 9.6
+   "ytd": 9.57
   },
   {
    "sym": "NIFTY",

@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-10T08:17:09+00:00",
+ "updated": "2026-11-10T09:22:45+00:00",
  "headlines": [
-  "Could Nvidia survive without its ultra-powerful CEO, Jensen Huang?",
+  "Where Trump goes now on the big 3: tariffs, Iran war, immigration",
   "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-  "Man who used fraudulent passport to get in and out of Canada 16 times handed 2-year sentence",
+  "Why Danielle Smith wants to give a subsidy to the oilpatch despite near-record profits",
   "Ukraine peace talks resume with 'some flexibility' by warring sides, US officials say",
-  "California voters reject proposed billionaire tax",
+  "Why health care for Canadian women veterans is falling short",
   "Trump says more US attacks on Iran 'highly unlikely'",
-  "U.S. House Republican moves to force vote on impeaching Pete Hegseth",
+  "Lions and tigers are kept legally in Ontario backyards. No one knows how many there are",
   "Epstein associate who still runs model agency 'put me in danger' says abuse survivor",
-  "Like father, like son: Arnold Schwarzenegger\u2019s son muscles into top 5 at bodybuilding competition",
-  "Australia considers criminal penalties for rogue AI in wake of OpenAI hack",
-  "Russia's top independent newspaper closes under relentless government pressure",
+  "Chinese authorities blocked Canada's Tiananmen Square tribute with trees, cherry picker: documents",
   "'Cruise for life' ship seized in Singapore",
-  "Premier Doug Ford suggests 'ass whooping' for 2 boys connected to alleged assault of Hamilton cadet leader",
+  "Man who used fraudulent passport to get in and out of Canada 16 times handed 2-year sentence",
+  "DR Congo sentences 66 soldiers to death for being 'cowards'",
+  "Could Nvidia survive without its ultra-powerful CEO, Jensen Huang?",
   "Republican congressman to force impeachment vote on Defence Secretary Hegseth",
-  "Federal government budgets record $12M for Justin Trudeau's archives \u2014 the most for any former PM",
-  "DR Congo sentences 66 soldiers to death for being 'cowards'"
+  "California voters reject proposed billionaire tax",
+  "Oxford museum returns ancestral Naga skulls to India"
  ],
  "indices": [
   {
@@ -82,7 +82,7 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25044.7,
+   "price": 25044.65,
    "chg": 11.21,
    "closes": [
     22520.45,

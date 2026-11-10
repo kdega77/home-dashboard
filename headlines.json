@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-10T14:53:04+00:00",
+ "updated": "2026-11-10T15:44:37+00:00",
  "headlines": [
   "Amid sky-high oilpatch profits, Alberta's premier wants to offer oil companies a new subsidy. Here's why",
   "Trump says FBI investigating Nvidia boss's affair with alleged Chinese spy",
-  "Anthropic eyes $1 trillion US valuation in hotly anticipated IPO that's a key test for AI market",
+  "Defiant Hegseth calls Republican's impeachment resolution a 'farce'",
   "First day of Ukraine peace talks 'very productive', US says",
-  "Where Trump goes now on the big 3: tariffs, Iran war, immigration",
-  "DR Congo sentences 66 soldiers to death for being 'cowards'",
   "Military budget squeeze limits paid Remembrance Day participation in Ontario",
+  "DR Congo sentences 66 soldiers to death for being 'cowards'",
+  "Where Trump goes now on the big 3: tariffs, Iran war, immigration",
   "'Cruise for life' ship seized in Singapore",
   "Specialized burn treatments deployed for soldiers injured in Alberta military base fire",
   "Arrests made in Mohamed Al Fayed probe in France, police say",
   "Hamilton, 3 other expansion PWHL teams reveal names and logos ahead of inaugural season",
   "Israel's new parliament to be sworn in as leaders compete to form government",
-  "Defiant Hegseth calls Republican's impeachment resolution a 'farce'",
+  "Lions and tigers are kept legally in Ontario backyards. No one knows how many there are",
   "Anthropic heads for lower than expected $1.3 trillion valuation in stock market debut",
-  "Why health care for Canadian women veterans is falling short",
+  "Anthropic eyes $1 trillion US valuation in hotly anticipated IPO that's a key test for AI market",
   "Iran rejects French claims it was behind supermarket fridge hacking"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36161.59,
-   "chg": 1.39,
+   "price": 36220.71,
+   "chg": 1.56,
    "closes": [
     35984.0,
     35584.5,
@@ -45,14 +45,14 @@
     35605.3,
     35789.1,
     36446.3,
-    36161.59
+    36220.71
    ],
-   "ytd": 13.42
+   "ytd": 13.6
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7503.78,
+   "price": 7504.11,
    "chg": -3.94,
    "closes": [
     7807.24,
@@ -76,7 +76,7 @@
     7353.73,
     7376.86,
     7549.94,
-    7503.78
+    7504.11
    ],
    "ytd": 9.41
   },

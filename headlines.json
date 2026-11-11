@@ -1,12 +1,14 @@
 {
- "updated": "2026-11-11T16:26:54+00:00",
+ "updated": "2026-11-11T17:30:02+00:00",
  "headlines": [
-  "Alberta marks Remembrance Day ceremonies in the shadow of CFB Wainwright tragedy",
+  "Alberta marks Remembrance Day with ceremonies that feel 'closer to home' in shadow of CFB Wainwright tragedy",
   "Spain sees widespread disruption in first general strike for 14 years",
-  "The remarkable story behind the secret Canadian guerilla force you've never heard of",
+  "The remarkable story behind the secret Canadian guerrilla force you've never heard of",
   "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+  "Did Stellantis violate its deals with the feds? Funding contract provided exceptions around Brampton, Ont.",
+  "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
   "Canadian family finds long-lost WW II baby in England after 80 years",
-  "Six thousand Italian schools hit by threats in suspected bomb hoax",
+  "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
   "Parts of B.C. could be without power for days as storm continues to batter province",
   "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
   "Canadians fought a war in Afghanistan. Why do we struggle to talk about it?",
@@ -14,16 +16,14 @@
   "This 29-year-old's NHL debut didn't feel real \u2014 until he got punched in the face",
   "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
   "For this Afghanistan vet, no memorial can ever rival this hallowed ground",
-  "Vin\u00edcius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
-  "Are we alone? Institute searching for alien signals is using a new way to answer that age-old question",
-  "US House blocks bid to impeach Defence Secretary Pete Hegseth"
+  "Vin\u00edcius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36421.29,
-   "chg": 2.12,
+   "price": 36460.42,
+   "chg": 2.23,
    "closes": [
     35984.0,
     35584.5,
@@ -46,15 +46,15 @@
     35789.1,
     36446.3,
     36170.5,
-    36421.29
+    36460.42
    ],
-   "ytd": 14.23
+   "ytd": 14.36
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7614.36,
-   "chg": -2.52,
+   "price": 7629.49,
+   "chg": -2.33,
    "closes": [
     7807.24,
     7805.45,
@@ -78,9 +78,9 @@
     7376.86,
     7549.94,
     7520.93,
-    7614.36
+    7629.49
    ],
-   "ytd": 11.02
+   "ytd": 11.24
   },
   {
    "sym": "NIFTY",

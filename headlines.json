@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-11T18:26:02+00:00",
+ "updated": "2026-11-11T19:33:27+00:00",
  "headlines": [
-  "Alberta marks Remembrance Day with ceremonies that feel 'closer to home' in shadow of CFB Wainwright tragedy",
+  "Solemn Remembrance Day ceremonies in Alberta pay tribute to Wainwright's fallen soldiers",
   "Spain sees widespread disruption in first general strike for 14 years",
-  "The remarkable story behind the secret Canadian guerrilla force you've never heard of",
+  "Pilot killed in aircraft crash linked to Remembrance Day ceremony in Quebec's Beauce region",
   "Russia-Ukraine talks turn to post-war security but end without breakthrough",
-  "Did Stellantis violate its deals with the feds? Funding contract provided exceptions around Brampton, Ont.",
+  "The remarkable story behind the secret Canadian guerrilla force you've never heard of",
   "US Treasury Secretary Scott Bessent relocated after alleged Iranian threats",
-  "Canada caps group stage with a 2-0 shutout of Finland at women's worlds",
+  "Did Stellantis violate its deals with the feds? Funding contract provided exceptions around Brampton, Ont.",
   "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax",
-  "Canadian family finds long-lost WW II baby in England after 80 years",
-  "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-  "Flood warnings issued for parts of southern B.C., as storm batters province",
-  "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
-  "Canadians fought a war in Afghanistan. Why do we struggle to talk about it?",
-  "Missing 11-month-old baby found buried alive in a crate in South Carolina",
   "TV providers say Rogers' Monday hockey move inflates prices, 'erodes' sports viewing",
+  "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+  "Canadian family finds long-lost WW II baby in England after 80 years",
+  "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+  "Flood warnings issued for parts of southern B.C., as storm batters province",
+  "Missing 11-month-old baby found buried alive in a crate in South Carolina",
+  "Missing baby rescued after being buried alive in a dog crate in South Carolina",
   "Four grizzly bears killed in Canada after fatal attack on mother and daughter"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36468.29,
-   "chg": 2.25,
+   "price": 36439.46,
+   "chg": 2.17,
    "closes": [
     35984.0,
     35584.5,
@@ -46,15 +46,15 @@
     35789.1,
     36446.3,
     36170.5,
-    36468.29
+    36439.46
    ],
-   "ytd": 14.38
+   "ytd": 14.29
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7642.93,
-   "chg": -2.16,
+   "price": 7627.33,
+   "chg": -2.36,
    "closes": [
     7807.24,
     7805.45,
@@ -78,9 +78,9 @@
     7376.86,
     7549.94,
     7520.93,
-    7642.93
+    7627.33
    ],
-   "ytd": 11.44
+   "ytd": 11.21
   },
   {
    "sym": "NIFTY",
@@ -107,8 +107,7 @@
     23960.6,
     24536.6,
     25030.35,
-    25044.65,
-    25255.05
+    25044.65
    ],
    "ytd": -3.41
   }

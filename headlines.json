@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-11T08:31:32+00:00",
+ "updated": "2026-11-11T09:55:53+00:00",
  "headlines": [
-  "Republicans block impeachment push against Pete Hegseth",
+  "Canadian family finds long-lost WW II baby in England after 81 years",
   "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-  "U.S. comedian Josh Johnson surprised by CBC journalist in viral video",
-  "US Army soldier suspected of spying for Russia arrested in UK",
-  "Tensions between PM, Quebec premier continue to flare in new tiff over U.S. relations",
+  "Carney embarks on a worldwide summit tour to build bridges with Europe and Asia",
   "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-  "Stacy Keach, stage actor and Mike Hammer star, dead at 85",
+  "Are we alone? Institute searching for alien signals is using a new way to answer that age-old question",
   "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-  "4 grizzly bears responsible for killing mother and daughter in B.C., officials say",
-  "'It can kill us': Kenyans fear impact of El Ni\u00f1o with floods predicted",
-  "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
+  "Republicans block impeachment push against Pete Hegseth",
+  "Vin\u00edcius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
+  "U.S. comedian Josh Johnson surprised by CBC journalist in viral video",
   "Headquarters of Haitian gang destroyed, El Salvador's president says",
-  "Fired nurse raises question of trans discrimination versus sex-based rights at appeal hearing",
+  "Tensions between PM, Quebec premier continue to flare in new tiff over U.S. relations",
   "Kennedys sue to block Trump's arch, arguing it would cast shadow on JFK's grave",
-  "Protesters denounce Ovechkin's support for Putin as Capitals visit Senators in Ottawa",
-  "Anti-homosexuality laws in Trinidad and Tobago overturned"
+  "Stacy Keach, stage actor and Mike Hammer star, dead at 85",
+  "Judge allows Trump's $10bn defamation case against BBC to proceed",
+  "4 grizzly bears responsible for killing mother and daughter in B.C., officials say",
+  "US Army soldier suspected of spying for Russia arrested in UK"
  ],
  "indices": [
   {
@@ -83,8 +83,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25218.4,
-   "chg": 11.98,
+   "price": 25130.0,
+   "chg": 11.59,
    "closes": [
     22363.35,
     22721.95,
@@ -106,9 +106,9 @@
     24536.6,
     25030.35,
     25044.65,
-    25218.4
+    25130.0
    ],
-   "ytd": -3.55
+   "ytd": -3.89
   }
  ]
 }

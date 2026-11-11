@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T05:55:16+00:00",
+ "updated": "2026-11-11T07:05:34+00:00",
  "headlines": [
   "Republicans block impeachment push against Pete Hegseth",
   "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
@@ -13,9 +13,9 @@
   "'It can kill us': Kenyans fear impact of El Ni\u00f1o with floods predicted",
   "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
   "Headquarters of Haitian gang destroyed, El Salvador's president says",
-  "The National | Hegseth impeachment derailed",
-  "Anti-homosexuality laws in Trinidad and Tobago overturned",
   "Fired nurse raises question of trans discrimination versus sex-based rights at appeal hearing",
+  "Anti-homosexuality laws in Trinidad and Tobago overturned",
+  "Protesters denounce Ovechkin's support for Putin as Capitals visit Senators in Ottawa",
   "Kennedys sue to block Trump's arch, arguing it would cast shadow on JFK's grave"
  ],
  "indices": [
@@ -83,8 +83,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25377.65,
-   "chg": 12.69,
+   "price": 25288.45,
+   "chg": 12.29,
    "closes": [
     22363.35,
     22721.95,
@@ -106,9 +106,9 @@
     24536.6,
     25030.35,
     25044.65,
-    25377.65
+    25288.45
    ],
-   "ytd": -2.94
+   "ytd": -3.28
   }
  ]
 }

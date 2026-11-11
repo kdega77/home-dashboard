@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-11T09:55:53+00:00",
+ "updated": "2026-11-11T10:57:03+00:00",
  "headlines": [
   "Canadian family finds long-lost WW II baby in England after 81 years",
   "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-  "Carney embarks on a worldwide summit tour to build bridges with Europe and Asia",
+  "Canadians fought a war in Afghanistan. Why do we struggle to talk about it?",
   "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-  "Are we alone? Institute searching for alien signals is using a new way to answer that age-old question",
+  "Carney embarks on a worldwide summit tour to build bridges with Europe and Asia",
   "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-  "Republicans block impeachment push against Pete Hegseth",
+  "Stellantis auto plant sale draws optimism, hurt in Brampton, Ont., after 2,000 jobs lost",
   "Vin\u00edcius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
-  "U.S. comedian Josh Johnson surprised by CBC journalist in viral video",
+  "Are we alone? Institute searching for alien signals is using a new way to answer that age-old question",
   "Headquarters of Haitian gang destroyed, El Salvador's president says",
-  "Tensions between PM, Quebec premier continue to flare in new tiff over U.S. relations",
+  "U.S. comedian Josh Johnson surprised by CBC journalist in viral video",
   "Kennedys sue to block Trump's arch, arguing it would cast shadow on JFK's grave",
-  "Stacy Keach, stage actor and Mike Hammer star, dead at 85",
+  "Protesters denounce Ovechkin's support for Putin as Capitals visit Senators in Ottawa",
   "Judge allows Trump's $10bn defamation case against BBC to proceed",
-  "4 grizzly bears responsible for killing mother and daughter in B.C., officials say",
+  "3 dead after vehicle plows into pedestrians in Los Angeles",
   "US Army soldier suspected of spying for Russia arrested in UK"
  ],
  "indices": [
@@ -83,8 +83,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25130.0,
-   "chg": 11.59,
+   "price": 25255.05,
+   "chg": 12.14,
    "closes": [
     22363.35,
     22721.95,
@@ -106,9 +106,9 @@
     24536.6,
     25030.35,
     25044.65,
-    25130.0
+    25255.05
    ],
-   "ytd": -3.89
+   "ytd": -3.41
   }
  ]
 }

@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-11T15:19:18+00:00",
+ "updated": "2026-11-11T16:26:54+00:00",
  "headlines": [
-  "Special coverage of Canada's National Remembrance Day Ceremony",
-  "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-  "The remarkable story behind the secret Canadian guerilla force you've never heard of",
+  "Alberta marks Remembrance Day ceremonies in the shadow of CFB Wainwright tragedy",
   "Spain sees widespread disruption in first general strike for 14 years",
+  "The remarkable story behind the secret Canadian guerilla force you've never heard of",
+  "Russia-Ukraine talks turn to post-war security but end without breakthrough",
   "Canadian family finds long-lost WW II baby in England after 80 years",
-  "Hundreds of Italian schools hit by threats in suspected bomb hoax",
+  "Six thousand Italian schools hit by threats in suspected bomb hoax",
   "Parts of B.C. could be without power for days as storm continues to batter province",
-  "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
+  "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
   "Canadians fought a war in Afghanistan. Why do we struggle to talk about it?",
-  "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
+  "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
   "This 29-year-old's NHL debut didn't feel real \u2014 until he got punched in the face",
-  "US House blocks bid to impeach Defence Secretary Pete Hegseth",
+  "Four grizzly bears killed in Canada after fatal attack on mother and daughter",
   "For this Afghanistan vet, no memorial can ever rival this hallowed ground",
   "Vin\u00edcius Jr sends message to Sudan boy who received prosthetic legs after BBC report sparks appeal",
   "Are we alone? Institute searching for alien signals is using a new way to answer that age-old question",
-  "Kenya discharges last Ebola patient in major milestone towards virus-free status"
+  "US House blocks bid to impeach Defence Secretary Pete Hegseth"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36346.01,
-   "chg": 1.91,
+   "price": 36421.29,
+   "chg": 2.12,
    "closes": [
     35984.0,
     35584.5,
@@ -46,15 +46,15 @@
     35789.1,
     36446.3,
     36170.5,
-    36346.01
+    36421.29
    ],
-   "ytd": 14.0
+   "ytd": 14.23
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7581.93,
-   "chg": -2.94,
+   "price": 7614.36,
+   "chg": -2.52,
    "closes": [
     7807.24,
     7805.45,
@@ -78,9 +78,9 @@
     7376.86,
     7549.94,
     7520.93,
-    7581.93
+    7614.36
    ],
-   "ytd": 10.55
+   "ytd": 11.02
   },
   {
    "sym": "NIFTY",

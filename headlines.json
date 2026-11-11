@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-11T03:51:39+00:00",
+ "updated": "2026-11-11T04:54:59+00:00",
  "headlines": [
   "Republicans block impeachment push against Pete Hegseth",
   "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-  "Mike Hammer star and stage actor Stacy Keach dead at 85",
+  "U.S. comedian Josh Johnson surprised by CBC journalist in viral video",
   "US Army soldier suspected of spying for Russia arrested in UK",
   "Tensions between PM, Quebec premier continue to flare in new tiff over U.S. relations",
   "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-  "4 grizzly bears responsible for killing mother and daughter in B.C., officials say",
+  "Stacy Keach, stage actor and Mike Hammer star, dead at 85",
   "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-  "U.S. comedian Josh Johnson surprised by CBC journalist in viral video",
+  "4 grizzly bears responsible for killing mother and daughter in B.C., officials say",
   "'It can kill us': Kenyans fear impact of El Ni\u00f1o with floods predicted",
   "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
   "Headquarters of Haitian gang destroyed, El Salvador's president says",
   "The National | Hegseth impeachment derailed",
   "Anti-homosexuality laws in Trinidad and Tobago overturned",
-  "Protesters denounce Ovechkin's support for Putin as Capitals visit Senators in Ottawa",
-  "Violence erupts in Bangladesh as ousted PM's supporters stage protest"
+  "Fired nurse raises question of trans discrimination versus sex-based rights at appeal hearing",
+  "Kennedys sue to block Trump's arch, arguing it would cast shadow on JFK's grave"
  ],
  "indices": [
   {
@@ -83,8 +83,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25371.95,
-   "chg": 12.66,
+   "price": 25348.55,
+   "chg": 12.56,
    "closes": [
     22363.35,
     22721.95,
@@ -106,9 +106,9 @@
     24536.6,
     25030.35,
     25044.65,
-    25371.95
+    25348.55
    ],
-   "ytd": -2.96
+   "ytd": -3.05
   }
  ]
 }

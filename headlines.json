@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-11T04:54:59+00:00",
+ "updated": "2026-11-11T05:55:16+00:00",
  "headlines": [
   "Republicans block impeachment push against Pete Hegseth",
   "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
@@ -45,7 +45,7 @@
     35605.3,
     35789.1,
     36446.3,
-    36170.45
+    36170.5
    ],
    "ytd": 13.45
   },
@@ -83,8 +83,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25348.55,
-   "chg": 12.56,
+   "price": 25377.65,
+   "chg": 12.69,
    "closes": [
     22363.35,
     22721.95,
@@ -106,9 +106,9 @@
     24536.6,
     25030.35,
     25044.65,
-    25348.55
+    25377.65
    ],
-   "ytd": -3.05
+   "ytd": -2.94
   }
  ]
 }

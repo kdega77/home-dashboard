@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-11T02:51:58+00:00",
+ "updated": "2026-11-11T03:51:39+00:00",
  "headlines": [
   "Republicans block impeachment push against Pete Hegseth",
   "Three Iran-backed suspects plotted attacks including RAF Fairford incident, US says",
-  "Tensions between PM, Quebec premier continue to flare in new tiff over U.S. relations",
+  "Mike Hammer star and stage actor Stacy Keach dead at 85",
   "US Army soldier suspected of spying for Russia arrested in UK",
-  "4 grizzly bears responsible for killing mother and daughter in B.C., officials say",
+  "Tensions between PM, Quebec premier continue to flare in new tiff over U.S. relations",
   "US House blocks bid to impeach Defence Secretary Pete Hegseth, for now",
-  "U.S. comedian Josh Johnson surprised by CBC journalist in viral video",
+  "4 grizzly bears responsible for killing mother and daughter in B.C., officials say",
   "Meghan's father Thomas Markle back in federal custody after allegedly removing ankle monitor",
-  "The National | Hegseth impeachment derailed",
+  "U.S. comedian Josh Johnson surprised by CBC journalist in viral video",
   "'It can kill us': Kenyans fear impact of El Ni\u00f1o with floods predicted",
   "Who is Alice Huang? Alleged Chinese spy, businesswoman involved with Nvidia CEO",
-  "Violence erupts in Bangladesh as ousted PM's supporters stage protest",
-  "Protesters denounce Ovechkin's support for Putin as Capitals visit Senators in Ottawa",
+  "Headquarters of Haitian gang destroyed, El Salvador's president says",
+  "The National | Hegseth impeachment derailed",
   "Anti-homosexuality laws in Trinidad and Tobago overturned",
-  "N.S. group apologizes for including woman convicted in a brutal killing on a panel",
-  "Israel's new parliament sworn in as leaders compete to form government"
+  "Protesters denounce Ovechkin's support for Putin as Capitals visit Senators in Ottawa",
+  "Violence erupts in Bangladesh as ousted PM's supporters stage protest"
  ],
  "indices": [
   {
@@ -83,10 +83,9 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25044.65,
-   "chg": 11.21,
+   "price": 25371.95,
+   "chg": 12.66,
    "closes": [
-    22520.45,
     22363.35,
     22721.95,
     22622.7,
@@ -106,9 +105,10 @@
     23960.6,
     24536.6,
     25030.35,
-    25044.65
+    25044.65,
+    25371.95
    ],
-   "ytd": -4.21
+   "ytd": -2.96
   }
  ]
 }

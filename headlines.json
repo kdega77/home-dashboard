@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-12T02:28:04+00:00",
+ "updated": "2026-11-12T03:22:31+00:00",
  "headlines": [
   "Ottawa had been aware of Stellantis-Roshel talks for months, source says",
   "Clashes erupt in Barcelona after thousands join Spain general strike",
   "Sleeping driver in self-driving vehicle woken up, stopped and charged in Ottawa",
   "Democrat Scott Colom seals historic win in Mississippi Senate race",
-  "2 dead, 4 critically injured after building collapse in New York City",
+  "2 dead, 4 critically injured after building collapses in New York City",
   "Russia-Ukraine talks turn to post-war security but end without breakthrough",
   "Hegseth, wife and aides spark scolding from guard at Tomb of the Unknown Soldier",
   "New York building collapse kills one person and injures 12",
   "The National | Canadians honour their veterans",
-  "Indonesia's vice president resigns amid signs ruling alliance is fraying",
+  "Australian teen missing in bush for six days rescued alive",
   "Series of storms leaves B.C. woman with tree stuck on her house for days",
   "Kidnapper, 74, escapes from house arrest in Argentina by abseiling from balcony",
   "The remarkable story behind the secret Canadian guerrilla force you've never heard of",
-  "Famed ship SS United States to be sunk off coast of Florida",
+  "Indonesia's vice president resigns amid signs ruling alliance is fraying",
   "Canada says Russian hockey players with visas will still be barred from world junior championship",
-  "Schools in Italy, Scotland and Northern Ireland hit by threats in suspected bomb hoax"
+  "Famed ship SS United States to be sunk off coast of Florida"
  ],
  "indices": [
   {
@@ -107,7 +107,8 @@
     23960.6,
     24536.6,
     25030.35,
-    25044.65
+    25044.65,
+    25255.05
    ],
    "ytd": -3.41
   }

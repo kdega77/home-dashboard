@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-12T20:46:37+00:00",
+ "updated": "2026-11-12T21:43:47+00:00",
  "headlines": [
-  "Democrats to investigate sales of Nvidia chips to Chinese companies in wake of CEO resignation",
+  "Industry minister terminates resolution talks with Stellantis over Brampton auto plant sale",
   "US envoys head to meet Zelensky after talks with Putin in Moscow",
-  "Plane with mechanical problems makes 'successful' landing at St. John's International Airport",
-  "Russian warship hit by Ukrainian drone in Gulf of Finland",
   "Will U.S. travel pick up after midterm 'blue wave'? Not so fast, say these Canadians",
+  "Russian warship hit by Ukrainian drone in Gulf of Finland",
+  "Plane with mechanical problems makes 'successful' landing at St. John's International Airport",
   "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-  "U.S. army guard receives medal from Hegseth after scolding him at Tomb of the Unknown Soldier",
+  "Nvidia CEO's resignation after affair with suspected Chinese spy rattles markets, tech world",
   "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
+  "Hegseth awards medal to Arlington soldier who scolded his group on decorum",
   "Hegseth awards medal to war memorial guard who reprimanded him and group",
-  "Report of children confined in locker at Quebec school draws minister's condemnation",
+  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
   "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
-  "NCC mulling refrigerating downtown end of Rideau Canal",
+  "Report of children confined in locker at Quebec school draws minister's condemnation",
   "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-  "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
+  "NCC mulling refrigerating downtown end of Rideau Canal",
   "Five new miniature frog species found in eastern Himalayas"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36175.94,
-   "chg": 1.43,
+   "price": 36137.19,
+   "chg": 1.33,
    "closes": [
     35984.0,
     35584.5,
@@ -47,17 +47,16 @@
     36446.3,
     36170.5,
     36411.7,
-    36175.94
+    36137.19
    ],
-   "ytd": 13.46
+   "ytd": 13.34
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7590.64,
-   "chg": -2.77,
+   "price": 7592.4,
+   "chg": -2.75,
    "closes": [
-    7807.24,
     7805.45,
     7718.94,
     7744.06,
@@ -80,9 +79,9 @@
     7549.94,
     7520.93,
     7619.38,
-    7590.64
+    7592.4
    ],
-   "ytd": 10.68
+   "ytd": 10.7
   },
   {
    "sym": "NIFTY",

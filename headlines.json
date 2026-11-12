@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-12T19:51:53+00:00",
+ "updated": "2026-11-12T20:46:37+00:00",
  "headlines": [
   "Democrats to investigate sales of Nvidia chips to Chinese companies in wake of CEO resignation",
   "US envoys head to meet Zelensky after talks with Putin in Moscow",
+  "Plane with mechanical problems makes 'successful' landing at St. John's International Airport",
+  "Russian warship hit by Ukrainian drone in Gulf of Finland",
   "Will U.S. travel pick up after midterm 'blue wave'? Not so fast, say these Canadians",
-  "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-  "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
   "Suspected bomb hoax threats force fresh evacuations of Italian schools",
   "U.S. army guard receives medal from Hegseth after scolding him at Tomb of the Unknown Soldier",
   "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-  "Report of children confined in locker at Quebec school draws minister's condemnation",
-  "Hegseth awards medal to war memorial guard who reprimanded him and group",
-  "NCC mulling refrigerating downtown end of Rideau Canal",
-  "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
-  "The U.S. is now urging middle-aged men to routinely screen for prostate cancer. What about Canada?",
-  "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
   "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
+  "Hegseth awards medal to war memorial guard who reprimanded him and group",
+  "Report of children confined in locker at Quebec school draws minister's condemnation",
+  "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
+  "NCC mulling refrigerating downtown end of Rideau Canal",
+  "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+  "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
   "Five new miniature frog species found in eastern Himalayas"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36193.91,
-   "chg": 1.48,
+   "price": 36175.94,
+   "chg": 1.43,
    "closes": [
     35984.0,
     35584.5,
@@ -47,15 +47,15 @@
     36446.3,
     36170.5,
     36411.7,
-    36193.91
+    36175.94
    ],
-   "ytd": 13.52
+   "ytd": 13.46
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7600.84,
-   "chg": -2.64,
+   "price": 7590.64,
+   "chg": -2.77,
    "closes": [
     7807.24,
     7805.45,
@@ -80,9 +80,9 @@
     7549.94,
     7520.93,
     7619.38,
-    7600.84
+    7590.64
    ],
-   "ytd": 10.82
+   "ytd": 10.68
   },
   {
    "sym": "NIFTY",

@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-12T13:08:09+00:00",
+ "updated": "2026-11-12T14:30:23+00:00",
  "headlines": [
-  "How China gets around the U.S. ban on Nvidia chips",
+  "LIVE UPDATES: Nvidia CEO Jensen Huang resigns after reports of 2 extramarital affairs",
   "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
-  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
+  "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
   "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-  "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
+  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
   "Millions of Ebola dollars going missing as virus spreads, medical charity warns",
-  "Halifax-area hospitals see pest control budgets soar amid mice, pigeon infestations",
+  "Montreal tenants without hot water, electricity during heated dispute over renovations",
   "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-  "Anthropic IPO to test the first 'pure play' AI stock in a choppy market",
+  "Anti-child porn group fights to remove 'countless' online images from Canada's most prolific voyeur",
   "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
-  "American Airlines resumes flights to Haiti, providing a vital route into the country",
+  "Canada has the opportunity to become a global LNG leader, new report says",
   "Oranges investigated after four girls die in suspected Uganda school poisoning",
-  "Death toll climbs to 8 in Brooklyn building collapse",
+  "Halifax-area hospitals see pest control budgets soar amid mice, pigeon infestations",
   "British woman missing from cruise ship in Atlantic",
-  "Ottawa had been aware of Stellantis-Roshel talks for months, source says",
+  "Anthropic IPO to test the first 'pure play' AI stock in a choppy market",
   "Clashes erupt in Barcelona after thousands join Spain general strike"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36411.72,
-   "chg": 2.09,
+   "price": 36196.11,
+   "chg": 1.49,
    "closes": [
     35984.0,
     35584.5,
@@ -46,15 +46,16 @@
     35789.1,
     36446.3,
     36170.5,
-    36411.7
+    36411.7,
+    36196.11
    ],
-   "ytd": 14.2
+   "ytd": 13.53
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7619.38,
-   "chg": -2.46,
+   "price": 7558.87,
+   "chg": -3.18,
    "closes": [
     7807.24,
     7805.45,
@@ -78,9 +79,10 @@
     7376.86,
     7549.94,
     7520.93,
-    7619.38
+    7619.38,
+    7558.87
    ],
-   "ytd": 11.09
+   "ytd": 10.21
   },
   {
    "sym": "NIFTY",

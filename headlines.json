@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-12T17:54:01+00:00",
+ "updated": "2026-11-12T18:51:42+00:00",
  "headlines": [
   "U.S. stock market wobbles but recovers after Nvidia CEO Jensen Huang's resignation",
-  "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
+  "US envoys head to meet Zelensky after talks with Putin in Moscow",
   "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
   "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
   "The U.S. is now urging middle-aged men to routinely screen for prostate cancer. What about Canada?",
   "Suspected bomb hoax threats force fresh evacuations of Italian schools",
   "NCC mulling refrigerating downtown end of Rideau Canal",
   "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+  "U.S. army guard given medal by Hegseth day after Tomb of the Unknown Soldier reprimand",
+  "Hegseth awards medal to war memorial guard who reprimanded him and group",
   "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
-  "Pentagon backs war memorial guard who reprimanded Hegseth's group",
-  "I studied silence in Ukraine, but moving to Montreal made me truly understand it",
   "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
-  "CBC announces Hockey Night in Canada broadcast team for PWHL season",
+  "I studied silence in Ukraine, but moving to Montreal made me truly understand it",
   "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-  "U.S. envoys Kushner, Witkoff meet with Putin at Kremlin in talks to end Russia-Ukraine war",
+  "CBC announces Hockey Night in Canada broadcast team for PWHL season",
   "Five new miniature frog species found in eastern Himalayas"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36255.94,
-   "chg": 1.66,
+   "price": 36180.26,
+   "chg": 1.45,
    "closes": [
     35984.0,
     35584.5,
@@ -47,15 +47,15 @@
     36446.3,
     36170.5,
     36411.7,
-    36255.94
+    36180.26
    ],
-   "ytd": 13.71
+   "ytd": 13.48
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7637.76,
-   "chg": -2.17,
+   "price": 7608.23,
+   "chg": -2.55,
    "closes": [
     7807.24,
     7805.45,
@@ -80,9 +80,9 @@
     7549.94,
     7520.93,
     7619.38,
-    7637.76
+    7608.23
    ],
-   "ytd": 11.36
+   "ytd": 10.93
   },
   {
    "sym": "NIFTY",
@@ -110,8 +110,7 @@
     24536.6,
     25030.35,
     25044.65,
-    25255.05,
-    25299.35
+    25255.05
    ],
    "ytd": -3.24
   }

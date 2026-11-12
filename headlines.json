@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-12T18:51:42+00:00",
+ "updated": "2026-11-12T19:51:53+00:00",
  "headlines": [
-  "U.S. stock market wobbles but recovers after Nvidia CEO Jensen Huang's resignation",
+  "Democrats to investigate sales of Nvidia chips to Chinese companies in wake of CEO resignation",
   "US envoys head to meet Zelensky after talks with Putin in Moscow",
-  "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
+  "Will U.S. travel pick up after midterm 'blue wave'? Not so fast, say these Canadians",
   "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
-  "The U.S. is now urging middle-aged men to routinely screen for prostate cancer. What about Canada?",
+  "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
   "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-  "NCC mulling refrigerating downtown end of Rideau Canal",
+  "U.S. army guard receives medal from Hegseth after scolding him at Tomb of the Unknown Soldier",
   "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-  "U.S. army guard given medal by Hegseth day after Tomb of the Unknown Soldier reprimand",
+  "Report of children confined in locker at Quebec school draws minister's condemnation",
   "Hegseth awards medal to war memorial guard who reprimanded him and group",
-  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
+  "NCC mulling refrigerating downtown end of Rideau Canal",
   "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
-  "I studied silence in Ukraine, but moving to Montreal made me truly understand it",
+  "The U.S. is now urging middle-aged men to routinely screen for prostate cancer. What about Canada?",
   "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-  "CBC announces Hockey Night in Canada broadcast team for PWHL season",
+  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
   "Five new miniature frog species found in eastern Himalayas"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36180.26,
-   "chg": 1.45,
+   "price": 36193.91,
+   "chg": 1.48,
    "closes": [
     35984.0,
     35584.5,
@@ -47,15 +47,15 @@
     36446.3,
     36170.5,
     36411.7,
-    36180.26
+    36193.91
    ],
-   "ytd": 13.48
+   "ytd": 13.52
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7608.23,
-   "chg": -2.55,
+   "price": 7600.84,
+   "chg": -2.64,
    "closes": [
     7807.24,
     7805.45,
@@ -80,9 +80,9 @@
     7549.94,
     7520.93,
     7619.38,
-    7608.23
+    7600.84
    ],
-   "ytd": 10.93
+   "ytd": 10.82
   },
   {
    "sym": "NIFTY",

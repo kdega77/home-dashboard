@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-12T08:36:13+00:00",
+ "updated": "2026-11-12T09:56:01+00:00",
  "headlines": [
-  "Pilot killed in plane crash during Remembrance Day event in Quebec's Beauce region",
-  "Ukraine's power supply close to critical as Russian strikes bring darkness and cold",
-  "Ottawa had been aware of Stellantis-Roshel talks for months, source says",
-  "Democrat Scott Colom seals historic win in Mississippi Senate race",
-  "Hegseth, wife and aides spark scolding from guard at Tomb of the Unknown Soldier",
-  "Israeli strike on hospital kills at least five Palestinians, Gaza civil defence agency says",
-  "Sleeping driver in self-driving vehicle woken up, stopped and charged in Ottawa",
+  "How China gets around the U.S. ban on Nvidia chips",
+  "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
+  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
   "New York building collapse kills at least two, officials say",
-  "2 dead, 4 critically injured after building collapses in New York City",
+  "American Airlines resumes flights to Haiti, providing a vital route into the country",
+  "Democrat Scott Colom seals historic win in Mississippi Senate race",
+  "Anthropic IPO to test the first 'pure play' AI stock in a choppy market",
+  "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+  "Shelter workers raise alarm as severe stomach bug hits Montreal's homeless population",
   "Ugandan police investigate deaths of four pupils in suspected school poisoning",
-  "Series of storms leaves B.C. woman with tree stuck on her house for days",
+  "Pilot killed in plane crash during Remembrance Day event in Quebec's Beauce region",
   "Australian teen missing in bush for six days rescued alive",
-  "The remarkable story behind the secret Canadian guerrilla force you've never heard of",
+  "Ottawa had been aware of Stellantis-Roshel talks for months, source says",
   "Clashes erupt in Barcelona after thousands join Spain general strike",
-  "Canada says Russian hockey players with visas will still be barred from world junior championship",
+  "Hegseth, wife and aides spark scolding from guard at Tomb of the Unknown Soldier",
   "Russia-Ukraine talks turn to post-war security but end without breakthrough"
  ],
  "indices": [
@@ -85,8 +85,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25245.65,
-   "chg": 12.89,
+   "price": 25275.25,
+   "chg": 13.02,
    "closes": [
     22363.35,
     22721.95,
@@ -109,9 +109,9 @@
     25030.35,
     25044.65,
     25255.05,
-    25245.65
+    25275.25
    ],
-   "ytd": -3.45
+   "ytd": -3.33
   }
  ]
 }

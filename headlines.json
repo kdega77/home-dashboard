@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-12T14:30:23+00:00",
+ "updated": "2026-11-12T15:56:28+00:00",
  "headlines": [
-  "LIVE UPDATES: Nvidia CEO Jensen Huang resigns after reports of 2 extramarital affairs",
-  "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
-  "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
-  "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
-  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
-  "Millions of Ebola dollars going missing as virus spreads, medical charity warns",
-  "Montreal tenants without hot water, electricity during heated dispute over renovations",
-  "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-  "Anti-child porn group fights to remove 'countless' online images from Canada's most prolific voyeur",
+  "Nvidia CEO Jensen Huang\u2019s resignation amid alleged spying scandal rattles markets",
   "Ukraine says military Starlink disrupted again as US envoys meet Putin in Moscow",
-  "Canada has the opportunity to become a global LNG leader, new report says",
+  "Carney aware of 'some aspects' of Stellantis auto plant sale, but says company still broke deal",
+  "'We've got to run': Inside ruined Ukraine power plant under constant drone threat",
+  "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
+  "Suspected bomb hoax threats force fresh evacuations of Italian schools",
+  "U.S. envoys Kushner, Witkoff meet with Putin at Kremlin in talks to end Russia-Ukraine war",
+  "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century",
+  "I studied silence in Ukraine, but moving to Montreal made me truly understand it",
+  "Millions of Ebola dollars missing with staff unpaid while virus spreads, charity says",
+  "Ontario's moose population is in decline, and the province is trying to figure out why",
+  "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
+  "How a charity is trying to remove 'countless' images posted by Canada's most prolific voyeur",
   "Oranges investigated after four girls die in suspected Uganda school poisoning",
-  "Halifax-area hospitals see pest control budgets soar amid mice, pigeon infestations",
-  "British woman missing from cruise ship in Atlantic",
-  "Anthropic IPO to test the first 'pure play' AI stock in a choppy market",
-  "Clashes erupt in Barcelona after thousands join Spain general strike"
+  "Montreal tenants without hot water, electricity during heated dispute over renovations",
+  "British woman missing from cruise ship in Atlantic"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36196.11,
-   "chg": 1.49,
+   "price": 36254.79,
+   "chg": 1.65,
    "closes": [
     35984.0,
     35584.5,
@@ -47,15 +47,15 @@
     36446.3,
     36170.5,
     36411.7,
-    36196.11
+    36254.79
    ],
-   "ytd": 13.53
+   "ytd": 13.71
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7558.87,
-   "chg": -3.18,
+   "price": 7617.82,
+   "chg": -2.43,
    "closes": [
     7807.24,
     7805.45,
@@ -80,9 +80,9 @@
     7549.94,
     7520.93,
     7619.38,
-    7558.87
+    7617.82
    ],
-   "ytd": 10.21
+   "ytd": 11.07
   },
   {
    "sym": "NIFTY",

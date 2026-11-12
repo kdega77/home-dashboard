@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-12T09:56:01+00:00",
+ "updated": "2026-11-12T10:58:28+00:00",
  "headlines": [
   "How China gets around the U.S. ban on Nvidia chips",
   "'No light, no water, no heat': Ukrainians struggle with blackouts as Russia hits power grid",
   "LinkedIn, Monster take down over 1,000 fake job postings after CBC investigation",
   "New York building collapse kills at least two, officials say",
-  "American Airlines resumes flights to Haiti, providing a vital route into the country",
-  "Democrat Scott Colom seals historic win in Mississippi Senate race",
   "Anthropic IPO to test the first 'pure play' AI stock in a choppy market",
+  "Democrat Scott Colom makes history as Mississippi elects first black senator in 150 years",
+  "Israeli strike on a Gaza hospital kills 6 people, health authorities say",
   "Israeli strike on Gaza hospital kills six Palestinians, health ministry says",
-  "Shelter workers raise alarm as severe stomach bug hits Montreal's homeless population",
-  "Ugandan police investigate deaths of four pupils in suspected school poisoning",
-  "Pilot killed in plane crash during Remembrance Day event in Quebec's Beauce region",
-  "Australian teen missing in bush for six days rescued alive",
   "Ottawa had been aware of Stellantis-Roshel talks for months, source says",
-  "Clashes erupt in Barcelona after thousands join Spain general strike",
-  "Hegseth, wife and aides spark scolding from guard at Tomb of the Unknown Soldier",
-  "Russia-Ukraine talks turn to post-war security but end without breakthrough"
+  "US envoys arrive in Moscow for Ukraine talks with Vladimir Putin",
+  "Missing teen found alive after 6 days in the Australian woodlands",
+  "Oranges investigated after four girls die in suspected Uganda school poisoning",
+  "American Airlines resumes flights to Haiti, providing a vital route into the country",
+  "British woman missing from cruise ship in Atlantic",
+  "Indonesia's vice-president resigns after academic credentials questioned",
+  "Clashes erupt in Barcelona after thousands join Spain general strike"
  ],
  "indices": [
   {
@@ -85,8 +85,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25275.25,
-   "chg": 13.02,
+   "price": 25299.35,
+   "chg": 13.13,
    "closes": [
     22363.35,
     22721.95,
@@ -109,9 +109,9 @@
     25030.35,
     25044.65,
     25255.05,
-    25275.25
+    25299.35
    ],
-   "ytd": -3.33
+   "ytd": -3.24
   }
  ]
 }

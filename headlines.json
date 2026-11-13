@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-13T09:55:56+00:00",
+ "updated": "2026-11-13T10:56:40+00:00",
  "headlines": [
+  "We tested 6 popular apps to see what data they collect and share. Here\u2019s what we found",
+  "What we know about the global Microsoft outage",
+  "Microsoft outage continues as planned fixes are not working as expected, company says",
+  "Watch: How Microsoft services went down around the world",
   "What the Jensen Huang scandal means for Trump and his administration",
   "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
   "They called her 'Mommy': Vulnerable senior dies after 2 strangers take over her life",
   "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-  "We tested 6 popular apps to see what data they collect and share. Here\u2019s what we found",
+  "Your genes could change your prescription. So why aren't doctors testing?",
   "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-  "Countries vulnerable to climate disaster push for faster, easier access to finance at COP31",
-  "Russian warship hit by Ukrainian drone in Gulf of Finland",
-  "Ex Ottawa Uber driver admits to giving 12-year-old girl 'secret admirer' candy, prowling house after delivery",
-  "Suspected bomb hoax threats force fresh evacuations of Italian schools",
   "Eddie's dead: What one monarch's ill-fated journey can teach us about migration patterns",
-  "Australian footballers will not be charged after hotel incident, police say",
-  "Feds say Stellantis owes 'hundreds of millions' in subsidies, company offers $24M",
+  "African Miss Universe beauty queens in limbo as US visa restrictions bite",
+  "Will U.S. travel pick up after midterm 'blue wave'? Not so fast, say these Canadians",
   "Hegseth awards medal to war memorial guard who reprimanded him and group",
-  "Microsoft outage continues as planned fixes are not working as expected, company says",
-  "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century"
+  "Feds say Stellantis owes 'hundreds of millions' in subsidies, company offers $24M",
+  "Russian warship hit by Ukrainian drone in Gulf of Finland"
  ],
  "indices": [
   {
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25139.25,
-   "chg": 10.64,
+   "price": 25144.3,
+   "chg": 10.66,
    "closes": [
     22721.95,
     22622.7,
@@ -110,14 +110,14 @@
     25044.65,
     25255.05,
     25299.35,
-    25139.25
+    25144.3
    ],
-   "ytd": -3.85
+   "ytd": -3.83
   }
  ],
  "heatmap": {
-  "updated": "2026-11-13T09:55:35+00:00",
-  "label": "Fri Nov 13, 2026 \u00b7 4:55 am ET",
+  "updated": "2026-11-13T10:56:12+00:00",
+  "label": "Fri Nov 13, 2026 \u00b7 5:56 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -365,13 +365,13 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": -1.14
+    "chg": -1.02
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": -0.78
+    "chg": -0.4
    },
    {
     "s": "SBI",
@@ -383,91 +383,91 @@
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.44
+    "chg": -0.38
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.48
+    "chg": -0.89
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 0.27
+    "chg": 0.18
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -1.33
+    "chg": -1.43
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -1.1
+    "chg": -0.84
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.64
+    "chg": -0.2
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.55
+    "chg": -0.82
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.2
+    "chg": -0.56
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 0.07
+    "chg": 0.0
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.47
+    "chg": 0.22
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 1.12
+    "chg": 0.48
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 0.14
+    "chg": 0.33
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 0.2
+    "chg": 0.96
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -0.86
+    "chg": -1.31
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.46
+    "chg": -0.37
    },
    {
     "s": "ADANI",
@@ -485,55 +485,55 @@
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.48
+    "chg": -0.27
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -0.54
+    "chg": -0.7
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -1.41
+    "chg": -1.21
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -1.25
+    "chg": -0.77
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -1.35
+    "chg": -1.56
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 0.66
+    "chg": 0.18
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.45
+    "chg": 0.53
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -0.63
+    "chg": -0.47
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -1.28
+    "chg": -0.98
    },
    {
     "s": "EICHER",

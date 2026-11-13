@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-13T03:21:57+00:00",
+ "updated": "2026-11-13T04:30:05+00:00",
  "headlines": [
   "Nvidia CEO's resignation after affair with suspected Chinese spy rattles markets, tech world",
-  "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
+  "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
   "Feds say Stellantis owes 'hundreds of millions' in subsidies, company offers $24M",
   "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
   "Maryland's Van Hollen to challenge Schumer for U.S. Senate leadership post",
   "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-  "Microsoft says services being slowly restored after widespread outages across its platforms",
+  "Microsoft outage continues as planned fixes are not working as expected, company says",
   "Russian warship hit by Ukrainian drone in Gulf of Finland",
   "A PAL Airlines flight lost a wheel less than 2 weeks ago. It's happened again \u2014 to the same plane",
-  "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
-  "Will U.S. travel pick up after midterm 'blue wave'? Not so fast, say these Canadians",
   "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-  "Original Star Wars returning to theatres for 50th anniversary",
+  "Will U.S. travel pick up after midterm 'blue wave'? Not so fast, say these Canadians",
   "Australian footballers will not be charged after hotel incident, police say",
+  "Original Star Wars returning to theatres for 50th anniversary",
+  "Hegseth awards medal to war memorial guard who reprimanded him and group",
   "Indigenous women leaders say budget doesn't address their realities",
-  "Hegseth awards medal to war memorial guard who reprimanded him and group"
+  "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century"
  ],
  "indices": [
   {
@@ -86,10 +86,9 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25299.35,
-   "chg": 13.13,
+   "price": 25204.35,
+   "chg": 10.93,
    "closes": [
-    22363.35,
     22721.95,
     22622.7,
     22997.35,
@@ -110,14 +109,15 @@
     25030.35,
     25044.65,
     25255.05,
-    25299.35
+    25299.35,
+    25204.35
    ],
-   "ytd": -3.24
+   "ytd": -3.6
   }
  ],
  "heatmap": {
-  "updated": "2026-11-13T03:21:33+00:00",
-  "label": "Thu Nov 12, 2026 \u00b7 10:21 pm ET",
+  "updated": "2026-11-13T04:29:42+00:00",
+  "label": "Thu Nov 12, 2026 \u00b7 11:29 pm ET",
   "sp": [
    {
     "s": "NVDA",
@@ -365,181 +365,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 0.71
+    "chg": -1.32
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 1.17
+    "chg": -0.38
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 2.38
+    "chg": -0.9
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.55
+    "chg": -0.47
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.49
+    "chg": -0.96
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 3.36
+    "chg": -0.35
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -1.2
+    "chg": -0.47
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -0.33
+    "chg": -0.16
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -1.02
+    "chg": 0.7
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.9
+    "chg": 0.11
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.81
+    "chg": 0.33
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 0.32
+    "chg": -0.6
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -4.39
+    "chg": 0.6
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": -0.62
+    "chg": -0.25
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.33
+    "chg": 0.11
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -2.39
+    "chg": 0.13
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -1.22
+    "chg": -0.81
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -1.25
+    "chg": 0.64
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.99
+    "chg": -0.39
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -0.2
+    "chg": -0.72
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.91
+    "chg": 1.11
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -0.68
+    "chg": 0.03
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -1.22
+    "chg": -0.34
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -1.63
+    "chg": -0.02
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -0.97
+    "chg": -1.08
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": -2.1
+    "chg": 0.01
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -0.54
+    "chg": -0.61
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -1.32
+    "chg": 0.38
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": 1.45
+    "chg": 0.25
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": -0.57
+    "chg": 0.74
    }
   ],
   "tsx": [

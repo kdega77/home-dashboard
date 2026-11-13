@@ -105,11 +105,28 @@ def main():
                 idx = json.load(fh).get("indices", [])
         except Exception:
             idx = []
+    # Heatmap: fresh % moves ride inside headlines.json (the workflow already
+    # commits this file), so the treemap page stops showing the Nov 5, 2026
+    # snapshot. Never let a heatmap failure break headlines.
+    heat = None
+    try:
+        import fetch_heatmap
+        heat = fetch_heatmap.refresh("headlines.json")
+    except Exception as e:
+        print("heatmap failed:", e)
+    if heat is None:
+        try:
+            with open("headlines.json") as fh:
+                heat = json.load(fh).get("heatmap")
+        except Exception:
+            heat = None
     payload = {
         "updated": datetime.now(timezone.utc).isoformat(timespec="seconds"),
         "headlines": merged,
         "indices": idx,
     }
+    if heat is not None:
+        payload["heatmap"] = heat
     with open("headlines.json", "w") as fh:
         json.dump(payload, fh, indent=1)
     print("wrote", len(merged), "headlines")

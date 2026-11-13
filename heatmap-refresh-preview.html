@@ -1,0 +1,167 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Market Heatmaps — Preview</title>
+<style>
+*{box-sizing:border-box}html,body{margin:0;height:100%;color:#fff;font-family:"Segoe UI",Arial,sans-serif}
+body{background:#0b1526;overflow:hidden;padding:10px 14px;display:flex;flex-direction:column}
+h1{font-size:20px;margin:2px 0 0}h1 span{font-size:13px;color:#9db2c8;font-weight:400}
+.sub{font-size:12px;color:#9db2c8;margin:2px 0 8px}
+.tabs{display:flex;gap:8px;margin:2px 0 8px}
+.tab{flex:1;min-height:48px;padding:10px 0;text-align:center;border-radius:999px;border:1px solid rgba(0,229,255,.45);background:rgba(0,229,255,.10);color:#aef7ff;font-size:18px;font-weight:700;cursor:pointer;-webkit-tap-highlight-color:rgba(0,229,255,.4)}
+.tab:active{background:rgba(0,229,255,.35);color:#fff}
+.tab.on{background:rgba(0,229,255,.35);color:#fff}
+#mapArea{flex:1;position:relative;min-height:0}
+.tile{position:absolute;border-radius:5px;display:flex;flex-direction:column;align-items:center;justify-content:center;overflow:hidden;text-shadow:0 1px 4px rgba(0,0,0,.85);border:1px solid rgba(255,255,255,.18)}
+.tile .t{font-weight:700;white-space:nowrap;line-height:1.15}
+.tile .p{font-weight:700;white-space:nowrap;line-height:1.15}
+.sec-label{position:absolute;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#fff;font-weight:700;background:rgba(0,0,0,.45);border-radius:4px;padding:2px 6px;pointer-events:none;white-space:nowrap;z-index:2}
+.foot{font-size:11px;color:#9db2c8;margin-top:6px;text-align:center}
+</style></head><body>
+<h1>Market Heatmaps <span id="hmDate">&mdash; Thu Nov 5, 2026 &middot; snapshot</span></h1>
+<div class="sub" id="hmSub">Tap an index to switch &middot; traditional treemap: tile size = company size &middot; colour = today&rsquo;s move &middot; Nov 5, 2026 snapshot (refreshing&hellip;)</div>
+<div class="tabs">
+<button class="tab" id="tab-back" onclick="goBack()">&#8592; Dashboard</button>
+<button class="tab on" id="tab-sp" onclick="tapMap('sp')" ontouchstart="tapMap('sp')">S&amp;P 500</button>
+<button class="tab" id="tab-nse" onclick="tapMap('nse')" ontouchstart="tapMap('nse')">NSE</button>
+<button class="tab" id="tab-tsx" onclick="tapMap('tsx')" ontouchstart="tapMap('tsx')">TSX</button>
+</div>
+<div id="mapArea"></div>
+<div class="foot">One index at a time, so the tiles stay readable on the Fire.</div>
+<script>
+var DATA = {"sp": [{"s": "NVDA", "sec": "Technology", "cap": 4500, "chg": -9.26}, {"s": "MSFT", "sec": "Technology", "cap": 3900, "chg": -3.58}, {"s": "AAPL", "sec": "Technology", "cap": 3800, "chg": -1.53}, {"s": "AVGO", "sec": "Technology", "cap": 1000, "chg": -10.43}, {"s": "PLTR", "sec": "Technology", "cap": 400, "chg": -9.73}, {"s": "ORCL", "sec": "Technology", "cap": 900, "chg": -6.93}, {"s": "CRM", "sec": "Technology", "cap": 300, "chg": -2.07}, {"s": "AMD", "sec": "Technology", "cap": 350, "chg": -17.26}, {"s": "MU", "sec": "Technology", "cap": 300, "chg": -17.46}, {"s": "CSCO", "sec": "Technology", "cap": 300, "chg": -7.62}, {"s": "IBM", "sec": "Technology", "cap": 250, "chg": -2.83}, {"s": "ADBE", "sec": "Technology", "cap": 250, "chg": -0.82}, {"s": "GOOGL", "sec": "Communication", "cap": 3400, "chg": -2.2}, {"s": "META", "sec": "Communication", "cap": 1900, "chg": -3.96}, {"s": "NFLX", "sec": "Communication", "cap": 500, "chg": -1.25}, {"s": "AMZN", "sec": "Consumer Cyclical", "cap": 2600, "chg": -2.19}, {"s": "TSLA", "sec": "Consumer Cyclical", "cap": 450, "chg": -10.77}, {"s": "HD", "sec": "Consumer Cyclical", "cap": 350, "chg": -1.55}, {"s": "JPM", "sec": "Financials", "cap": 850, "chg": -4.2}, {"s": "V", "sec": "Financials", "cap": 650, "chg": -3.2}, {"s": "MA", "sec": "Financials", "cap": 550, "chg": -2.49}, {"s": "LLY", "sec": "Healthcare", "cap": 700, "chg": -3.76}, {"s": "UNH", "sec": "Healthcare", "cap": 300, "chg": -3.34}, {"s": "ABT", "sec": "Healthcare", "cap": 200, "chg": -1.65}, {"s": "TMO", "sec": "Healthcare", "cap": 200, "chg": -4.14}, {"s": "JNJ", "sec": "Healthcare", "cap": 350, "chg": -1.45}, {"s": "MRK", "sec": "Healthcare", "cap": 250, "chg": -2.27}, {"s": "ABBV", "sec": "Healthcare", "cap": 500, "chg": -2.23}, {"s": "COST", "sec": "Consumer Defensive", "cap": 450, "chg": 1.83}, {"s": "WMT", "sec": "Consumer Defensive", "cap": 800, "chg": -1.12}, {"s": "PEP", "sec": "Consumer Defensive", "cap": 200, "chg": 0.2}, {"s": "KO", "sec": "Consumer Defensive", "cap": 400, "chg": -0.07}, {"s": "PG", "sec": "Consumer Defensive", "cap": 400, "chg": -0.13}, {"s": "XOM", "sec": "Energy", "cap": 550, "chg": -2.35}, {"s": "BRK.B", "sec": "Financials", "cap": 1000, "chg": -1.17}, {"s": "QCOM", "sec": "Technology", "cap": 250, "chg": -9.49}, {"s": "AMAT", "sec": "Technology", "cap": 200, "chg": -13.58}, {"s": "LRCX", "sec": "Technology", "cap": 150, "chg": -16.36}, {"s": "ISRG", "sec": "Healthcare", "cap": 180, "chg": -2.82}, {"s": "SYK", "sec": "Healthcare", "cap": 120, "chg": -1.34}], "nse": [{"s": "HDFC", "sec": "Financials", "cap": 190, "chg": 3.16}, {"s": "ICICI", "sec": "Financials", "cap": 130, "chg": 5.33}, {"s": "SBI", "sec": "Financials", "cap": 95, "chg": 2.8}, {"s": "KOTAK", "sec": "Financials", "cap": 55, "chg": 1.65}, {"s": "AXIS", "sec": "Financials", "cap": 55, "chg": 3.9}, {"s": "BAJAJ", "sec": "Financials", "cap": 65, "chg": 7.65}, {"s": "TCS", "sec": "Technology", "cap": 170, "chg": 2.45}, {"s": "INFY", "sec": "Technology", "cap": 85, "chg": 3.48}, {"s": "HCL", "sec": "Technology", "cap": 60, "chg": 1.81}, {"s": "WIPRO", "sec": "Technology", "cap": 35, "chg": 1.98}, {"s": "TECHM", "sec": "Technology", "cap": 25, "chg": 2.23}, {"s": "RELIANCE", "sec": "Energy", "cap": 240, "chg": 0.18}, {"s": "ONGC", "sec": "Energy", "cap": 45, "chg": -2.13}, {"s": "BHARTI", "sec": "Telecom", "cap": 140, "chg": -0.52}, {"s": "ITC", "sec": "Consumer", "cap": 70, "chg": -0.41}, {"s": "HUL", "sec": "Consumer", "cap": 60, "chg": 0.25}, {"s": "MARUTI", "sec": "Consumer", "cap": 55, "chg": 5.48}, {"s": "LT", "sec": "Industrials", "cap": 75, "chg": 2.68}, {"s": "ADANI", "sec": "Industrials", "cap": 35, "chg": -1.33}, {"s": "ULTRA", "sec": "Industrials", "cap": 35, "chg": 3.67}, {"s": "SUN", "sec": "Pharma", "cap": 50, "chg": 3.13}, {"s": "TATASTEEL", "sec": "Materials", "cap": 35, "chg": 1.15}, {"s": "NTPC", "sec": "Utilities", "cap": 45, "chg": -1.63}, {"s": "POWER", "sec": "Utilities", "cap": 40, "chg": -0.34}, {"s": "TITAN", "sec": "Consumer", "cap": 35, "chg": 1.69}, {"s": "NESTLE", "sec": "Consumer", "cap": 30, "chg": 0.82}, {"s": "ASIAN", "sec": "Consumer", "cap": 25, "chg": 4.36}, {"s": "TRENT", "sec": "Consumer", "cap": 25, "chg": -0.16}, {"s": "BEL", "sec": "Industrials", "cap": 40, "chg": -0.73}, {"s": "EICHER", "sec": "Consumer", "cap": 20, "chg": 3.95}], "tsx": [{"s": "RY", "sec": "Financials", "cap": 140, "chg": -2.29}, {"s": "TD", "sec": "Financials", "cap": 110, "chg": -3.57}, {"s": "BMO", "sec": "Financials", "cap": 95, "chg": -2.39}, {"s": "BNS", "sec": "Financials", "cap": 85, "chg": -4.41}, {"s": "CM", "sec": "Financials", "cap": 70, "chg": -3.15}, {"s": "MFC", "sec": "Financials", "cap": 55, "chg": -3.96}, {"s": "SLF", "sec": "Financials", "cap": 40, "chg": -10.21}, {"s": "BAM", "sec": "Financials", "cap": 70, "chg": -2.63}, {"s": "SHOP", "sec": "Technology", "cap": 110, "chg": -5.4}, {"s": "CSU", "sec": "Technology", "cap": 75, "chg": 1.32}, {"s": "TRI", "sec": "Technology", "cap": 85, "chg": 1.04}, {"s": "ENB", "sec": "Energy", "cap": 110, "chg": -1.01}, {"s": "CNQ", "sec": "Energy", "cap": 90, "chg": -1.04}, {"s": "TRP", "sec": "Energy", "cap": 75, "chg": 0.23}, {"s": "SU", "sec": "Energy", "cap": 65, "chg": -4.06}, {"s": "CNR", "sec": "Industrials", "cap": 95, "chg": -1.77}, {"s": "CP", "sec": "Industrials", "cap": 85, "chg": -0.23}, {"s": "WCN", "sec": "Industrials", "cap": 45, "chg": 0.16}, {"s": "ATD", "sec": "Industrials", "cap": 70, "chg": -1.31}, {"s": "AEM", "sec": "Materials", "cap": 60, "chg": 3.33}, {"s": "ABX", "sec": "Materials", "cap": 55, "chg": 0.82}, {"s": "FTS", "sec": "Utilities", "cap": 45, "chg": 0.89}, {"s": "QSR", "sec": "Consumer", "cap": 40, "chg": 0.36}, {"s": "IFC", "sec": "Financials", "cap": 35, "chg": 0.09}, {"s": "NA", "sec": "Financials", "cap": 35, "chg": -2.29}, {"s": "POW", "sec": "Financials", "cap": 25, "chg": -4.52}, {"s": "DOL", "sec": "Consumer", "cap": 30, "chg": -0.59}, {"s": "L", "sec": "Consumer", "cap": 25, "chg": -2.07}, {"s": "WSP", "sec": "Industrials", "cap": 20, "chg": -4.84}]};
+function clickSound(){
+  try{
+    var AC=window.AudioContext||window.webkitAudioContext;
+    if(!AC)return;
+    var ctx=new AC(),t=ctx.currentTime;
+    var o=ctx.createOscillator(),g=ctx.createGain();
+    o.connect(g);g.connect(ctx.destination);
+    o.type='sine';
+    o.frequency.setValueAtTime(240,t);
+    o.frequency.exponentialRampToValueAtTime(110,t+0.06);
+    g.gain.setValueAtTime(0.18,t);
+    g.gain.exponentialRampToValueAtTime(0.001,t+0.08);
+    o.start(t);o.stop(t+0.09);
+    var o2=ctx.createOscillator(),g2=ctx.createGain();
+    o2.connect(g2);g2.connect(ctx.destination);
+    o2.type='triangle';
+    o2.frequency.value=1400;
+    g2.gain.setValueAtTime(0.03,t);
+    g2.gain.exponentialRampToValueAtTime(0.001,t+0.02);
+    o2.start(t);o2.stop(t+0.03);
+  }catch(e){}
+}
+function tileColor(chg){
+  if(chg>=3)return '#00843d';
+  if(chg>=1)return '#00a651';
+  if(chg>=0)return '#2e9e5b';
+  if(chg>-1)return '#c0392b';
+  if(chg>-3)return '#d32f2f';
+  return '#b71c1c';
+}
+function sumV(items){var s=0,i;for(i=0;i<items.length;i++)s+=items[i].v;return s;}
+/* Balanced split: cut the rectangle along its longer side so both halves
+   hold about half the total value. Tiles come out squarish, like a
+   traditional treemap, instead of long thin strips. */
+function splitRect(items,x,y,w,h,out){
+  var i,total,acc,idx,left,right,leftTotal,frac;
+  if(items.length===1){out.push({it:items[0],x:x,y:y,w:w,h:h});return;}
+  total=sumV(items);acc=0;idx=0;
+  for(i=0;i<items.length;i++){acc+=items[i].v;if(acc>=total/2){idx=i;break;}}
+  left=items.slice(0,idx+1);right=items.slice(idx+1);
+  if(!right.length){left=items.slice(0,items.length-1);right=items.slice(items.length-1);}
+  leftTotal=sumV(left);frac=leftTotal/total;
+  if(w>=h){var w1=w*frac;splitRect(left,x,y,w1,h,out);splitRect(right,x+w1,y,w-w1,h,out);}
+  else{var h1=h*frac;splitRect(left,x,y,w,h1,out);splitRect(right,x,y+h1,w,h-h1,out);}
+}
+function renderMap(id){
+  var area=document.getElementById('mapArea');
+  var W=area.offsetWidth,H=area.offsetHeight;
+  area.innerHTML='';
+  if(!W||!H)return;
+  var stocks=DATA[id].slice();
+  stocks.sort(function(a,b){return b.cap-a.cap;});
+  var secs={},names=[],i,j,s;
+  for(i=0;i<stocks.length;i++){s=stocks[i];if(!secs[s.sec]){secs[s.sec]={name:s.sec,total:0,items:[]};names.push(s.sec);}secs[s.sec].total+=s.cap;secs[s.sec].items.push(s);}
+  var secList=[];
+  for(i=0;i<names.length;i++)secList.push(secs[names[i]]);
+  secList.sort(function(a,b){return b.total-a.total;});
+  var secItems=[];
+  for(i=0;i<secList.length;i++)secList[i].items.sort(function(a,b){return b.cap-a.cap;});
+  for(i=0;i<secList.length;i++)secItems.push({v:secList[i].total,sec:secList[i]});
+  var secRects=[];
+  splitRect(secItems,0,0,W,H,secRects);
+  for(i=0;i<secRects.length;i++){
+    var r=secRects[i],sec=r.it.sec;
+    var label=document.createElement('div');
+    label.className='sec-label';
+    label.textContent=sec.name;
+    label.style.left=(r.x+4)+'px';label.style.top=(r.y+3)+'px';
+    area.appendChild(label);
+    var tiles=[];
+    var items=[];
+    for(j=0;j<sec.items.length;j++)items.push({v:sec.items[j].cap,st:sec.items[j]});
+    splitRect(items,r.x,r.y+16,r.w,r.h-16,tiles);
+    for(j=0;j<tiles.length;j++){
+      var t=tiles[j],st=t.it.st;
+      var tw=Math.max(0,t.w-2),th=Math.max(0,t.h-2);
+      if(tw<8||th<8)continue;
+      var d=document.createElement('div');
+      d.className='tile';
+      d.style.left=(t.x+1)+'px';d.style.top=(t.y+1)+'px';
+      d.style.width=tw+'px';d.style.height=th+'px';
+      d.style.background=tileColor(st.chg);
+      var fs=Math.max(8,Math.min(20,Math.min(tw/(st.s.length*0.72),th/3.4)));
+      var sign=st.chg>=0?'+':'';
+      var inner='<div class="t" style="font-size:'+Math.round(fs)+'px">'+st.s+'</div>';
+      if(th>=26)inner+='<div class="p" style="font-size:'+Math.round(fs*0.85)+'px">'+sign+st.chg.toFixed(2)+'</div>';
+      d.innerHTML=inner;
+      area.appendChild(d);
+    }
+  }
+}
+var currentMap='sp';
+function showMap(id){
+  currentMap=id;
+  var ids=['sp','nse','tsx'],i;
+  for(i=0;i<ids.length;i++){
+    document.getElementById('tab-'+ids[i]).className='tab'+((ids[i]===id)?' on':'');
+  }
+  renderMap(id);
+}
+var lastTap=0;
+function tapMap(id){var n=new Date().getTime();if(n-lastTap<500)return;lastTap=n;clickSound();showMap(id);}
+function goBack(){clickSound();setTimeout(function(){location.href='entrance.html';},90);}
+/* The Nov 5, 2026 snapshot below is only a fallback. Fresh % moves ride
+   inside headlines.json (written by the headlines bot, same file the main
+   dashboard already fetches); loadHeatmap() swaps them in when present. */
+function loadHeatmap(){
+  var xhr=new XMLHttpRequest();
+  xhr.onreadystatechange=function(){
+    if(xhr.readyState!==4)return;
+    if(xhr.status!==200)return;
+    try{
+      var j=JSON.parse(xhr.responseText);
+      var h=j.heatmap;
+      if(!h||!h.sp||!h.nse||!h.tsx)return;
+      DATA={sp:h.sp,nse:h.nse,tsx:h.tsx};
+      if(h.label){
+        document.getElementById('hmDate').textContent='\u2014 '+h.label;
+        document.getElementById('hmSub').textContent='Tap an index to switch \u00b7 traditional treemap: tile size = company size \u00b7 colour = today\u2019s move \u00b7 live prices from Yahoo Finance, '+h.label;
+      }
+      showMap(currentMap);
+    }catch(e){}
+  };
+  xhr.open('GET','headlines-preview.json?t='+new Date().getTime(),true);
+  xhr.send();
+}
+(function(){
+  var m=location.search.match(/tab=(sp|nse|tsx)/);
+  if(m)currentMap=m[1];
+  showMap(currentMap);
+  loadHeatmap();
+  window.addEventListener('resize',function(){renderMap(currentMap);});
+})();
+</script>
+</body></html>

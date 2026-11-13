@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-13T02:06:29+00:00",
+ "updated": "2026-11-13T03:21:57+00:00",
  "headlines": [
   "Nvidia CEO's resignation after affair with suspected Chinese spy rattles markets, tech world",
   "Scandal-hit Nvidia CEO Jensen Huang quits, plunging AI chipmaking giant into turmoil",
   "Feds say Stellantis owes 'hundreds of millions' in subsidies, company offers $24M",
   "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
+  "Maryland's Van Hollen to challenge Schumer for U.S. Senate leadership post",
+  "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
   "Microsoft says services being slowly restored after widespread outages across its platforms",
-  "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
-  "A PAL Airlines flight lost a wheel less than 2 weeks ago. It's happened again \u2014 to the same plane",
   "Russian warship hit by Ukrainian drone in Gulf of Finland",
+  "A PAL Airlines flight lost a wheel less than 2 weeks ago. It's happened again \u2014 to the same plane",
+  "Neither war nor peace in Tigray - is Ethiopia's latest conflict really over?",
   "Will U.S. travel pick up after midterm 'blue wave'? Not so fast, say these Canadians",
   "Suspected bomb hoax threats force fresh evacuations of Italian schools",
   "Original Star Wars returning to theatres for 50th anniversary",
   "Australian footballers will not be charged after hotel incident, police say",
   "Indigenous women leaders say budget doesn't address their realities",
-  "Hegseth awards medal to war memorial guard who reprimanded him and group",
-  "Christina Applegate asks if breast implants are behind symptoms after MS misdiagnosis",
-  "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century"
+  "Hegseth awards medal to war memorial guard who reprimanded him and group"
  ],
  "indices": [
   {
@@ -109,14 +109,15 @@
     24536.6,
     25030.35,
     25044.65,
-    25255.05
+    25255.05,
+    25299.35
    ],
    "ytd": -3.24
   }
  ],
  "heatmap": {
-  "updated": "2026-11-13T02:06:06+00:00",
-  "label": "Thu Nov 12, 2026 \u00b7 9:06 pm ET",
+  "updated": "2026-11-13T03:21:33+00:00",
+  "label": "Thu Nov 12, 2026 \u00b7 10:21 pm ET",
   "sp": [
    {
     "s": "NVDA",

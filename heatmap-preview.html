@@ -18,8 +18,8 @@ h1{font-size:20px;margin:2px 0 0}h1 span{font-size:13px;color:#9db2c8;font-weigh
 .sec-label{position:absolute;font-size:10px;letter-spacing:.1em;text-transform:uppercase;color:#fff;font-weight:700;background:rgba(0,0,0,.45);border-radius:4px;padding:2px 6px;pointer-events:none;white-space:nowrap;z-index:2}
 .foot{font-size:11px;color:#9db2c8;margin-top:6px;text-align:center}
 </style></head><body>
-<h1>Market Heatmaps <span>&mdash; Thu Nov 5, 2026 &middot; preview, not live yet</span></h1>
-<div class="sub">Tap an index to switch &middot; traditional treemap: tile size = company size &middot; colour = today&rsquo;s move &middot; live prices from Yahoo Finance, Nov 5, 2026 close</div>
+<h1>Market Heatmaps <span id="hmDate">&mdash; Thu Nov 5, 2026 &middot; snapshot</span></h1>
+<div class="sub" id="hmSub">Tap an index to switch &middot; traditional treemap: tile size = company size &middot; colour = today&rsquo;s move &middot; Nov 5, 2026 snapshot (refreshing&hellip;)</div>
 <div class="tabs">
 <button class="tab" id="tab-back" onclick="goBack()">&#8592; Dashboard</button>
 <button class="tab on" id="tab-sp" onclick="tapMap('sp')" ontouchstart="tapMap('sp')">S&amp;P 500</button>
@@ -133,10 +133,34 @@ function showMap(id){
 var lastTap=0;
 function tapMap(id){var n=new Date().getTime();if(n-lastTap<500)return;lastTap=n;clickSound();showMap(id);}
 function goBack(){clickSound();setTimeout(function(){location.href='entrance.html';},90);}
+/* The Nov 5, 2026 snapshot below is only a fallback. Fresh % moves ride
+   inside headlines.json (written by the headlines bot, same file the main
+   dashboard already fetches); loadHeatmap() swaps them in when present. */
+function loadHeatmap(){
+  var xhr=new XMLHttpRequest();
+  xhr.onreadystatechange=function(){
+    if(xhr.readyState!==4)return;
+    if(xhr.status!==200)return;
+    try{
+      var j=JSON.parse(xhr.responseText);
+      var h=j.heatmap;
+      if(!h||!h.sp||!h.nse||!h.tsx)return;
+      DATA={sp:h.sp,nse:h.nse,tsx:h.tsx};
+      if(h.label){
+        document.getElementById('hmDate').textContent='\u2014 '+h.label;
+        document.getElementById('hmSub').textContent='Tap an index to switch \u00b7 traditional treemap: tile size = company size \u00b7 colour = today\u2019s move \u00b7 live prices from Yahoo Finance, '+h.label;
+      }
+      showMap(currentMap);
+    }catch(e){}
+  };
+  xhr.open('GET','headlines.json?t='+new Date().getTime(),true);
+  xhr.send();
+}
 (function(){
   var m=location.search.match(/tab=(sp|nse|tsx)/);
   if(m)currentMap=m[1];
   showMap(currentMap);
+  loadHeatmap();
   window.addEventListener('resize',function(){renderMap(currentMap);});
 })();
 </script>

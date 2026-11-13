@@ -213,7 +213,23 @@ body.night main{opacity:.55}
   </div>
 </div>
 <div class="page">
-    <h1>Dhruv&rsquo;s music <span>&mdash; page 2 &middot; big, audio only</span></h1>
+    <h1>Family calendar <span>&mdash; page 2</span></h1>
+    <div class="sub">Tap a day to see its events.</div>
+    <div class="calnav"><button type="button" onclick="moveMonth(-1)">&#8249;</button><div class="mt" id="calTitle"></div><button type="button" onclick="moveMonth(1)">&#8250;</button></div>
+    <div class="calgrid" id="calGrid"></div>
+    <div class="card" style="margin-top:8px;padding:10px 14px"><span class="pill" id="selTitle">Coming up</span><div class="up" id="selList" style="margin-top:6px"></div></div>
+</div>
+<div class="page">
+    <h1>Trips &amp; Dhruv <span>&mdash; page 3</span></h1>
+    <div class="sub">Everything for the two trips, and Dhruv&rsquo;s stuff in one place.</div>
+    <div class="trip">
+      <div class="card" style="padding:10px 14px"><span class="pill">Japan &middot; Apr 8&ndash;19, 2027</span><div class="n" id="tJapan">--</div><div class="l">days to go</div><div class="d">AC1 Thu Apr 8, 1:05 PM YYZ &rarr; HND<br>AC2 Mon Apr 19, 6:05 PM HND &rarr; YYZ<br>Seats row 34 &middot; Booking AC764B<br><b>Next:</b> book hotels by Dec 14</div></div>
+      <div class="card" style="padding:10px 14px"><span class="pill">Punta Cana &middot; Jan 22&ndash;26, 2027</span><div class="n" id="tPunta">--</div><div class="l">days to go</div><div class="d">AC1410 Fri Jan 22, 8:30 AM YYZ &rarr; PUJ<br>AC1411 Tue Jan 26, 3:35 PM PUJ &rarr; YYZ<br>Catalonia Bavaro &middot; Booking 23941576<br><b>Next:</b> DR e-ticket for all three</div></div>
+    </div>
+    <div class="card" style="margin-top:10px;padding:10px 14px"><span class="pill">Dhruv</span><div class="d" style="font-size:13px;line-height:1.55">&#9733; Turns 6 on Sat Jan 23, 2027 &mdash; right in the middle of Punta Cana.<br>&#129351; Li&rsquo;l Dragons taekwondo at Authentic TKD.<br>&#128214; 7 library books overdue since Oct 27 (Fairview) &mdash; return or renew.<br>&#127829; Pizza lunch every Tuesday at school.<br>&#127925; Dhruv&rsquo;s playlist lives on page 4 &mdash; big music.</div></div>
+</div>
+<div class="page">
+    <h1>Dhruv&rsquo;s music <span>&mdash; page 4 &middot; big, audio only</span></h1>
     <div class="sub">Moved here from the main page. Same playlist, no video &mdash; just big controls.</div>
     <div class="card" id="musicCard" style="padding:14px 18px">
       <div id="musicPlayer"></div>
@@ -233,22 +249,6 @@ body.night main{opacity:.55}
       </div>
     </div>
     <div class="card" style="margin-top:10px;padding:10px 14px"><div style="font-size:13px;line-height:1.55">The tablet needs one tap before audio plays. Music keeps playing while you swipe to other pages.</div></div>
-</div>
-<div class="page">
-    <h1>Family calendar <span>&mdash; page 3</span></h1>
-    <div class="sub">Tap a day to see its events.</div>
-    <div class="calnav"><button type="button" onclick="moveMonth(-1)">&#8249;</button><div class="mt" id="calTitle"></div><button type="button" onclick="moveMonth(1)">&#8250;</button></div>
-    <div class="calgrid" id="calGrid"></div>
-    <div class="card" style="margin-top:8px;padding:10px 14px"><span class="pill" id="selTitle">Coming up</span><div class="up" id="selList" style="margin-top:6px"></div></div>
-</div>
-<div class="page">
-    <h1>Trips &amp; Dhruv <span>&mdash; page 4</span></h1>
-    <div class="sub">Everything for the two trips, and Dhruv&rsquo;s stuff in one place.</div>
-    <div class="trip">
-      <div class="card" style="padding:10px 14px"><span class="pill">Japan &middot; Apr 8&ndash;19, 2027</span><div class="n" id="tJapan">--</div><div class="l">days to go</div><div class="d">AC1 Thu Apr 8, 1:05 PM YYZ &rarr; HND<br>AC2 Mon Apr 19, 6:05 PM HND &rarr; YYZ<br>Seats row 34 &middot; Booking AC764B<br><b>Next:</b> book hotels by Dec 14</div></div>
-      <div class="card" style="padding:10px 14px"><span class="pill">Punta Cana &middot; Jan 22&ndash;26, 2027</span><div class="n" id="tPunta">--</div><div class="l">days to go</div><div class="d">AC1410 Fri Jan 22, 8:30 AM YYZ &rarr; PUJ<br>AC1411 Tue Jan 26, 3:35 PM PUJ &rarr; YYZ<br>Catalonia Bavaro &middot; Booking 23941576<br><b>Next:</b> DR e-ticket for all three</div></div>
-    </div>
-    <div class="card" style="margin-top:10px;padding:10px 14px"><span class="pill">Dhruv</span><div class="d" style="font-size:13px;line-height:1.55">&#9733; Turns 6 on Sat Jan 23, 2027 &mdash; right in the middle of Punta Cana.<br>&#129351; Li&rsquo;l Dragons taekwondo at Authentic TKD.<br>&#128214; 7 library books overdue since Oct 27 (Fairview) &mdash; return or renew.<br>&#127829; Pizza lunch every Tuesday at school.<br>&#127925; Dhruv&rsquo;s playlist lives on page 2 &mdash; big music.</div></div>
 </div>
 </div>
 </main>
@@ -663,7 +663,7 @@ function onYouTubeIframeAPIReady(){
     if(!musicPlayer){$('musicSub').textContent='Music player did not load. Check Wi-Fi, then refresh.';}
   },15000);
 })();
-/* ---------- Swipe pages: 1 main, 2 big music, 3 calendar, 4 trips+Dhruv ---------- */
+/* ---------- Swipe pages: 1 main, 2 calendar, 3 trips+Dhruv, 4 big music ---------- */
 /* Right swipe = next page (left swipe can open Fully Kiosk's menu). Dots and
    side arrows also change pages. After 60s idle it slides back to page 1,
    unless music is playing. */
@@ -692,7 +692,7 @@ document.addEventListener('touchend',function(e){var c=e.changedTouches[0];swipe
 document.addEventListener('mousedown',function(e){swipeStart(e.clientX,e.clientY);},false);
 document.addEventListener('mouseup',function(e){swipeEnd(e.clientX,e.clientY);},false);
 
-/* ---------- Family calendar (page 3): events list, editable like notes ---------- */
+/* ---------- Family calendar (page 2): events list, editable like notes ---------- */
 var EVENTS=[
  {d:'2026-11-05',t:'Cardio Health appt, 9 AM (Holter fitted)',c:'health'},
  {d:'2026-11-06',t:'Dr. Kavita Zoom lab review, 5\u20136 PM',c:'health'},
@@ -757,11 +757,11 @@ function pickDay(k){selDate=(selDate===k)?null:k;renderCal();showCalList();}
 function moveMonth(dir){calM+=dir;if(calM<0){calM=11;calY--;}if(calM>11){calM=0;calY++;}selDate=null;renderCal();showCalList();}
 renderCal();showCalList();
 
-/* ---------- Trips page countdowns (page 4) ---------- */
+/* ---------- Trips page countdowns (page 3) ---------- */
 $('tJapan').textContent=daysUntil(CD_JAPAN);
 $('tPunta').textContent=daysUntil(CD_PUNTA);
 
-/* ---------- Big music: volume + progress bar (page 2) ---------- */
+/* ---------- Big music: volume + progress bar (page 4) ---------- */
 function mVol(d){
   if(!musicPlayer)return;
   try{var v=musicPlayer.getVolume()+d;if(v<0)v=0;if(v>100)v=100;musicPlayer.setVolume(v);}catch(e){}

@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-13T07:07:56+00:00",
+ "updated": "2026-11-13T08:33:28+00:00",
  "headlines": [
   "Nvidia CEO's resignation after affair with suspected Chinese spy rattles markets, tech world",
   "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25115.35,
-   "chg": 10.53,
+   "price": 25087.65,
+   "chg": 10.41,
    "closes": [
     22721.95,
     22622.7,
@@ -110,14 +110,14 @@
     25044.65,
     25255.05,
     25299.35,
-    25115.35
+    25087.65
    ],
-   "ytd": -3.94
+   "ytd": -4.05
   }
  ],
  "heatmap": {
-  "updated": "2026-11-13T07:07:34+00:00",
-  "label": "Fri Nov 13, 2026 \u00b7 2:07 am ET",
+  "updated": "2026-11-13T08:33:01+00:00",
+  "label": "Fri Nov 13, 2026 \u00b7 3:33 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -365,175 +365,175 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": -1.47
+    "chg": -1.5
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": -1.43
+    "chg": -1.38
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": -0.28
+    "chg": -0.73
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.93
+    "chg": -0.69
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.44
+    "chg": -0.77
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -0.96
+    "chg": -0.48
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -1.28
+    "chg": -1.58
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -0.96
+    "chg": -1.17
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.48
+    "chg": -0.5
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.2
+    "chg": -0.36
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.01
+    "chg": -0.37
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -0.25
+    "chg": -0.24
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.72
+    "chg": 0.78
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 0.84
+    "chg": 1.05
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.04
+    "chg": 0.04
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 0.2
+    "chg": 0.31
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -0.92
+    "chg": -1.11
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.18
+    "chg": -0.56
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -1.52
+    "chg": -2.08
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -1.39
+    "chg": -1.72
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.24
+    "chg": -0.62
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -0.5
+    "chg": -0.99
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -1.28
+    "chg": -1.66
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -0.5
+    "chg": -0.93
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -1.46
+    "chg": -1.53
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 0.75
+    "chg": 0.71
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -1.3
+    "chg": -1.4
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -0.13
+    "chg": -0.61
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.79
+    "chg": -1.52
    },
    {
     "s": "EICHER",

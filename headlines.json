@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-13T08:33:28+00:00",
+ "updated": "2026-11-13T09:55:56+00:00",
  "headlines": [
-  "Nvidia CEO's resignation after affair with suspected Chinese spy rattles markets, tech world",
+  "What the Jensen Huang scandal means for Trump and his administration",
   "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
-  "Feds say Stellantis owes 'hundreds of millions' in subsidies, company offers $24M",
+  "They called her 'Mommy': Vulnerable senior dies after 2 strangers take over her life",
   "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-  "Microsoft outage continues as planned fixes are not working as expected, company says",
+  "We tested 6 popular apps to see what data they collect and share. Here\u2019s what we found",
   "North Korean hackers used fake video calls in $400m crypto hack, says FBI",
-  "Pilot killed in Quebec Remembrance Day crash had lifelong passion for flying, friends say",
+  "Countries vulnerable to climate disaster push for faster, easier access to finance at COP31",
   "Russian warship hit by Ukrainian drone in Gulf of Finland",
-  "Maryland's Van Hollen to challenge Schumer for U.S. Senate leadership post",
+  "Ex Ottawa Uber driver admits to giving 12-year-old girl 'secret admirer' candy, prowling house after delivery",
   "Suspected bomb hoax threats force fresh evacuations of Italian schools",
-  "A PAL Airlines flight lost a wheel less than 2 weeks ago. It's happened again \u2014 to the same plane",
+  "Eddie's dead: What one monarch's ill-fated journey can teach us about migration patterns",
   "Australian footballers will not be charged after hotel incident, police say",
-  "Will U.S. travel pick up after midterm 'blue wave'? Not so fast, say these Canadians",
+  "Feds say Stellantis owes 'hundreds of millions' in subsidies, company offers $24M",
   "Hegseth awards medal to war memorial guard who reprimanded him and group",
-  "Christina Applegate asks if breast implants are behind symptoms after MS misdiagnosis",
+  "Microsoft outage continues as planned fixes are not working as expected, company says",
   "Democrat Scott Colom makes history as Mississippi's first black senator since 19th Century"
  ],
  "indices": [
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25087.65,
-   "chg": 10.41,
+   "price": 25139.25,
+   "chg": 10.64,
    "closes": [
     22721.95,
     22622.7,
@@ -110,14 +110,14 @@
     25044.65,
     25255.05,
     25299.35,
-    25087.65
+    25139.25
    ],
-   "ytd": -4.05
+   "ytd": -3.85
   }
  ],
  "heatmap": {
-  "updated": "2026-11-13T08:33:01+00:00",
-  "label": "Fri Nov 13, 2026 \u00b7 3:33 am ET",
+  "updated": "2026-11-13T09:55:35+00:00",
+  "label": "Fri Nov 13, 2026 \u00b7 4:55 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -365,181 +365,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": -1.5
+    "chg": -1.14
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": -1.38
+    "chg": -0.78
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": -0.73
+    "chg": -0.6
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.69
+    "chg": -0.44
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.77
+    "chg": -0.48
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -0.48
+    "chg": 0.27
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -1.58
+    "chg": -1.33
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -1.17
+    "chg": -1.1
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.5
+    "chg": -0.64
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.36
+    "chg": -0.55
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.37
+    "chg": -0.2
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -0.24
+    "chg": 0.07
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.78
+    "chg": 0.47
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 1.05
+    "chg": 1.12
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 0.04
+    "chg": 0.14
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 0.31
+    "chg": 0.2
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -1.11
+    "chg": -0.86
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.56
+    "chg": -0.46
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -2.08
+    "chg": -1.95
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -1.72
+    "chg": -1.92
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.62
+    "chg": -0.48
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -0.99
+    "chg": -0.54
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -1.66
+    "chg": -1.41
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -0.93
+    "chg": -1.25
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -1.53
+    "chg": -1.35
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 0.71
+    "chg": 0.66
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -1.4
+    "chg": 0.45
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -0.61
+    "chg": -0.63
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -1.52
+    "chg": -1.28
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 0.77
+    "chg": 1.34
    }
   ],
   "tsx": [

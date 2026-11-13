@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-13T16:25:36+00:00",
+ "updated": "2026-11-13T17:24:51+00:00",
  "headlines": [
   "Richard Neil found guilty in 1990s 'woodland rapist' cold case",
-  "Why is the Microsoft outage lasting so long?",
+  "Why is Microsoft's outage lasting so long and will emails be lost?",
   "Microsoft blames server problems on issue affecting businesses, governments in multiple countries",
   "Watch: How a server outage took down Microsoft Teams and Outlook",
-  "What the Jensen Huang Nvidia scandal means for Trump and his administration",
-  "Ex-Nvidia CEO Jensen Huang summoned to testify before Congress about affair with alleged Chinese spy",
+  "15 United Conservative constituency presidents won't sign agreement to publicly back Alberta referendum result",
+  "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
   "Guns, swords and pepper spray: Bishnoi-linked extortionists attacked in apparent retaliation",
-  "Zelensky welcomes US bringing Europe into Russia-Ukraine peace talks",
-  "We tested 6 popular apps to see what data they collect and share. Here\u2019s what we found",
-  "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
-  "They called her 'Mommy': Vulnerable senior dies after 2 strangers take over her life",
+  "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+  "Winnipeg woman spends weeks in hospital after surgery to treat chronic illness goes wrong",
   "African Miss Universe beauty queens in limbo as US visa restrictions bite",
-  "Your genes could change your prescription. So why aren't doctors testing?",
-  "Nigerian university in mourning after four students die at post-exam party",
-  "Feds say Stellantis owes 'hundreds of millions' in subsidies, company offers $24M",
-  "North Korean hackers used fake video calls in $400m crypto hack, says FBI"
+  "They called her 'Mommy': Vulnerable senior dies after 2 strangers take over her life",
+  "Democratic Senate leader Schumer set to face leadership challenge",
+  "Parents of autistic teen detained by Alberta RCMP demand release of delayed watchdog report",
+  "UN watchdog 'increasingly concerned' over uninspected Iran nuclear site",
+  "An AI agent pitched a story to CBC Quebec. We replied to see what would happen",
+  "Rosal\u00eda scoops historic third best album award at Latin Grammys"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 36138.68,
-   "chg": 0.43,
+   "price": 36145.35,
+   "chg": 0.45,
    "closes": [
     35984.0,
     35584.5,
@@ -48,15 +48,15 @@
     36170.5,
     36411.7,
     36137.2,
-    36138.68
+    36145.35
    ],
-   "ytd": 13.35
+   "ytd": 13.37
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7517.85,
-   "chg": -3.68,
+   "price": 7531.13,
+   "chg": -3.51,
    "closes": [
     7805.45,
     7718.94,
@@ -81,9 +81,9 @@
     7520.93,
     7619.38,
     7592.4,
-    7517.85
+    7531.13
    ],
-   "ytd": 9.61
+   "ytd": 9.81
   },
   {
    "sym": "NIFTY",

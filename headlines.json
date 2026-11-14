@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-14T02:46:34+00:00",
+ "updated": "2026-11-14T03:47:34+00:00",
  "headlines": [
-  "U.S. flights no longer grounded as FAA lifts order that caused thousands of delays and cancellations",
+  "U.S. flights cleared to take off again after ground stop order caused thousands of delays and cancellations",
   "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
+  "Canada, Philippines wrap talks for free-trade agreement, expected to be signed in 2027",
+  "Microsoft 'deeply sorry' for global outage as it reports broad recovery",
   "Stelco recalling 175 laid-off workers at Hamilton steel plant",
-  "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
-  "'Crypto King' Aiden Pleterski testifies he was beaten, tortured during alleged kidnapping",
   "Why is Microsoft's outage lasting so long and will emails be lost?",
-  "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
+  "London, Ont., family raises $500K for daughter's U.S. surgery after being denied funding",
   "Watch: How a server outage took down Microsoft Teams and Outlook",
-  "COVID-19 school disruptions still impacting students today, learning loss report finds",
+  "'Crypto King' Aiden Pleterski testifies he was beaten, tortured during alleged kidnapping",
   "Setback for SpaceX Starship rocket's double-catch test",
-  "Moncton man charged in child luring case has 'spent time in' 5 provinces, RCMP say",
+  "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
   "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-  "Avril Lavigne welcomes baby girl",
+  "COVID-19 school disruptions still impacting students today, learning loss report finds",
   "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-  "'I sincerely apologize': Blue Jays outfielder Santander apologizes days after anti-Muslim social media posts",
+  "Moncton man charged in child luring case has 'spent time in' 5 provinces, RCMP say",
   "The Peruvian city that has embraced Pope Leo as one of its own"
  ],
  "indices": [
@@ -117,8 +117,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-14T02:46:12+00:00",
-  "label": "Fri Nov 13, 2026 \u00b7 9:46 pm ET",
+  "updated": "2026-11-14T03:47:11+00:00",
+  "label": "Fri Nov 13, 2026 \u00b7 10:47 pm ET",
   "sp": [
    {
     "s": "NVDA",

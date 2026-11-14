@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-14T01:40:23+00:00",
+ "updated": "2026-11-14T02:46:34+00:00",
  "headlines": [
-  "U.S. officials provide update on the ground stop at airports across the country",
+  "U.S. flights no longer grounded as FAA lifts order that caused thousands of delays and cancellations",
   "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
   "Stelco recalling 175 laid-off workers at Hamilton steel plant",
   "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
@@ -11,11 +11,11 @@
   "Watch: How a server outage took down Microsoft Teams and Outlook",
   "COVID-19 school disruptions still impacting students today, learning loss report finds",
   "Setback for SpaceX Starship rocket's double-catch test",
-  "Avril Lavigne welcomes baby girl",
+  "Moncton man charged in child luring case has 'spent time in' 5 provinces, RCMP say",
   "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-  "'I sincerely apologize': Blue Jays outfielder Santander apologizes days after anti-Muslim social media posts",
+  "Avril Lavigne welcomes baby girl",
   "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-  "3 dead after boat crash in flooded river near Squamish, B.C.",
+  "'I sincerely apologize': Blue Jays outfielder Santander apologizes days after anti-Muslim social media posts",
   "The Peruvian city that has embraced Pope Leo as one of its own"
  ],
  "indices": [
@@ -117,8 +117,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-14T01:39:49+00:00",
-  "label": "Fri Nov 13, 2026 \u00b7 8:39 pm ET",
+  "updated": "2026-11-14T02:46:12+00:00",
+  "label": "Fri Nov 13, 2026 \u00b7 9:46 pm ET",
   "sp": [
    {
     "s": "NVDA",

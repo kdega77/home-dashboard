@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-14T08:49:21+00:00",
+ "updated": "2026-11-14T09:43:32+00:00",
  "headlines": [
-  "U.S. flights cleared to take off again after ground stop order caused thousands of delays and cancellations",
-  "What we know about the longest ground stop since 9/11",
-  "Canada, Philippines wrap talks for free-trade agreement, expected to be signed in 2027",
+  "Can the Carney government end homelessness? (Not on its own)",
+  "What we know about the ground stop and what to do if you're affected",
+  "Is a cure on the horizon for hepatitis B? New drug offers hope, but there's a 'long way to go'",
   "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-  "Stelco recalling 175 laid-off workers at Hamilton steel plant",
+  "4 decades ago, Robert Munsch attended Moira Green's birthday. Her story became a children's classic",
   "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
-  "London, Ont., family raises $500K for daughter's U.S. surgery after being denied funding",
+  "Minimum wage hasn't kept pace with the cost of living across Canada, new reports show",
   "Microsoft says services fully restored after day-long global outage",
-  "'Crypto King' Aiden Pleterski testifies he was beaten, tortured during alleged kidnapping",
+  "Canadian judge decries U.S. sanctions of International Criminal Court as 'attack in favour of impunity'",
   "Setback for SpaceX Starship rocket's double-catch test",
-  "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
+  "With 1 candidate on the ballot, federal Green Party chooses its next leader",
   "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-  "COVID-19 school disruptions still impacting students today, learning loss report finds",
+  "U.S. flights cleared to take off again after ground stop order caused thousands of delays and cancellations",
   "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-  "Moncton man charged in child luring case has 'spent time in' 5 provinces, RCMP say",
-  "The Peruvian city that has embraced Pope Leo as one of its own"
+  "Canada, Philippines wrap talks for free-trade agreement, expected to be signed in 2027",
+  "Estonia bans Russian athletes as backlash intensifies"
  ],
  "indices": [
   {
@@ -117,8 +117,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-14T07:57:20+00:00",
-  "label": "Sat Nov 14, 2026 \u00b7 2:57 am ET",
+  "updated": "2026-11-14T09:42:56+00:00",
+  "label": "Sat Nov 14, 2026 \u00b7 4:42 am ET",
   "sp": [
    {
     "s": "NVDA",

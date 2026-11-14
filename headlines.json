@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-14T11:35:13+00:00",
+ "updated": "2026-11-14T12:44:01+00:00",
  "headlines": [
   "Can the Carney government end homelessness? (Not on its own)",
   "What we know about the ground stop and what to do if you're affected",
   "Is a cure on the horizon for hepatitis B? New drug offers hope, but there's a 'long way to go'",
   "US has floated Ukraine ceding Donbas for Nato membership, Zelensky says",
-  "4 decades ago, Robert Munsch attended Moira Green's birthday. Her story became a children's classic",
-  "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
   "Minimum wage hasn't kept pace with the cost of living across Canada, new reports show",
+  "Trump, Putin and Xi plan historic joint meeting in China next week, White House says",
+  "4 decades ago, Robert Munsch attended Moira Green's birthday. Her story became a children's classic",
   "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
-  "Experts warn about risks of AI-generated content in child sexual abuse material",
-  "Setback for SpaceX Starship rocket's double-catch test",
-  "Canadian judge decries U.S. sanctions of International Criminal Court as 'attack in favour of impunity'",
-  "Microsoft says services fully restored after day-long global outage",
-  "With 1 candidate on the ballot, federal Green Party chooses its next leader",
-  "Hungarian authorities uncover $20m during probe of Orb\u00e1n-era minister",
   "U.S. flights cleared to take off again after ground stop order caused thousands of delays and cancellations",
+  "Setback for SpaceX Starship rocket's double-catch test",
+  "Microsoft services fully restored after global outage",
+  "Microsoft says services fully restored after day-long global outage",
+  "Canadian judge decries U.S. sanctions of International Criminal Court as 'attack in favour of impunity'",
+  "Hungarian authorities uncover $20m during probe of Orb\u00e1n-era minister",
+  "Carney says Canada will only sign a U.S. trade deal that includes viable auto sector",
   "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine"
  ],
  "indices": [
@@ -117,8 +117,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-14T11:34:51+00:00",
-  "label": "Sat Nov 14, 2026 \u00b7 6:34 am ET",
+  "updated": "2026-11-14T12:43:37+00:00",
+  "label": "Sat Nov 14, 2026 \u00b7 7:43 am ET",
   "sp": [
    {
     "s": "NVDA",

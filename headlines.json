@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-14T00:08:34+00:00",
+ "updated": "2026-11-14T01:40:23+00:00",
  "headlines": [
-  "Canada's 4 major airports bring in traffic safety measures after planes grounded across U.S.",
-  "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
+  "U.S. officials provide update on the ground stop at airports across the country",
+  "'Miracle on Mississippi' - All passengers rescued after New Orleans cruise ship collision",
   "Stelco recalling 175 laid-off workers at Hamilton steel plant",
-  "Why is Microsoft's outage lasting so long and will emails be lost?",
+  "Microsoft 'deeply sorry' for global outage after almost 24 hours of disruption",
   "'Crypto King' Aiden Pleterski testifies he was beaten, tortured during alleged kidnapping",
+  "Why is Microsoft's outage lasting so long and will emails be lost?",
+  "'Miracle on the Mississippi': All aboard river cruise boat survive crash with tanker in New Orleans",
   "Watch: How a server outage took down Microsoft Teams and Outlook",
-  "'I sincerely apologize': Blue Jays outfielder Santander apologizes days after anti-Muslim social media posts",
-  "Setback for SpaceX Starship rocket's double-catch test",
   "COVID-19 school disruptions still impacting students today, learning loss report finds",
-  "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
-  "3 dead after boat crash in flooded river near Squamish, B.C.",
-  "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
-  "All aboard river cruise boat survive crash with tanker in New Orleans",
-  "The Peruvian city that has embraced Pope Leo as one of its own",
+  "Setback for SpaceX Starship rocket's double-catch test",
   "Avril Lavigne welcomes baby girl",
-  "German spies handed new powers to tackle 'hybrid threats' from abroad"
+  "Rosenberg: Uncompromising Putin ups demands for peace with Ukraine",
+  "'I sincerely apologize': Blue Jays outfielder Santander apologizes days after anti-Muslim social media posts",
+  "Nvidia scandal fallout widens as Trump's treasury secretary blames cabinet colleague",
+  "3 dead after boat crash in flooded river near Squamish, B.C.",
+  "The Peruvian city that has embraced Pope Leo as one of its own"
  ],
  "indices": [
   {
@@ -110,14 +110,15 @@
     25030.35,
     25044.65,
     25255.05,
-    25299.35
+    25299.35,
+    25144.3
    ],
    "ytd": -3.83
   }
  ],
  "heatmap": {
-  "updated": "2026-11-13T23:14:11+00:00",
-  "label": "Fri Nov 13, 2026 \u00b7 6:14 pm ET",
+  "updated": "2026-11-14T01:39:49+00:00",
+  "label": "Fri Nov 13, 2026 \u00b7 8:39 pm ET",
   "sp": [
    {
     "s": "NVDA",

@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-16T08:39:15+00:00",
+ "updated": "2026-11-16T10:38:12+00:00",
  "headlines": [
-  "Nationwide flight grounding unlikely in Canada, says aviation expert",
+  "WestJet denied family's cancelled flight was actually cancelled, claiming passenger rights didn't apply",
   "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
-  "Edmonton Elks defeat Montreal Alouettes to capture 113th Grey Cup",
-  "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
-  "Canada's health-care spending tops $10,000 per person this year. Where is the money going?",
+  "CBSA demoting border officers who permanently lost ability to use sidearm",
+  "UK and allies call on Israel to allow rapid humanitarian access to Gaza",
+  "2027 Grammy nominations release today. Here's what you need to know",
   "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
-  "Snowbirds bid farewell to legendary jets in final flight over Calgary",
+  "What will it take for the world's superpowers to agree on AI regulations in war?",
   "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
-  "Woman gets back at ex by sparking cat donation campaign | The Moment",
+  "Canada presented itself as a global leader in methane reductions at COP31. But is Alberta holding it back?",
   "Mexican drug lord Miguel \u00c1ngel F\u00e9lix Gallardo dies age 80",
-  "Toronto Tempo earn No. 1 pick after winning 2027 WNBA draft lottery",
-  "Clothing factories shut in Bangladesh as workers strike over pay",
   "3 friends complete 8,000-km canoe journey across Canada, arriving in Vancouver",
+  "Clothing factories shut in Bangladesh as workers strike over pay",
+  "Nationwide flight grounding unlikely in Canada, says aviation expert",
   "US basketball player arrested with 34kg of cannabis at Nigerian airport",
-  "Scientists race to discover and protect what lives in the ocean",
-  "'You're going to win the war': Harry praises war veterans on surprise Ukraine visit"
+  "Edmonton Elks defeat Montreal Alouettes to capture 113th Grey Cup",
+  "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'"
  ],
  "indices": [
   {
@@ -87,8 +87,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25177.15,
-   "chg": 8.77,
+   "price": 25291.1,
+   "chg": 9.27,
    "closes": [
     23146.15,
     22888.95,
@@ -109,14 +109,14 @@
     25255.05,
     25299.35,
     25144.3,
-    25177.15
+    25291.1
    ],
-   "ytd": -3.71
+   "ytd": -3.27
   }
  ],
  "heatmap": {
-  "updated": "2026-11-16T08:38:53+00:00",
-  "label": "Mon Nov 16, 2026 \u00b7 3:38 am ET",
+  "updated": "2026-11-16T10:37:50+00:00",
+  "label": "Mon Nov 16, 2026 \u00b7 5:37 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -364,181 +364,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 0.98
+    "chg": 1.55
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": -0.23
+    "chg": 0.09
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 0.96
+    "chg": 0.97
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.86
+    "chg": 1.16
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.35
+    "chg": 0.86
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -1.1
+    "chg": -0.63
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -0.73
+    "chg": -0.1
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -0.26
+    "chg": 0.32
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.39
+    "chg": 0.48
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -1.31
+    "chg": -0.54
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.16
+    "chg": 0.7
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -0.23
+    "chg": 0.38
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.42
+    "chg": 0.88
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 1.7
+    "chg": 2.26
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 2.79
+    "chg": 3.54
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -0.13
+    "chg": 0.37
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -2.42
+    "chg": -2.2
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.47
+    "chg": -0.09
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -1.19
+    "chg": -1.08
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 1.15
+    "chg": 1.4
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.59
+    "chg": -0.66
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -2.42
+    "chg": -2.37
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": 0.14
+    "chg": 0.67
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 1.18
+    "chg": 1.85
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": 0.79
+    "chg": 1.34
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 2.05
+    "chg": 2.68
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 1.11
+    "chg": 0.9
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.68
+    "chg": 1.22
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.22
+    "chg": 0.14
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": -0.71
+    "chg": -0.67
    }
   ],
   "tsx": [

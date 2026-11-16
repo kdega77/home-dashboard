@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-16T05:51:03+00:00",
+ "updated": "2026-11-16T08:39:15+00:00",
  "headlines": [
   "Nationwide flight grounding unlikely in Canada, says aviation expert",
-  "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
+  "Yemeni forces' retreat leaves Houthis in control of key area on coast of Red Sea waterway",
   "Edmonton Elks defeat Montreal Alouettes to capture 113th Grey Cup",
-  "Yemeni forces' retreat leaves Houthis in control of key Red Sea waterway",
+  "Zelensky urges US and Musk to lift Starlink restrictions and be on 'right side of history'",
   "Canada's health-care spending tops $10,000 per person this year. Where is the money going?",
   "Suspected China spy linked to Nvidia's ex-boss left in 2025, Megaspeed says",
   "Snowbirds bid farewell to legendary jets in final flight over Calgary",
   "Australian MP 'full of gratitude' upon leaving hospital after alleged car attack",
+  "Woman gets back at ex by sparking cat donation campaign | The Moment",
+  "Mexican drug lord Miguel \u00c1ngel F\u00e9lix Gallardo dies age 80",
   "Toronto Tempo earn No. 1 pick after winning 2027 WNBA draft lottery",
-  "Mexican drug lord Miguel Angel Felix Gallardo dies age 80",
+  "Clothing factories shut in Bangladesh as workers strike over pay",
   "3 friends complete 8,000-km canoe journey across Canada, arriving in Vancouver",
-  "Prince Harry praises war veterans on surprise visit to Ukraine",
+  "US basketball player arrested with 34kg of cannabis at Nigerian airport",
   "Scientists race to discover and protect what lives in the ocean",
-  "Canada bars Russia from Junior World Championships",
-  "'He lived and breathed it': NCAA football prospect from N.S. has died",
-  "Wife of assassinated ex-Haitian leader registers for presidential election"
+  "'You're going to win the war': Harry praises war veterans on surprise Ukraine visit"
  ],
  "indices": [
   {
@@ -87,8 +87,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25212.75,
-   "chg": 8.93,
+   "price": 25177.15,
+   "chg": 8.77,
    "closes": [
     23146.15,
     22888.95,
@@ -109,14 +109,14 @@
     25255.05,
     25299.35,
     25144.3,
-    25212.75
+    25177.15
    ],
-   "ytd": -3.57
+   "ytd": -3.71
   }
  ],
  "heatmap": {
-  "updated": "2026-11-16T05:50:41+00:00",
-  "label": "Mon Nov 16, 2026 \u00b7 12:50 am ET",
+  "updated": "2026-11-16T08:38:53+00:00",
+  "label": "Mon Nov 16, 2026 \u00b7 3:38 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -364,181 +364,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 0.78
+    "chg": 0.98
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 0.29
+    "chg": -0.23
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 0.98
+    "chg": 0.96
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.14
+    "chg": 0.86
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.63
+    "chg": 0.35
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -1.36
+    "chg": -1.1
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -0.37
+    "chg": -0.73
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": 0.07
+    "chg": -0.26
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": 0.27
+    "chg": -0.39
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.78
+    "chg": -1.31
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": 0.45
+    "chg": -0.16
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -0.4
+    "chg": -0.23
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -0.61
+    "chg": 0.42
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 2.53
+    "chg": 1.7
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 3.26
+    "chg": 2.79
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -0.08
+    "chg": -0.13
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -0.42
+    "chg": -2.42
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.49
+    "chg": -0.47
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -1.58
+    "chg": -1.19
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.82
+    "chg": 1.15
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.21
+    "chg": -0.59
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -2.01
+    "chg": -2.42
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -0.38
+    "chg": 0.14
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -0.29
+    "chg": 1.18
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": 0.29
+    "chg": 0.79
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 1.4
+    "chg": 2.05
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 1.4
+    "chg": 1.11
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.51
+    "chg": 0.68
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.2
+    "chg": -0.22
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": -0.29
+    "chg": -0.71
    }
   ],
   "tsx": [

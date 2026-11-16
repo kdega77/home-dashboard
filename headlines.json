@@ -1,19 +1,19 @@
 {
- "updated": "2026-11-16T20:48:06+00:00",
+ "updated": "2026-11-16T21:45:30+00:00",
  "headlines": [
-  "Quebecor makes $31B offer to acquire Telus",
+  "Exodus in Poilievre's office as 5 staffers plan departures",
   "Five EU countries announce migrant deportation centre in Rwanda",
   "Carney arrives in China for meeting with Xi Jinping, Asia-Pacific summit",
   "Yemeni forces retreat to defend port city from Houthis",
-  "U.S. captures third women's world hockey title in 4 years, downing rival Canadians",
+  "Alberta has tabled a bill for new riding maps. What could a court challenge mean?",
   "Trump backs return of ex-Nvidia boss after 'Bring Jensen Back' campaign launched",
-  "Silicon Valley leaders call for reinstatement of Nvidia CEO with 'Stand With Jensen' petition",
+  "U.S. captures third women's world hockey title in 4 years, downing rival Canadians",
   "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-  "U.S. Supreme Court set to hear 3 major Trump agenda immigration cases",
+  "Silicon Valley leaders call for reinstatement of Nvidia CEO with 'Stand With Jensen' petition",
   "When will we see Robert Pattinson as Bond in cinemas?",
-  "Robert Pattinson announced as new James Bond",
+  "Journalists call for justice after reporter found dead in Mexican coastal city of Acapulco",
   "Forensic expert says his analysis of autopsy photos suggest Epstein was killed",
-  "WestJet denied family's cancelled flight was actually cancelled, claiming passenger rights didn't apply",
+  "Quebecor makes $31B offer to acquire Telus",
   "Lindsay Clancy to face retrial next year for deaths of her three children",
   "1 man, 2 children dead in Burlington, Ont., house fire, Ontario Fire Marshal says",
   "Two mass shootings in South Africa leave 17 dead"
@@ -22,8 +22,8 @@
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35664.14,
-   "chg": -1.42,
+   "price": 35722.13,
+   "chg": -1.26,
    "closes": [
     36176.6,
     35928.6,
@@ -46,17 +46,16 @@
     36411.7,
     36137.2,
     36105.9,
-    35664.14
+    35722.13
    ],
-   "ytd": 11.86
+   "ytd": 12.04
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7405.44,
-   "chg": -3.32,
+   "price": 7416.59,
+   "chg": -3.17,
    "closes": [
-    7659.44,
     7690.73,
     7712.57,
     7757.17,
@@ -77,9 +76,9 @@
     7619.38,
     7592.4,
     7561.67,
-    7405.44
+    7416.59
    ],
-   "ytd": 7.98
+   "ytd": 8.14
   },
   {
    "sym": "NIFTY",

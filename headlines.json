@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-17T20:51:09+00:00",
+ "updated": "2026-11-17T21:50:28+00:00",
  "headlines": [
   "Carney secures another China trade deal \u2014 but at what cost?",
   "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
@@ -7,23 +7,23 @@
   "How the attack on Crimean Bridge unfolded",
   "Canada's national emergency alert system will sound off Wednesday for testing",
   "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
-  "Krampus banned from Santa Claus parade, stirring controversy in Ontario town",
-  "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-  "Meet the 2027 Grammy best new artist nominees",
-  "Russian military plane crashes killing all 19 on board",
   "Calgary high school says too many students are getting food delivered",
+  "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+  "IIHF confirms cyberattack after website goes offline",
+  "Russian military plane crashes killing all 19 on board",
+  "An SNL sketch about caregiving has gone viral. B.C. caregivers explain why",
   "US loses measles elimination status after 26 years amid record case numbers",
-  "Drivers line up as fuel price briefly falls below $1 in northwest Winnipeg",
+  "Grand Theft Auto VI nominated for game of the year, even though it isn't out yet",
   "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-  "Former Red Deer, Alta., mayor seriously hurt in hit and run with e-bike or e-scooter calls for stricter rules",
+  "Krampus banned from Santa Claus parade, stirring controversy in Ontario town",
   "American soldier arrested by UK police on suspicion of spying taken into US military custody"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35289.21,
-   "chg": -2.45,
+   "price": 35315.3,
+   "chg": -2.38,
    "closes": [
     35928.6,
     36108.0,
@@ -46,15 +46,15 @@
     36137.2,
     36105.9,
     35722.1,
-    35289.21
+    35315.3
    ],
-   "ytd": 10.68
+   "ytd": 10.76
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7317.64,
-   "chg": -4.46,
+   "price": 7340.53,
+   "chg": -4.16,
    "closes": [
     7690.73,
     7712.57,
@@ -77,9 +77,9 @@
     7592.4,
     7561.67,
     7416.59,
-    7317.64
+    7340.53
    ],
-   "ytd": 6.69
+   "ytd": 7.03
   },
   {
    "sym": "NIFTY",

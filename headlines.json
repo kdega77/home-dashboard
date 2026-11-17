@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-17T03:20:57+00:00",
+ "updated": "2026-11-17T04:29:36+00:00",
  "headlines": [
-  "P.E.I. author Nicholas Herring wins $100K Giller Prize",
+  "Canada and China announce new trade measures and cultural partnerships on Carney's 1st day in Shenzhen",
   "Five EU countries announce migrant deportation centre in Rwanda",
-  "Meta would 'consider' pulling services from Canada if lawful access bill passes as is",
+  "P.E.I. author Nicholas Herring wins $100K Giller Prize",
   "Houthi rebel advance in Yemen may further destabilise global economy",
-  "Father calls for apology after son target of racist taunts at Kitchener, Ont., hockey tournament",
+  "Meta would 'consider' pulling services from Canada if lawful access bill passes as is",
   "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
-  "Exodus in Poilievre's office as 5 staffers plan departures",
+  "Father calls for apology after son target of racist taunts at Kitchener, Ont., hockey tournament",
   "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-  "The National | Carney arrives in China for meeting with Xi",
+  "Exodus in Poilievre's office as 5 staffers plan departures",
   "When will we see Robert Pattinson as Bond in cinemas?",
-  "Gordie Howe bridge surpasses 1M vehicle crossings while other bridges, tunnel lose traffic",
+  "The National | Carney arrives in China for meeting with Xi",
   "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-  "The battle for Trump's 'Trash Island' golf course | About That",
+  "Gordie Howe bridge surpasses 1M vehicle crossings while other bridges, tunnel lose traffic",
   "Lindsay Clancy to face retrial next year for deaths of her three children",
-  "Volunteers back in Manitoba after grounding of U.S. flights set them on long road trip home",
+  "The battle for Trump's 'Trash Island' golf course | About That",
   "Two mass shootings in South Africa leave 17 dead"
  ],
  "indices": [
@@ -83,10 +83,9 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25291.1,
-   "chg": 9.27,
+   "price": 25369.95,
+   "chg": 9.61,
    "closes": [
-    23146.15,
     22888.95,
     22811.35,
     22687.65,
@@ -105,14 +104,15 @@
     25255.05,
     25299.35,
     25144.3,
-    25291.1
+    25291.1,
+    25369.95
    ],
-   "ytd": -3.27
+   "ytd": -2.97
   }
  ],
  "heatmap": {
-  "updated": "2026-11-17T03:20:31+00:00",
-  "label": "Mon Nov 16, 2026 \u00b7 10:20 pm ET",
+  "updated": "2026-11-17T04:29:13+00:00",
+  "label": "Mon Nov 16, 2026 \u00b7 11:29 pm ET",
   "sp": [
    {
     "s": "NVDA",
@@ -360,181 +360,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 1.55
+    "chg": -0.43
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 0.09
+    "chg": 0.86
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 0.97
+    "chg": 1.75
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.16
+    "chg": -0.23
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.86
+    "chg": 1.08
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -0.63
+    "chg": 0.26
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -0.1
+    "chg": 1.54
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": 0.32
+    "chg": -0.19
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": 0.48
+    "chg": -0.59
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.54
+    "chg": -0.75
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": 0.7
+    "chg": -0.95
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 0.38
+    "chg": -0.52
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.88
+    "chg": -0.93
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 2.26
+    "chg": -0.13
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 3.54
+    "chg": 0.03
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 0.37
+    "chg": 0.71
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -2.2
+    "chg": 1.29
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.09
+    "chg": 0.28
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -1.08
+    "chg": 1.35
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 1.4
+    "chg": 0.47
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.66
+    "chg": 0.39
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -2.37
+    "chg": -0.2
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": 0.67
+    "chg": -0.42
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 1.85
+    "chg": -0.92
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": 1.34
+    "chg": 0.27
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 2.68
+    "chg": 0.05
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.9
+    "chg": 2.26
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 1.22
+    "chg": 0.35
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": 0.14
+    "chg": -0.14
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": -0.67
+    "chg": 1.26
    }
   ],
   "tsx": [

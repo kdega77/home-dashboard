@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-17T19:36:21+00:00",
+ "updated": "2026-11-17T20:51:09+00:00",
  "headlines": [
-  "Carney government amends controversial bill to fast-track pipelines and mines",
+  "Carney secures another China trade deal \u2014 but at what cost?",
   "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-  "How China is positioning itself as a global leader as it hosts Trump, Putin",
-  "How the attack on Crimean Bridge unfolded",
   "Ukraine cripples Crimean bridge in blow to Putin before meeting with Xi, Trump",
+  "How the attack on Crimean Bridge unfolded",
+  "Canada's national emergency alert system will sound off Wednesday for testing",
   "Jensen Huang says he would be 'honoured' to return as Nvidia CEO if board asked him",
-  "Former Red Deer, Alta., mayor seriously hurt in hit and run with e-bike or e-scooter calls for stricter rules",
-  "Trump lands in Asia ahead of talks with Russian and Chinese presidents",
-  "Stolen 120-year-old church bell found discarded in rural Manitoba ditch",
-  "US loses measles elimination status after 26 years amid record case numbers",
   "Krampus banned from Santa Claus parade, stirring controversy in Ontario town",
-  "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-  "Meet the 2027 Grammy best new artist nominees",
   "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-  "U.K. sanctions Israeli companies involved in building illegal settlements in West Bank",
-  "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed"
+  "Meet the 2027 Grammy best new artist nominees",
+  "Russian military plane crashes killing all 19 on board",
+  "Calgary high school says too many students are getting food delivered",
+  "US loses measles elimination status after 26 years amid record case numbers",
+  "Drivers line up as fuel price briefly falls below $1 in northwest Winnipeg",
+  "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+  "Former Red Deer, Alta., mayor seriously hurt in hit and run with e-bike or e-scooter calls for stricter rules",
+  "American soldier arrested by UK police on suspicion of spying taken into US military custody"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 35330.33,
-   "chg": -2.34,
+   "price": 35289.21,
+   "chg": -2.45,
    "closes": [
     35928.6,
     36108.0,
@@ -46,15 +46,15 @@
     36137.2,
     36105.9,
     35722.1,
-    35330.33
+    35289.21
    ],
-   "ytd": 10.81
+   "ytd": 10.68
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7328.28,
-   "chg": -4.32,
+   "price": 7317.64,
+   "chg": -4.46,
    "closes": [
     7690.73,
     7712.57,
@@ -77,9 +77,9 @@
     7592.4,
     7561.67,
     7416.59,
-    7328.28
+    7317.64
    ],
-   "ytd": 6.85
+   "ytd": 6.69
   },
   {
    "sym": "NIFTY",
@@ -111,248 +111,248 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-17T19:35:59+00:00",
-  "label": "Tue Nov 17, 2026 \u00b7 2:35 pm ET",
+  "updated": "2026-11-17T20:50:46+00:00",
+  "label": "Tue Nov 17, 2026 \u00b7 3:50 pm ET",
   "sp": [
    {
     "s": "NVDA",
     "sec": "Technology",
     "cap": 4500,
-    "chg": -1.56
+    "chg": -1.87
    },
    {
     "s": "MSFT",
     "sec": "Technology",
     "cap": 3900,
-    "chg": -2.17
+    "chg": -2.66
    },
    {
     "s": "AAPL",
     "sec": "Technology",
     "cap": 3800,
-    "chg": -0.7
+    "chg": -0.51
    },
    {
     "s": "AVGO",
     "sec": "Technology",
     "cap": 1000,
-    "chg": 1.43
+    "chg": 1.18
    },
    {
     "s": "PLTR",
     "sec": "Technology",
     "cap": 400,
-    "chg": -2.09
+    "chg": -2.57
    },
    {
     "s": "ORCL",
     "sec": "Technology",
     "cap": 900,
-    "chg": -3.81
+    "chg": -3.79
    },
    {
     "s": "CRM",
     "sec": "Technology",
     "cap": 300,
-    "chg": -8.18
+    "chg": -9.61
    },
    {
     "s": "AMD",
     "sec": "Technology",
     "cap": 350,
-    "chg": -2.49
+    "chg": -2.66
    },
    {
     "s": "MU",
     "sec": "Technology",
     "cap": 300,
-    "chg": -3.01
+    "chg": -2.65
    },
    {
     "s": "CSCO",
     "sec": "Technology",
     "cap": 300,
-    "chg": 0.07
+    "chg": 0.23
    },
    {
     "s": "IBM",
     "sec": "Technology",
     "cap": 250,
-    "chg": -4.06
+    "chg": -4.71
    },
    {
     "s": "ADBE",
     "sec": "Technology",
     "cap": 250,
-    "chg": -3.57
+    "chg": -4.27
    },
    {
     "s": "GOOGL",
     "sec": "Communication",
     "cap": 3400,
-    "chg": -1.22
+    "chg": -1.63
    },
    {
     "s": "META",
     "sec": "Communication",
     "cap": 1900,
-    "chg": -1.09
+    "chg": -1.43
    },
    {
     "s": "NFLX",
     "sec": "Communication",
     "cap": 500,
-    "chg": -1.84
+    "chg": -1.93
    },
    {
     "s": "AMZN",
     "sec": "Consumer Cyclical",
     "cap": 2600,
-    "chg": -0.45
+    "chg": -0.47
    },
    {
     "s": "TSLA",
     "sec": "Consumer Cyclical",
     "cap": 450,
-    "chg": 0.06
+    "chg": -0.27
    },
    {
     "s": "HD",
     "sec": "Consumer Cyclical",
     "cap": 350,
-    "chg": -2.25
+    "chg": -2.41
    },
    {
     "s": "JPM",
     "sec": "Financials",
     "cap": 850,
-    "chg": -2.38
+    "chg": -2.49
    },
    {
     "s": "V",
     "sec": "Financials",
     "cap": 650,
-    "chg": -1.66
+    "chg": -2.26
    },
    {
     "s": "MA",
     "sec": "Financials",
     "cap": 550,
-    "chg": -1.7
+    "chg": -2.26
    },
    {
     "s": "LLY",
     "sec": "Healthcare",
     "cap": 700,
-    "chg": -1.8
+    "chg": -1.34
    },
    {
     "s": "UNH",
     "sec": "Healthcare",
     "cap": 300,
-    "chg": -4.83
+    "chg": -5.7
    },
    {
     "s": "ABT",
     "sec": "Healthcare",
     "cap": 200,
-    "chg": -2.1
+    "chg": -2.22
    },
    {
     "s": "TMO",
     "sec": "Healthcare",
     "cap": 200,
-    "chg": -0.22
+    "chg": -0.49
    },
    {
     "s": "JNJ",
     "sec": "Healthcare",
     "cap": 350,
-    "chg": -1.31
+    "chg": -1.32
    },
    {
     "s": "MRK",
     "sec": "Healthcare",
     "cap": 250,
-    "chg": -0.71
+    "chg": -0.74
    },
    {
     "s": "ABBV",
     "sec": "Healthcare",
     "cap": 500,
-    "chg": -0.66
+    "chg": -0.74
    },
    {
     "s": "COST",
     "sec": "Consumer Defensive",
     "cap": 450,
-    "chg": 0.09
+    "chg": -0.12
    },
    {
     "s": "WMT",
     "sec": "Consumer Defensive",
     "cap": 800,
-    "chg": -0.72
+    "chg": -0.76
    },
    {
     "s": "PEP",
     "sec": "Consumer Defensive",
     "cap": 200,
-    "chg": -2.7
+    "chg": -2.92
    },
    {
     "s": "KO",
     "sec": "Consumer Defensive",
     "cap": 400,
-    "chg": -0.33
+    "chg": -0.36
    },
    {
     "s": "PG",
     "sec": "Consumer Defensive",
     "cap": 400,
-    "chg": -0.44
+    "chg": -0.64
    },
    {
     "s": "XOM",
     "sec": "Energy",
     "cap": 550,
-    "chg": 0.06
+    "chg": 0.09
    },
    {
     "s": "BRK.B",
     "sec": "Financials",
     "cap": 1000,
-    "chg": -0.31
+    "chg": -0.59
    },
    {
     "s": "QCOM",
     "sec": "Technology",
     "cap": 250,
-    "chg": -1.69
+    "chg": -2.08
    },
    {
     "s": "AMAT",
     "sec": "Technology",
     "cap": 200,
-    "chg": -2.14
+    "chg": -1.87
    },
    {
     "s": "LRCX",
     "sec": "Technology",
     "cap": 150,
-    "chg": -2.0
+    "chg": -1.86
    },
    {
     "s": "ISRG",
     "sec": "Healthcare",
     "cap": 180,
-    "chg": -1.32
+    "chg": -1.36
    },
    {
     "s": "SYK",
     "sec": "Healthcare",
     "cap": 120,
-    "chg": 1.61
+    "chg": 2.66
    }
   ],
   "nse": [
@@ -542,175 +542,175 @@
     "s": "RY",
     "sec": "Financials",
     "cap": 140,
-    "chg": -1.77
+    "chg": -1.79
    },
    {
     "s": "TD",
     "sec": "Financials",
     "cap": 110,
-    "chg": -1.78
+    "chg": -1.81
    },
    {
     "s": "BMO",
     "sec": "Financials",
     "cap": 95,
-    "chg": -2.05
+    "chg": -2.15
    },
    {
     "s": "BNS",
     "sec": "Financials",
     "cap": 85,
-    "chg": -1.73
+    "chg": -1.7
    },
    {
     "s": "CM",
     "sec": "Financials",
     "cap": 70,
-    "chg": -1.66
+    "chg": -1.81
    },
    {
     "s": "MFC",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.14
+    "chg": -0.06
    },
    {
     "s": "SLF",
     "sec": "Financials",
     "cap": 40,
-    "chg": 0.1
+    "chg": 0.2
    },
    {
     "s": "BAM",
     "sec": "Financials",
     "cap": 70,
-    "chg": -0.84
+    "chg": -1.37
    },
    {
     "s": "SHOP",
     "sec": "Technology",
     "cap": 110,
-    "chg": -3.49
+    "chg": -4.58
    },
    {
     "s": "CSU",
     "sec": "Technology",
     "cap": 75,
-    "chg": -3.26
+    "chg": -2.93
    },
    {
     "s": "TRI",
     "sec": "Technology",
     "cap": 85,
-    "chg": -2.92
+    "chg": -3.74
    },
    {
     "s": "ENB",
     "sec": "Energy",
     "cap": 110,
-    "chg": -0.37
+    "chg": -0.4
    },
    {
     "s": "CNQ",
     "sec": "Energy",
     "cap": 90,
-    "chg": -0.86
+    "chg": -1.0
    },
    {
     "s": "TRP",
     "sec": "Energy",
     "cap": 75,
-    "chg": 0.56
+    "chg": 0.53
    },
    {
     "s": "SU",
     "sec": "Energy",
     "cap": 65,
-    "chg": 0.17
+    "chg": 0.26
    },
    {
     "s": "CNR",
     "sec": "Industrials",
     "cap": 95,
-    "chg": -0.95
+    "chg": -1.19
    },
    {
     "s": "CP",
     "sec": "Industrials",
     "cap": 85,
-    "chg": -0.85
+    "chg": -1.54
    },
    {
     "s": "WCN",
     "sec": "Industrials",
     "cap": 45,
-    "chg": -7.74
+    "chg": -8.49
    },
    {
     "s": "ATD",
     "sec": "Industrials",
     "cap": 70,
-    "chg": -0.69
+    "chg": -0.58
    },
    {
     "s": "AEM",
     "sec": "Materials",
     "cap": 60,
-    "chg": 1.22
+    "chg": 1.09
    },
    {
     "s": "ABX",
     "sec": "Materials",
     "cap": 55,
-    "chg": 0.04
+    "chg": -0.08
    },
    {
     "s": "FTS",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -0.57
+    "chg": -0.63
    },
    {
     "s": "QSR",
     "sec": "Consumer",
     "cap": 40,
-    "chg": -1.73
+    "chg": -1.1
    },
    {
     "s": "IFC",
     "sec": "Financials",
     "cap": 35,
-    "chg": 1.01
+    "chg": 1.14
    },
    {
     "s": "NA",
     "sec": "Financials",
     "cap": 35,
-    "chg": -1.07
+    "chg": -1.19
    },
    {
     "s": "POW",
     "sec": "Financials",
     "cap": 25,
-    "chg": 0.97
+    "chg": 1.1
    },
    {
     "s": "DOL",
     "sec": "Consumer",
     "cap": 30,
-    "chg": -1.51
+    "chg": -1.36
    },
    {
     "s": "L",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.03
+    "chg": -0.1
    },
    {
     "s": "WSP",
     "sec": "Industrials",
     "cap": 20,
-    "chg": -1.72
+    "chg": -3.08
    }
   ]
  }

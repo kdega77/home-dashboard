@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-17T12:22:21+00:00",
+ "updated": "2026-11-17T13:46:00+00:00",
  "headlines": [
-  "Fear, outrage grow as Quebec moves to ban religious symbols for elementary students",
-  "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
   "Canada and China announce new trade measures and cultural partnerships on Carney's 1st day in Shenzhen",
+  "Putin's Crimea bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+  "Fear, outrage grow as Quebec moves to ban religious symbols for elementary students",
   "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
   "5 European countries want to start deporting migrants to Rwanda, despite concerns from human rights groups",
+  "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
+  "Carney government amends controversial bill to fast-track pipelines and mines",
   "Nvidia partner Megaspeed being investigated by US government over chip exports",
-  "Hooked by design: How gambling apps keep 'losers' spending more cash",
-  "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
-  "Investigate Trump or work with him? Democrats debate best path forward",
-  "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
   "Canadian home sales edged up in October amid overall flat housing market: CREA",
+  "Indian woman gang-raped while pregnant in 2002 'heartbroken' after two perpetrators bailed",
+  "After midterm victories, Democrats debate whether to investigate Trump or work with him",
+  "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
+  "Hooked by design: How gambling apps keep 'losers' spending more cash",
   "Gunmen kill Costa Rican journalist who reported on drugs trade",
-  "P.E.I. author Nicholas Herring wins $100K Giller Prize",
-  "Body of Melbourne Cup horse found dumped in Sydney skip",
-  "Meta would 'consider' pulling services from Canada if lawful access bill passes as is",
-  "Japan sends up jets after alleged Russian incursion of its airspace"
+  "Canada advances to CONCACAF Nations League semifinals with win over Guatemala",
+  "Body of Melbourne Cup horse found dumped in Sydney skip"
  ],
  "indices": [
   {
@@ -111,8 +111,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-17T12:21:55+00:00",
-  "label": "Tue Nov 17, 2026 \u00b7 7:21 am ET",
+  "updated": "2026-11-17T13:45:38+00:00",
+  "label": "Tue Nov 17, 2026 \u00b7 8:45 am ET",
   "sp": [
    {
     "s": "NVDA",

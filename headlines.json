@@ -1,8 +1,8 @@
 {
- "updated": "2026-11-17T07:11:14+00:00",
+ "updated": "2026-11-17T08:38:23+00:00",
  "headlines": [
   "Canada and China announce new trade measures and cultural partnerships on Carney's 1st day in Shenzhen",
-  "Two major Kyiv bridges hit in Russian attack, mayor says",
+  "Crimea bridge shut after reported Ukrainian strike, as Russia hits Kyiv crossings",
   "P.E.I. author Nicholas Herring wins $100K Giller Prize",
   "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
   "Meta would 'consider' pulling services from Canada if lawful access bill passes as is",
@@ -83,7 +83,7 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25466.3,
+   "price": 25465.25,
    "chg": 10.02,
    "closes": [
     22888.95,
@@ -105,14 +105,14 @@
     25299.35,
     25144.3,
     25291.1,
-    25466.3
+    25465.25
    ],
-   "ytd": -2.6
+   "ytd": -2.61
   }
  ],
  "heatmap": {
-  "updated": "2026-11-17T07:10:50+00:00",
-  "label": "Tue Nov 17, 2026 \u00b7 2:10 am ET",
+  "updated": "2026-11-17T08:37:56+00:00",
+  "label": "Tue Nov 17, 2026 \u00b7 3:37 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -360,181 +360,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 0.36
+    "chg": 0.18
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 1.58
+    "chg": 1.6
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 1.79
+    "chg": 1.6
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.63
+    "chg": 0.94
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 2.21
+    "chg": 2.35
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 1.26
+    "chg": 1.0
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": 1.03
+    "chg": 0.57
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -0.94
+    "chg": -1.41
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -1.43
+    "chg": -1.8
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.91
+    "chg": -1.06
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.68
+    "chg": -1.23
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 0.54
+    "chg": 1.64
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -1.07
+    "chg": -1.1
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 0.48
+    "chg": 0.16
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.64
+    "chg": -0.15
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 0.55
+    "chg": 0.66
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 1.11
+    "chg": 0.69
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": 1.67
+    "chg": 1.52
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.84
+    "chg": 2.14
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.86
+    "chg": 0.43
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 0.79
+    "chg": 0.56
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -0.12
+    "chg": -0.14
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -0.42
+    "chg": 0.06
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -1.83
+    "chg": -1.68
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": 0.31
+    "chg": 0.12
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": -0.36
+    "chg": -0.59
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 3.11
+    "chg": 2.92
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 1.45
+    "chg": -0.23
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.88
+    "chg": -0.35
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 1.88
+    "chg": 3.07
    }
   ],
   "tsx": [

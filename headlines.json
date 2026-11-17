@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-17T05:34:06+00:00",
+ "updated": "2026-11-17T07:11:14+00:00",
  "headlines": [
-  "Canada and China announce new trade measures and cultural partnerships on 1st day in Shenzhen",
-  "Five EU countries announce migrant deportation centre in Rwanda",
+  "Canada and China announce new trade measures and cultural partnerships on Carney's 1st day in Shenzhen",
+  "Two major Kyiv bridges hit in Russian attack, mayor says",
   "P.E.I. author Nicholas Herring wins $100K Giller Prize",
-  "Houthi rebel advance in Yemen may further destabilise global economy",
+  "Ukraine accuses Russia of targeting rescue operation after 'double-tap' strike kills 72",
   "Meta would 'consider' pulling services from Canada if lawful access bill passes as is",
-  "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex CEO",
+  "Imran Khan seeks urgent medical care fearing he 'may not return alive'",
   "Father calls for apology after son target of racist taunts at Kitchener, Ont., hockey tournament",
-  "Landmark Crimea bridge hit as Russia reports biggest Ukrainian drone attack of war",
-  "Exodus in Poilievre's office as 5 staffers plan departures",
-  "When will we see Robert Pattinson as Bond in cinemas?",
-  "The National | Carney arrives in China for meeting with Xi",
+  "Nvidia dismisses 'Bring Jensen Back' campaign as Trump backs effort to reinstate ex boss",
+  "Survivor of fatal boat crash near Squamish speaks out",
+  "OpenAI sued by California over Hugging Face attack",
+  "Hundreds of Rocky Balboas break Guinness World Record | The Moment",
   "Forensic expert says his analysis of autopsy photos suggests Epstein was killed",
-  "Gordie Howe bridge surpasses 1M vehicle crossings while other bridges, tunnel lose traffic",
+  "Exodus in Poilievre's office as 5 staffers plan departures",
   "Lindsay Clancy to face retrial next year for deaths of her three children",
-  "The battle for Trump's 'Trash Island' golf course | About That",
-  "Two mass shootings in South Africa leave 17 dead"
+  "Gordie Howe bridge surpasses 1M vehicle crossings while other bridges, tunnel lose traffic",
+  "Five EU countries announce migrant deportation centre in Rwanda"
  ],
  "indices": [
   {
@@ -83,8 +83,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25413.35,
-   "chg": 9.8,
+   "price": 25466.3,
+   "chg": 10.02,
    "closes": [
     22888.95,
     22811.35,
@@ -105,14 +105,14 @@
     25299.35,
     25144.3,
     25291.1,
-    25413.35
+    25466.3
    ],
-   "ytd": -2.81
+   "ytd": -2.6
   }
  ],
  "heatmap": {
-  "updated": "2026-11-17T05:33:42+00:00",
-  "label": "Tue Nov 17, 2026 \u00b7 12:33 am ET",
+  "updated": "2026-11-17T07:10:50+00:00",
+  "label": "Tue Nov 17, 2026 \u00b7 2:10 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -360,73 +360,73 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 0.18
+    "chg": 0.36
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 1.12
+    "chg": 1.58
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 1.73
+    "chg": 1.79
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.32
+    "chg": 0.63
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.57
+    "chg": 2.21
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 0.98
+    "chg": 1.26
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": 1.62
+    "chg": 1.03
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -0.3
+    "chg": -0.94
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.87
+    "chg": -1.43
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.49
+    "chg": -0.91
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.91
+    "chg": -0.68
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -0.26
+    "chg": 0.54
    },
    {
     "s": "ONGC",
@@ -438,103 +438,103 @@
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": -0.19
+    "chg": 0.48
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.34
+    "chg": -0.64
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 0.27
+    "chg": 0.55
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 0.91
+    "chg": 1.11
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": 1.05
+    "chg": 1.67
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 1.48
+    "chg": 0.84
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.53
+    "chg": 0.86
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 0.35
+    "chg": 0.79
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": 0.04
+    "chg": -0.12
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -0.64
+    "chg": -0.42
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -1.47
+    "chg": -1.83
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -0.15
+    "chg": 0.31
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 0.02
+    "chg": -0.36
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 3.15
+    "chg": 3.11
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.58
+    "chg": 1.45
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.42
+    "chg": -0.88
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 0.82
+    "chg": 1.88
    }
   ],
   "tsx": [

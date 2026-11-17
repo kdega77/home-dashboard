@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-17T02:15:05+00:00",
+ "updated": "2026-11-17T03:20:57+00:00",
  "headlines": [
-  "Five Canadian authors up for the $100,000 Giller Prize",
+  "P.E.I. author Nicholas Herring wins $100K Giller Prize",
   "Five EU countries announce migrant deportation centre in Rwanda",
   "Meta would 'consider' pulling services from Canada if lawful access bill passes as is",
   "Houthi rebel advance in Yemen may further destabilise global economy",
@@ -104,14 +104,15 @@
     25044.65,
     25255.05,
     25299.35,
-    25144.3
+    25144.3,
+    25291.1
    ],
    "ytd": -3.27
   }
  ],
  "heatmap": {
-  "updated": "2026-11-17T02:14:39+00:00",
-  "label": "Mon Nov 16, 2026 \u00b7 9:14 pm ET",
+  "updated": "2026-11-17T03:20:31+00:00",
+  "label": "Mon Nov 16, 2026 \u00b7 10:20 pm ET",
   "sp": [
    {
     "s": "NVDA",

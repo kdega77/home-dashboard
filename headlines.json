@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-18T03:53:38+00:00",
+ "updated": "2026-11-18T04:58:18+00:00",
  "headlines": [
   "Trade talks between top Canada, U.S. officials ramping up: sources",
   "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
   "Multiple tech outages have Americans asking: Can somebody fix this?",
   "How the attack on Crimean Bridge unfolded",
-  "Federal government waives $4.5B debt from COVID-19 benefits sent to ineligible recipients",
+  "Mary Peltola wins U.S. Senate seat in Alaska for Democrats",
   "Nvidia says it won't reinstate Huang as firm reports bumper results",
-  "Calgary high school says too many students are getting food delivered",
-  "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
   "B.C. caregivers explain why a recent SNL sketch has struck a nerve",
+  "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
+  "Federal government waives $4.5B debt from COVID-19 benefits sent to ineligible recipients",
   "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-  "The National | Repeated U.S. tech outages spark concern",
+  "Calgary high school says too many students are getting food delivered",
   "Russian military plane crashes, killing all 19 on board",
-  "Would AI have come up with a better word of the year than the Cambridge Dictionary?",
+  "The National | Repeated U.S. tech outages spark concern",
   "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-  "2 hospitalized after CN Rail train derails into Skeena River near Terrace, B.C.",
+  "Would AI have come up with a better word of the year than the Cambridge Dictionary?",
   "US loses measles elimination status after 26 years amid record case numbers"
  ],
  "indices": [
@@ -84,8 +84,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25368.9,
-   "chg": 9.6,
+   "price": 25272.65,
+   "chg": 9.19,
    "closes": [
     22888.95,
     22811.35,
@@ -107,14 +107,14 @@
     25144.3,
     25291.1,
     25387.4,
-    25368.9
+    25272.65
    ],
-   "ytd": -2.97
+   "ytd": -3.34
   }
  ],
  "heatmap": {
-  "updated": "2026-11-18T03:53:06+00:00",
-  "label": "Tue Nov 17, 2026 \u00b7 10:53 pm ET",
+  "updated": "2026-11-18T04:57:51+00:00",
+  "label": "Tue Nov 17, 2026 \u00b7 11:57 pm ET",
   "sp": [
    {
     "s": "NVDA",
@@ -362,181 +362,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": -0.08
+    "chg": -0.18
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 0.46
+    "chg": 0.21
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 0.37
+    "chg": 0.23
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.22
+    "chg": -0.06
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.22
+    "chg": -0.07
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -1.01
+    "chg": -1.44
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -0.61
+    "chg": -0.65
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -0.64
+    "chg": -1.0
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.65
+    "chg": -0.46
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -1.12
+    "chg": -1.25
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.21
+    "chg": -0.55
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 0.04
+    "chg": -0.19
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.17
+    "chg": -0.08
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 0.11
+    "chg": -0.3
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.61
+    "chg": -0.6
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -0.81
+    "chg": -1.05
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 1.29
+    "chg": 0.38
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": 0.64
+    "chg": 0.42
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -0.39
+    "chg": -1.86
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.39
+    "chg": 0.72
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 0.03
+    "chg": -0.11
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -0.96
+    "chg": -1.39
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -0.78
+    "chg": -1.07
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -0.1
+    "chg": -0.45
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -1.17
+    "chg": -3.17
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": -0.7
+    "chg": -0.77
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -1.26
+    "chg": -1.87
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -0.57
+    "chg": -0.03
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.55
+    "chg": -1.03
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": -0.93
+    "chg": -1.21
    }
   ],
   "tsx": [

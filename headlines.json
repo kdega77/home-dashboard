@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-18T01:06:10+00:00",
+ "updated": "2026-11-18T02:32:22+00:00",
  "headlines": [
-  "Multiple tech outages have Americans asking: Can somebody fix this?",
-  "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-  "2 hospitalized after CN Rail train derails into Skeena River near Terrace, B.C.",
-  "How the attack on Crimean Bridge unfolded",
   "Trade talks between top Canada, U.S. officials ramping up: sources",
-  "Nvidia says it won't reinstate Huang as firm reports bumper results",
-  "Calgary high school says too many students are getting food delivered",
-  "Thomas Markle charged over child sex abuse material in Philippines",
-  "B.C. caregivers explain why a recent SNL sketch has struck a nerve",
-  "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+  "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
+  "Multiple tech outages have Americans asking: Can somebody fix this?",
+  "How the attack on Crimean Bridge unfolded",
   "Federal government waives $4.5B debt from COVID-19 benefits sent to ineligible recipients",
+  "Nvidia says it won't reinstate Huang as firm reports bumper results",
+  "B.C. caregivers explain why a recent SNL sketch has struck a nerve",
+  "Thomas Markle charged over child sex abuse material in Philippines",
+  "The National | Repeated U.S. tech outages spark concern",
+  "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
+  "Would AI have come up with a better word of the year than the Cambridge Dictionary?",
   "Russian military plane crashes, killing all 19 on board",
-  "Carney secures another China trade deal \u2014 but at what cost?",
+  "Calgary high school says too many students are getting food delivered",
   "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says",
-  "Canada's national emergency alert system will sound off Wednesday for testing",
+  "2 hospitalized after CN Rail train derails into Skeena River near Terrace, B.C.",
   "US loses measles elimination status after 26 years amid record case numbers"
  ],
  "indices": [
@@ -111,8 +111,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-18T01:05:47+00:00",
-  "label": "Tue Nov 17, 2026 \u00b7 8:05 pm ET",
+  "updated": "2026-11-18T02:31:59+00:00",
+  "label": "Tue Nov 17, 2026 \u00b7 9:31 pm ET",
   "sp": [
    {
     "s": "NVDA",

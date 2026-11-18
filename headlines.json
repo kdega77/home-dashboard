@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-18T19:30:41+00:00",
+ "updated": "2026-11-18T20:29:48+00:00",
  "headlines": [
   "'If the U.S. doesn't want to do a deal, we're busy,' Carney says of ongoing trade talks",
   "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-  "Cadet captain says he's paralyzed from waist down after attack while distributing Remembrance Day poppies",
+  "Competition Bureau examining marketing practices by Gap, Old Navy",
   "'The drones don't fly here' - BBC reports from Ukraine's new front line",
-  "Wait for the most common diagnostic scans in Manitoba 'worse now than it ever has been': doctor",
+  "Nearly 300,000 people sign petition demanding U.S. Ambassador Pete Hoekstra's removal",
   "Trump shakes hands with Putin and Xi ahead of historic talks in China",
-  "Fiona, the hippo famous for surviving, is on 24-hour medical watch after eating a hat",
-  "William and Kate reflect on 'enduring' UK-India ties with Modi",
-  "21 arrested in alleged Toronto-area towing industry crime ring investigation: police",
+  "Cadet leader says he's paralyzed from waist down after attack in Hamilton restaurant",
+  "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
+  "Parks Canada budget cuts, tourism growth raise concerns for Canada Strong Pass return",
+  "William and Kate meet PM Modi as they wrap up India tour",
+  "What it will take for Canada to regain its measles elimination status",
   "Kuwait says it repelled first Iranian attack in two months after US strikes island",
-  "Grand Theft Auto VI is a spectacular, cynical and sometimes shallow joyride through the American psyche",
+  "Wait for the most common diagnostic scans in Manitoba 'worse now than it ever has been': doctor",
   "Grand Theft Auto 6 is a masterpiece, say critics",
-  "Apartment building collapses after explosion, fire in Glace Bay, N.S.",
-  "Parents jailed for torture and death of four-year-old girl found along French motorway in 1987",
-  "Oddly enough, this video game weighs in on Canada's fighter jet options",
-  "Ghana's new $60m presidential jet sparks public outrage"
+  "21 arrested in alleged Toronto-area towing industry crime ring investigation: police",
+  "Parents jailed for torture and death of four-year-old girl found along French motorway in 1987"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 34621.96,
-   "chg": -4.3,
+   "price": 34605.11,
+   "chg": -4.34,
    "closes": [
     35928.6,
     36108.0,
@@ -47,15 +47,15 @@
     36105.9,
     35722.1,
     35315.3,
-    34621.96
+    34605.11
    ],
-   "ytd": 8.59
+   "ytd": 8.54
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7327.1,
-   "chg": -4.34,
+   "price": 7319.47,
+   "chg": -4.44,
    "closes": [
     7690.73,
     7712.57,
@@ -79,9 +79,9 @@
     7561.67,
     7416.59,
     7340.53,
-    7327.1
+    7319.47
    ],
-   "ytd": 6.83
+   "ytd": 6.72
   },
   {
    "sym": "NIFTY",

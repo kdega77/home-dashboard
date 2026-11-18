@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-18T08:59:01+00:00",
+ "updated": "2026-11-18T10:02:22+00:00",
  "headlines": [
-  "Trade talks between top Canada, U.S. officials ramping up: sources",
+  "What the U.S. might learn from Canada's privatized air traffic control",
   "As Trump and Xi meet, China's AI dreams face an unexpected hurdle: the Nvidia spy scandal",
-  "Multiple tech outages have Americans asking: Can somebody fix this?",
+  "Fatal police shootings in Nunavik shattered trust. Can these new intervention teams help?",
   "Nvidia says it won't reinstate Huang as it reports soaring sales",
-  "Mary Peltola wins U.S. Senate seat in Alaska for Democrats",
+  "Oddly enough, this video game weighs in on Canada's fighter jet options",
   "Rubio says US not 'under systemic attack' after series of tech outages",
-  "B.C. caregivers explain why a recent SNL sketch has struck a nerve",
+  "Gambler who lost over $200K says apps ignored signs of addiction, sent him hockey tickets, bonus cash",
   "Democrats win Alaska Senate race two weeks after midterms counting began",
-  "Calgary high school says too many students are getting food delivered",
+  "Mary Peltola wins U.S. Senate seat in Alaska for Democrats",
   "Putin's Crimean Bridge partly collapses as Zelensky hails 'unprecedented' attack by Ukraine",
-  "Ottawa man plays 365 sports matches in a year | The Moment",
+  "Theft of trade, tech secrets 'a global issue' extending beyond recent headlines: security CEO",
   "Philippines police ask prosecutors to charge Thomas Markle over child sex abuse material",
-  "Federal government waives $4.5B debt from COVID-19 benefits sent to ineligible recipients",
+  "Canada's national emergency alert system will sound off Wednesday for testing",
   "'It was really scary': Mother describes sheltering during Russia strikes on Kyiv bridge",
-  "Would AI have come up with a better word of the year than the Cambridge Dictionary?",
+  "Body cam footage could overload the justice system, warns senior Crown prosecutor",
   "Palestinian woman, 72, shot dead by Israeli settlers in West Bank, health ministry says"
  ],
  "indices": [
@@ -84,8 +84,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25262.05,
-   "chg": 9.14,
+   "price": 25227.95,
+   "chg": 8.99,
    "closes": [
     22888.95,
     22811.35,
@@ -107,14 +107,14 @@
     25144.3,
     25291.1,
     25387.4,
-    25262.05
+    25227.95
    ],
-   "ytd": -3.38
+   "ytd": -3.51
   }
  ],
  "heatmap": {
-  "updated": "2026-11-18T08:58:39+00:00",
-  "label": "Wed Nov 18, 2026 \u00b7 3:58 am ET",
+  "updated": "2026-11-18T10:01:59+00:00",
+  "label": "Wed Nov 18, 2026 \u00b7 5:01 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -362,181 +362,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": -0.71
+    "chg": -0.83
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 0.26
+    "chg": 0.16
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 2.58
+    "chg": 2.38
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.57
+    "chg": -0.48
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.56
+    "chg": -0.66
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -2.19
+    "chg": -2.43
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -0.57
+    "chg": -1.13
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -1.41
+    "chg": -1.88
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.12
+    "chg": -0.81
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -1.55
+    "chg": -2.5
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -0.52
+    "chg": -0.68
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -0.25
+    "chg": -0.29
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.55
+    "chg": 0.66
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": -0.4
+    "chg": -0.29
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 0.72
+    "chg": 1.13
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -0.99
+    "chg": -0.84
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 0.26
+    "chg": 0.06
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.23
+    "chg": 0.08
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -1.79
+    "chg": -2.22
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.53
+    "chg": 1.12
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 0.59
+    "chg": 0.08
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -0.68
+    "chg": -1.38
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -0.71
+    "chg": -0.44
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 0.33
+    "chg": 0.43
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -4.5
+    "chg": -5.3
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": -0.64
+    "chg": -0.98
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -1.71
+    "chg": -1.7
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.2
+    "chg": 0.43
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -1.11
+    "chg": -0.94
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": -1.61
+    "chg": -1.64
    }
   ],
   "tsx": [

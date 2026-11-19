@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-19T20:51:13+00:00",
+ "updated": "2026-11-19T21:49:09+00:00",
  "headlines": [
-  "Canada seeking interim trade arrangement with U.S. by end of year: sources",
-  "Myanmar committed genocide against Rohingya minority, top UN court rules",
-  "Xi, Putin and Trump walked into a room. But it was Russia\u2019s autocrat who came out the biggest winner",
-  "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-  "Alberta government to revise policy as school boards say new flag regulations could cost millions of dollars",
-  "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-  "Petition asks Netflix to cancel The Body for 'blasphemous' and 'anti-Christian' content",
-  "Dozens missing after boat carrying migrants sinks off Senegal's coast",
   "With Putin in the room, Carney condemns Russia's illegal invasion of Ukraine",
+  "Myanmar committed genocide against Rohingya minority, top UN court rules",
+  "Canada seeking interim trade arrangement with U.S. by end of year: sources",
+  "Trump, Putin and Xi release 'peace declaration' after historic meeting",
+  "Fiona the hippo dies after ingesting visitor's hat",
+  "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
+  "Alberta government to revise policy as school boards say new flag regulations could cost millions of dollars",
+  "Dozens missing after boat carrying migrants sinks off Senegal's coast",
+  "Petition asks Netflix to cancel The Body for 'blasphemous' and 'anti-Christian' content",
   "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
-  "'We could have been dead,' says tenant who escaped Cape Breton building collapse",
+  "More cadets, more money, less training: Military defends controversial suspension",
   "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-  "Alleged co-conspirator in Tumbler Ridge shooting has trial delayed until December 2027",
-  "Venezuela signs military deal with US less than a year after Maduro's removal",
-  "Grand Theft Auto VI is a love story. No to hiring sex workers, yes to buying your girlfriend flowers",
-  "Susan Smith denied parole again 32 years after drowning her two sons"
+  "Armed forces in Haiti push to oust gang members from corridor on edge of capital",
+  "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
+  "'We could have been dead,' says tenant who escaped Cape Breton building collapse",
+  "Venezuela signs military deal with US less than a year after Maduro's removal"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 34056.3,
-   "chg": -5.21,
+   "price": 34028.73,
+   "chg": -5.29,
    "closes": [
     35928.6,
     36108.0,
@@ -48,17 +48,16 @@
     35722.1,
     35315.3,
     34578.1,
-    34056.3
+    34028.73
    ],
-   "ytd": 6.82
+   "ytd": 6.73
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7193.12,
-   "chg": -6.47,
+   "price": 7175.83,
+   "chg": -6.7,
    "closes": [
-    7690.73,
     7712.57,
     7757.17,
     7663.43,
@@ -81,9 +80,9 @@
     7416.59,
     7340.53,
     7323.63,
-    7193.12
+    7175.83
    ],
-   "ytd": 4.88
+   "ytd": 4.63
   },
   {
    "sym": "NIFTY",

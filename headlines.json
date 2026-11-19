@@ -1,5 +1,5 @@
 {
- "updated": "2026-11-19T01:50:08+00:00",
+ "updated": "2026-11-19T02:50:12+00:00",
  "headlines": [
   "Cadets being told to stand down as Canada adds billions to defence",
   "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
@@ -7,16 +7,16 @@
   "'The drones don't fly here' - BBC reports from Ukraine's new front line",
   "Crimea bridge attacked again, Russian governor says",
   "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-  "Ford apologizes for 'poor' French",
-  "Claude-maker Anthropic poised for more than $1.4tn stock market debut",
-  "Anthropic prices IPO at $83 US per share, valuing AI giant at $1.51 trillion US",
+  "The National | Carney meets Trump face-to-face",
+  "Claude-maker Anthropic poised for stock market debut worth up to $1.5tn",
+  "Anthropic's public offering exceeds every Canadian IPO combined over last 30 years",
   "Van Gogh painting sells for record $190.4m after row over its Nazi history",
   "First Nations health watchdog investigating how Sask. boy lost small intestine after routine surgery",
   "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
   "'If the U.S. doesn't want to do a deal, we're busy,' Carney says of ongoing trade talks",
-  "Crimean Bridge attacked again, Russian official says",
+  "Elon Musk says record spending on US midterms was 'pretty foolish'",
   "Grand Theft Auto VI release means Surrey, B.C., landscaping company employees get the day off",
-  "Russian arrested for spying on US defence company Palantir over Ukraine support"
+  "Crimean Bridge attacked again, Russian official says"
  ],
  "indices": [
   {
@@ -108,14 +108,15 @@
     25299.35,
     25144.3,
     25291.1,
-    25387.4
+    25387.4,
+    25227.95
    ],
    "ytd": -3.51
   }
  ],
  "heatmap": {
-  "updated": "2026-11-19T01:49:44+00:00",
-  "label": "Wed Nov 18, 2026 \u00b7 8:49 pm ET",
+  "updated": "2026-11-19T02:49:49+00:00",
+  "label": "Wed Nov 18, 2026 \u00b7 9:49 pm ET",
   "sp": [
    {
     "s": "NVDA",

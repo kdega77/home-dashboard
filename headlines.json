@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-19T13:52:28+00:00",
+ "updated": "2026-11-19T14:51:04+00:00",
  "headlines": [
   "Xi-Trump-Putin summit concludes with joint statement warning world bodies to not 'abuse their jurisdiction'",
   "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
   "It's costing you less to fill up your gas tank. What's behind falling pump prices?",
   "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
-  "Juliet Daniel changed cancer research. Students of the late Canadian scientist say she also changed lives",
-  "Anthropic raises $81bn in record-breaking stock market debut",
-  "Skipping work to play Grand Theft Auto VI? You're not alone",
-  "Van Gogh painting sells for record $190.4m after row over its Nazi history",
   "Myanmar committed genocide against Rohingya ethnic minority, International Court of Justice rules",
+  "Anthropic raises $81bn in record-breaking stock market debut",
+  "KPMG Canada client documents accessed in cybersecurity breach, accounting firm says",
+  "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+  "Juliet Daniel changed cancer research. Students of the late Canadian scientist say she also changed lives",
   "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
   "Look up and give Canadian astronaut Joshua Kutryk a wave! The International Space Station is flying overhead",
-  "Venezuela signs military deal with US less than a year after Maduro's ouster",
-  "Ella Langley sweeps Country Music Awards as Taylor Swift returns from 13-year-absence",
+  "Venezuela signs military deal with US less than a year after Maduro's removal",
+  "Skipping work to play Grand Theft Auto VI? You're not alone",
   "US consortium wins huge Kenya mining deal, beating Chinese rivals",
-  "Via Rail heading back to Quebec\u2019s Gasp\u00e9 region after 15 years \u2014 a partial win that brings hope",
+  "Ella Langley sweeps Country Music Awards as Taylor Swift returns for 1st performance in 13 years",
   "Survivors of Uganda's deadly landslide seek justice at the UN"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 34578.05,
-   "chg": -4.42,
+   "price": 34604.22,
+   "chg": -3.69,
    "closes": [
     35928.6,
     36108.0,
@@ -47,15 +47,16 @@
     36105.9,
     35722.1,
     35315.3,
-    34578.1
+    34578.1,
+    34604.22
    ],
-   "ytd": 8.45
+   "ytd": 8.53
   },
   {
    "sym": "S&P 500",
    "ccy": "USD",
-   "price": 7323.63,
-   "chg": -4.38,
+   "price": 7411.21,
+   "chg": -3.63,
    "closes": [
     7690.73,
     7712.57,
@@ -79,9 +80,10 @@
     7561.67,
     7416.59,
     7340.53,
-    7323.63
+    7323.63,
+    7411.21
    ],
-   "ytd": 6.78
+   "ytd": 8.06
   },
   {
    "sym": "NIFTY",

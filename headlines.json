@@ -1,7 +1,7 @@
 {
- "updated": "2026-11-19T12:29:36+00:00",
+ "updated": "2026-11-19T13:52:28+00:00",
  "headlines": [
-  "Trump-Xi-Putin summit concludes with joint statement warning world bodies to not 'abuse their jurisdiction'",
+  "Xi-Trump-Putin summit concludes with joint statement warning world bodies to not 'abuse their jurisdiction'",
   "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
   "It's costing you less to fill up your gas tank. What's behind falling pump prices?",
   "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
@@ -9,14 +9,14 @@
   "Anthropic raises $81bn in record-breaking stock market debut",
   "Skipping work to play Grand Theft Auto VI? You're not alone",
   "Van Gogh painting sells for record $190.4m after row over its Nazi history",
+  "Myanmar committed genocide against Rohingya ethnic minority, International Court of Justice rules",
+  "Putin vows 'far more painful' response to Ukraine's strikes on Crimean Bridge",
+  "Look up and give Canadian astronaut Joshua Kutryk a wave! The International Space Station is flying overhead",
+  "Venezuela signs military deal with US less than a year after Maduro's ouster",
   "Ella Langley sweeps Country Music Awards as Taylor Swift returns from 13-year-absence",
-  "Crimean Bridge attacked again, Russia says",
-  "VIA Rail heading back to Quebec\u2019s Gasp\u00e9 region after 15 years \u2014 a partial win that brings hope",
-  "Survivors of Uganda's deadly landslide seek justice at the UN",
-  "South Korea's top court overturns charges against ex-prime minister for his role in martial law",
-  "'It's a dream come true' \u2013 South African DJ celebrates featuring in GTA 6",
-  "Cocaine smuggler avoids prison sentence, as judge seeks to keep child out of foster care",
-  "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia"
+  "US consortium wins huge Kenya mining deal, beating Chinese rivals",
+  "Via Rail heading back to Quebec\u2019s Gasp\u00e9 region after 15 years \u2014 a partial win that brings hope",
+  "Survivors of Uganda's deadly landslide seek justice at the UN"
  ],
  "indices": [
   {
@@ -116,8 +116,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-19T12:29:08+00:00",
-  "label": "Thu Nov 19, 2026 \u00b7 7:29 am ET",
+  "updated": "2026-11-19T13:51:57+00:00",
+  "label": "Thu Nov 19, 2026 \u00b7 8:51 am ET",
   "sp": [
    {
     "s": "NVDA",

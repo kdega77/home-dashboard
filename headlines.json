@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-19T08:59:09+00:00",
+ "updated": "2026-11-19T10:06:45+00:00",
  "headlines": [
-  "'If the U.S. doesn't want to do a deal, we're busy,' Carney says of ongoing trade talks",
+  "It's costing you less to fill up your gas tank. What's behind falling pump prices?",
   "This is a remarkable diplomatic moment for China's Xi - but it comes with pitfalls",
-  "Cadets being told to stand down as Canada adds billions to defence",
-  "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
-  "Judge orders Kinew government to disclose who excluded Tesla from Manitoba EV rebate program and why",
-  "Myanmar faces historic genocide verdict at UN court over Rohingya massacres",
-  "Crimea bridge attacked again, Russian governor says",
+  "Trump, Xi, Putin begin historic meeting with Ukraine war on agenda",
+  "Dozens missing after boat carrying 100 migrants sinks off Senegal's coast",
+  "Skipping work to play Grand Theft Auto VI? You're not alone",
   "Anthropic valued at $1.5 trillion ahead of AI giant's stock market debut",
-  "Anthropic's public offering exceeds every Canadian IPO combined over last 30 years",
+  "Juliet Daniel changed cancer research. Students of the late Canadian scientist say she also changed lives",
   "Van Gogh painting sells for record $190.4m after row over its Nazi history",
-  "Xi, Putin and Trump expected to meet for about an hour, Kremlin says",
+  "VIA Rail heading back to Quebec\u2019s Gasp\u00e9 region after 15 years \u2014 a partial win that brings hope",
   "Crimean Bridge attacked again, Russia says",
-  "First Nations health watchdog investigating how Sask. boy lost small intestine after routine surgery",
-  "Israeli military launches rare ground operation in Gaza beyond Yellow Line",
-  "Grand Theft Auto VI release means Surrey, B.C., landscaping company employees get the day off",
-  "Elon Musk says record $446m spending on US midterms was 'pretty foolish'"
+  "South Korea's top court overturns charges against ex-prime minister for his role in martial law",
+  "Survivors of Uganda's deadly landslide seek justice at the UN",
+  "Cocaine smuggler avoids prison sentence, as judge seeks to keep child out of foster care",
+  "Inside the old gas pipeline where Ukraine is fighting an underground war with Russia",
+  "'If the U.S. doesn't want to do a deal, we're busy,' Carney says of ongoing trade talks",
+  "Israeli military launches rare ground operation in Gaza beyond Yellow Line"
  ],
  "indices": [
   {
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25466.6,
-   "chg": 11.26,
+   "price": 25514.3,
+   "chg": 11.47,
    "closes": [
     22888.95,
     22811.35,
@@ -110,14 +110,14 @@
     25291.1,
     25387.4,
     25227.95,
-    25466.6
+    25514.3
    ],
-   "ytd": -2.6
+   "ytd": -2.42
   }
  ],
  "heatmap": {
-  "updated": "2026-11-19T08:58:42+00:00",
-  "label": "Thu Nov 19, 2026 \u00b7 3:58 am ET",
+  "updated": "2026-11-19T10:06:23+00:00",
+  "label": "Thu Nov 19, 2026 \u00b7 5:06 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -365,181 +365,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 1.31
+    "chg": 1.69
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 0.41
+    "chg": 0.47
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 1.64
+    "chg": 1.85
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.42
+    "chg": 1.65
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.0
+    "chg": 1.53
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 0.18
+    "chg": -0.09
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -1.46
+    "chg": -1.55
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -2.19
+    "chg": -1.52
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.95
+    "chg": -0.88
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.55
+    "chg": -0.65
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -1.89
+    "chg": -1.54
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 1.07
+    "chg": 0.92
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.13
+    "chg": -0.21
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 1.09
+    "chg": 0.56
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 1.21
+    "chg": 1.48
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 3.56
+    "chg": 4.07
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 6.33
+    "chg": 7.58
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": 0.68
+    "chg": 1.25
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.83
+    "chg": 0.7
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 1.3
+    "chg": 1.06
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 2.1
+    "chg": 1.52
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": 0.98
+    "chg": 1.06
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": 1.22
+    "chg": 1.44
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 1.6
+    "chg": 2.08
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": 0.4
+    "chg": 1.12
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 2.18
+    "chg": 1.7
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.72
+    "chg": 0.57
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.19
+    "chg": 1.1
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": 1.53
+    "chg": 2.12
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 4.41
+    "chg": 4.66
    }
   ],
   "tsx": [

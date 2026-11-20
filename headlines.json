@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-20T12:28:21+00:00",
+ "updated": "2026-11-20T13:48:55+00:00",
  "headlines": [
   "A Montrealer died in Istanbul. Authorities blame food poisoning but what we found suggests something else",
-  "UK and EU to agree youth mobility scheme, BBC understands",
+  "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+  "Russia fires hundreds of missiles, drones at Ukraine \u2014 and allegedly into Poland",
+  "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
   "Why some Americans are stockpiling for a 90-day power outage",
-  "Three Kyiv bridges hit during major Russian missile attack",
-  "International court's ruling on Myanmar genocide means little for victims, but much for future cases",
-  "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
-  "Large AI companies 'desperate for compute' are crowding out Canadian startups at home",
   "Nearly 600 women killed in South Africa within three months",
   "They finally had their dream food truck. Then it was repossessed",
   "White House removes cyber-security chief after series of tech outages",
-  "Daughters prank Costco-loving dad on his birthday",
+  "Large AI companies 'desperate for compute' are crowding out Canadian startups at home",
   "South Korea catches 111 students with new measures against exam cheating",
-  "Canadian investment dollars are one of the villains in Spain's election fight over housing",
+  "What an international court's 'historic' genocide ruling could mean for future cases",
   "Nigeria moves to end jail terms for attempted suicide",
   "Ever buy more than you mean to when shopping online? This could be why",
+  "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
+  "Daughters prank Costco-loving dad on his birthday",
   "Europe ready for talks with Russia on ending war in Ukraine, leaders say"
  ],
  "indices": [
@@ -117,8 +117,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-20T12:27:59+00:00",
-  "label": "Fri Nov 20, 2026 \u00b7 7:27 am ET",
+  "updated": "2026-11-20T13:48:23+00:00",
+  "label": "Fri Nov 20, 2026 \u00b7 8:48 am ET",
   "sp": [
    {
     "s": "NVDA",

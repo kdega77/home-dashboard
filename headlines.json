@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-20T08:39:37+00:00",
+ "updated": "2026-11-20T09:57:58+00:00",
  "headlines": [
-  "With Putin in the room, Carney condemns Russia's illegal invasion of Ukraine",
+  "Ever buy more than you mean to when shopping online? This could be why",
   "UK and EU to agree youth mobility scheme, BBC understands",
-  "Reaching interim U.S. trade agreement would kickstart new CUSMA talks, minister says",
-  "Anthropic becomes one of world's most valuable public companies in stock market debut",
-  "Texas death row execution takes more than an hour as inmate heard complaining of pain",
+  "A Montrealer died in Istanbul. Authorities blame food poisoning but what we found suggests something else",
   "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
-  "Sean Cairncross out, Kirsten A. Davies in as White House national cyber director: source",
+  "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
+  "Three Kyiv bridges hit during major Russian missile attack",
+  "Why some Americans are stockpiling for a 90-day power outage",
+  "Anthropic becomes one of world's most valuable public companies in stock market debut",
+  "Canadian investment dollars are one of the villains in Spain\u2019s election fight over housing",
   "Myanmar committed genocide against Rohingya minority, top UN court rules",
-  "'Crypto King' faked kidnapping, created video for sympathy, defence says",
+  "Large AI companies 'desperate for compute' are crowding out Canadian startups at home",
   "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-  "Trump administration moves to drop lawsuit challenging Alaska Senate election result",
-  "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-  "U.S. sanctions Italian mafia's alleged Canadian branch, including Toronto-area funeral homes",
-  "California targets Nvidia in China AI chip probe",
-  "Fiona the hippo dies after ingesting visitor's hat",
-  "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo"
+  "Health-care report highlights chronic conditions, inequities in northern Ontario First Nations",
+  "Nigeria moves to end jail terms for attempted suicide",
+  "With Putin in the room, Carney condemns Russia's illegal invasion of Ukraine",
+  "Trump, Putin and Xi release 'peace declaration' after historic meeting"
  ],
  "indices": [
   {
@@ -87,8 +87,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25759.15,
-   "chg": 12.54,
+   "price": 25784.75,
+   "chg": 12.65,
    "closes": [
     22811.35,
     22687.65,
@@ -111,14 +111,14 @@
     25387.4,
     25227.95,
     25514.3,
-    25759.15
+    25784.75
    ],
-   "ytd": -1.48
+   "ytd": -1.38
   }
  ],
  "heatmap": {
-  "updated": "2026-11-20T08:39:15+00:00",
-  "label": "Fri Nov 20, 2026 \u00b7 3:39 am ET",
+  "updated": "2026-11-20T09:57:31+00:00",
+  "label": "Fri Nov 20, 2026 \u00b7 4:57 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -366,145 +366,145 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 3.24
+    "chg": 3.32
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 1.68
+    "chg": 1.98
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 0.94
+    "chg": 1.22
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.79
+    "chg": 2.15
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 4.29
+    "chg": 4.87
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 2.14
+    "chg": 2.33
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": 1.56
+    "chg": 1.57
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": 0.47
+    "chg": 0.1
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": 0.5
+    "chg": 0.58
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": 0.18
+    "chg": 0.72
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": 0.25
+    "chg": 1.04
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -0.6
+    "chg": 0.2
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -0.29
+    "chg": -0.34
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 0.52
+    "chg": 0.29
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.18
+    "chg": -0.78
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -0.98
+    "chg": -0.92
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 2.96
+    "chg": 2.9
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.16
+    "chg": -0.28
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.16
+    "chg": 0.26
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 2.05
+    "chg": 2.55
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 0.14
+    "chg": -0.42
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -1.51
+    "chg": -1.65
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -1.28
+    "chg": -1.23
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 1.0
+    "chg": 1.29
    },
    {
     "s": "TITAN",
@@ -516,31 +516,31 @@
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 1.18
+    "chg": 0.58
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.32
+    "chg": 0.3
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.89
+    "chg": 0.96
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.45
+    "chg": -0.69
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 0.73
+    "chg": 0.56
    }
   ],
   "tsx": [

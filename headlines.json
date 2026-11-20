@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-20T03:18:02+00:00",
+ "updated": "2026-11-20T04:31:43+00:00",
  "headlines": [
   "Reaching interim U.S. trade agreement would kickstart new CUSMA talks, minister says",
-  "Anthropic becomes one of world's most valuable public companies in stock market debut",
+  "UK and EU to agree youth mobility scheme, BBC understands",
   "With Putin in the room, Carney condemns Russia's illegal invasion of Ukraine",
+  "Anthropic becomes one of world's most valuable public companies in stock market debut",
+  "Texas death row execution takes more than an hour as inmate heard complaining of pain",
   "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
   "Sean Cairncross out, Kirsten A. Davies in as White House national cyber director: source",
   "Myanmar committed genocide against Rohingya minority, top UN court rules",
   "'Crypto King' faked kidnapping, created video for sympathy, defence says",
   "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-  "Xi, Putin and Trump walked into a room. But it was Russia's autocrat who came out the biggest winner",
+  "Trump administration moves to drop lawsuit challenging Alaska Senate election result",
   "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-  "U.S. sanctions Italian mafia's alleged Canadian branch, including Toronto-area funeral homes",
+  "Xi, Putin and Trump walked into a room. But it was Russia's autocrat who came out the biggest winner",
   "California targets Nvidia in China AI chip probe",
-  "Fiona the hippo dies after ingesting visitor's hat",
-  "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-  "Petition asks Netflix to cancel The Body for 'blasphemous' and 'anti-Christian' content",
-  "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges"
+  "U.S. sanctions Italian mafia's alleged Canadian branch, including Toronto-area funeral homes",
+  "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo"
  ],
  "indices": [
   {
@@ -87,10 +87,9 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25514.3,
-   "chg": 11.47,
+   "price": 25539.3,
+   "chg": 11.58,
    "closes": [
-    22888.95,
     22811.35,
     22687.65,
     22600.0,
@@ -111,14 +110,15 @@
     25291.1,
     25387.4,
     25227.95,
-    25514.3
+    25514.3,
+    25539.3
    ],
-   "ytd": -2.42
+   "ytd": -2.32
   }
  ],
  "heatmap": {
-  "updated": "2026-11-20T03:17:39+00:00",
-  "label": "Thu Nov 19, 2026 \u00b7 10:17 pm ET",
+  "updated": "2026-11-20T04:31:21+00:00",
+  "label": "Thu Nov 19, 2026 \u00b7 11:31 pm ET",
   "sp": [
    {
     "s": "NVDA",
@@ -366,181 +366,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 1.69
+    "chg": 1.01
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 0.47
+    "chg": 0.19
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 1.85
+    "chg": -0.64
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.65
+    "chg": 0.66
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.53
+    "chg": 0.86
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -0.09
+    "chg": 0.52
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": -1.55
+    "chg": 1.7
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": -1.52
+    "chg": 1.68
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": -0.88
+    "chg": 1.7
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": -0.65
+    "chg": 1.07
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": -1.54
+    "chg": 2.58
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 0.92
+    "chg": -0.97
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -0.21
+    "chg": -0.01
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 0.56
+    "chg": 0.14
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 1.48
+    "chg": -0.63
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 4.07
+    "chg": -0.99
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 7.58
+    "chg": 1.18
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": 1.25
+    "chg": -0.43
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.7
+    "chg": -0.09
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 1.06
+    "chg": 1.81
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 1.52
+    "chg": -0.49
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": 1.06
+    "chg": -3.06
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": 1.44
+    "chg": -1.34
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 2.08
+    "chg": -0.91
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": 1.12
+    "chg": -3.33
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 1.7
+    "chg": 0.81
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.57
+    "chg": 0.25
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 1.1
+    "chg": 0.07
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": 2.12
+    "chg": -0.41
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 4.66
+    "chg": -0.02
    }
   ],
   "tsx": [

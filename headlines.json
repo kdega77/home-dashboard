@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-20T02:10:34+00:00",
+ "updated": "2026-11-20T03:18:02+00:00",
  "headlines": [
   "Reaching interim U.S. trade agreement would kickstart new CUSMA talks, minister says",
   "Anthropic becomes one of world's most valuable public companies in stock market debut",
-  "Xi, Putin and Trump walked into a room. But it was Russia's autocrat who came out the biggest winner",
-  "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
   "With Putin in the room, Carney condemns Russia's illegal invasion of Ukraine",
+  "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+  "Sean Cairncross out, Kirsten A. Davies in as White House national cyber director: source",
   "Myanmar committed genocide against Rohingya minority, top UN court rules",
-  "U.S. sanctions Italian mafia's alleged Canadian branch, including Toronto-area funeral homes",
+  "'Crypto King' faked kidnapping, created video for sympathy, defence says",
   "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-  "Fiona the hippo dies after ingesting visitor's hat",
+  "Xi, Putin and Trump walked into a room. But it was Russia's autocrat who came out the biggest winner",
   "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-  "Petition asks Netflix to cancel The Body for 'blasphemous' and 'anti-Christian' content",
+  "U.S. sanctions Italian mafia's alleged Canadian branch, including Toronto-area funeral homes",
   "California targets Nvidia in China AI chip probe",
-  "Former top Mountie, guilty of rec centre teen assault, gets conditional discharge",
+  "Fiona the hippo dies after ingesting visitor's hat",
   "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo",
-  "CN derailments into Skeena River raise fresh concerns over shipping hazardous materials through northwest B.C.",
+  "Petition asks Netflix to cancel The Body for 'blasphemous' and 'anti-Christian' content",
   "Judge finds Thomas Markle mentally fit to stand trial on child abuse charges"
  ],
  "indices": [
@@ -110,14 +110,15 @@
     25144.3,
     25291.1,
     25387.4,
-    25227.95
+    25227.95,
+    25514.3
    ],
    "ytd": -2.42
   }
  ],
  "heatmap": {
-  "updated": "2026-11-20T02:10:04+00:00",
-  "label": "Thu Nov 19, 2026 \u00b7 9:10 pm ET",
+  "updated": "2026-11-20T03:17:39+00:00",
+  "label": "Thu Nov 19, 2026 \u00b7 10:17 pm ET",
   "sp": [
    {
     "s": "NVDA",

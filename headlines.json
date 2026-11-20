@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-20T11:00:51+00:00",
+ "updated": "2026-11-20T12:28:21+00:00",
  "headlines": [
-  "Why some Americans are stockpiling for a 90-day power outage",
-  "UK and EU to agree youth mobility scheme, BBC understands",
   "A Montrealer died in Istanbul. Authorities blame food poisoning but what we found suggests something else",
+  "UK and EU to agree youth mobility scheme, BBC understands",
+  "Why some Americans are stockpiling for a 90-day power outage",
+  "Three Kyiv bridges hit during major Russian missile attack",
+  "International court's ruling on Myanmar genocide means little for victims, but much for future cases",
   "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
   "Large AI companies 'desperate for compute' are crowding out Canadian startups at home",
-  "Three Kyiv bridges hit during major Russian missile attack",
+  "Nearly 600 women killed in South Africa within three months",
   "They finally had their dream food truck. Then it was repossessed",
-  "Anthropic becomes one of world's most valuable public companies in stock market debut",
+  "White House removes cyber-security chief after series of tech outages",
+  "Daughters prank Costco-loving dad on his birthday",
+  "South Korea catches 111 students with new measures against exam cheating",
   "Canadian investment dollars are one of the villains in Spain's election fight over housing",
-  "Myanmar committed genocide against Rohingya minority, top UN court rules",
-  "Ever buy more than you mean to when shopping online? This could be why",
-  "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
-  "Canada looks to break Starlink's grip on Arctic military communications",
   "Nigeria moves to end jail terms for attempted suicide",
-  "Russian attacks on Kyiv kill 3, cripple bridges and cut power",
-  "Trump, Putin and Xi release 'peace declaration' after historic meeting"
+  "Ever buy more than you mean to when shopping online? This could be why",
+  "Europe ready for talks with Russia on ending war in Ukraine, leaders say"
  ],
  "indices": [
   {
@@ -117,8 +117,8 @@
   }
  ],
  "heatmap": {
-  "updated": "2026-11-20T11:00:21+00:00",
-  "label": "Fri Nov 20, 2026 \u00b7 6:00 am ET",
+  "updated": "2026-11-20T12:27:59+00:00",
+  "label": "Fri Nov 20, 2026 \u00b7 7:27 am ET",
   "sp": [
    {
     "s": "NVDA",

@@ -1,21 +1,21 @@
 {
- "updated": "2026-11-20T05:59:32+00:00",
+ "updated": "2026-11-20T07:16:34+00:00",
  "headlines": [
-  "Reaching interim U.S. trade agreement would kickstart new CUSMA talks, minister says",
-  "UK and EU to agree youth mobility scheme, BBC understands",
   "With Putin in the room, Carney condemns Russia's illegal invasion of Ukraine",
+  "UK and EU to agree youth mobility scheme, BBC understands",
+  "Reaching interim U.S. trade agreement would kickstart new CUSMA talks, minister says",
   "Anthropic becomes one of world's most valuable public companies in stock market debut",
   "Texas death row execution takes more than an hour as inmate heard complaining of pain",
-  "'I tell my son it's just fireworks': People inside besieged Yemeni city speak to BBC",
+  "'I tell my son it's just fireworks': Life inside Yemeni city besieged by Houthis",
   "Sean Cairncross out, Kirsten A. Davies in as White House national cyber director: source",
   "Myanmar committed genocide against Rohingya minority, top UN court rules",
   "'Crypto King' faked kidnapping, created video for sympathy, defence says",
   "Europe ready for talks with Russia on ending war in Ukraine, leaders say",
   "Trump administration moves to drop lawsuit challenging Alaska Senate election result",
   "Trump, Putin and Xi release 'peace declaration' after historic meeting",
-  "Xi, Putin and Trump walked into a room. But it was Russia's autocrat who came out the biggest winner",
-  "California targets Nvidia in China AI chip probe",
   "U.S. sanctions Italian mafia's alleged Canadian branch, including Toronto-area funeral homes",
+  "California targets Nvidia in China AI chip probe",
+  "Fiona the hippo dies after ingesting visitor's hat",
   "Fiona the hippo dies after swallowing a hat at Cincinnati Zoo"
  ],
  "indices": [
@@ -87,8 +87,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25533.75,
-   "chg": 11.55,
+   "price": 25714.6,
+   "chg": 12.35,
    "closes": [
     22811.35,
     22687.65,
@@ -111,14 +111,14 @@
     25387.4,
     25227.95,
     25514.3,
-    25533.75
+    25714.6
    ],
-   "ytd": -2.34
+   "ytd": -1.65
   }
  ],
  "heatmap": {
-  "updated": "2026-11-20T05:59:10+00:00",
-  "label": "Fri Nov 20, 2026 \u00b7 12:59 am ET",
+  "updated": "2026-11-20T07:16:12+00:00",
+  "label": "Fri Nov 20, 2026 \u00b7 2:16 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -366,181 +366,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 1.13
+    "chg": 2.4
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 0.27
+    "chg": 1.72
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": -0.86
+    "chg": 0.05
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.14
+    "chg": 1.9
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.27
+    "chg": 3.83
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 0.95
+    "chg": 2.42
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": 2.53
+    "chg": 2.81
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": 1.52
+    "chg": 1.64
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": 1.29
+    "chg": 1.24
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": 1.22
+    "chg": 1.5
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": 2.32
+    "chg": 1.69
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -1.16
+    "chg": -1.06
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -0.46
+    "chg": 0.05
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 0.0
+    "chg": 0.76
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.86
+    "chg": -0.51
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -1.4
+    "chg": -1.39
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 2.27
+    "chg": 2.39
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.73
+    "chg": -0.38
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.03
+    "chg": 0.33
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 1.13
+    "chg": 1.31
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.51
+    "chg": -0.53
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -2.21
+    "chg": -1.92
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -0.98
+    "chg": -0.54
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -0.26
+    "chg": 0.83
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -2.59
+    "chg": -2.14
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 0.51
+    "chg": 0.88
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -0.31
+    "chg": 0.14
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.56
+    "chg": 1.03
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.75
+    "chg": -0.67
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 0.38
+    "chg": 0.43
    }
   ],
   "tsx": [

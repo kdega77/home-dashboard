@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-20T22:35:30+00:00",
+ "updated": "2026-11-21T03:52:49+00:00",
  "headlines": [
-  "Alberta separatist leaders pursue different paths back into UCP fold",
+  "U.S. senator says Canada should make interim tariff agreement, let Congress 'legislate' long-term deal",
+  "Tech stock sell-off drags markets down as Anthropic shares slide",
+  "Stellantis would owe feds $831M if sale of Brampton, Ont., plant proceeds: source",
   "UK to explore even closer ties with EU after agreeing deal, says Burnham",
-  "Trump says he's working on 'a deal that's fair' with Canada",
+  "B.C. restaurant group alleges $2.1M in missing staff tips, sues payment company executives",
   "Russian missile hits Poland as Ukraine's allies hold military exercise, says Tusk",
-  "Calgary man who threatened to kill Prime Minister Mark Carney in TikTok, YouTube videos pleads guilty",
-  "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
-  "Alto-backed study predicts major economic gains along proposed high-speed rail corridor",
+  "Nasdaq wipes out 2026 gains, TSX, Dow and S&P 500 fall into correction territory",
+  "French police officers sentenced for beating of music producer Michel Zecler",
+  "Behold the vampire camel, the fanged beast that once roamed North America",
+  "In a year of AI solving maths problems, Anthropic may have just solved the biggest",
+  "Secret audio captures 'Crypto King' planning his own kidnapping, defence lawyer says",
   "G\u00e9rard Depardieu and French author investigated over sexual allegations",
-  "Baywatch's Erika Eleniak says OnlyFans has her 'calling the shots' after money woes",
-  "Anthropic shares fall after blockbuster opening as wider tech sell-off continues",
   "Premier Lorne Doerkson sworn in alongside 1st B.C. Conservative cabinet",
-  "Trump threatens ban on US firms building AI data centres overseas",
-  "Images of Canada's most wanted are AI-generated. How do we know they're accurate?",
-  "Denmark accuses Russia of plotting to assassinate US-Ukrainian rapper",
-  "IN PHOTOS | Fiona: A look back at the famous hippo's life",
-  "Indian man sentenced to 19-plus years in plot to assassinate US-based Sikh separatist leader"
+  "Russia targets Kyiv crossings days after Ukraine hits Crimean Bridge",
+  "Baywatch's Erika Eleniak says OnlyFans has her 'calling the shots' after money woes",
+  "Mamdani announces plan to close New York's Rikers Island jail by 2032"
  ],
  "indices": [
   {
@@ -110,14 +110,15 @@
     25291.1,
     25387.4,
     25227.95,
-    25514.3
+    25514.3,
+    25800.6
    ],
    "ytd": -1.32
   }
  ],
  "heatmap": {
-  "updated": "2026-11-20T22:35:06+00:00",
-  "label": "Fri Nov 20, 2026 \u00b7 5:35 pm ET",
+  "updated": "2026-11-21T03:52:26+00:00",
+  "label": "Fri Nov 20, 2026 \u00b7 10:52 pm ET",
   "sp": [
    {
     "s": "NVDA",

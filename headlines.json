@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-23T02:26:58+00:00",
+ "updated": "2026-11-23T11:08:46+00:00",
  "headlines": [
-  "COP31 climate talks collapse after member states reject deal for not mentioning fossil fuels",
-  "COP31 fails to reach major climate deal as talks expose deep divisions",
-  "Carney, opposition leaders trade comedic jabs at press gallery dinner",
-  "What's next after no deal at COP31 climate talks?",
-  "Pay halted for suspended Vancouver police officer charged with fraud and theft",
-  "Explosion on Russian ship at Libya port caused by suspected drone attack, officials say",
-  "How a rainy afternoon in Montreal inspired an iconic Canadian board game",
-  "'Danger seems greater all the time': Ukrainians search for missing after Russian strikes",
-  "The National | Hegseth reportedly moves to restrict defence ties",
-  "Russia-bound ship towed away after it was attacked in Gulf of Finland",
-  "Will Canadian workers refuse to handle Israeli goods? Why unions increasingly say they should",
-  "South Korea education minister resigns over exam cheating scandal",
-  "Satellites are constantly photographing Earth. A Waterloo student has compiled the pictures into one spot",
-  "Three killed and dozens missing after fire at Indonesian factory",
-  "Why the U.S. midterms might have ended JD Vance's presidential hopes",
-  "Democrats win largest House majority since 1992 after flipping North Carolina seat"
+  "Canadians fed up with long hold times want telcos to answer calls within 10 minutes",
+  "Longest-ever UN climate talks end with no deal as deep divisions exposed",
+  "'Unprecedented': Why this round of Stellantis, Unifor contract talks is like no other",
+  "Five takeaways from the failed climate talks COP31",
+  "Spying on survivors: Why RCMP watched Wab Kinew's father in the 1960s",
+  "Boy, 7, pulled alive from rubble hours after Russian strike on Ukraine, rescuers say",
+  "More Canadians are using cannabis daily than are drinking alcohol daily: study",
+  "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
+  "A gold mine has created a 'little town' in central Newfoundland \u2014 and it's about to get bigger",
+  "San Francisco is enjoying an AI boom, but worries about a crash are growing",
+  "Montreal Canadiens acquire centre Dylan Larkin from Red Wings in blockbuster trade",
+  "Burnham to tell MPs 'landmark' EU deal could make next decade 'much better'",
+  "Zelenskyy confirms Ukraine was behind attack that sank Russian warship off Libya",
+  "Kenya and DR Congo agree to restore ties after tensions over conflict",
+  "Audience evacuated from Don Toliver concert in Manchester after unknown substance released in crowd",
+  "Russia-bound ship towed away after it was attacked in Gulf of Finland"
  ],
  "indices": [
   {
@@ -87,11 +87,9 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25800.6,
-   "chg": 12.72,
+   "price": 25349.65,
+   "chg": 12.17,
    "closes": [
-    22811.35,
-    22687.65,
     22600.0,
     22753.2,
     22749.75,
@@ -111,14 +109,15 @@
     25387.4,
     25227.95,
     25514.3,
-    25800.6
+    25800.6,
+    25349.65
    ],
-   "ytd": -1.32
+   "ytd": -3.05
   }
  ],
  "heatmap": {
-  "updated": "2026-11-23T02:26:36+00:00",
-  "label": "Sun Nov 22, 2026 \u00b7 9:26 pm ET",
+  "updated": "2026-11-23T11:08:19+00:00",
+  "label": "Mon Nov 23, 2026 \u00b7 6:08 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -366,181 +365,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 2.94
+    "chg": -3.33
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 1.93
+    "chg": -3.32
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 0.79
+    "chg": -2.79
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 2.54
+    "chg": -2.51
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 4.72
+    "chg": -3.97
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 2.67
+    "chg": -2.36
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": 1.43
+    "chg": 3.53
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": 0.56
+    "chg": 0.49
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": 0.86
+    "chg": 1.48
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": 0.96
+    "chg": 0.86
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": 1.35
+    "chg": 1.79
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 0.14
+    "chg": -1.92
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -0.47
+    "chg": -0.27
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": 0.83
+    "chg": -1.54
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.63
+    "chg": 0.64
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -1.05
+    "chg": -1.63
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 3.11
+    "chg": -0.01
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.05
+    "chg": -2.59
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 0.22
+    "chg": -1.15
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 3.02
+    "chg": -2.23
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -0.79
+    "chg": -1.32
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -1.6
+    "chg": -8.43
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -1.08
+    "chg": -1.88
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 1.7
+    "chg": -1.54
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -1.7
+    "chg": 1.3
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 1.66
+    "chg": -1.44
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.51
+    "chg": -1.07
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 0.96
+    "chg": -1.48
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -0.54
+    "chg": -1.54
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 0.68
+    "chg": 0.73
    }
   ],
   "tsx": [

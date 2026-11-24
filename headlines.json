@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-23T22:53:27+00:00",
+ "updated": "2026-11-24T06:53:30+00:00",
  "headlines": [
-  "London, Ont., police solve 1968 murder of teenager Jackie Dunleavy using genetic genealogy",
-  "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
-  "Nvidia shares close at highest level since Jensen Huang's resignation",
-  "Russian warship hit by Ukrainian drones in Libya, Zelensky says",
-  "Dentist pleads guilty to professional misconduct in 23-year-old's death",
-  "What strike on Russian ship in Libya says about spread of Ukraine war",
+  "Pentagon takes fresh aim at Canada\u2019s military readiness, defence spending priorities",
+  "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
   "What happened at the Seattle airport? Outrage as ICE arrests man and daughter boarding flight",
-  "Iranian authorities flog singer who performed without hijab, lawyers say",
-  "Girl, 14, planned random killing of child at her former Winnipeg elementary school: Crown",
-  "What failure of COP31 reveals about a divided world",
-  "2 Americans sentenced to life in prison for murder of Quebec couple in Dominica",
+  "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+  "Ontario teen Jackie Dunleavy was murdered in 1968 \u2014 with DNA, police just nailed killer's identity",
+  "Nato chief vows defence against space threat after Russian nuclear satellite reports",
+  "Father and son rescue moose stuck in N.L. roadside ditch | The Moment",
+  "India's 'cockroach' party leader says he was stopped from flying to UK",
+  "'I'm not a hero,' says Arizona man who found lost toddler alone in the desert",
+  "What strike on Russian ship in Libya says about spread of Ukraine war",
+  "Dentist pleads guilty to professional misconduct in 23-year-old's death",
+  "Gis\u00e8le Pelicot 'humiliated' after nude photos sent to media to promote book",
+  "Alleged Tumbler Ridge shooting co-conspirator asks court to revoke detention order",
   "Israeli attacks have turned Gaza into 'toxic wasteland', Oxfam says",
-  "Canada adds Masar Badil group to terrorist entity list, citing status as alias for Samidoun",
-  "India pledges $1.6bn to Nepal in reset of ties",
-  "Jennifer Lopez says being Latina limited her early acting roles. Not everyone agrees",
-  "Search and rescue teams race against time to find survivors after Nigeria boat tragedy"
+  "Steven Galloway asks judge to declare rape allegations false as defamation trial enters final submissions",
+  "Iranian authorities flog singer who performed without hijab, lawyers say"
  ],
  "indices": [
   {
@@ -46,7 +46,7 @@
     34578.1,
     34028.7,
     33189.9,
-    34082.12
+    34082.1
    ],
    "ytd": 6.9
   },
@@ -105,14 +105,15 @@
     25387.4,
     25227.95,
     25514.3,
-    25800.6
+    25800.6,
+    25349.65
    ],
    "ytd": -3.05
   }
  ],
  "heatmap": {
-  "updated": "2026-11-23T22:53:04+00:00",
-  "label": "Mon Nov 23, 2026 \u00b7 5:53 pm ET",
+  "updated": "2026-11-24T06:53:03+00:00",
+  "label": "Tue Nov 24, 2026 \u00b7 1:53 am ET",
   "sp": [
    {
     "s": "NVDA",

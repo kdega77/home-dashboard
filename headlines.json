@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-25T02:59:06+00:00",
+ "updated": "2026-11-25T12:38:24+00:00",
  "headlines": [
-  "Pentagon prepared to 'up the ante' in defence dispute with Canada",
+  "From 'Super' to 'Godzilla' to 'Mega': Just how monstrous is this year's El Ni\u00f1o?",
+  "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+  "Suspected North Korean computer programmers did contract work for B.C. government",
+  "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated",
+  "Can AI chatbots really help shoppers find the best deals?",
   "US attorney general dodges questions about Nvidia investigation",
-  "How king tides happen, and what that means amid flood warnings in B.C.",
-  "French ex-President Sarkozy and wife Carla Bruni to face trial",
-  "Alberta pushes back against federal hate speech law that removed religious exemption",
-  "Indian government has 'lost the plot', says 'cockroach' leader barred from UK flight",
-  "Anthem singer apologizes for botched O Canada lyrics at Leafs game against Islanders",
-  "Huawei found guilty of stealing trade secrets but acquitted of racketeering",
-  "Meerkats travel in packs. But they also make great solo navigators, researchers have found",
-  "Land mine casualties soar in Syria, two years after war",
-  "Vanity Fair's Taylor Swift expos\u00e9 sparks backlash",
-  "Nigerian monarch, 92, suspended after sexual assault claims",
-  "IN PHOTOS: See November's supermoon",
-  "Israeli air strike kills Hamas internal security chief in Gaza",
-  "Why the U.S. Army is about to blow up 5 tons of lead explosives in Iowa | About That",
-  "Nato chief vows defence against space threat after Russian nuclear satellite reports"
+  "Pentagon prepared to 'up the ante' in defence dispute with Canada",
+  "Close-up images to be revealed of asteroid deliberately hit to test ability to protect Earth",
+  "Yes, COVID cases are on the rise again. And yes, experts say, it's still a very good idea to get vaccinated",
+  "Thomas Markle charged in US for possessing child sex abuse images",
+  "Dancing with the Stars Season 35 Finale: Who Won the Mirrorball?",
+  "US preparing to unveil plan for new tariffs on global trading partners",
+  "2 men charged in break-in at country residence of Prince William, Princess of Wales",
+  "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+  "Highest MP turnover rate in decades making for byelection bonanza this Parliament",
+  "Veteran Nigerian Nollywood actor Pete Edochie dies aged 79"
  ],
  "indices": [
   {
@@ -84,10 +84,9 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25349.65,
-   "chg": 12.17,
+   "price": 25819.25,
+   "chg": 14.24,
    "closes": [
-    22600.0,
     22753.2,
     22749.75,
     22698.85,
@@ -107,14 +106,15 @@
     25227.95,
     25514.3,
     25800.6,
-    25349.65
+    25349.65,
+    25819.25
    ],
-   "ytd": -3.05
+   "ytd": -1.25
   }
  ],
  "heatmap": {
-  "updated": "2026-11-25T02:58:38+00:00",
-  "label": "Tue Nov 24, 2026 \u00b7 9:58 pm ET",
+  "updated": "2026-11-25T12:38:02+00:00",
+  "label": "Wed Nov 25, 2026 \u00b7 7:38 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -362,181 +362,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": -3.33
+    "chg": 3.47
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": -3.32
+    "chg": 3.44
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": -2.79
+    "chg": 0.49
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": -2.51
+    "chg": 1.22
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": -3.97
+    "chg": 2.12
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -2.36
+    "chg": 3.27
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": 3.53
+    "chg": 2.33
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": 0.49
+    "chg": 2.41
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": 1.48
+    "chg": 1.15
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": 0.86
+    "chg": 0.94
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": 1.79
+    "chg": 1.33
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": -1.92
+    "chg": 1.7
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -0.27
+    "chg": -0.38
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": -1.54
+    "chg": -0.52
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 0.64
+    "chg": 2.74
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -1.63
+    "chg": 6.08
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -0.01
+    "chg": 1.36
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -2.59
+    "chg": 1.37
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -1.15
+    "chg": -0.35
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -2.23
+    "chg": 1.19
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": -1.32
+    "chg": 2.2
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -8.43
+    "chg": -2.27
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -1.88
+    "chg": 0.81
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": -1.54
+    "chg": 0.72
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": 1.3
+    "chg": 0.14
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": -1.44
+    "chg": 4.03
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -1.07
+    "chg": 1.58
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -1.48
+    "chg": 3.48
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": -1.54
+    "chg": 2.15
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 0.73
+    "chg": 2.0
    }
   ],
   "tsx": [

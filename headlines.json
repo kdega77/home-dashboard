@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-25T22:20:52+00:00",
+ "updated": "2026-11-26T04:18:39+00:00",
  "headlines": [
-  "NATO's No. 2 commander strikes different tone on Canada than Pentagon",
+  "B.C. premier removes sexual orientation and gender identity materials from schools",
   "US announces new tariffs on host of countries including China",
-  "Health Canada issues warning on rare risk of vision loss with semaglutide GLP-1 drugs",
+  "Poilievre claims constituent's job was threatened after meeting at CFB Wainwright",
   "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
-  "Montreal mayor walks back 'clumsy' Kraft Dinner comment after major tax hike",
-  "At least 31 killed in massive fire as fuel tanker crashes on Cairo highway",
-  "Remember when NASA slammed a spacecraft into an asteroid? We now have close-up images of the aftermath",
+  "NATO's No. 2 commander strikes different tone on Canada than Pentagon",
+  "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+  "Health Canada issues warning on rare risk of vision loss with semaglutide GLP-1 drugs",
+  "Has global jihadism failed, or is it simply changing shape?",
+  "The National | Wegovy, Ozempic pose rare vision loss risk: Health Canada",
   "Israeli judges recommend dropping most serious charges against Netanyahu",
-  "PQ urges other parties urged to sit in Quebec legislature \u2014 despite recent ruling ordering oath to King",
+  "Musician Michael Eckert killed in attempted Toronto home invasion, police say",
   "US stocks fall further as fears over AI intensify",
-  "Buster the hamster home safe after hitching ride in Halloween pumpkin",
+  "Andy Taylor, guitarist of new wave icons Duran Duran, dead at 65",
   "US Army says controlled blast of explosives in Iowa was 'huge success'",
-  "Final Avengers: Doomsday trailer racks up over 500 million views in 1st day",
-  "North Korea expels Swiss diplomat in sanctions row",
-  "At least 31 dead after fuel tanker fire in Egypt",
-  "My family were killed in Ukraine. My mum blamed Zelensky's troops - the truth is complicated"
+  "Montreal mayor walks back 'clumsy' Kraft Dinner comment after major tax hike",
+  "California warns of flooding as King Tides peak over Thanksgiving"
  ],
  "indices": [
   {
@@ -86,8 +86,8 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25819.25,
-   "chg": 14.24,
+   "price": 25749.65,
+   "chg": 13.17,
    "closes": [
     22753.2,
     22749.75,
@@ -108,14 +108,16 @@
     25227.95,
     25514.3,
     25800.6,
-    25349.65
+    25349.65,
+    25819.25,
+    25749.65
    ],
-   "ytd": -1.25
+   "ytd": -1.52
   }
  ],
  "heatmap": {
-  "updated": "2026-11-25T22:20:18+00:00",
-  "label": "Wed Nov 25, 2026 \u00b7 5:20 pm ET",
+  "updated": "2026-11-26T04:18:08+00:00",
+  "label": "Wed Nov 25, 2026 \u00b7 11:18 pm ET",
   "sp": [
    {
     "s": "NVDA",
@@ -363,181 +365,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 3.47
+    "chg": 0.84
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": 3.44
+    "chg": -0.79
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": 0.49
+    "chg": -0.41
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 1.22
+    "chg": -0.52
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": 2.12
+    "chg": 0.32
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": 3.27
+    "chg": -1.8
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": 2.33
+    "chg": 1.56
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": 2.41
+    "chg": 2.38
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": 1.15
+    "chg": 1.59
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": 0.94
+    "chg": 3.15
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": 1.33
+    "chg": 0.79
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 1.7
+    "chg": -0.68
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": -0.38
+    "chg": 0.53
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": -0.52
+    "chg": -0.55
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": 2.74
+    "chg": -0.36
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": 6.08
+    "chg": -0.81
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": 1.36
+    "chg": -1.5
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": 1.37
+    "chg": -1.05
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -0.35
+    "chg": -0.8
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": 1.19
+    "chg": -0.95
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 2.2
+    "chg": 0.26
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": -2.27
+    "chg": 0.87
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": 0.81
+    "chg": -0.13
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 0.72
+    "chg": -0.56
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": 0.14
+    "chg": -0.73
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 4.03
+    "chg": -2.08
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 1.58
+    "chg": -1.18
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": 3.48
+    "chg": -0.93
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": 2.15
+    "chg": 0.05
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": 2.0
+    "chg": -1.28
    }
   ],
   "tsx": [

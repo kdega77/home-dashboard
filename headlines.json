@@ -1,29 +1,29 @@
 {
- "updated": "2026-11-26T14:16:43+00:00",
+ "updated": "2026-11-26T23:13:59+00:00",
  "headlines": [
-  "Data breaches are coming fast and furious. Are businesses doing enough to protect your data?",
+  "Ford says he wouldn't hesitate to shoot a home invader, encourages Ontarians to 'fight back'",
+  "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+  "N.L. apologizes, says it now accepts Innu history dates back more than 300 years",
+  "Watch: Roofs torn off and streets under water as severe weather hits US",
+  "After nearly 6 decades on the job, this retired CBSA officer shares stories from 'the booth'",
   "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
-  "ICE almost deported this Eritrean woman to a third country after Canada turned her away",
+  "So, your personal info was hacked in a breach. Here's how scammers use it against you",
   "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
-  "The 'unity' fight splitting Danielle Smith's party intensifies at UCP convention",
-  "Myanmar refuses to comply with parts of ICJ genocide ruling",
-  "Funeral boss 'The Undertaker' seen in police surveillance amid Toronto mafia probe",
-  "Desperate appeals from women on death row in Iran after protests",
-  "How big U.S. unions view Trump's tariffs on Canadian goods",
-  "Diesel tanker carrying up to 7,000 tonnes sinks near Ibiza, killing one",
-  "Police didn't initially search 18-year-old's devices after online exploitation and death, mother says",
-  "Hope for millions as cheaper HIV prevention jab reaches Africa",
-  "What's at stake as Canada's top court ruling on Quebec secularism law looms",
-  "Tributes for Duran Duran guitarist Andy Taylor after his death aged 65",
-  "Flood watch in place on Vancouver Island as king tide impact continues",
-  "Seven injured, four critically, after Bangkok oil refinery explosion"
+  "A Boston man won $1M US in the lottery. Days later, ICE arrested him",
+  "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
+  "KDgate for Montreal mayor continues with website mocking Kraft Dinner comments",
+  "G\u00e9rard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+  "12 First Nations in B.C. buy stake in Coastal GasLink pipeline",
+  "Pregnant US inmate escapes in prison vehicle after medical appointment",
+  "Bill C-39, Bill C-22 and Quebec's Bill 21: What you need to know",
+  "Two Italians killed in strike in Kuwait, as Iran denies responsibility"
  ],
  "indices": [
   {
    "sym": "TSX",
    "ccy": "CAD",
-   "price": 34179.99,
-   "chg": -4.49,
+   "price": 34426.88,
+   "chg": -4.22,
    "closes": [
     35944.2,
     36171.5,
@@ -47,9 +47,10 @@
     33189.9,
     34082.1,
     33962.3,
-    34180.0
+    34180.0,
+    34426.88
    ],
-   "ytd": 7.2
+   "ytd": 7.98
   },
   {
    "sym": "S&P 500",
@@ -109,15 +110,14 @@
     25514.3,
     25800.6,
     25349.65,
-    25819.25,
-    25884.5
+    25819.25
    ],
    "ytd": -1.0
   }
  ],
  "heatmap": {
-  "updated": "2026-11-26T14:16:21+00:00",
-  "label": "Thu Nov 26, 2026 \u00b7 9:16 am ET",
+  "updated": "2026-11-26T23:13:37+00:00",
+  "label": "Thu Nov 26, 2026 \u00b7 6:13 pm ET",
   "sp": [
    {
     "s": "NVDA",
@@ -547,175 +547,175 @@
     "s": "RY",
     "sec": "Financials",
     "cap": 140,
-    "chg": -0.14
+    "chg": -0.22
    },
    {
     "s": "TD",
     "sec": "Financials",
     "cap": 110,
-    "chg": -0.21
+    "chg": 0.51
    },
    {
     "s": "BMO",
     "sec": "Financials",
     "cap": 95,
-    "chg": -0.8
+    "chg": -0.04
    },
    {
     "s": "BNS",
     "sec": "Financials",
     "cap": 85,
-    "chg": -1.34
+    "chg": 0.42
    },
    {
     "s": "CM",
     "sec": "Financials",
     "cap": 70,
-    "chg": -1.64
+    "chg": 0.45
    },
    {
     "s": "MFC",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.03
+    "chg": 0.1
    },
    {
     "s": "SLF",
     "sec": "Financials",
     "cap": 40,
-    "chg": 0.35
+    "chg": 0.41
    },
    {
     "s": "BAM",
     "sec": "Financials",
     "cap": 70,
-    "chg": 2.29
+    "chg": 1.08
    },
    {
     "s": "SHOP",
     "sec": "Technology",
     "cap": 110,
-    "chg": 0.43
+    "chg": 2.01
    },
    {
     "s": "CSU",
     "sec": "Technology",
     "cap": 75,
-    "chg": -1.36
+    "chg": -0.91
    },
    {
     "s": "TRI",
     "sec": "Technology",
     "cap": 85,
-    "chg": 1.62
+    "chg": 0.06
    },
    {
     "s": "ENB",
     "sec": "Energy",
     "cap": 110,
-    "chg": 1.17
+    "chg": -0.12
    },
    {
     "s": "CNQ",
     "sec": "Energy",
     "cap": 90,
-    "chg": 1.44
+    "chg": 2.07
    },
    {
     "s": "TRP",
     "sec": "Energy",
     "cap": 75,
-    "chg": 1.01
+    "chg": 0.38
    },
    {
     "s": "SU",
     "sec": "Energy",
     "cap": 65,
-    "chg": 0.67
+    "chg": 2.31
    },
    {
     "s": "CNR",
     "sec": "Industrials",
     "cap": 95,
-    "chg": 0.42
+    "chg": 0.16
    },
    {
     "s": "CP",
     "sec": "Industrials",
     "cap": 85,
-    "chg": -0.02
+    "chg": 0.44
    },
    {
     "s": "WCN",
     "sec": "Industrials",
     "cap": 45,
-    "chg": 1.57
+    "chg": -0.4
    },
    {
     "s": "ATD",
     "sec": "Industrials",
     "cap": 70,
-    "chg": 0.95
+    "chg": 1.92
    },
    {
     "s": "AEM",
     "sec": "Materials",
     "cap": 60,
-    "chg": 2.66
+    "chg": 1.96
    },
    {
     "s": "ABX",
     "sec": "Materials",
     "cap": 55,
-    "chg": 2.31
+    "chg": 1.55
    },
    {
     "s": "FTS",
     "sec": "Utilities",
     "cap": 45,
-    "chg": -0.02
+    "chg": -0.21
    },
    {
     "s": "QSR",
     "sec": "Consumer",
     "cap": 40,
-    "chg": 0.95
+    "chg": -0.05
    },
    {
     "s": "IFC",
     "sec": "Financials",
     "cap": 35,
-    "chg": -1.17
+    "chg": 0.25
    },
    {
     "s": "NA",
     "sec": "Financials",
     "cap": 35,
-    "chg": 0.59
+    "chg": -0.46
    },
    {
     "s": "POW",
     "sec": "Financials",
     "cap": 25,
-    "chg": -0.9
+    "chg": 0.58
    },
    {
     "s": "DOL",
     "sec": "Consumer",
     "cap": 30,
-    "chg": 0.29
+    "chg": -0.08
    },
    {
     "s": "L",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -0.78
+    "chg": 0.71
    },
    {
     "s": "WSP",
     "sec": "Industrials",
     "cap": 20,
-    "chg": 2.82
+    "chg": 1.49
    }
   ]
  }

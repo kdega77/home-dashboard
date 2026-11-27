@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-26T23:13:59+00:00",
+ "updated": "2026-11-27T05:16:53+00:00",
  "headlines": [
   "Ford says he wouldn't hesitate to shoot a home invader, encourages Ontarians to 'fight back'",
   "US too focused on Middle East and not pushing Russia hard enough, Zelensky tells BBC",
+  "KDgate for Montreal mayor continues with website mocking Kraft Dinner comments",
+  "Major Thanksgiving storm brings flooding, flight delays across US",
   "N.L. apologizes, says it now accepts Innu history dates back more than 300 years",
   "Watch: Roofs torn off and streets under water as severe weather hits US",
-  "After nearly 6 decades on the job, this retired CBSA officer shares stories from 'the booth'",
+  "Defence minister 'very concerned' after Poilievre claims constituent's job was threatened",
+  "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+  "Residents skate the streets as freezing rain blankets Fort St. John, B.C.",
   "German boat dealer suspected of supplying Channel smuggling gangs, BBC finds",
-  "So, your personal info was hacked in a breach. Here's how scammers use it against you",
-  "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
   "A Boston man won $1M US in the lottery. Days later, ICE arrested him",
-  "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one",
-  "KDgate for Montreal mayor continues with website mocking Kraft Dinner comments",
+  "Watch: BBC confronts German man suspected of supplying migrant gangs with small boats",
+  "Yukon power infrastructure project now at Carney's Major Projects Office",
   "G\u00e9rard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
-  "12 First Nations in B.C. buy stake in Coastal GasLink pipeline",
-  "Pregnant US inmate escapes in prison vehicle after medical appointment",
-  "Bill C-39, Bill C-22 and Quebec's Bill 21: What you need to know",
-  "Two Italians killed in strike in Kuwait, as Iran denies responsibility"
+  "Wild turkeys chase woman into a stranger's car | The Moment",
+  "Diesel tanker carrying up to 7,000 tonnes capsizes near Ibiza, killing one"
  ],
  "indices": [
   {
@@ -48,7 +48,7 @@
     34082.1,
     33962.3,
     34180.0,
-    34426.88
+    34426.9
    ],
    "ytd": 7.98
   },
@@ -87,10 +87,9 @@
   {
    "sym": "NIFTY",
    "ccy": "INR",
-   "price": 25884.5,
-   "chg": 13.76,
+   "price": 25796.55,
+   "chg": 13.39,
    "closes": [
-    22753.2,
     22749.75,
     22698.85,
     22936.75,
@@ -110,14 +109,16 @@
     25514.3,
     25800.6,
     25349.65,
-    25819.25
+    25819.25,
+    25884.5,
+    25796.55
    ],
-   "ytd": -1.0
+   "ytd": -1.34
   }
  ],
  "heatmap": {
-  "updated": "2026-11-26T23:13:37+00:00",
-  "label": "Thu Nov 26, 2026 \u00b7 6:13 pm ET",
+  "updated": "2026-11-27T05:16:25+00:00",
+  "label": "Fri Nov 27, 2026 \u00b7 12:16 am ET",
   "sp": [
    {
     "s": "NVDA",
@@ -365,181 +366,181 @@
     "s": "HDFC",
     "sec": "Financials",
     "cap": 190,
-    "chg": 1.87
+    "chg": 0.19
    },
    {
     "s": "ICICI",
     "sec": "Financials",
     "cap": 130,
-    "chg": -1.77
+    "chg": -0.3
    },
    {
     "s": "SBI",
     "sec": "Financials",
     "cap": 95,
-    "chg": -0.13
+    "chg": -0.06
    },
    {
     "s": "KOTAK",
     "sec": "Financials",
     "cap": 55,
-    "chg": 0.19
+    "chg": -1.56
    },
    {
     "s": "AXIS",
     "sec": "Financials",
     "cap": 55,
-    "chg": -0.71
+    "chg": -0.91
    },
    {
     "s": "BAJAJ",
     "sec": "Financials",
     "cap": 65,
-    "chg": -2.96
+    "chg": 0.18
    },
    {
     "s": "TCS",
     "sec": "Technology",
     "cap": 170,
-    "chg": 4.89
+    "chg": -2.64
    },
    {
     "s": "INFY",
     "sec": "Technology",
     "cap": 85,
-    "chg": 4.69
+    "chg": -2.42
    },
    {
     "s": "HCL",
     "sec": "Technology",
     "cap": 60,
-    "chg": 6.42
+    "chg": -2.36
    },
    {
     "s": "WIPRO",
     "sec": "Technology",
     "cap": 35,
-    "chg": 3.96
+    "chg": -1.75
    },
    {
     "s": "TECHM",
     "sec": "Technology",
     "cap": 25,
-    "chg": 2.97
+    "chg": -0.47
    },
    {
     "s": "RELIANCE",
     "sec": "Energy",
     "cap": 240,
-    "chg": 1.62
+    "chg": -0.91
    },
    {
     "s": "ONGC",
     "sec": "Energy",
     "cap": 45,
-    "chg": 0.4
+    "chg": 0.14
    },
    {
     "s": "BHARTI",
     "sec": "Telecom",
     "cap": 140,
-    "chg": -0.71
+    "chg": -0.88
    },
    {
     "s": "ITC",
     "sec": "Consumer",
     "cap": 70,
-    "chg": -0.73
+    "chg": -0.54
    },
    {
     "s": "HUL",
     "sec": "Consumer",
     "cap": 60,
-    "chg": -0.51
+    "chg": 0.16
    },
    {
     "s": "MARUTI",
     "sec": "Consumer",
     "cap": 55,
-    "chg": -1.3
+    "chg": -0.11
    },
    {
     "s": "LT",
     "sec": "Industrials",
     "cap": 75,
-    "chg": -0.58
+    "chg": -0.13
    },
    {
     "s": "ADANI",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -0.32
+    "chg": 0.26
    },
    {
     "s": "ULTRA",
     "sec": "Industrials",
     "cap": 35,
-    "chg": -0.49
+    "chg": -0.09
    },
    {
     "s": "SUN",
     "sec": "Pharma",
     "cap": 50,
-    "chg": 0.77
+    "chg": -0.21
    },
    {
     "s": "TATASTEEL",
     "sec": "Materials",
     "cap": 35,
-    "chg": 2.66
+    "chg": 1.13
    },
    {
     "s": "NTPC",
     "sec": "Utilities",
     "cap": 45,
-    "chg": 0.71
+    "chg": 0.53
    },
    {
     "s": "POWER",
     "sec": "Utilities",
     "cap": 40,
-    "chg": 0.07
+    "chg": 0.56
    },
    {
     "s": "TITAN",
     "sec": "Consumer",
     "cap": 35,
-    "chg": -1.18
+    "chg": 1.64
    },
    {
     "s": "NESTLE",
     "sec": "Consumer",
     "cap": 30,
-    "chg": -2.81
+    "chg": -0.45
    },
    {
     "s": "ASIAN",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -2.98
+    "chg": 0.3
    },
    {
     "s": "TRENT",
     "sec": "Consumer",
     "cap": 25,
-    "chg": -1.72
+    "chg": 0.55
    },
    {
     "s": "BEL",
     "sec": "Industrials",
     "cap": 40,
-    "chg": 0.05
+    "chg": 2.26
    },
    {
     "s": "EICHER",
     "sec": "Consumer",
     "cap": 20,
-    "chg": -1.87
+    "chg": -0.42
    }
   ],
   "tsx": [

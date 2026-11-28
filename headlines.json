@@ -1,22 +1,22 @@
 {
- "updated": "2026-11-27T23:43:07+00:00",
+ "updated": "2026-11-28T07:26:56+00:00",
  "headlines": [
   "CRTC orders Bell, Rogers, Telus to stop charging prohibited wireless fees by Dec. 27",
   "Spanish PM and rivals rally supporters in final pitch for votes",
   "Canada's top court upholds Quebec law banning some workers from wearing religious symbols",
+  "Turkish officials 'destroyed' pro-opposition TV channel, owner tells BBC",
+  "'Breast bowl' from Marie-Antoinette's pleasure dairy sets new record at auction",
+  "Eight killed in Peruvian military helicopter crash",
+  "Lululemon founder makes 'egregious' remarks about women at Calgary leadership forum",
+  "'Poison seller' Kenneth Law apologises in court to the families of his victims",
+  "Judge reserves decision in bestselling author Steven Galloway's defamation lawsuit",
   "Zelensky criticises 'strange' Trump-Putin friendship in BBC interview",
   "Top court declined to put limits on the notwithstanding clause. That's not the end of the story",
-  "Weary of war but with no sign of backing down, Kyiv faces another punishing winter",
-  "Kenneth Law apologizes in court to families of victims",
   "'We couldn't give up that easily': Marching bands scramble to cover costs after Thanksgiving parade rearranged",
+  "Kenneth Law apologizes in court to families of victims",
+  "Millions of wives in South Asia unprotected from marital rape - study",
   "'Big fat lady' hawk who ate too many chickens to fly soars free once again",
-  "Brazil pushes back on Macron calling its meat 'doped'",
-  "Lululemon founder makes 'egregious' remarks about women at Calgary leadership forum",
-  "Prosecutors seek 25-year prison term for 'poison seller' Kenneth Law",
-  "Pedestrian killed in crash involving off-duty Vancouver police officer",
-  "Capsized tanker carrying 7,000 tonnes of diesel to be towed away from Ibiza",
-  "'Breast bowl' from Marie-Antoinette's pleasure dairy sets new record at auction",
-  "Millions of wives in South Asia unprotected from marital rape - study"
+  "Canada's top court largely upholds Quebec ban on religious symbols for public servants"
  ],
  "indices": [
   {
@@ -48,7 +48,7 @@
     33962.3,
     34180.0,
     34426.9,
-    34839.87
+    34839.9
    ],
    "ytd": 9.27
   },
@@ -109,14 +109,15 @@
     25800.6,
     25349.65,
     25819.25,
-    25884.5
+    25884.5,
+    25607.2
    ],
    "ytd": -2.06
   }
  ],
  "heatmap": {
-  "updated": "2026-11-27T23:42:39+00:00",
-  "label": "Fri Nov 27, 2026 \u00b7 6:42 pm ET",
+  "updated": "2026-11-28T07:26:34+00:00",
+  "label": "Sat Nov 28, 2026 \u00b7 2:26 am ET",
   "sp": [
    {
     "s": "NVDA",
